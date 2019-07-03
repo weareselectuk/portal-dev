@@ -1,0 +1,15 @@
+.toplevel_page_branding .tracking-codes .column-filters_active span.ub-active,
+.toplevel_page_branding .tracking-codes .column-tracking_active span.ub-active {
+  background-color: #ddd;
+  padding: 5px 10px;
+  margin: 5px;
+  display: inline-block;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  background-color: #085;
+  color: white;
+}
+
+
+/* 631654-1548328904-ai */

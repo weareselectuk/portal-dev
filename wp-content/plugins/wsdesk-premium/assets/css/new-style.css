@@ -1,0 +1,100 @@
+.Ws-Content-area{ float: left; width: 100%; background: #F8F8F8; font-family: 'Open Sans', sans-serif; }
+.Ws-content-header, .Ws-content-detail-full{float: left; background: #FFF;}
+.ws-DeskTab-Content-area{ float: left; width:80%;  background:#FFF; min-height:30px;}
+.ws-DeskTab-btn-area{ float: right; width: 20%; }
+.ws-Tab-Ul{ float: left; width: 100%; margin:0; padding: 0; list-style: none; }
+.ws-Tab-Ul li.ws-DeskTab-Each{ float: left;  margin:0; padding: 7px 20px; width:350px;  border-right:#e5e5e5 1px solid; border-bottom:#e5e5e5 1px solid; background: #F8F8F8; position: relative;z-index: 99;}
+.ws-Tab-Ul li.ws-DeskTab-Each.active{border-bottom:#e5e5e5 0px solid;}
+.ws-Tab-Ul li.ws-DeskTab-Each .icon{ float: left;width:44px; height: 44px; }
+.ws-Tab-Ul li.ws-DeskTab-Each .icon img{ max-width: 100%; display: block; }
+.ws-Tab-Ul li.ws-DeskTab-Each .text{ float:left; width:234px; padding-left: 15px;  }
+.ws-Tab-Ul li.ws-DeskTab-Each .text h2{ float: left; width: 100%;  font-size: 15px; font-weight: 400; margin:0; padding: 0; margin-bottom: 5px; }
+.ws-Tab-Ul li.ws-DeskTab-Each .text h3.ticket-no{ float: left; width: auto; background: #0075AB; font-weight: 400; height: 18px; margin:0; padding: 0; line-height: 18px; padding: 0 10px; border-radius: 10px; font-size: 12px; color: #FFF;}
+.ws-Tab-Ul li.ws-DeskTab-Each .close{ float:right; width: 20px; height:20px; margin: 19px 0; line-height: 20px; color: #7C7C7C; cursor: pointer;}
+.ws-Tab-Ul li.ws-DeskTab-Each .close:hover{ color:#23282D; }
+.add_button{ float:right; background: #F2F2F2; border-radius: 2px; height: 33px; line-height: 32px; color:#23282D; margin: 20px;  padding: 0 12px; cursor: pointer; }
+.add_button:hover{ background: #DFDFDF; }
+
+.Ws-content-detail-full{ margin-top:-2px; display: block; }
+
+.Ws-content-detail-full.active{ display: block; }
+.ws-content-detail-header{ float: left; width: 100%; padding: 20px; background: #F8F8F8; border-top:#e5e5e5 1px solid; border-bottom:#e5e5e5 1px solid;}
+.ws-content-detail-header .breadcreamb_full{ float:left; width: 60%; text-align: left; font-size:13px; height: 30px; line-height: 30px;}
+.ws-content-detail-header .breadcreamb_full a{font-size:13px; height: 30px; line-height: 30px; text-decoration: none; color:#23282D;}
+.green_txt{color:#1da760 !important;}
+.ws-content-detail-header .rightBtns{ float: right; width:40%; text-align: right; }
+.ws-content-detail-header .rightBtns .delete_btn{ float: right; line-height: 30px; padding: 0 15px; border:none; cursor:pointer; }
+.Ws-content-detail-full .leftPanel{ float: left; width: 30%; background: #F8F8F8; padding: 20px; }
+.Ws-content-detail-full .leftPanel p.label{ float: left; width: 100%; font-size: 15px;  color:#23282D; }
+.Ws-content-detail-full .leftPanel p.label span{ color: red; }
+.input_each{ float: left; width: 100%; margin-bottom: 10px;}
+.tag_box{ float: left; width: 100%; border:1px solid #C6C6C6; padding: 7px; background: #FFF; border-radius: 3px; }
+.tag_box textarea{ border:none; background: #FFF; float: left; width: 100%; outline: none;padding: 5px }
+.Save_btn{ float: left; height: 35px; margin-top: 10px; line-height: 35px; font-size: 15px; border:none; border-radius: 3px; background: #0073AA; padding: 0 15px; color:#FFF; cursor: pointer; }
+
+
+.Ws-content-detail-full .rightPanel{ float: left; padding: 0px; border-left: #e5e5e5 1px solid; }
+.Ws-content-detail-full .rightPanel .rightPanelHeader{ float: left; width: 103.5%; padding:10px  20px;  border-bottom: #e5e5e5 1px solid; position: relative;}
+.ticketStatus{ position: absolute; right:20px; top:30px; width: auto; background: #0075AB;  height: 22px; margin:0; padding: 0; line-height: 22px; padding: 0 10px; border-radius: 10px; font-size: 14px; color: #FFF; }
+.ticketStatus.closed{ background: #94BA3C; }
+.ticketStatus.open{ background: #E82A2A; }
+.ticketStatus.hold{ background: #F5CA00;}
+
+
+.Ws-content-detail-full .rightPanel .leftFreeSpace{ position: relative; float: left; width: 100%; padding-left: 70px;  }
+.Ws-content-detail-full .rightPanel .leftFreeSpace .icon{ position: absolute; left: 0px; top:0%; width: 50px; height: 50px; z-index: 1; }
+.Ws-content-detail-full .rightPanel .rightPanelHeader .tictxt{ float: left; width: 100%; }
+.Ws-content-detail-full .rightPanel .rightPanelHeader .tictxt h2{ float: left; width: 100%; margin:0; padding:0; font-weight: 400; font-size: 20px; padding-bottom: 5px;}
+.Ws-content-detail-full .rightPanel .rightPanelHeader .tictxt p.info{ float: left; width: auto; color:#66686B;text-decoration: none; margin-right: 10px;padding-right: 10px; margin-bottom: 5px; }
+.Ws-content-detail-full .rightPanel .rightPanelHeader .tictxt a.info:last-child{ border-right:none; }
+
+.Ws-content-detail-full .rightPanel .newMsgFull{ float: left; width: 101.5%; padding: 30px 20px; }
+.Ws-content-detail-full .rightPanel .newMsgFull .content{ float: left; width: 100%; }
+.Ws-content-detail-full .rightPanel .newMsgFull .content .message-box{ float: left; width: 100%; padding: 0px; }
+.Ws-content-detail-full .rightPanel .newMsgFull .content .message-box textarea{ border:none; background: #FFF; float: left; width: 100%; outline: none;padding: 20px }
+.Ws-content-detail-full .rightPanel .newMsgFull .content .message-box .box_footer { float: left; width: 100%;border-top: #e5e5e5 1px solid; padding: 20px; }
+.Ws-content-detail-full .rightPanel .newMsgFull .content .message-box .box_footer .btn{float: right; height: 35px; line-height: 35px; font-size: 15px; border:none; border-radius: 3px; background: #0073AA; padding: 0 15px; color:#FFF; cursor: pointer;  }
+
+
+.message-box .box_footer .customselectbox{ margin:0px; float:right; font-family:arial; font-size:16px; color:#333; width:200px; position:relative;}
+.message-box .box_footer .select-full{ border:#000000 1px solid;  width:100%; padding:10px; box-sizing:border-box;}
+.message-box .box_footer .selectedVal{ border:0px solid #C6C6C6; background: #0073AA; border-radius: 3px; padding:5px 10px; width:100%; float:left; height:40px; line-height:30px; box-sizing:border-box; cursor:pointer; position:relative; z-index:5; color: #FFF;}
+.message-box .box_footer .custom-UI{ width:100%; float:left; background:#eee; display:none; padding: 0; margin:0; position:absolute; top:40px; left:0; max-height: 200px; overflow: auto; z-index: 999;}
+.message-box .box_footer .custom-UI li{ margin:0px; padding: 10px; box-sizing:border-box;  width:100%; float:left;}
+.message-box .box_footer .custom-UI li:hover{ background:#ddd; cursor:pointer;}
+.message-box .box_footer .hide{position: absolute; left: 0px; top: 0px; opacity: 0; z-index: 1;}
+.message-box .box_footer .selectedVal:before{width: 0;height: 0; border-left: 8px solid transparent;border-right: 8px solid transparent;content: "";border-top: 8px solid #C6C6C6;position: absolute;right: 8px;top: 15px;}
+.message-box .box_footer .left{ float: left; width: 50%; }
+.message-box .box_footer .left a{ float: left; color: #23282D; text-decoration: none; font-size:25px; line-height: 39px; margin-right: 25px; }
+.status-upload .dropdown-menu ul, .status-upload .dropdown-menu li { list-style:none !important; }
+.status-upload li { list-style:unset !important; }
+.status-upload ul { list-style-type:disc !important; margin-left: 2em; }
+.status-upload ol { list-style-type:decimal !important; margin-left: 2em; }
+/*Load-styles.php file is adding list-style:none */
+.Ws-content-detail-full .rightPanel .conversation_each{ float: left; width: 103.5%; padding:0 20px; position: relative;border-top: #e5e5e5 1px solid;}
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace{padding:20px 0;  padding-left: 70px;max-width: 790px; }
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace .icon{ top:20px; }
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace h3{ float: left; margin: 0; padding: 0; width: 100%; font-size: 15px; font-weight: 600; color:#23282d;}
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace h4{ float: left; width: 100%; margin: 0; padding: 0; font-weight: 400; font-size:14px; color: #616161; margin-bottom: 15px; margin-top: 10px; }
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace p{float: left; width: 100%; margin: 0; padding: 0; font-weight: 400; font-size:14px; color: #23282d; margin-bottom: 10px;word-wrap: break-word;}
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace div{float: left; width: auto; margin: 0; padding: 0; font-weight: 400; font-size:14px; color: #23282d; margin-bottom: 10px;word-wrap: break-word;}
+
+@media screen and (max-width: 782px) {
+    .Ws-content-detail-full {
+        width:100%;
+		overflow-x:scroll;
+    }
+}
+@media only screen and (max-width: 480px) {
+.Ws-content-detail-full {
+        width:100%;
+		overflow-x:scroll;
+    }
+}
+@media only screen and (max-width: 500px) {
+.Ws-content-detail-full {
+        width:100%;
+		overflow-x:scroll;
+    }
+
+}

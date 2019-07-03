@@ -1,0 +1,7 @@
+version Aug-05 2015 (commit c43a425)
+
+https://github.com/AuthorizeNet/sdk-php
+This library has manual modifications that must be implemented on every update
+
+
+631654-1531227781-au

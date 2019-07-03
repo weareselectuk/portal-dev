@@ -1,0 +1,6629 @@
+# Copyright (C) 2019 WPMU DEV
+# This file is distributed under the same license as the Branda package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Branda 3.1.1\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/ultimate-branding\n"
+"POT-Creation-Date: 2019-04-16 05:11:57+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2019-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n1.0.2\n"
+
+#: etc/config.php:19 views/admin/modules/admin-bar/tmpl/panes/general.php:33
+msgid "Admin Area"
+msgstr ""
+
+#: etc/config.php:20
+msgid "Customize the different parts of your WordPress Admin Area."
+msgstr ""
+
+#: etc/config.php:24 etc/dashicons.php:259
+msgid "Widgets"
+msgstr ""
+
+#: etc/config.php:25
+msgid ""
+"Customize the existing widgets or add custom feeds to the WordPress "
+"Dashboard. Also, update the Meta widget shown on the front-end to match "
+"your branding."
+msgstr ""
+
+#: etc/config.php:29
+msgid "Emails"
+msgstr ""
+
+#: etc/config.php:30
+msgid ""
+"Completely customize the design, content and headers of outgoing emails "
+"from your WordPress website or setup a SMTP server."
+msgstr ""
+
+#: etc/config.php:34
+msgid "Front-end"
+msgstr ""
+
+#: etc/config.php:35
+msgid ""
+"Customize every bit of the front-end of your WordPress website to match "
+"your website’s theme."
+msgstr ""
+
+#: etc/config.php:39 inc/modules/admin/help-content.php:199
+#: inc/modules/content/footer.php:167 inc/modules/content/footer.php:264
+#: inc/modules/content/header.php:167 inc/modules/content/header.php:268
+#: inc/modules/utilities/data.php:85
+msgid "Settings"
+msgstr ""
+
+#: etc/config.php:40
+msgid ""
+"Import existing configurations to setup Branda within few seconds or export "
+"this installation’s configurations for other websites."
+msgstr ""
+
+#: etc/config.php:45
+msgid "Utilities"
+msgstr ""
+
+#: etc/config.php:46
+msgid ""
+"Utilities are additional components of your website that can be customized "
+"to your liking."
+msgstr ""
+
+#: etc/config.php:62
+msgid "Admin Footer"
+msgstr ""
+
+#: etc/config.php:63
+msgid "Display a custom text in the footer of every admin page. "
+msgstr ""
+
+#: etc/config.php:77
+msgid "Help Content"
+msgstr ""
+
+#: etc/config.php:78
+msgid "Change the existing help content, add new help item or add a help sidebar. "
+msgstr ""
+
+#: etc/config.php:93 inc/modules/admin/bar.php:551
+#: views/admin/modules/admin-bar/help.php:1
+#: views/admin/modules/color-schemes/dialogs/edit.php:611
+msgid "Admin Bar"
+msgstr ""
+
+#: etc/config.php:94
+msgid ""
+"Customize the admin bar with the ability to change the admin bar logo, "
+"control the visibility of menu items, add custom menu items or reorder the "
+"existing ones."
+msgstr ""
+
+#: etc/config.php:113 inc/modules/emails/smtp.php:355
+msgid "From Headers"
+msgstr ""
+
+#: etc/config.php:114
+msgid ""
+"Set a default sender name and sender email for your outgoing WordPress "
+"emails."
+msgstr ""
+
+#: etc/config.php:130
+msgid "Footer Content"
+msgstr ""
+
+#: etc/config.php:131
+msgid ""
+"Insert any content that you like into the footer of every blog or site in "
+"your network. For example, You can add embeds,  terms of service links etc."
+msgstr ""
+
+#: etc/config.php:138
+msgid "Header Content"
+msgstr ""
+
+#: etc/config.php:139
+msgid ""
+"Insert any content that you like into the header of every page of your "
+"website. For example, you can put some news/notification for your visitors "
+"on top of the regular website header."
+msgstr ""
+
+#: etc/config.php:154
+msgid "Meta Widget"
+msgstr ""
+
+#: etc/config.php:155
+msgid ""
+"Rebrand the default meta widget in all multisite blogs with one that has "
+"the \"Powered By\" link branded for your site. It will replace the "
+"“WordPress.org” link in the meta widget with your website’s title that "
+"links back to your site."
+msgstr ""
+
+#: etc/config.php:165
+msgid "Site Generator"
+msgstr ""
+
+#: etc/config.php:166
+msgid ""
+"Change the “generator information” and “generator link” from WordPress to "
+"something you prefer."
+msgstr ""
+
+#: etc/config.php:185
+msgid "Text Replacement"
+msgstr ""
+
+#: etc/config.php:186
+msgid ""
+"Replace any text from your admin pages and/or front-end pages with an easy "
+"to use interface. For example, you can use this to replace the word "
+"“WordPress” with your own website name."
+msgstr ""
+
+#: etc/config.php:205 inc/class-branda-helper.php:4058
+#: inc/modules/admin/bar.php:542
+msgid "Custom CSS"
+msgstr ""
+
+#: etc/config.php:206
+msgid ""
+"Add custom CSS which will be added to the header of every admin page for "
+"every site."
+msgstr ""
+
+#: etc/config.php:206
+msgid "Add custom CSS which will be added to the header of every admin page."
+msgstr ""
+
+#: etc/config.php:223
+msgid "Color Schemes"
+msgstr ""
+
+#: etc/config.php:224
+msgid ""
+"Choose which color schemes will be available within the user profile, force "
+"color scheme for every user across website/network or set the default color "
+"scheme for newly registered users."
+msgstr ""
+
+#: etc/config.php:293
+msgid "Admin Message"
+msgstr ""
+
+#: etc/config.php:294
+msgid "Display a custom message in the WordPress admin pages."
+msgstr ""
+
+#: etc/config.php:313
+msgid "Email Template"
+msgstr ""
+
+#: etc/config.php:314
+msgid ""
+"Stop sending “text only” emails from your website. Either select from our "
+"pre-designed email templates or bring your own HTML template. This plugin "
+"will wrap every WordPress e-mail sent within the HTML template."
+msgstr ""
+
+#: etc/config.php:334
+msgid "Login Screen"
+msgstr ""
+
+#: etc/config.php:336
+msgid "Customize Login Screen"
+msgstr ""
+
+#: etc/config.php:337
+msgid ""
+"Customize the default login screen with this module. You can either start "
+"with one of our pre-designed templates or start from scratch."
+msgstr ""
+
+#: etc/config.php:359
+msgid "Registration Email"
+msgstr ""
+
+#: etc/config.php:360
+msgid "MultiSite Registration Emails"
+msgstr ""
+
+#: etc/config.php:361
+msgid ""
+"Customize the content of new blog notification email, new user signup email "
+"or the welcome email sent after site activation in your multisite network."
+msgstr ""
+
+#: etc/config.php:381 inc/modules/utilities/import.php:416
+#: inc/modules/utilities/import.php:431
+msgid "Import"
+msgstr ""
+
+#: etc/config.php:382 inc/modules/utilities/import.php:417
+msgid "Use this tool to import the Branda configurations."
+msgstr ""
+
+#: etc/config.php:393 inc/modules/utilities/export.php:212
+#: inc/modules/utilities/export.php:230
+msgid "Export"
+msgstr ""
+
+#: etc/config.php:394
+msgid "Use this tool to export the Branda configurations."
+msgstr ""
+
+#: etc/config.php:405
+msgid "Comments Control"
+msgstr ""
+
+#: etc/config.php:406
+msgid ""
+"Disable the comments on the posts, pages or on your entire website. "
+"Advanced options such as Whitelisting IPs is also available."
+msgstr ""
+
+#: etc/config.php:429
+msgid "Dashboard Feeds"
+msgstr ""
+
+#: etc/config.php:430
+msgid ""
+"Customize the dashboard for every user in a flash with this straightforward "
+"dashboard feed replacement widget. No more WP development news or Matt's "
+"latest photo set."
+msgstr ""
+
+#: etc/config.php:451
+msgid "Website Mode"
+msgstr ""
+
+#: etc/config.php:454
+msgid ""
+"Enable the Maintenance Mode or the Coming Soon mode for your website and "
+"create a custom page that your visitors will see."
+msgstr ""
+
+#: etc/config.php:467 inc/modules/emails/template.php:176
+#: inc/modules/emails/template.php:685
+msgid "Blog Description"
+msgstr ""
+
+#: etc/config.php:468
+msgid "Blog Description on Blog Creation"
+msgstr ""
+
+#: etc/config.php:469
+msgid ""
+"Allows new bloggers to be able to set their tagline when they create a blog "
+"in Multisite."
+msgstr ""
+
+#: etc/config.php:481 inc/modules/front-end/class-author-box-widget.php:18
+#: inc/modules/front-end/class-author-box-widget.php:20
+msgid "Author Box"
+msgstr ""
+
+#: etc/config.php:482
+msgid ""
+"Adds a responsive author box at the end of your posts, showing the author "
+"name, author gravatar and author description and social profiles."
+msgstr ""
+
+#: etc/config.php:495
+msgid "SMTP"
+msgstr ""
+
+#: etc/config.php:496
+msgid "SMTP Configuration"
+msgstr ""
+
+#: etc/config.php:497
+msgid ""
+"SMTP allows you to configure and send all outgoing emails via a SMTP "
+"server. This will prevent your emails from going into the junk/spam folder "
+"of the recipients."
+msgstr ""
+
+#: etc/config.php:511
+msgid "DB Error Page"
+msgstr ""
+
+#: etc/config.php:512
+msgid ""
+"Create a custom database error page so next time your visitors don’t just "
+"see the “Error Establishing a Database Connection” text error."
+msgstr ""
+
+#: etc/config.php:526
+msgid "Site Status Pages"
+msgstr ""
+
+#: etc/config.php:527
+msgid "Create custom pages for deleted, inactive, archived, or spammed blogs."
+msgstr ""
+
+#: etc/config.php:539
+msgid "Cookie Notice"
+msgstr ""
+
+#: etc/config.php:540
+msgid ""
+"Cookie Notice allows you to elegantly inform users that your site uses "
+"cookies and to comply with the EU cookie law GDPR regulations."
+msgstr ""
+
+#: etc/config.php:552
+msgid "Signup Screen"
+msgstr ""
+
+#: etc/config.php:553
+msgid ""
+"Customize the default signup functionality with this module. With the "
+"Signup Code feature, you can restrict the user and blog registrations to "
+"the user with a specific signup code."
+msgstr ""
+
+#: etc/config.php:567 inc/class-branda-helper.php:2629
+msgid "Document"
+msgstr ""
+
+#: etc/config.php:568
+msgid "Allow to change defaults for entry display."
+msgstr ""
+
+#: etc/config.php:581
+msgid "Tracking Codes"
+msgstr ""
+
+#: etc/config.php:582
+msgid ""
+"Activate this module to insert the tracking code into your website. You can "
+"insert the code at different locations such as within the &lt;head&gt;, "
+"after &lt;body&gt; or before &lt;/body&gt;. There is also an option to "
+"insert the code on the whole website or insert it conditionally."
+msgstr ""
+
+#: etc/config.php:596
+msgid "Dashboard Widgets"
+msgstr ""
+
+#: etc/config.php:597
+msgid ""
+"Remove default widgets from the dashboard, customize the dashboard welcome "
+"message or add new text widgets in the dashboard."
+msgstr ""
+
+#: etc/config.php:621
+msgid "Images"
+msgstr ""
+
+#: etc/config.php:622
+msgid ""
+"Add a Favicon and also override the default image filesize limit of "
+"WordPress based on different user roles."
+msgstr ""
+
+#: etc/config.php:654 etc/dashicons.php:10
+#: views/admin/modules/color-schemes/dialogs/edit.php:396
+msgid "Admin Menu"
+msgstr ""
+
+#: etc/config.php:655
+msgid ""
+"This module allows your to customize the admin menu. Enable the Link "
+"Manager, remove the permalinks configuration option or remove \"Dashboard\" "
+"link from admin panel for users without site (in WP Multisite)."
+msgstr ""
+
+#: etc/config.php:668 inc/modules/utilities/data.php:95
+#: views/admin/modules/data/header.php:2
+msgid "Data"
+msgstr ""
+
+#: etc/config.php:669
+msgid "Control what to do with your settings and data."
+msgstr ""
+
+#: etc/config.php:683 views/admin/modules/accessibility/header.php:9
+msgid "Accessibility"
+msgstr ""
+
+#: etc/config.php:684
+msgid "Enable support for any available accessibility enhancements."
+msgstr ""
+
+#: etc/dashicons.php:36
+msgid "Welcome Screen"
+msgstr ""
+
+#: etc/dashicons.php:49
+msgid "Post Formats"
+msgstr ""
+
+#: etc/dashicons.php:71
+msgid "Media"
+msgstr ""
+
+#: etc/dashicons.php:98
+msgid "Image Editing"
+msgstr ""
+
+#: etc/dashicons.php:113
+msgid "TinyMCE"
+msgstr ""
+
+#: etc/dashicons.php:152
+msgid "Posts Screen"
+msgstr ""
+
+#: etc/dashicons.php:172
+msgid "Sorting"
+msgstr ""
+
+#: etc/dashicons.php:199
+msgid "Social"
+msgstr ""
+
+#: etc/dashicons.php:217
+msgid "WordPress.org Specific: Jobs, Profiles, WordCamps"
+msgstr ""
+
+#: etc/dashicons.php:234
+msgid "Products"
+msgstr ""
+
+#: etc/dashicons.php:251
+msgid "Taxonomies"
+msgstr ""
+
+#: etc/dashicons.php:268
+msgid "Notifications"
+msgstr ""
+
+#: etc/dashicons.php:287
+msgid "Misc"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:223
+msgid "install"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:230
+msgid ""
+"Important updates are available for <strong>%s</strong>. Install the free "
+"WPMU DEV Dashboard plugin now for updates and support!"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:232
+msgid ""
+"<strong>%s</strong> is almost ready - install the free WPMU DEV Dashboard "
+"plugin for updates and support!"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:236
+msgid ""
+"Important updates are available for your WPMU DEV plugins/themes. Install "
+"the free WPMU DEV Dashboard plugin now for updates and support!"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:238
+msgid ""
+"Almost ready - install the free WPMU DEV Dashboard plugin for updates and "
+"support!"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:244
+msgid "Install Plugin"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:247
+#: external/dash-notice/wpmudev-dash-notification.php:288
+#: inc/modules/admin/tips.php:210
+msgid "Saving..."
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:248
+#: external/dash-notice/wpmudev-dash-notification.php:289
+#: inc/class-branda-admin.php:1156 inc/modules/admin/tips.php:297
+msgid "Dismiss"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:264
+msgid "activate"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:271
+msgid ""
+"Important updates are available for <strong>%s</strong>. Activate the WPMU "
+"DEV Dashboard to update now!"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:273
+msgid "Just one more step to enable updates and support for <strong>%s</strong>!"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:277
+msgid ""
+"Important updates are available for your WPMU DEV plugins/themes. Activate "
+"the WPMU DEV Dashboard to update now!"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:279
+msgid ""
+"Just one more step - activate the WPMU DEV Dashboard plugin and you're all "
+"done!"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:285
+msgid "Activate WPMU DEV Dashboard"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:952
+msgid "We did not find any data for this plugin or theme..."
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:1131
+msgid "%s changelog"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:1161
+#: views/admin/modules/color-schemes/dialogs/edit.php:408
+msgid "Current"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:1167
+#: inc/class-branda-helper.php:2089 inc/class-branda-helper.php:2386
+msgid "New"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:1184
+msgid "Version %s"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:1202
+msgid "Show all changes"
+msgstr ""
+
+#: external/dash-notice/wpmudev-dash-notification.php:1203
+msgid "Hide details"
+msgstr ""
+
+#: inc/class-branda-admin.php:100
+msgid "Success! Your changes were successfully saved!"
+msgstr ""
+
+#: inc/class-branda-admin.php:101
+msgid "There was an error, please try again."
+msgstr ""
+
+#: inc/class-branda-admin.php:102
+msgid "Section was reset to defaults."
+msgstr ""
+
+#: inc/class-branda-admin.php:103 inc/class-branda-helper.php:241
+#: inc/class-branda-helper.php:1265 inc/class-branda-helper.php:3188
+#: inc/class-simple-options.php:1248 inc/class-simple-options.php:1778
+#: inc/class-simple-options.php:1844
+msgid "Something went wrong!"
+msgstr ""
+
+#: inc/class-branda-admin.php:104 inc/class-branda-admin.php:1370
+#: inc/class-simple-options.php:1820 inc/class-simple-options.php:1878
+msgid "Nope! Security check failed!"
+msgstr ""
+
+#: inc/class-branda-admin.php:105
+msgid "Missing required data!"
+msgstr ""
+
+#: inc/class-branda-admin.php:343
+msgid "Are you sure to replace all section data?"
+msgstr ""
+
+#: inc/class-branda-admin.php:344
+msgid "Please select a source module first."
+msgstr ""
+
+#: inc/class-branda-admin.php:347
+msgid "Are you sure? This will replace all entered data by defaults."
+msgstr ""
+
+#: inc/class-branda-admin.php:350
+msgid "Please select some modules first or skip this step."
+msgstr ""
+
+#: inc/class-branda-admin.php:354
+msgid "Entered value is above field limit!"
+msgstr ""
+
+#: inc/class-branda-admin.php:355
+msgid "Entered value is bellow field limit!"
+msgstr ""
+
+#: inc/class-branda-admin.php:358
+msgid "Changes are not saved, are you sure you want to navigate away?"
+msgstr ""
+
+#: inc/class-branda-admin.php:361 inc/class-branda-admin.php:991
+#: inc/class-branda-admin.php:1173 inc/class-branda-admin.php:1504
+msgid "Save Changes"
+msgstr ""
+
+#: inc/class-branda-admin.php:436
+msgid "%d new module was activated successfully."
+msgid_plural "%d new modules was activated successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-branda-admin.php:450
+msgid "%d module was deactivated successfully."
+msgid_plural "%d modules was deactivated successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-branda-admin.php:467
+msgid "42: The answer to life, the universe and everything."
+msgstr ""
+
+#: inc/class-branda-admin.php:468
+msgid "Douglas Adams"
+msgstr ""
+
+#: inc/class-branda-admin.php:472
+msgid "Nothing was changed, nothing to activate or deactivate."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Branda"
+msgstr ""
+
+#: inc/class-branda-admin.php:575 inc/class-branda-admin.php:576
+#: views/admin/dashboard.php:8
+msgid "Dashboard"
+msgstr ""
+
+#: inc/class-branda-admin.php:738
+msgid "none"
+msgstr ""
+
+#: inc/class-branda-admin.php:977
+#: inc/modules/utilities/tracking-codes-list-table.php:77
+#: views/admin/modules/smtp/plugins-list.php:5
+#: views/admin/modules/smtp/plugins-list.php:13
+msgid "Deactivate"
+msgstr ""
+
+#: inc/class-branda-admin.php:1009
+#: inc/modules/utilities/tracking-codes-list-table.php:76
+msgid "Activate"
+msgstr ""
+
+#: inc/class-branda-admin.php:1082
+msgid "Made with %s by WPMU DEV"
+msgstr ""
+
+#: inc/class-branda-admin.php:1230
+msgid "There is no modules in selected group!"
+msgstr ""
+
+#: inc/class-branda-admin.php:1386
+msgid "%s module is active now."
+msgstr ""
+
+#: inc/class-branda-admin.php:1397
+msgid "Module %s was deactivated without errors."
+msgstr ""
+
+#: inc/class-branda-admin.php:1433
+msgid "This module is not active!"
+msgstr ""
+
+#: inc/class-branda-admin.php:1724
+msgid "%s module was reset."
+msgstr ""
+
+#: inc/class-branda-admin.php:2040 inc/class-branda-helper.php:1275
+#: inc/class-branda-helper.php:1836 inc/class-branda-helper.php:2157
+#: inc/class-branda-helper.php:2185 inc/class-branda-helper.php:2188
+#: inc/class-branda-helper.php:2215 inc/class-branda-helper.php:2315
+#: inc/modules/content/footer.php:135 inc/modules/content/footer.php:243
+#: inc/modules/content/header.php:135 inc/modules/content/header.php:247
+#: inc/modules/front-end/author-box.php:1262
+#: inc/modules/front-end/author-box.php:1327
+#: inc/modules/front-end/cookie-notice.php:566
+#: inc/modules/front-end/cookie-notice.php:620
+#: inc/modules/front-end/cookie-notice.php:643
+#: inc/modules/front-end/cookie-notice.php:666
+#: inc/modules/front-end/cookie-notice.php:689
+#: inc/modules/login-screen/login-screen.php:2446
+#: views/admin/modules/color-schemes/dialogs/edit.php:35
+#: views/admin/modules/color-schemes/dialogs/edit.php:628
+msgid "Background"
+msgstr ""
+
+#: inc/class-branda-admin.php:2041 inc/class-branda-helper.php:1399
+#: inc/class-branda-helper.php:1710 inc/modules/admin/bar.php:457
+#: inc/modules/front-end/db-error-page.php:677
+#: inc/modules/login-screen/login-screen.php:2640
+#: inc/modules/utilities/maintenance.php:1044
+msgid "Logo"
+msgstr ""
+
+#: inc/class-branda-admin.php:2042 inc/class-branda-helper.php:2355
+msgid "Social Media Settings"
+msgstr ""
+
+#: inc/class-branda-admin.php:2043 inc/modules/front-end/author-box.php:1546
+#: inc/modules/front-end/db-error-page.php:676
+#: inc/modules/utilities/maintenance.php:1043
+msgid "Social Media"
+msgstr ""
+
+#: inc/class-branda-admin.php:2090
+msgid "Please configure source module first!"
+msgstr ""
+
+#: inc/class-branda-admin.php:2167
+msgid "Module %s was updated."
+msgstr ""
+
+#: inc/class-branda-admin.php:2216
+msgid "Activate Modules"
+msgstr ""
+
+#: inc/class-branda-admin.php:2217
+msgid ""
+"Choose the modules you want to activate. Each module helps you white-label "
+"a specific part of your website. If you’re not sure or forget to activate "
+"any module now, you can always do that later."
+msgstr ""
+
+#: inc/class-branda-base.php:108 inc/class-branda-helper.php:2591
+#: inc/modules/emails/smtp.php:547
+#: inc/modules/utilities/tracking-codes-list-table.php:29
+msgid "Unknown"
+msgstr ""
+
+#: inc/class-branda-base.php:147 inc/class-branda-base.php:171
+msgid "Module does not exists."
+msgstr ""
+
+#: inc/class-branda-helper.php:587
+msgid "Amazon"
+msgstr ""
+
+#: inc/class-branda-helper.php:588
+msgid "Blogger"
+msgstr ""
+
+#: inc/class-branda-helper.php:589
+msgid "CodePen"
+msgstr ""
+
+#: inc/class-branda-helper.php:590
+msgid "Dribbble"
+msgstr ""
+
+#: inc/class-branda-helper.php:591
+msgid "Dropbox"
+msgstr ""
+
+#: inc/class-branda-helper.php:592
+msgid "Eventbrite"
+msgstr ""
+
+#: inc/class-branda-helper.php:593
+msgid "Facebook"
+msgstr ""
+
+#: inc/class-branda-helper.php:594
+msgid "Flickr"
+msgstr ""
+
+#: inc/class-branda-helper.php:595
+msgid "Foursquare"
+msgstr ""
+
+#: inc/class-branda-helper.php:596
+msgid "Ghost"
+msgstr ""
+
+#: inc/class-branda-helper.php:597
+msgid "Github"
+msgstr ""
+
+#: inc/class-branda-helper.php:598
+msgid "Instagram"
+msgstr ""
+
+#: inc/class-branda-helper.php:599
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/class-branda-helper.php:600
+msgid "Mail"
+msgstr ""
+
+#: inc/class-branda-helper.php:601
+msgid "Pinterest"
+msgstr ""
+
+#: inc/class-branda-helper.php:602
+msgid "Pocket"
+msgstr ""
+
+#: inc/class-branda-helper.php:603
+msgid "Polldaddy"
+msgstr ""
+
+#: inc/class-branda-helper.php:604
+msgid "Reddit"
+msgstr ""
+
+#: inc/class-branda-helper.php:605
+msgid "Skype"
+msgstr ""
+
+#: inc/class-branda-helper.php:606
+msgid "Spotify"
+msgstr ""
+
+#: inc/class-branda-helper.php:607
+msgid "Squarespace"
+msgstr ""
+
+#: inc/class-branda-helper.php:608
+msgid "Stumbleupon"
+msgstr ""
+
+#: inc/class-branda-helper.php:609
+msgid "Telegram"
+msgstr ""
+
+#: inc/class-branda-helper.php:610
+msgid "Tumblr"
+msgstr ""
+
+#: inc/class-branda-helper.php:611
+msgid "Twitter"
+msgstr ""
+
+#: inc/class-branda-helper.php:612
+msgid "Vimeo"
+msgstr ""
+
+#: inc/class-branda-helper.php:613
+msgid "Whatsapp"
+msgstr ""
+
+#: inc/class-branda-helper.php:614
+msgid "WordPress"
+msgstr ""
+
+#: inc/class-branda-helper.php:615
+msgid "Xanga"
+msgstr ""
+
+#: inc/class-branda-helper.php:616
+msgid "Youtube"
+msgstr ""
+
+#: inc/class-branda-helper.php:659
+msgid "Dotted"
+msgstr ""
+
+#: inc/class-branda-helper.php:660
+msgid "Dashed"
+msgstr ""
+
+#: inc/class-branda-helper.php:661
+msgid "Solid"
+msgstr ""
+
+#: inc/class-branda-helper.php:662
+msgid "Double"
+msgstr ""
+
+#: inc/class-branda-helper.php:663
+msgid "3D grooved"
+msgstr ""
+
+#: inc/class-branda-helper.php:664
+msgid "3D ridged"
+msgstr ""
+
+#: inc/class-branda-helper.php:665
+msgid "3D inset"
+msgstr ""
+
+#: inc/class-branda-helper.php:666
+msgid "3D outset"
+msgstr ""
+
+#: inc/class-branda-helper.php:1279 inc/class-branda-helper.php:2673
+msgid "Background Color"
+msgstr ""
+
+#: inc/class-branda-helper.php:1284
+msgid "Display Background Images"
+msgstr ""
+
+#: inc/class-branda-helper.php:1285
+msgid "Would you like to use background images?"
+msgstr ""
+
+#: inc/class-branda-helper.php:1287 inc/class-branda-helper.php:1437
+#: inc/class-branda-helper.php:2064 inc/class-branda-helper.php:2362
+#: inc/modules/admin/bar.php:527 inc/modules/admin/tips.php:302
+#: inc/modules/front-end/author-box.php:835
+#: inc/modules/front-end/author-box.php:847
+#: inc/modules/front-end/author-box.php:857
+#: inc/modules/front-end/author-box.php:955
+#: inc/modules/front-end/author-box.php:1042
+#: inc/modules/front-end/cookie-notice.php:242
+#: inc/modules/front-end/cookie-notice.php:320
+#: inc/modules/login-screen/login-screen.php:1371
+#: inc/modules/login-screen/login-screen.php:1381
+#: inc/modules/login-screen/login-screen.php:1496
+#: inc/modules/login-screen/login-screen.php:1515
+#: inc/modules/login-screen/login-screen.php:1524
+#: inc/modules/utilities/maintenance.php:853
+#: inc/modules/widgets/dashboard-feeds.php:331
+#: inc/modules/widgets/dashboard-feeds.php:342
+#: inc/modules/widgets/dashboard-feeds.php:358
+#: inc/modules/widgets/dashboard-feeds.php:369
+#: inc/modules/widgets/dashboard-widgets.php:692
+#: inc/modules/widgets/dashboard-widgets.php:703
+#: views/admin/modules/admin-bar/tmpl/panes/visibility.php:44
+#: views/admin/modules/dashboard-widgets/tmpl/panes/visibility.php:8
+#: views/admin/modules/dashboard-widgets/tmpl/panes/visibility.php:20
+msgid "Hide"
+msgstr ""
+
+#: inc/class-branda-helper.php:1288 inc/class-branda-helper.php:1438
+#: inc/class-branda-helper.php:2062 inc/class-branda-helper.php:2065
+#: inc/class-branda-helper.php:2359 inc/class-branda-helper.php:2363
+#: inc/modules/admin/bar.php:528 inc/modules/front-end/author-box.php:836
+#: inc/modules/front-end/author-box.php:848
+#: inc/modules/front-end/author-box.php:858
+#: inc/modules/front-end/author-box.php:956
+#: inc/modules/front-end/author-box.php:1043
+#: inc/modules/front-end/cookie-notice.php:241
+#: inc/modules/front-end/cookie-notice.php:321
+#: inc/modules/login-screen/login-screen.php:1372
+#: inc/modules/login-screen/login-screen.php:1382
+#: inc/modules/login-screen/login-screen.php:1497
+#: inc/modules/login-screen/login-screen.php:1516
+#: inc/modules/login-screen/login-screen.php:1525
+#: inc/modules/utilities/maintenance.php:854
+#: inc/modules/widgets/dashboard-feeds.php:332
+#: inc/modules/widgets/dashboard-feeds.php:343
+#: inc/modules/widgets/dashboard-feeds.php:359
+#: inc/modules/widgets/dashboard-feeds.php:370
+#: inc/modules/widgets/dashboard-widgets.php:691
+#: inc/modules/widgets/dashboard-widgets.php:702
+#: views/admin/modules/admin-bar/tmpl/panes/visibility.php:42
+#: views/admin/modules/dashboard-widgets/tmpl/panes/visibility.php:7
+#: views/admin/modules/dashboard-widgets/tmpl/panes/visibility.php:19
+msgid "Show"
+msgstr ""
+
+#: inc/class-branda-helper.php:1296
+msgid "Multiple Images Mode"
+msgstr ""
+
+#: inc/class-branda-helper.php:1298 inc/class-branda-helper.php:1829
+msgid "Slideshow"
+msgstr ""
+
+#: inc/class-branda-helper.php:1299 inc/class-branda-helper.php:1830
+msgid "Random"
+msgstr ""
+
+#: inc/class-branda-helper.php:1306 inc/class-branda-helper.php:1448
+#: inc/modules/login-screen/login-screen.php:1388
+msgid "Background image"
+msgstr ""
+
+#: inc/class-branda-helper.php:1307
+msgid ""
+"You can upload a background image here. The image will stretch to fit the "
+"page, and will automatically resize as the window size changes. You'll have "
+"the best results by using images with a minimum width of 1024px."
+msgstr ""
+
+#: inc/class-branda-helper.php:1312
+msgid "Slideshow Duration"
+msgstr ""
+
+#: inc/class-branda-helper.php:1313
+msgid "Duration in minutes, we strongly recommended do not use less than 5 minutes."
+msgstr ""
+
+#: inc/class-branda-helper.php:1317 inc/modules/utilities/maintenance.php:595
+msgid "Minutes"
+msgstr ""
+
+#: inc/class-branda-helper.php:1366 inc/class-simple-options.php:1644
+#: inc/modules/admin/help-content.php:433 inc/modules/utilities/data.php:90
+#: inc/modules/utilities/data.php:133
+msgid "Reset"
+msgstr ""
+
+#: inc/class-branda-helper.php:1401
+msgid "Preferred width of logo is 320px for best results."
+msgstr ""
+
+#: inc/class-branda-helper.php:1410
+msgid "Logo &amp; Background"
+msgstr ""
+
+#: inc/class-branda-helper.php:1415 inc/class-branda-helper.php:1521
+#: inc/class-branda-helper.php:1658 inc/modules/admin/bar.php:800
+#: inc/modules/admin/bar.php:924 inc/modules/admin/bar.php:937
+#: inc/modules/admin/bar.php:944
+#: views/admin/modules/admin-bar/dialogs/submenu.php:42
+#: views/admin/modules/admin-bar/dialogs/submenu.php:52
+#: views/admin/modules/admin-bar/dialogs/submenu.php:56
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:43
+msgid "URL"
+msgstr ""
+
+#: inc/class-branda-helper.php:1417
+msgid "Users will get redirected to this link when they click on logo."
+msgstr ""
+
+#: inc/class-branda-helper.php:1427
+msgid "Alt Text"
+msgstr ""
+
+#: inc/class-branda-helper.php:1435
+msgid "Logo visibility"
+msgstr ""
+
+#: inc/class-branda-helper.php:1450
+msgid ""
+"For best results, image should have a minimum width of 1024px. You can "
+"upload multiple images and create a slide-show in the design section."
+msgstr ""
+
+#: inc/class-branda-helper.php:1478
+#: inc/modules/front-end/site-status-page.php:439
+#: inc/modules/front-end/site-status-page.php:468
+#: inc/modules/utilities/maintenance.php:789
+msgid "Title (optional)"
+msgstr ""
+
+#: inc/class-branda-helper.php:1482 inc/modules/front-end/db-error-page.php:596
+#: inc/modules/front-end/db-error-page.php:634
+#: inc/modules/front-end/site-status-page.php:443
+#: inc/modules/front-end/site-status-page.php:515
+#: inc/modules/login-screen/login-screen.php:1436
+#: inc/modules/login-screen/signup-code.php:129
+#: inc/modules/login-screen/signup-code.php:188
+#: inc/modules/utilities/maintenance.php:792
+msgid "Error Message"
+msgstr ""
+
+#: inc/class-branda-helper.php:1487
+msgid "Description (optional)"
+msgstr ""
+
+#: inc/class-branda-helper.php:1520 inc/class-branda-helper.php:1657
+#: inc/class-branda-helper.php:3433 inc/class-simple-options.php:2084
+#: views/admin/modules/admin-bar/dialogs/submenu.php:8
+#: views/admin/modules/color-schemes/dialogs/edit.php:28
+#: views/admin/modules/color-schemes/dialogs/edit.php:54
+#: views/admin/modules/color-schemes/dialogs/edit.php:152
+#: views/admin/modules/color-schemes/dialogs/edit.php:178
+#: views/admin/modules/color-schemes/dialogs/edit.php:300
+#: views/admin/modules/color-schemes/dialogs/edit.php:398
+#: views/admin/modules/color-schemes/dialogs/edit.php:613
+#: views/admin/modules/color-schemes/dialogs/edit.php:762
+#: views/admin/modules/color-schemes/dialogs/edit.php:800
+#: views/admin/modules/color-schemes/dialogs/edit.php:850
+msgid "Open item"
+msgstr ""
+
+#: inc/class-branda-helper.php:1549 inc/class-branda-helper.php:1627
+#: inc/modules/front-end/author-box.php:1390
+#: inc/modules/front-end/author-box.php:1468
+msgid "Add Accounts"
+msgstr ""
+
+#: inc/class-branda-helper.php:1571 inc/class-branda-helper.php:2070
+#: inc/modules/front-end/author-box.php:1269
+#: inc/modules/front-end/author-box.php:1410
+msgid "Social Accounts"
+msgstr ""
+
+#: inc/class-branda-helper.php:1583 inc/modules/front-end/author-box.php:1423
+msgid "Choose the platforms to insert into your social sharing module."
+msgstr ""
+
+#: inc/class-branda-helper.php:1619 inc/class-branda-helper.php:3348
+#: inc/modules/admin/bar.php:654 inc/modules/emails/template.php:1077
+#: inc/modules/front-end/author-box.php:1460
+#: inc/modules/login-screen/login-screen.php:2526
+#: inc/modules/utilities/text-replacement.php:297
+#: inc/modules/utilities/tracking-codes.php:662
+#: inc/modules/widgets/dashboard-feeds.php:400
+#: inc/modules/widgets/dashboard-feeds.php:449
+#: views/admin/modules/admin-bar/dialogs/edit.php:31
+#: views/admin/modules/admin-help-content/dialogs/edit.php:35
+#: views/admin/modules/color-schemes/dialogs/edit.php:875
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:48
+msgid "Cancel"
+msgstr ""
+
+#: inc/class-branda-helper.php:1646 inc/modules/front-end/author-box.php:1484
+msgid "Add Social Account"
+msgstr ""
+
+#: inc/class-branda-helper.php:1701 inc/class-branda-helper.php:1845
+#: inc/class-branda-helper.php:2010 inc/class-branda-helper.php:2687
+#: inc/modules/login-screen/login-screen.php:1939
+msgid "Width"
+msgstr ""
+
+#: inc/class-branda-helper.php:1705 inc/class-branda-helper.php:1786
+#: inc/class-branda-helper.php:2033 inc/modules/content/footer.php:103
+#: inc/modules/content/footer.php:215 inc/modules/content/header.php:100
+#: inc/modules/content/header.php:219 inc/modules/front-end/author-box.php:891
+#: inc/modules/front-end/author-box.php:914
+#: inc/modules/front-end/author-box.php:927
+#: inc/modules/front-end/author-box.php:1077
+#: inc/modules/front-end/author-box.php:1081
+#: inc/modules/front-end/author-box.php:1096
+#: inc/modules/login-screen/login-screen.php:1585
+#: inc/modules/login-screen/login-screen.php:1598
+#: inc/modules/login-screen/login-screen.php:1607
+#: inc/modules/login-screen/login-screen.php:1616
+#: inc/modules/login-screen/login-screen.php:1626
+#: inc/modules/login-screen/login-screen.php:1635
+#: inc/modules/login-screen/login-screen.php:1784
+msgid "px"
+msgstr ""
+
+#: inc/class-branda-helper.php:1713
+msgid "It should be smaller than the form canvas."
+msgstr ""
+
+#: inc/class-branda-helper.php:1719
+#: inc/modules/login-screen/login-screen.php:1842
+msgid "Opacity"
+msgstr ""
+
+#: inc/class-branda-helper.php:1729 inc/modules/front-end/author-box.php:231
+#: inc/modules/login-screen/login-screen.php:1922
+msgid "Position"
+msgstr ""
+
+#: inc/class-branda-helper.php:1731 inc/class-branda-helper.php:1772
+#: inc/modules/login-screen/login-screen.php:1675
+#: inc/modules/login-screen/login-screen.php:1719
+#: inc/modules/login-screen/login-screen.php:1925
+#: inc/modules/login-screen/login-screen.php:1993
+#: inc/modules/login-screen/login-screen.php:2037
+msgid "Left"
+msgstr ""
+
+#: inc/class-branda-helper.php:1732
+msgid "Center"
+msgstr ""
+
+#: inc/class-branda-helper.php:1733 inc/class-branda-helper.php:1756
+#: inc/modules/login-screen/login-screen.php:1659
+#: inc/modules/login-screen/login-screen.php:1703
+#: inc/modules/login-screen/login-screen.php:1926
+#: inc/modules/login-screen/login-screen.php:1978
+#: inc/modules/login-screen/login-screen.php:2021
+msgid "Right"
+msgstr ""
+
+#: inc/class-branda-helper.php:1739 inc/modules/front-end/author-box.php:234
+#: inc/modules/front-end/cookie-notice.php:258
+#: inc/modules/login-screen/login-screen.php:1641
+#: inc/modules/login-screen/login-screen.php:1686
+#: inc/modules/login-screen/login-screen.php:1960
+#: inc/modules/login-screen/login-screen.php:2004
+msgid "Top"
+msgstr ""
+
+#: inc/class-branda-helper.php:1746
+#: inc/modules/login-screen/login-screen.php:1693
+#: inc/modules/login-screen/login-screen.php:2011
+msgid "Margin"
+msgstr ""
+
+#: inc/class-branda-helper.php:1764 inc/modules/front-end/author-box.php:233
+#: inc/modules/front-end/cookie-notice.php:259
+#: inc/modules/login-screen/login-screen.php:1667
+#: inc/modules/login-screen/login-screen.php:1711
+#: inc/modules/login-screen/login-screen.php:1986
+#: inc/modules/login-screen/login-screen.php:2029
+msgid "Bottom"
+msgstr ""
+
+#: inc/class-branda-helper.php:1783 inc/class-branda-helper.php:2030
+#: inc/modules/front-end/author-box.php:910
+#: inc/modules/front-end/author-box.php:1076
+#: inc/modules/login-screen/login-screen.php:1622
+msgid "Corner radius"
+msgstr ""
+
+#: inc/class-branda-helper.php:1813
+msgid "Duration"
+msgstr ""
+
+#: inc/class-branda-helper.php:1814
+msgid "seconds"
+msgstr ""
+
+#: inc/class-branda-helper.php:1816
+msgid "We strongly recommend duration of at least 5 seconds."
+msgstr ""
+
+#: inc/class-branda-helper.php:1827
+msgid "Multiple images mode"
+msgstr ""
+
+#: inc/class-branda-helper.php:1842 inc/class-branda-helper.php:1858
+msgid "Leave \"0\" to \"auto\" value."
+msgstr ""
+
+#: inc/class-branda-helper.php:1846 inc/class-branda-helper.php:1862
+msgid "%"
+msgstr ""
+
+#: inc/class-branda-helper.php:1861 inc/modules/content/footer.php:102
+#: inc/modules/content/footer.php:116 inc/modules/content/footer.php:214
+#: inc/modules/content/footer.php:224 inc/modules/content/header.php:99
+#: inc/modules/content/header.php:116 inc/modules/content/header.php:218
+#: inc/modules/content/header.php:228
+#: inc/modules/login-screen/login-screen.php:1951
+msgid "Height"
+msgstr ""
+
+#: inc/class-branda-helper.php:1873
+msgid "Background size"
+msgstr ""
+
+#: inc/class-branda-helper.php:1876
+#: inc/modules/login-screen/login-screen.php:1803
+msgid "Cover"
+msgstr ""
+
+#: inc/class-branda-helper.php:1877
+msgid ""
+"Resize the background image to cover the entire container, even if it has "
+"to stretch the image or cut a little bit off one of the edges."
+msgstr ""
+
+#: inc/class-branda-helper.php:1880
+#: inc/modules/login-screen/login-screen.php:1805
+msgid "Contain"
+msgstr ""
+
+#: inc/class-branda-helper.php:1881
+msgid "Resize the background image to make sure the image is fully visible."
+msgstr ""
+
+#: inc/class-branda-helper.php:1884 inc/modules/content/footer.php:120
+#: inc/modules/content/footer.php:228 inc/modules/content/header.php:120
+#: inc/modules/content/header.php:232
+msgid "Auto"
+msgstr ""
+
+#: inc/class-branda-helper.php:1885
+msgid "The background image is displayed in its original size."
+msgstr ""
+
+#: inc/class-branda-helper.php:1888
+msgid "Length"
+msgstr ""
+
+#: inc/class-branda-helper.php:1889
+msgid "Sets the width and height of the background image."
+msgstr ""
+
+#: inc/class-branda-helper.php:1898 inc/class-branda-helper.php:1934
+msgid "Horizontal background position"
+msgstr ""
+
+#: inc/class-branda-helper.php:1919 inc/class-branda-helper.php:1955
+#: inc/modules/content/footer.php:121 inc/modules/content/footer.php:229
+#: inc/modules/content/header.php:121 inc/modules/content/header.php:233
+#: inc/modules/login-screen/login-screen.php:615
+#: inc/modules/login-screen/login-screen.php:637
+#: inc/modules/utilities/images.php:263
+msgid "Custom"
+msgstr ""
+
+#: inc/class-branda-helper.php:2012
+msgid "It should preferably be less than 1024 for best results."
+msgstr ""
+
+#: inc/class-branda-helper.php:2021 inc/class-branda-helper.php:2318
+msgid "Content Wrapper"
+msgstr ""
+
+#: inc/class-branda-helper.php:2076
+msgid "Options below are not affected."
+msgstr ""
+
+#: inc/class-branda-helper.php:2087 inc/class-branda-helper.php:2776
+msgid "Open link"
+msgstr ""
+
+#: inc/class-branda-helper.php:2090 inc/class-branda-helper.php:2387
+msgid "The same"
+msgstr ""
+
+#: inc/class-branda-helper.php:2096
+msgid "Icon style"
+msgstr ""
+
+#: inc/class-branda-helper.php:2098 inc/class-branda-helper.php:2371
+#: inc/class-branda-helper.php:2374 inc/modules/content/footer.php:143
+#: inc/modules/content/footer.php:251 inc/modules/content/header.php:143
+#: inc/modules/content/header.php:255 inc/modules/front-end/author-box.php:321
+#: inc/modules/front-end/cookie-notice.php:296
+#: inc/modules/front-end/db-error-page.php:510
+#: inc/modules/front-end/site-status-page.php:416
+#: inc/modules/login-screen/login-screen.php:581
+#: inc/modules/utilities/maintenance.php:266
+#: views/admin/modules/color-schemes/dialogs/edit.php:20
+msgid "Colors"
+msgstr ""
+
+#: inc/class-branda-helper.php:2099 inc/class-branda-helper.php:2375
+#: inc/modules/front-end/author-box.php:1277
+msgid "Monochrome"
+msgstr ""
+
+#: inc/class-branda-helper.php:2148 inc/class-branda-helper.php:2668
+#: views/admin/modules/color-schemes/dialogs/edit.php:640
+msgid "Color"
+msgstr ""
+
+#: inc/class-branda-helper.php:2151
+msgid "Logo & Background"
+msgstr ""
+
+#: inc/class-branda-helper.php:2218
+#: inc/modules/login-screen/login-screen.php:1849
+msgid "Error Messages"
+msgstr ""
+
+#: inc/class-branda-helper.php:2228 inc/modules/content/footer.php:147
+#: inc/modules/content/footer.php:255 inc/modules/content/header.php:147
+#: inc/modules/content/header.php:259
+#: inc/modules/login-screen/login-screen.php:614
+#: inc/modules/login-screen/login-screen.php:636
+#: inc/modules/login-screen/login-screen.php:1924
+#: inc/modules/login-screen/login-screen.php:1953
+#: inc/modules/login-screen/login-screen.php:2084
+#: inc/modules/login-screen/login-screen.php:2318
+msgid "Default"
+msgstr ""
+
+#: inc/class-branda-helper.php:2234 inc/modules/front-end/author-box.php:933
+#: inc/modules/front-end/author-box.php:1099
+#: inc/modules/front-end/author-box.php:1185
+#: inc/modules/front-end/author-box.php:1315
+#: inc/modules/front-end/cookie-notice.php:615
+#: inc/modules/front-end/cookie-notice.php:638
+#: inc/modules/front-end/cookie-notice.php:661
+#: inc/modules/front-end/cookie-notice.php:684
+#: inc/modules/login-screen/login-screen.php:1737
+msgid "Border"
+msgstr ""
+
+#: inc/class-branda-helper.php:2239 inc/modules/content/footer.php:127
+#: inc/modules/content/footer.php:235 inc/modules/content/header.php:127
+#: inc/modules/content/header.php:239
+#: inc/modules/front-end/cookie-notice.php:220
+#: inc/modules/front-end/cookie-notice.php:552
+#: inc/modules/front-end/cookie-notice.php:601
+#: inc/modules/front-end/cookie-notice.php:629
+#: inc/modules/front-end/cookie-notice.php:652
+#: inc/modules/front-end/cookie-notice.php:675
+#: inc/modules/utilities/site-generator.php:68
+#: inc/modules/utilities/text-replacement-list-table.php:37
+msgid "Text"
+msgstr ""
+
+#: inc/class-branda-helper.php:2244 inc/class-branda-helper.php:2255
+#: inc/class-branda-helper.php:2268 inc/class-branda-helper.php:2281
+#: inc/modules/utilities/site-generator.php:72
+#: views/admin/modules/color-schemes/dialogs/edit.php:415
+#: views/admin/modules/color-schemes/dialogs/edit.php:501
+#: views/admin/modules/color-schemes/dialogs/edit.php:539
+#: views/admin/modules/color-schemes/dialogs/edit.php:577
+msgid "Link"
+msgstr ""
+
+#: inc/class-branda-helper.php:2258 inc/modules/front-end/cookie-notice.php:632
+#: inc/modules/login-screen/login-screen.php:2165
+#: inc/modules/login-screen/login-screen.php:2346
+#: inc/modules/utilities/tracking-codes-list-table.php:43
+#: views/admin/dashboard/modules/one-row.php:4
+#: views/admin/modules/tracking-codes/dialogs/edit.php:14
+msgid "Active"
+msgstr ""
+
+#: inc/class-branda-helper.php:2271 inc/modules/front-end/cookie-notice.php:655
+#: inc/modules/login-screen/login-screen.php:2205
+#: inc/modules/login-screen/login-screen.php:2371
+#: views/admin/modules/color-schemes/dialogs/edit.php:410
+#: views/admin/modules/color-schemes/dialogs/edit.php:623
+msgid "Focus"
+msgstr ""
+
+#: inc/class-branda-helper.php:2284
+msgid "hover"
+msgstr ""
+
+#: inc/class-branda-helper.php:2360
+msgid "Would you like to show social media?"
+msgstr ""
+
+#: inc/class-branda-helper.php:2372
+msgid "Would you like show colored icons?"
+msgstr ""
+
+#: inc/class-branda-helper.php:2383
+msgid "Open Links"
+msgstr ""
+
+#: inc/class-branda-helper.php:2384
+msgid "Would you like open link in new or the same window/tab?"
+msgstr ""
+
+#: inc/class-branda-helper.php:2563
+msgid "-- Copy from --"
+msgstr ""
+
+#: inc/class-branda-helper.php:2575
+msgid "Copy"
+msgstr ""
+
+#: inc/class-branda-helper.php:2633
+msgid "Show Title"
+msgstr ""
+
+#: inc/class-branda-helper.php:2634
+msgid "Would you like to show title?"
+msgstr ""
+
+#: inc/class-branda-helper.php:2636 inc/class-branda-helper.php:2653
+#: inc/modules/utilities/maintenance.php:203
+msgid "Off"
+msgstr ""
+
+#: inc/class-branda-helper.php:2637 inc/class-branda-helper.php:2654
+msgid "On"
+msgstr ""
+
+#: inc/class-branda-helper.php:2644 inc/modules/admin/bar.php:892
+#: inc/modules/admin/help-content.php:414
+#: inc/modules/front-end/author-box.php:1219
+#: inc/modules/front-end/db-error-page.php:630
+#: inc/modules/front-end/site-status-page.php:512
+#: inc/modules/utilities/tracking-codes-list-table.php:58
+#: inc/modules/widgets/dashboard-feeds-table.php:38
+#: views/admin/modules/admin-bar/dialogs/submenu.php:15
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:5
+#: views/admin/modules/admin-help-content/dialogs/edit.php:16
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:23
+msgid "Title"
+msgstr ""
+
+#: inc/class-branda-helper.php:2650
+msgid "Show Content"
+msgstr ""
+
+#: inc/class-branda-helper.php:2651
+msgid "Would you like to show content?"
+msgstr ""
+
+#: inc/class-branda-helper.php:2662 inc/modules/admin/custom-css.php:66
+#: inc/modules/admin/help-content.php:417 inc/modules/content/footer.php:98
+#: inc/modules/content/footer.php:200 inc/modules/content/footer.php:205
+#: inc/modules/content/header.php:92 inc/modules/content/header.php:204
+#: inc/modules/content/header.php:209
+#: inc/modules/front-end/cookie-notice.php:202
+#: inc/modules/front-end/db-error-page.php:491
+#: inc/modules/front-end/db-error-page.php:675
+#: inc/modules/front-end/document.php:133
+#: inc/modules/front-end/document.php:156
+#: inc/modules/front-end/document.php:256
+#: inc/modules/front-end/site-status-page.php:404
+#: inc/modules/front-end/site-status-page.php:521
+#: inc/modules/login-screen/login-screen.php:554
+#: inc/modules/utilities/maintenance.php:254
+#: inc/modules/utilities/maintenance.php:1042
+#: inc/modules/widgets/dashboard-feeds.php:316
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:28
+msgid "Content"
+msgstr ""
+
+#: inc/class-branda-helper.php:2678
+msgid "Background Transparency"
+msgstr ""
+
+#: inc/class-branda-helper.php:2778 inc/modules/admin/bar.php:816
+#: inc/modules/admin/bar.php:905
+#: views/admin/modules/admin-bar/dialogs/submenu.php:26
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:53
+msgid "Same Tab"
+msgstr ""
+
+#: inc/class-branda-helper.php:2779 inc/modules/admin/bar.php:815
+#: inc/modules/admin/bar.php:904
+#: views/admin/modules/admin-bar/dialogs/submenu.php:25
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:51
+msgid "New Tab"
+msgstr ""
+
+#: inc/class-branda-helper.php:2832 views/admin/common/copy.php:15
+#: views/admin/common/dialogs/reset-module.php:7
+#: views/admin/common/dialogs/reset.php:7 views/admin/common/header.php:16
+#: views/admin/dashboard/welcome.php:8
+#: views/admin/modules/dashboard-widgets/dialogs/visibility-reset.php:14
+#: views/admin/modules/email-template/dialogs/preview.php:8
+msgid "Close this dialog window"
+msgstr ""
+
+#: inc/class-branda-helper.php:3208
+#: views/admin/modules/admin-bar/dialogs/submenu.php:17
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:7
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:25
+msgid "This field can not be empty!"
+msgstr ""
+
+#: inc/class-branda-helper.php:3329
+msgid "Do you really want to delete selected item?"
+msgstr ""
+
+#: inc/class-branda-helper.php:3330 inc/modules/admin/bar.php:672
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/class-branda-helper.php:3356 inc/class-branda-list-table.php:160
+#: inc/modules/utilities/tracking-codes-list-table.php:78
+#: inc/modules/widgets/dashboard-feeds-table.php:107
+#: inc/modules/widgets/dashboard-feeds-table.php:356
+msgid "Delete"
+msgstr ""
+
+#: inc/class-branda-helper.php:4049
+msgid "For more advanced customization options use custom CSS."
+msgstr ""
+
+#: inc/class-branda-helper.php:4110
+msgid "Template file does not exists!"
+msgstr ""
+
+#: inc/class-branda-helper.php:4114
+msgid "Template file %s does not exists!"
+msgstr ""
+
+#: inc/class-branda-helper.php:4233
+msgid ""
+"User registration has been disabled. Click <a href=\"%s\">here</a> to "
+"enable the user registration for your site."
+msgstr ""
+
+#: inc/class-branda-helper.php:4264
+msgid "Network Administrator"
+msgstr ""
+
+#: inc/class-branda-list-table.php:156
+#: inc/modules/widgets/dashboard-feeds-table.php:352
+msgid "Select bulk action"
+msgstr ""
+
+#: inc/class-branda-list-table.php:158
+#: inc/modules/widgets/dashboard-feeds-table.php:354
+msgid "Bulk Actions"
+msgstr ""
+
+#: inc/class-branda-list-table.php:169 inc/modules/admin/help-content.php:450
+#: inc/modules/widgets/dashboard-feeds-table.php:365
+msgid "Apply"
+msgstr ""
+
+#: inc/class-branda-list-table.php:216
+msgid "Select All"
+msgstr ""
+
+#: inc/class-branda-list-table.php:246
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-branda-loader.php:158
+msgid "Module \"<b>%s</b>\" was turned off because module \"<b>%s</b>\" is active."
+msgstr ""
+
+#: inc/class-branda-logging.php:135
+msgid "Logs"
+msgstr ""
+
+#: inc/class-simple-options.php:322
+msgid "No title"
+msgstr ""
+
+#: inc/class-simple-options.php:442
+#: inc/modules/widgets/dashboard-feeds-table.php:46
+#: inc/modules/widgets/dashboard-feeds-widget.php:52
+msgid "[no title]"
+msgstr ""
+
+#: inc/class-simple-options.php:1459
+msgid "Show Password"
+msgstr ""
+
+#: inc/class-simple-options.php:1463
+msgid "Hide Password"
+msgstr ""
+
+#: inc/class-simple-options.php:1526
+msgid "Default is: <code><strong>%s</strong></code>"
+msgstr ""
+
+#: inc/class-simple-options.php:1531
+msgid "Default color is: <code><strong>%s</strong></code>"
+msgstr ""
+
+#: inc/class-simple-options.php:1712
+msgid "There is no defined options here."
+msgstr ""
+
+#: inc/class-simple-options.php:1725
+msgid "Reset to Default"
+msgstr ""
+
+#: inc/class-simple-options.php:1775
+msgid "Wrong action!"
+msgstr ""
+
+#: inc/class-simple-options.php:1816 inc/class-simple-options.php:1875
+msgid "Missing required parameters."
+msgstr ""
+
+#: inc/class-simple-options.php:1832
+msgid "Section is already in default state!"
+msgstr ""
+
+#: inc/class-simple-options.php:1839
+msgid "Section data was reset."
+msgstr ""
+
+#: inc/class-simple-options.php:1858
+#: views/admin/modules/admin-bar/dashicons.php:10
+msgid "Select"
+msgstr ""
+
+#: inc/class-simple-options.php:1894
+msgid "Source section is not saved yet and there is nothing to copy!"
+msgstr ""
+
+#: inc/class-simple-options.php:1914
+msgid "Section data was copied successfully."
+msgstr ""
+
+#: inc/class-simple-options.php:2037
+msgid "Upload image"
+msgstr ""
+
+#: inc/class-simple-options.php:2038 views/admin/common/options/file.php:6
+msgid "Remove file"
+msgstr ""
+
+#: inc/functions.php:272
+msgid "%s module is deprecated. Please use %s module."
+msgstr ""
+
+#: inc/functions.php:281
+msgid "Module will be removed in <b>Branda %s version</b>."
+msgstr ""
+
+#: inc/modules/admin/bar.php:298
+msgid "Admin Bar order was saved successfully!"
+msgstr ""
+
+#: inc/modules/admin/bar.php:422
+msgid "WordPress menu"
+msgstr ""
+
+#: inc/modules/admin/bar.php:423
+msgid "Site menu"
+msgstr ""
+
+#: inc/modules/admin/bar.php:424
+msgid "My Sites"
+msgstr ""
+
+#: inc/modules/admin/bar.php:425 inc/modules/admin/tips.php:119
+#: inc/modules/utilities/text-replacement.php:225
+msgid "Add New"
+msgstr ""
+
+#: inc/modules/admin/bar.php:426 inc/modules/utilities/comments-control.php:189
+msgid "Comments"
+msgstr ""
+
+#: inc/modules/admin/bar.php:427
+msgid "Updates"
+msgstr ""
+
+#: inc/modules/admin/bar.php:445
+msgid "Guest"
+msgstr ""
+
+#: inc/modules/admin/bar.php:458
+msgid "Replace the default WordPress logo in the admin bar with your own. "
+msgstr ""
+
+#: inc/modules/admin/bar.php:466
+msgid "Toolbar Visibility"
+msgstr ""
+
+#: inc/modules/admin/bar.php:467
+msgid ""
+"By default, the toolbar is visible only to the logged in users, however you "
+"can change it’s visibility for logged out users too."
+msgstr ""
+
+#: inc/modules/admin/bar.php:471
+msgid "For logged out visitors"
+msgstr ""
+
+#: inc/modules/admin/bar.php:473
+msgid "Hidden"
+msgstr ""
+
+#: inc/modules/admin/bar.php:474
+msgid "Visible"
+msgstr ""
+
+#: inc/modules/admin/bar.php:481 inc/modules/admin/bar.php:486
+msgid "Menu Items"
+msgstr ""
+
+#: inc/modules/admin/bar.php:482
+msgid ""
+"Customize the menu by hiding menu items based on user roles, by reordering "
+"them or by adding your own custom menu items."
+msgstr ""
+
+#: inc/modules/admin/bar.php:487
+msgid "Choose the menu items which needs to be hidden."
+msgstr ""
+
+#: inc/modules/admin/bar.php:496 inc/modules/admin/bar.php:842
+#: views/admin/modules/admin-bar/tmpl/panes/visibility.php:3
+msgid "User Roles"
+msgstr ""
+
+#: inc/modules/admin/bar.php:497
+msgid "Choose the user roles to hide the chosen menu items."
+msgstr ""
+
+#: inc/modules/admin/bar.php:506 inc/modules/admin/bar.php:837
+#: inc/modules/front-end/author-box.php:298
+#: inc/modules/front-end/author-box.php:953
+#: inc/modules/front-end/author-box.php:1040
+#: inc/modules/utilities/maintenance.php:851
+#: inc/modules/widgets/dashboard-feeds.php:351
+#: inc/modules/widgets/dashboard-widgets.php:684
+#: views/admin/modules/admin-bar/dialogs/edit.php:19
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:18
+msgid "Visibility"
+msgstr ""
+
+#: inc/modules/admin/bar.php:507
+msgid ""
+"Choose whether you want to show all the menu items or hide specific menu "
+"items from particular user roles."
+msgstr ""
+
+#: inc/modules/admin/bar.php:509
+msgid "Show All"
+msgstr ""
+
+#: inc/modules/admin/bar.php:510
+msgid "Hide Specific Items"
+msgstr ""
+
+#: inc/modules/admin/bar.php:524
+msgid "Custom entries"
+msgstr ""
+
+#: inc/modules/admin/bar.php:525
+msgid "Choose whether you want to show custom entries to the menu or not."
+msgstr ""
+
+#: inc/modules/admin/bar.php:534
+msgid "Reorder menu items"
+msgstr ""
+
+#: inc/modules/admin/bar.php:535
+msgid ""
+"Click 'Reorder Menus' then drag and drop menu items to reorder. 'Restore "
+"Default Order' reverts them back to their original order."
+msgstr ""
+
+#: inc/modules/admin/bar.php:543
+msgid ""
+"Add custom CSS styles to the admin bar. No other part of WordPress will be "
+"affected."
+msgstr ""
+
+#: inc/modules/admin/bar.php:552
+msgid "Admin Bar Icon"
+msgstr ""
+
+#: inc/modules/admin/bar.php:553
+msgid "Menu Item"
+msgstr ""
+
+#: inc/modules/admin/bar.php:634
+msgid "Reorder Menus"
+msgstr ""
+
+#: inc/modules/admin/bar.php:641
+msgid "Reset Default Order"
+msgstr ""
+
+#: inc/modules/admin/bar.php:662
+msgid "Yes, reset!"
+msgstr ""
+
+#: inc/modules/admin/bar.php:673
+msgid "Are you sure to reset custom order?"
+msgstr ""
+
+#: inc/modules/admin/bar.php:703 inc/modules/admin/bar.php:737
+msgid "Add Custom Item"
+msgstr ""
+
+#: inc/modules/admin/bar.php:744
+msgid ""
+"No custom menu item added yet. Click on “+ Add custom Item” to add your "
+"first custom menu item using a simple wizard."
+msgstr ""
+
+#: inc/modules/admin/bar.php:763 inc/modules/front-end/cookie-notice.php:555
+#: inc/modules/widgets/dashboard-feeds.php:269
+#: inc/modules/widgets/dashboard-widgets.php:669
+#: views/admin/modules/admin-bar/dialogs/edit.php:17
+#: views/admin/modules/color-schemes/dialogs/edit.php:26
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:17
+#: views/admin/modules/tracking-codes/dialogs/edit.php:4
+msgid "General"
+msgstr ""
+
+#: inc/modules/admin/bar.php:766
+msgid "Menu title"
+msgstr ""
+
+#: inc/modules/admin/bar.php:769
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:8
+msgid ""
+"You can also paste the full URL of an image instead of text title. For e.g. "
+"http://example.com/img.png"
+msgstr ""
+
+#: inc/modules/admin/bar.php:777
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:13
+#: views/admin/modules/color-schemes/dialogs/edit.php:439
+#: views/admin/modules/color-schemes/dialogs/edit.php:563
+#: views/admin/modules/color-schemes/dialogs/edit.php:591
+#: views/admin/modules/color-schemes/dialogs/edit.php:652
+msgid "Icon"
+msgstr ""
+
+#: inc/modules/admin/bar.php:781
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:15
+msgid "Choose an icon for your custom menu item."
+msgstr ""
+
+#: inc/modules/admin/bar.php:788
+msgid "Redirect users to"
+msgstr ""
+
+#: inc/modules/admin/bar.php:790 inc/modules/emails/smtp.php:400
+#: inc/modules/login-screen/login-screen.php:1806
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:23
+msgid "None"
+msgstr ""
+
+#: inc/modules/admin/bar.php:791 inc/modules/content/footer.php:297
+#: inc/modules/content/header.php:300 inc/modules/utilities/images.php:220
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:25
+msgid "Main Site"
+msgstr ""
+
+#: inc/modules/admin/bar.php:792
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:29
+msgid "Current Site"
+msgstr ""
+
+#: inc/modules/admin/bar.php:793
+msgid "WP Admin Area"
+msgstr ""
+
+#: inc/modules/admin/bar.php:794
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:36
+msgid "Custom URL"
+msgstr ""
+
+#: inc/modules/admin/bar.php:801 inc/modules/admin/bar.php:938
+#: inc/modules/admin/bar.php:945
+#: views/admin/modules/admin-bar/dialogs/submenu.php:53
+#: views/admin/modules/admin-bar/dialogs/submenu.php:57
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:44
+msgid "E.g. http://example.com"
+msgstr ""
+
+#: inc/modules/admin/bar.php:813 inc/modules/admin/bar.php:902
+#: views/admin/modules/admin-bar/dialogs/submenu.php:22
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:47
+msgid "Open link in"
+msgstr ""
+
+#: inc/modules/admin/bar.php:827
+#: views/admin/modules/admin-bar/dialogs/edit.php:18
+msgid "Submenu"
+msgstr ""
+
+#: inc/modules/admin/bar.php:830
+#: views/admin/modules/admin-bar/tmpl/panes/submenu.php:3
+msgid "Reorder the submenu items by dragging and dropping as per your need."
+msgstr ""
+
+#: inc/modules/admin/bar.php:843
+#: views/admin/modules/admin-bar/tmpl/panes/visibility.php:4
+msgid "Select the user roles which are allowed to see this menu."
+msgstr ""
+
+#: inc/modules/admin/bar.php:915
+msgid "Admin Page"
+msgstr ""
+
+#: inc/modules/admin/bar.php:916
+msgid "Site Page"
+msgstr ""
+
+#: inc/modules/admin/bar.php:917
+msgid "External"
+msgstr ""
+
+#: inc/modules/admin/bar.php:925
+#: views/admin/modules/admin-bar/dialogs/submenu.php:43
+msgid "E.g. media.php"
+msgstr ""
+
+#: inc/modules/admin/bar.php:929
+#: views/admin/modules/admin-bar/dialogs/submenu.php:46
+msgid "URL is relative to %s"
+msgstr ""
+
+#: inc/modules/admin/bar.php:1017 inc/modules/admin/bar.php:1044
+#: views/admin/modules/admin-bar/tmpl/panes/submenu.php:11
+#: views/admin/modules/admin-bar/tmpl/panes/submenu.php:23
+msgid "Add Item"
+msgstr ""
+
+#: inc/modules/admin/bar.php:1027
+#: views/admin/modules/admin-bar/tmpl/panes/submenu.php:15
+msgid "No submenu item added yet. Click on “+ Add Item” to add a submenu item"
+msgstr ""
+
+#: inc/modules/admin/bar.php:1245
+msgid "Selected item was successfully deleted"
+msgstr ""
+
+#: inc/modules/admin/bar.php:1251 inc/modules/admin/bar.php:1657
+#: inc/modules/admin/help-content.php:568
+#: inc/modules/widgets/dashboard-widgets.php:757
+msgid "Selected item does not exists!"
+msgstr ""
+
+#: inc/modules/admin/bar.php:1611
+msgid "Delete Custom Menu Item"
+msgstr ""
+
+#: inc/modules/admin/bar.php:1612
+msgid "Are you sure you wish to permanently delete this custom menu item?"
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:263
+msgid "WordPress default"
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:270
+msgid "Do not force color scheme"
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:278
+msgid "Available Color Scheme"
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:279
+msgid "Choose the color schemes which should be visible within the User Profile."
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:288
+msgid "Default Color Scheme"
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:289
+msgid "Choose a default color scheme for newly registered users."
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:299
+msgid "Force Color Scheme"
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:300
+msgid "Choose a color scheme to be used for every user."
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:311
+msgid "Choose a color scheme to be used for every user across network."
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:712
+msgid "%s was successfully updated."
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:53
+#: views/admin/modules/custom-admin-css/help.php:1
+msgid "Admin CSS"
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:54
+msgid ""
+"For more advanced customization of admin pages use the CSS. This will be "
+"added to the header of every admin page."
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:56
+msgid "Enter custom CSS here…"
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:60
+msgid "Cascading Style Sheets"
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:65
+msgid "Bar"
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:67
+msgid "Body"
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:68
+msgid "Footer"
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:69
+msgid "Menu"
+msgstr ""
+
+#: inc/modules/admin/custom-css.php:70
+msgid "Menu Wrap"
+msgstr ""
+
+#: inc/modules/admin/footer.php:73
+msgid "Admin Footer Text"
+msgstr ""
+
+#: inc/modules/admin/footer.php:74
+msgid "Display a custom text in the footer of every admin page."
+msgstr ""
+
+#: inc/modules/admin/help-content.php:175
+msgid "Help Items"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:176
+msgid "Start editing the default help item or add new help items as per your need."
+msgstr ""
+
+#: inc/modules/admin/help-content.php:182
+msgid "Reorder the help items by dragging and dropping."
+msgstr ""
+
+#: inc/modules/admin/help-content.php:189
+msgid "Help Sidebar"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:190
+msgid ""
+"Add a sidebar within the help content area. You can leave this empty if you "
+"don’t want a help sidebar."
+msgstr ""
+
+#: inc/modules/admin/help-content.php:194
+#: inc/modules/admin/help-content.php:419
+#: inc/modules/widgets/dashboard-widgets.php:678
+msgid "Add your help sidebar content here…"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:200
+msgid "Choose the appropriate settings to have extra control over the help content."
+msgstr ""
+
+#: inc/modules/admin/help-content.php:203
+msgid "Hide new help panels in Network Admin area"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:205
+msgid ""
+"Hide the new help panels added in the Network Admin area and show a generic "
+"guide on Branda Dashboard instead."
+msgstr ""
+
+#: inc/modules/admin/help-content.php:212
+msgid "Keep the default help items"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:214
+msgid "Merge the new help items with the default items instead of deleting them."
+msgstr ""
+
+#: inc/modules/admin/help-content.php:325
+#: inc/modules/admin/help-content.php:339
+#: inc/modules/admin/help-content.php:462
+#: views/admin/modules/admin-help-content/dialogs/edit.php:7
+msgid "Add Help Item"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:380
+msgid "Delete Custom Help Item"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:381
+msgid "Are you sure you wish to permanently delete this custom help item?"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:462
+#: views/admin/modules/admin-help-content/dialogs/edit.php:8
+msgid "Edit Help Item"
+msgstr ""
+
+#: inc/modules/admin/help-content.php:485
+msgid "Item was updated."
+msgstr ""
+
+#: inc/modules/admin/help-content.php:533
+msgid "Item was deleted."
+msgstr ""
+
+#: inc/modules/admin/menu.php:56
+msgid "Dashboard Link"
+msgstr ""
+
+#: inc/modules/admin/menu.php:57
+msgid ""
+"Remove \"Dashboard\" link from admin panel for users without site (in WP "
+"Multisite)."
+msgstr ""
+
+#: inc/modules/admin/menu.php:60
+msgid "Remove link for users without site"
+msgstr ""
+
+#: inc/modules/admin/menu.php:67
+msgid "Link Manager"
+msgstr ""
+
+#: inc/modules/admin/menu.php:68
+msgid "Enables the Link Manager that existed in WordPress until version 3.5."
+msgstr ""
+
+#: inc/modules/admin/menu.php:71
+msgid "Enable link manager"
+msgstr ""
+
+#: inc/modules/admin/menu.php:78
+msgid "Admin Tips"
+msgstr ""
+
+#: inc/modules/admin/menu.php:79
+msgid ""
+"Provide your users with helpful random tips, or promotions/news in their "
+"admin panels."
+msgstr ""
+
+#: inc/modules/admin/menu.php:82
+msgid "Enable Admin Tips"
+msgstr ""
+
+#: inc/modules/admin/menu.php:85
+msgid ""
+"Add a custom post type “Tips” in the WordPress menu and start adding tips "
+"for the users."
+msgstr ""
+
+#: inc/modules/admin/menu.php:93
+msgid "Permalink"
+msgstr ""
+
+#: inc/modules/admin/menu.php:94
+msgid "Choose whether you want to removes the \"permalinks\" configuration options."
+msgstr ""
+
+#: inc/modules/admin/menu.php:97
+msgid "Remove permalinks menu item"
+msgstr ""
+
+#: inc/modules/admin/message.php:48 inc/modules/emails/template.php:167
+#: inc/modules/front-end/cookie-notice.php:207
+#: inc/modules/widgets/dashboard-widgets.php:234
+msgid "Message"
+msgstr ""
+
+#: inc/modules/admin/message.php:49
+msgid ""
+"This message will appear on top of every admin page. You can use this to "
+"show notifications or important announcements."
+msgstr ""
+
+#: inc/modules/admin/tips.php:82
+msgid ""
+"This module has no global configuration. Please go to site admin and add "
+"some tips!"
+msgstr ""
+
+#: inc/modules/admin/tips.php:112 inc/modules/admin/tips.php:117
+#: views/admin/modules/admin-panel-tips/profile-option.php:1
+msgid "Tips"
+msgstr ""
+
+#: inc/modules/admin/tips.php:113
+msgid "Tip"
+msgstr ""
+
+#: inc/modules/admin/tips.php:114
+msgid "Tip Archives"
+msgstr ""
+
+#: inc/modules/admin/tips.php:115
+msgid "Tip Attributes"
+msgstr ""
+
+#: inc/modules/admin/tips.php:116
+msgid "Parent Tip:"
+msgstr ""
+
+#: inc/modules/admin/tips.php:118
+msgid "Add New Tip"
+msgstr ""
+
+#: inc/modules/admin/tips.php:120
+msgid "New Tip"
+msgstr ""
+
+#: inc/modules/admin/tips.php:121
+msgid "Edit Tip"
+msgstr ""
+
+#: inc/modules/admin/tips.php:122
+msgid "Update Tip"
+msgstr ""
+
+#: inc/modules/admin/tips.php:123
+msgid "View Tip"
+msgstr ""
+
+#: inc/modules/admin/tips.php:124
+msgid "View Tips"
+msgstr ""
+
+#: inc/modules/admin/tips.php:125
+msgid "Search Tip"
+msgstr ""
+
+#: inc/modules/admin/tips.php:126
+msgid "Not found"
+msgstr ""
+
+#: inc/modules/admin/tips.php:127
+msgid "Not found in Trash"
+msgstr ""
+
+#: inc/modules/admin/tips.php:128
+msgid "Featured Image"
+msgstr ""
+
+#: inc/modules/admin/tips.php:129
+msgid "Set featured image"
+msgstr ""
+
+#: inc/modules/admin/tips.php:130
+msgid "Remove featured image"
+msgstr ""
+
+#: inc/modules/admin/tips.php:131
+msgid "Use as featured image"
+msgstr ""
+
+#: inc/modules/admin/tips.php:132
+msgid "Insert into item"
+msgstr ""
+
+#: inc/modules/admin/tips.php:133
+msgid "Uploaded to this item"
+msgstr ""
+
+#: inc/modules/admin/tips.php:134
+msgid "Tips list"
+msgstr ""
+
+#: inc/modules/admin/tips.php:135
+msgid "Tips list navigation"
+msgstr ""
+
+#: inc/modules/admin/tips.php:136
+msgid "Filter items list"
+msgstr ""
+
+#: inc/modules/admin/tips.php:140
+msgid "Admin Panel Tips"
+msgstr ""
+
+#: inc/modules/admin/tips.php:141
+msgid "Tip Description"
+msgstr ""
+
+#: inc/modules/admin/tips.php:422
+msgid "Where to display?"
+msgstr ""
+
+#: inc/modules/admin/tips.php:430
+msgid "Display till"
+msgstr ""
+
+#: inc/modules/admin/tips.php:450
+msgid "Allow to choose where this tip should be shown:"
+msgstr ""
+
+#: inc/modules/admin/tips.php:459
+msgid "Everywhere (except Branding)"
+msgstr ""
+
+#: inc/modules/admin/tips.php:491
+msgid "Till date:"
+msgstr ""
+
+#: inc/modules/admin/tips.php:492
+msgid "Leave empty to unlimited tip time."
+msgstr ""
+
+#: inc/modules/content/footer.php:109 inc/modules/content/footer.php:210
+#: inc/modules/content/header.php:106 inc/modules/content/header.php:214
+#: inc/modules/front-end/author-box.php:315
+#: inc/modules/front-end/cookie-notice.php:250
+#: inc/modules/front-end/db-error-page.php:501
+#: inc/modules/front-end/document.php:224
+#: inc/modules/front-end/site-status-page.php:410
+#: inc/modules/login-screen/login-screen.php:567
+#: inc/modules/utilities/maintenance.php:260
+msgid "Design"
+msgstr ""
+
+#: inc/modules/content/footer.php:117 inc/modules/content/footer.php:225
+msgid ""
+"Let your content define the height or set a fixed custom height for footer "
+"content."
+msgstr ""
+
+#: inc/modules/content/footer.php:144 inc/modules/content/footer.php:252
+#: inc/modules/content/header.php:144 inc/modules/content/header.php:256
+msgid "You can use the default color scheme or customize it to match your theme."
+msgstr ""
+
+#: inc/modules/content/footer.php:148 inc/modules/content/footer.php:256
+#: inc/modules/content/header.php:148 inc/modules/content/header.php:260
+msgid "Custom Colors"
+msgstr ""
+
+#: inc/modules/content/footer.php:158 inc/modules/content/footer.php:269
+msgid "Integrate into theme footer"
+msgstr ""
+
+#: inc/modules/content/footer.php:159 inc/modules/content/footer.php:270
+msgid ""
+"Enable this to place the footer content block inside the theme footer "
+"element."
+msgstr ""
+
+#: inc/modules/content/footer.php:161 inc/modules/content/footer.php:180
+#: inc/modules/content/footer.php:272 inc/modules/content/footer.php:282
+#: inc/modules/content/header.php:161 inc/modules/content/header.php:183
+#: inc/modules/content/header.php:276 inc/modules/content/header.php:286
+#: inc/modules/emails/smtp.php:380 inc/modules/emails/smtp.php:420
+#: inc/modules/emails/smtp.php:450 inc/modules/front-end/author-box.php:291
+#: inc/modules/front-end/author-box.php:812
+#: inc/modules/front-end/cookie-notice.php:310
+#: inc/modules/front-end/db-error-page.php:547
+#: inc/modules/front-end/document.php:145
+#: inc/modules/front-end/document.php:168
+#: inc/modules/front-end/site-status-page.php:387
+#: inc/modules/front-end/site-status-page.php:397
+#: inc/modules/utilities/comments-control.php:240
+#: views/admin/modules/tracking-codes/dialogs/edit.php:49
+msgid "Disable"
+msgstr ""
+
+#: inc/modules/content/footer.php:162 inc/modules/content/footer.php:181
+#: inc/modules/content/footer.php:273 inc/modules/content/footer.php:283
+#: inc/modules/content/header.php:162 inc/modules/content/header.php:184
+#: inc/modules/content/header.php:277 inc/modules/content/header.php:287
+#: inc/modules/emails/smtp.php:379 inc/modules/emails/smtp.php:419
+#: inc/modules/emails/smtp.php:449 inc/modules/front-end/author-box.php:290
+#: inc/modules/front-end/author-box.php:813
+#: inc/modules/front-end/cookie-notice.php:311
+#: inc/modules/front-end/db-error-page.php:548
+#: inc/modules/front-end/document.php:146
+#: inc/modules/front-end/document.php:169
+#: inc/modules/front-end/site-status-page.php:386
+#: inc/modules/front-end/site-status-page.php:396
+#: inc/modules/utilities/comments-control.php:239
+#: views/admin/modules/tracking-codes/dialogs/edit.php:50
+msgid "Enable"
+msgstr ""
+
+#: inc/modules/content/footer.php:177 inc/modules/content/footer.php:279
+#: inc/modules/content/header.php:180 inc/modules/content/header.php:283
+msgid "Parse shortcodes"
+msgstr ""
+
+#: inc/modules/content/footer.php:178 inc/modules/content/footer.php:280
+#: inc/modules/content/header.php:181 inc/modules/content/header.php:284
+msgid "Be careful, parsing shortcodes can break the theme UI."
+msgstr ""
+
+#: inc/modules/content/footer.php:201
+msgid ""
+"Insert any content that you like into the footer of every page of your "
+"website."
+msgstr ""
+
+#: inc/modules/content/footer.php:211
+msgid "Customize the design of footer content as per your liking."
+msgstr ""
+
+#: inc/modules/content/footer.php:265
+msgid "These provide additional configuration options for the footer content."
+msgstr ""
+
+#: inc/modules/content/footer.php:298
+msgid ""
+"Insert any content that you like into the footer of the main site of your "
+"network."
+msgstr ""
+
+#: inc/modules/content/footer.php:306 inc/modules/content/header.php:309
+#: inc/modules/utilities/data.php:110 inc/modules/utilities/images.php:260
+msgid "Subsites"
+msgstr ""
+
+#: inc/modules/content/footer.php:307
+msgid ""
+"Insert any content that you like into the footer of all of the subsites on "
+"your network."
+msgstr ""
+
+#: inc/modules/content/footer.php:312 inc/modules/content/header.php:315
+msgid "Same as Main Site"
+msgstr ""
+
+#: inc/modules/content/footer.php:313 inc/modules/content/header.php:316
+msgid "Insert Different Content"
+msgstr ""
+
+#: inc/modules/content/header.php:117 inc/modules/content/header.php:229
+msgid ""
+"Let your content define the height or set a fixed custom height for header "
+"content."
+msgstr ""
+
+#: inc/modules/content/header.php:158 inc/modules/content/header.php:273
+msgid "Integrate into theme header"
+msgstr ""
+
+#: inc/modules/content/header.php:159 inc/modules/content/header.php:274
+msgid ""
+"Enable this to place the header content block inside the theme header "
+"element."
+msgstr ""
+
+#: inc/modules/content/header.php:205
+msgid ""
+"Insert any content that you like into the header of every page of your "
+"website."
+msgstr ""
+
+#: inc/modules/content/header.php:215
+msgid "Customize the design of header content as per your liking."
+msgstr ""
+
+#: inc/modules/content/header.php:269
+msgid "These provide additional configuration options for the header content."
+msgstr ""
+
+#: inc/modules/content/header.php:301
+msgid ""
+"Insert any content that you like into the header of the main site of your "
+"network."
+msgstr ""
+
+#: inc/modules/content/header.php:310
+msgid ""
+"Insert any content that you like into the header of all of the subsites on "
+"your network."
+msgstr ""
+
+#: inc/modules/content/header.php:476
+msgid "Subsites configuration has been disabled."
+msgstr ""
+
+#: inc/modules/emails/headers.php:78
+msgid "Email From"
+msgstr ""
+
+#: inc/modules/emails/headers.php:79
+msgid ""
+"Choose the default sender email and sender name for all of your WordPress "
+"outgoing emails."
+msgstr ""
+
+#: inc/modules/emails/headers.php:82 inc/modules/emails/smtp.php:359
+msgid "Sender email address"
+msgstr ""
+
+#: inc/modules/emails/headers.php:86 inc/modules/emails/smtp.php:364
+msgid "Sender name"
+msgstr ""
+
+#: inc/modules/emails/headers.php:91
+msgid "Return-Path"
+msgstr ""
+
+#: inc/modules/emails/headers.php:92
+msgid "Choose whether you want to add as `Return-Path` header."
+msgstr ""
+
+#: inc/modules/emails/headers.php:102
+msgid "Return-Path value"
+msgstr ""
+
+#: inc/modules/emails/headers.php:104
+msgid "Same"
+msgstr ""
+
+#: inc/modules/emails/headers.php:105
+msgid "Different"
+msgstr ""
+
+#: inc/modules/emails/registration.php:154
+msgid ""
+"To activate your blog, please click the following link:\n"
+"\n"
+"%s\n"
+"\n"
+"After you activate, you will receive *another email* with your login.\n"
+"\n"
+"After you activate, you can visit your site here:\n"
+"\n"
+"%s"
+msgstr ""
+
+#: inc/modules/emails/registration.php:156
+msgid ""
+"To activate your user, please click the following link:\n"
+"\n"
+"%s\n"
+"\n"
+"After you activate, you will receive *another email* with your login."
+msgstr ""
+
+#: inc/modules/emails/registration.php:158
+msgid ""
+"Howdy USERNAME,\n"
+"\n"
+"Your new SITE_NAME site has been successfully set up at:\n"
+"BLOG_URL\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: USERNAME\n"
+"Password: PASSWORD\n"
+"Log in here: BLOG_URLwp-login.php\n"
+"\n"
+"We hope you enjoy your new site. Thanks!\n"
+"\n"
+"--The Team @ SITE_NAME"
+msgstr ""
+
+#: inc/modules/emails/registration.php:174
+msgid "New Blog"
+msgstr ""
+
+#: inc/modules/emails/registration.php:175
+msgid "Send a customized copy whenever a new blog is published."
+msgstr ""
+
+#: inc/modules/emails/registration.php:179
+msgid "Customize new blog notification email"
+msgstr ""
+
+#: inc/modules/emails/registration.php:181
+#: inc/modules/emails/registration.php:215
+#: inc/modules/emails/registration.php:249
+msgid "Yes"
+msgstr ""
+
+#: inc/modules/emails/registration.php:182
+#: inc/modules/emails/registration.php:216
+#: inc/modules/emails/registration.php:250
+msgid "No"
+msgstr ""
+
+#: inc/modules/emails/registration.php:190
+#: inc/modules/emails/registration.php:224
+#: inc/modules/emails/registration.php:258
+msgid "Subject"
+msgstr ""
+
+#: inc/modules/emails/registration.php:200
+#: inc/modules/emails/registration.php:234
+#: inc/modules/emails/registration.php:268
+msgid "Email Body"
+msgstr ""
+
+#: inc/modules/emails/registration.php:208
+msgid "User Sign-up"
+msgstr ""
+
+#: inc/modules/emails/registration.php:209
+msgid "Send a customized copy whenever a user sign up on your network."
+msgstr ""
+
+#: inc/modules/emails/registration.php:213
+msgid "Customize new user sign-up email"
+msgstr ""
+
+#: inc/modules/emails/registration.php:242
+msgid "Site Activation"
+msgstr ""
+
+#: inc/modules/emails/registration.php:243
+msgid "Send a customized copy whenever a new site is registered on your network."
+msgstr ""
+
+#: inc/modules/emails/registration.php:247
+msgid "Customize new site activation email"
+msgstr ""
+
+#: inc/modules/emails/registration.php:260
+msgid "New %1$s Site: %2$s"
+msgstr ""
+
+#: inc/modules/emails/registration.php:291
+#: inc/modules/login-screen/signup-code.php:225
+msgid ""
+"Blog registration has been disabled. Click <a href=\"%s\">here</a> to "
+"enable the site registration for your network."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:76
+msgid "Field \"To\" can not be empty!"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:77
+msgid "Sending message, please wait..."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:78
+msgid "The test message was send successful."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:134 inc/modules/emails/template.php:1128
+msgid "Send Test Email"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:157 inc/modules/emails/template.php:921
+msgid "Unable to send: wrong email address."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:202
+msgid "This is test email sent from \"%s\""
+msgstr ""
+
+#: inc/modules/emails/smtp.php:203
+msgid "This is a test mail..."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:206
+msgid "Send date: %s."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:211
+msgid "Site: %s."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:230
+msgid ""
+"Failed to send the test email. Please check your SMTP credentials and try "
+"again."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:235
+msgid "Test email sent to %s."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:254
+msgid "Please configure credentials first."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:356
+msgid ""
+"Choose the default from email id and from name for all of your WordPress "
+"outgoing emails."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:360
+msgid "You can specify the email address that emails should be sent from."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:365
+msgid "Enter the sender email"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:367
+msgid "For example, you can use your website’s title as the default sender name."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:376
+msgid "From name replacement"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:377
+msgid ""
+"Set your own from name for each email sent from your website. Be carefully "
+"since it will override the from name provided by other plugins such as "
+"Contact Form."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:388
+msgid "SMTP Server"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:389
+msgid "Choose the SMTP server options such as host, port details, encryption etc."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:392
+msgid "Host"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:393
+msgid "Enter the host name of your mail server."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:394
+msgid "E.g. smtp.example.com"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:398
+msgid "Encryption"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:401
+msgid "SSL"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:402
+msgid "TLS"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:405
+msgid ""
+"Choose the encryption for your mail server. For most servers, SSL is "
+"recommended."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:409
+msgid "Port"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:410
+msgid "Choose the SMTP port as recommended by your mail server."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:416
+msgid "Insecure SSL certificates"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:417
+msgid ""
+"You can enable the insecure and self-signed SSL certificates on SMTP "
+"server. However, it's highly recommended to keep this option disabled."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:427
+msgid "SMTP Authentication"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:428
+msgid ""
+"Choose whether you want to use SMTPAuth or not. It is recommended to keep "
+"this enabled."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:431
+msgid "Username"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:432
+msgid "Enter your SMTP username here"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:439
+#: inc/modules/login-screen/login-screen.php:1348
+#: views/admin/modules/signup-password/password-fields.php:2
+msgid "Password"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:440
+msgid "Enter your SMTP password here"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:467
+msgid "Conflicted Plugins"
+msgstr ""
+
+#: inc/modules/emails/smtp.php:468 inc/modules/emails/smtp.php:473
+msgid ""
+"Branda has detected the following plugins are activated. Please deactivate "
+"them to prevent conflicts."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:515
+msgid ""
+"Please configure your <a href=\"%s\">SMTP credentials</a> in order to send "
+"email using SMTP module."
+msgstr ""
+
+#: inc/modules/emails/smtp.php:538
+msgid "Send a dummy email to test the SMTP configurations."
+msgstr ""
+
+#: inc/modules/emails/template.php:83
+msgid ""
+"There was an issue determining where HTML Email is installed. Please "
+"reinstall."
+msgstr ""
+
+#: inc/modules/emails/template.php:168
+msgid "From Name"
+msgstr ""
+
+#: inc/modules/emails/template.php:169
+msgid "From Email"
+msgstr ""
+
+#: inc/modules/emails/template.php:170
+msgid "Admin Email"
+msgstr ""
+
+#: inc/modules/emails/template.php:173
+msgid "Sidebar Title"
+msgstr ""
+
+#: inc/modules/emails/template.php:174
+msgid "Blog URL"
+msgstr ""
+
+#: inc/modules/emails/template.php:174
+#: inc/modules/widgets/dashboard-feeds-table.php:40
+#: inc/modules/widgets/dashboard-feeds.php:273
+msgid "Site URL"
+msgstr ""
+
+#: inc/modules/emails/template.php:175
+msgid "Blog Name"
+msgstr ""
+
+#: inc/modules/emails/template.php:175
+msgid "Site Name"
+msgstr ""
+
+#: inc/modules/emails/template.php:176
+msgid "Site Description"
+msgstr ""
+
+#: inc/modules/emails/template.php:177 inc/modules/emails/template.php:686
+msgid "Current Date"
+msgstr ""
+
+#: inc/modules/emails/template.php:178 inc/modules/emails/template.php:687
+msgid "Current Time"
+msgstr ""
+
+#: inc/modules/emails/template.php:186
+#: inc/modules/login-screen/login-screen.php:544
+#: inc/modules/utilities/maintenance.php:913
+msgid "Template"
+msgstr ""
+
+#: inc/modules/emails/template.php:187
+msgid ""
+"Choose one of our pre-designed email templates and customize it further as "
+"per your need."
+msgstr ""
+
+#: inc/modules/emails/template.php:199 inc/modules/emails/template.php:208
+#: inc/modules/front-end/db-error-page.php:474
+#: inc/modules/front-end/db-error-page.php:480
+#: views/admin/modules/email-template/dialogs/preview.php:6
+msgid "Preview"
+msgstr ""
+
+#: inc/modules/emails/template.php:206
+msgid "Please wait…"
+msgstr ""
+
+#: inc/modules/emails/template.php:216
+msgid "HTML Editor"
+msgstr ""
+
+#: inc/modules/emails/template.php:217
+msgid ""
+"Start editing your chosen email template or writing a new one. You can use "
+"the variables provided on top of the editor to insert dynamic data such as "
+"email message."
+msgstr ""
+
+#: inc/modules/emails/template.php:221
+msgid "Start typing or paste your HTML markup here…"
+msgstr ""
+
+#: inc/modules/emails/template.php:224
+msgid "Email variables"
+msgstr ""
+
+#: inc/modules/emails/template.php:228
+msgid "General variables"
+msgstr ""
+
+#: inc/modules/emails/template.php:678
+msgid "Email content (required)"
+msgstr ""
+
+#: inc/modules/emails/template.php:679
+msgid "Title for the sidebar in email e.g. What's trending"
+msgstr ""
+
+#: inc/modules/emails/template.php:680
+msgid "Sender's name if sender's email is associated with a user account"
+msgstr ""
+
+#: inc/modules/emails/template.php:681
+msgid "Sender's email, email specified in site settings"
+msgstr ""
+
+#: inc/modules/emails/template.php:682
+msgid "Blog / Site URL"
+msgstr ""
+
+#: inc/modules/emails/template.php:683
+msgid "Blog / Site name"
+msgstr ""
+
+#: inc/modules/emails/template.php:684
+msgid "Email address of the support or contact person. Same as {FROM_EMAIL}"
+msgstr ""
+
+#: inc/modules/emails/template.php:689
+msgid "Variable list"
+msgstr ""
+
+#: inc/modules/emails/template.php:689
+msgid "List of variables that can be used in template"
+msgstr ""
+
+#: inc/modules/emails/template.php:733
+msgid ""
+"This is a test message I want to try out to see if it works. This will be "
+"replaced with WordPress email content."
+msgstr ""
+
+#: inc/modules/emails/template.php:736
+msgid "Is it working well?"
+msgstr ""
+
+#: inc/modules/emails/template.php:852
+msgid "Whoops, you don't have permissions to preview html."
+msgstr ""
+
+#: inc/modules/emails/template.php:855 inc/modules/emails/template.php:869
+msgid "Whoops, you need to enter some html to preview it!"
+msgstr ""
+
+#: inc/modules/emails/template.php:925
+msgid "Test HTML Email Subject"
+msgstr ""
+
+#: inc/modules/emails/template.php:926
+msgid ""
+"This is a test message I want to try out to see if it works\n"
+"\n"
+"Is it working well?"
+msgstr ""
+
+#: inc/modules/emails/template.php:932
+msgid "Test email sent to %s!"
+msgstr ""
+
+#: inc/modules/emails/template.php:937
+msgid "Unable to send test email"
+msgstr ""
+
+#: inc/modules/emails/template.php:975 inc/modules/emails/template.php:983
+#: inc/modules/emails/template.php:1096
+#: inc/modules/login-screen/login-screen.php:2488
+#: inc/modules/login-screen/login-screen.php:2551
+msgid "Choose a Template"
+msgstr ""
+
+#: inc/modules/emails/template.php:982 inc/modules/emails/template.php:996
+#: inc/modules/login-screen/login-screen.php:2507
+msgid "Change Template"
+msgstr ""
+
+#: inc/modules/emails/template.php:1006
+msgid ""
+"Customize one of our pre-designed email templates, or start styling from "
+"scratch."
+msgstr ""
+
+#: inc/modules/emails/template.php:1015
+#: views/admin/modules/login-screen/dialogs/choose-template.php:3
+msgid ""
+"Be careful, changing a template would override the customization you've "
+"done."
+msgstr ""
+
+#: inc/modules/emails/template.php:1022
+msgid "Start from Scratch"
+msgstr ""
+
+#: inc/modules/emails/template.php:1086
+#: inc/modules/login-screen/login-screen.php:2534
+msgid "Continue"
+msgstr ""
+
+#: inc/modules/emails/template.php:1172
+msgid ""
+"Send a test email to preview the HTML email template in your preferred "
+"email client."
+msgstr ""
+
+#: inc/modules/emails/templates/Disco/index.php:8
+#: inc/modules/emails/templates/Handwritten/index.php:8
+#: inc/modules/emails/templates/Iletter/index.php:8
+#: inc/modules/emails/templates/Minimise/index.php:8
+#: inc/modules/emails/templates/Promy/index.php:8
+#: inc/modules/emails/templates/Simplicity-dark/index.php:10
+#: inc/modules/emails/templates/Simplicity-light/index.php:8
+msgid "Default E-mail Title"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:235
+msgid "Under avatar"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:275
+#: views/admin/modules/import/configure-modules.php:56
+#: views/admin/modules/import/errors/footer.php:4
+msgid "Configure"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:276
+msgid "Configure the display option and visibility of the author box."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:280
+msgid "Author Box Widget"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:282
+msgid ""
+"Go to <b>Appearance &gt; <a href=\"%s\">Widgets</a></b> to add the author "
+"box widget into your theme's sidebars. All customization done in this "
+"module will affect the author box widget as well as the inline content "
+"author box."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:288
+msgid "Inline Content"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:294
+msgid ""
+"You can add author box inline in the content of posts, pages, etc. Disable "
+"this if wish to use the author box widget only."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:301
+msgid ""
+"Choose the post types for which author box should be displayed. This "
+"options will affect the visibility of author box widget as well as inline "
+"author box."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:307
+msgid "Author Profile"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:316
+msgid "Customize the design of the author box."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:322
+msgid "Adjust the default colour combinations of author box."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:328
+#: inc/modules/login-screen/login-screen.php:646
+msgid "This will be added to the header of every Login page."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:386
+msgid "Enter %s URL here…"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:548
+msgid "entry has no title"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:651
+msgid "Website"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:806
+msgid "Link name"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:808
+msgid "Enable this to link author’s name to author archive."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:821
+#: inc/modules/front-end/author-box.php:1149
+msgid "Name &amp; Bio"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:829
+msgid "Number of posts"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:831
+msgid "This will show the number of posts of author along with the name."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:844
+msgid "Author’s name"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:855
+msgid "Author’s bio"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:890
+msgid "Size"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:900
+#: inc/modules/front-end/author-box.php:1189
+#: inc/modules/front-end/author-box.php:1545
+msgid "Avatar"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:923
+#: inc/modules/front-end/author-box.php:1092
+#: inc/modules/login-screen/login-screen.php:1730
+#: inc/modules/login-screen/login-screen.php:1781
+msgid "Thickness"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:939
+#: inc/modules/front-end/author-box.php:1105
+#: inc/modules/login-screen/login-screen.php:1563
+#: inc/modules/login-screen/login-screen.php:1743
+#: inc/modules/login-screen/login-screen.php:1790
+msgid "Style"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:948
+#: inc/modules/front-end/author-box.php:1117
+msgid "Color of the border in the Colors Scheme dropdown."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:989
+msgid "Entries type"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:991
+msgid ""
+"If a viewer is on a post, only the posts from the author will be shown. "
+"Pages and Media type will not be included."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:995
+msgid "Same as the current post type"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:996
+#: inc/modules/utilities/comments-control.php:204
+#: views/admin/common/manage-all-modules.php:34
+#: views/admin/dashboard/welcome-modules.php:15
+#: views/admin/modules/import/configure-modules.php:33
+msgid "All"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1004
+#: inc/modules/front-end/author-box.php:1226
+msgid "Latest Entries"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1012
+msgid "Number of entries"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1028
+msgid "Entries title (optional)"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1030
+msgid "Leave this field blank if you don’t want to show any title."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1033
+msgid "Read more from the same author:"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1084
+#: inc/modules/front-end/author-box.php:1319
+#: inc/modules/login-screen/login-screen.php:2639
+msgid "Container"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1142
+#: views/admin/modules/color-schemes/dialogs/edit.php:14
+#: views/admin/modules/tracking-codes/dialogs/edit.php:19
+msgid "Name"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1154
+msgid "Bio"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1231
+msgid "Entry"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1279
+msgid "This color will be used ONLY when icons are monochrome."
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1541
+msgid "Box"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1542
+msgid "Author Name"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1543
+msgid "Box content"
+msgstr ""
+
+#: inc/modules/front-end/author-box.php:1544
+msgid "List"
+msgstr ""
+
+#: inc/modules/front-end/class-author-box-widget.php:39
+msgid "Widget has no configuration."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:90
+#: inc/modules/login-screen/login-screen.php:2332
+#: inc/modules/login-screen/login-screen.php:2357
+#: inc/modules/login-screen/login-screen.php:2382
+#: inc/modules/login-screen/login-screen.php:2407
+#: views/admin/common/footer.php:19 views/admin/common/footer.php:32
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:203
+msgid "Customize the content shown within the cookie notice."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:208
+msgid "Customize the cookie message that you want to show to your visitors."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:209
+msgid ""
+"We use cookies to ensure that we give you the best experience on our "
+"website. If you continue to use this site we will assume that you are happy "
+"with it."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:212
+msgid "Accept button text"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:213
+msgid "Choose the text of the accept cookies button."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:214
+msgid "Accept"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:238
+msgid "Privacy Policy link"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:239
+msgid ""
+"Choose whether you want to show a privacy policy link and rename it as you "
+"like."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:251
+msgid "Customize the design of cookie notice bar."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:255
+#: views/admin/modules/tracking-codes/dialogs/edit.php:5
+msgid "Location"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:256
+msgid "Choose the location on your site where you want to place this cookie notice."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:278
+msgid "Button corner radius"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:279
+msgid "Choose the corner radius of cookie accept button in pixels."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:287
+msgid "Cookie button border"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:297
+msgid "Adjust the default colors combination of cookie notice as per your theme."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:302
+#: inc/modules/front-end/db-error-page.php:532
+msgid "Behaviour"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:303
+msgid ""
+"Customize various options to alter the behaviour of cookie notice as per "
+"your need."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:307
+msgid "Reloading"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:308
+msgid "Enable this if you want the page to reload after cookies are accepted."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:317
+msgid "Visibility for logged-in users"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:318
+msgid "Show cookie notice to the logged-in users."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:327
+msgid "Cookie expiry time"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:330
+msgid "1 day"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:331
+msgid "1 week"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:332
+msgid "1 month"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:333
+msgid "3 months"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:334
+msgid "6 months"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:335
+msgid "1 year"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:338
+msgid "Choose the amount of time for which cookie should be stored."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:345
+msgid "Cookie Version"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:347
+msgid ""
+"Choose a version number for the cookie. Update this to invalidate the "
+"previous cookie and force all users to view the notification again."
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:605
+msgid "Accept Cookies Button"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:609
+#: views/admin/modules/color-schemes/dialogs/edit.php:62
+#: views/admin/modules/color-schemes/dialogs/edit.php:186
+#: views/admin/modules/color-schemes/dialogs/edit.php:308
+#: views/admin/modules/color-schemes/dialogs/edit.php:406
+#: views/admin/modules/color-schemes/dialogs/edit.php:621
+msgid "Static"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:678
+#: inc/modules/login-screen/login-screen.php:2245
+#: inc/modules/login-screen/login-screen.php:2396
+#: views/admin/modules/color-schemes/dialogs/edit.php:63
+#: views/admin/modules/color-schemes/dialogs/edit.php:187
+#: views/admin/modules/color-schemes/dialogs/edit.php:309
+#: views/admin/modules/color-schemes/dialogs/edit.php:407
+#: views/admin/modules/color-schemes/dialogs/edit.php:622
+msgid "Hover"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:274
+#: inc/modules/utilities/maintenance.php:438
+msgid "We&rsquo;ll be back soon!"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:284
+msgid ""
+"We're currently experiencing technical issues &mdash; Please check back "
+"soon..."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:300
+msgid "There is a problem with the database!"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:309
+msgid "Database Error"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:437
+#: inc/modules/front-end/site-status-page.php:349
+#: inc/modules/widgets/dashboard-widgets.php:785
+msgid "Whoops! Something went wrong."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:440
+msgid "Directory %s is not writable, we are unable to create db-error.php file."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:445
+msgid "File %s is not writable, we are unable to change it."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:466
+msgid "503 Service Temporarily Unavailable"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:467
+msgid ""
+"We're currently experiencing technical issues connecting to the database. "
+"Please check back soon."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:475
+msgid ""
+"You can preview your custom error page here. Note that the preview keeps "
+"updating as you save your changes."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:492
+#: inc/modules/front-end/db-error-page.php:533
+msgid ""
+"Choose the behaviour when a visitor encounters DB Error while browsing your "
+"website."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:502
+msgid "Customize the design of each element of your DB Error screen."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:511
+#: inc/modules/front-end/site-status-page.php:417
+#: inc/modules/login-screen/login-screen.php:582
+#: inc/modules/utilities/maintenance.php:267
+msgid "Adjust the default colour combinations as per your liking."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:536
+#: views/admin/common/dialogs/test-email.php:17
+msgid "Email address"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:544
+msgid "Send alert email"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:545
+msgid "Send an alert email regarding the occurrence of db error on the website."
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:564
+msgid "Preview is not availability. Save settings first!"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:587
+msgid "Title text alignment"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:642
+msgid "Description"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:673
+#: inc/modules/utilities/maintenance.php:1039
+msgid "Overall"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:674
+#: inc/modules/utilities/maintenance.php:1040
+msgid "Page"
+msgstr ""
+
+#: inc/modules/front-end/document.php:128
+msgid "Entry Content"
+msgstr ""
+
+#: inc/modules/front-end/document.php:139
+msgid "Before Entry Content"
+msgstr ""
+
+#: inc/modules/front-end/document.php:162
+msgid "After Entry Content"
+msgstr ""
+
+#: inc/modules/front-end/document.php:180
+msgid "Shortcode [gallery]"
+msgstr ""
+
+#: inc/modules/front-end/document.php:181
+msgid ""
+"Detailed description of gallery shortcode option you can find on the Codex "
+"page: <a href=\"https://codex.wordpress.org/Gallery_Shortcode\" "
+"target=\"_blank\">Gallery Shortcode</a>."
+msgstr ""
+
+#: inc/modules/front-end/document.php:186
+msgid "Sort By"
+msgstr ""
+
+#: inc/modules/front-end/document.php:188
+#: inc/modules/front-end/document.php:206
+#: inc/modules/front-end/document.php:231
+#: inc/modules/front-end/document.php:247
+msgid "Do not change"
+msgstr ""
+
+#: inc/modules/front-end/document.php:189
+msgid "Images order set in gallery tab (WP default)"
+msgstr ""
+
+#: inc/modules/front-end/document.php:190
+msgid "Title of image"
+msgstr ""
+
+#: inc/modules/front-end/document.php:191
+msgid "Date/time"
+msgstr ""
+
+#: inc/modules/front-end/document.php:192
+msgid "Randomly"
+msgstr ""
+
+#: inc/modules/front-end/document.php:193
+msgid "ID of image"
+msgstr ""
+
+#: inc/modules/front-end/document.php:196
+msgid "Specify how to sort the display thumbnails."
+msgstr ""
+
+#: inc/modules/front-end/document.php:199
+msgid "Order"
+msgstr ""
+
+#: inc/modules/front-end/document.php:204
+msgid "Sort Order"
+msgstr ""
+
+#: inc/modules/front-end/document.php:207
+msgid "Ascendant (WP default)"
+msgstr ""
+
+#: inc/modules/front-end/document.php:208
+msgid "Descended"
+msgstr ""
+
+#: inc/modules/front-end/document.php:211
+msgid "Specify the sort order used to display thumbnails."
+msgstr ""
+
+#: inc/modules/front-end/document.php:218
+msgid "Columns"
+msgstr ""
+
+#: inc/modules/front-end/document.php:220
+msgid ""
+"Specify the number of columns. The gallery will include a break tag at the "
+"end of each row, and calculate the column width as appropriate. The default "
+"value is 3. If columns is set to 0, no row breaks will be included. "
+msgstr ""
+
+#: inc/modules/front-end/document.php:229
+msgid "Thumbnail Size"
+msgstr ""
+
+#: inc/modules/front-end/document.php:232
+msgid "Thumbnail (WP default)"
+msgstr ""
+
+#: inc/modules/front-end/document.php:233
+msgid "Medium"
+msgstr ""
+
+#: inc/modules/front-end/document.php:234
+msgid "Large"
+msgstr ""
+
+#: inc/modules/front-end/document.php:235
+msgid "Full"
+msgstr ""
+
+#: inc/modules/front-end/document.php:238
+msgid "Specify the image size to use for the thumbnail display."
+msgstr ""
+
+#: inc/modules/front-end/document.php:245
+msgid "Thumbnail Link"
+msgstr ""
+
+#: inc/modules/front-end/document.php:248
+msgid "Attachment page (WP default)"
+msgstr ""
+
+#: inc/modules/front-end/document.php:249
+msgid "Link directly to image file"
+msgstr ""
+
+#: inc/modules/front-end/document.php:250
+msgid "No link"
+msgstr ""
+
+#: inc/modules/front-end/document.php:253
+msgid "Specify where you want the image to link."
+msgstr ""
+
+#: inc/modules/front-end/document.php:262
+msgid "Item Tag"
+msgstr ""
+
+#: inc/modules/front-end/document.php:264
+msgid "The name of the HTML tag used to enclose each item in the gallery."
+msgstr ""
+
+#: inc/modules/front-end/document.php:267
+msgid "HTML"
+msgstr ""
+
+#: inc/modules/front-end/document.php:272
+msgid "Icon Tag"
+msgstr ""
+
+#: inc/modules/front-end/document.php:274
+msgid "The name of the HTML tag used to enclose each thumbnail icon in the gallery."
+msgstr ""
+
+#: inc/modules/front-end/document.php:278
+msgid "Caption Tag"
+msgstr ""
+
+#: inc/modules/front-end/document.php:280
+msgid "The name of the HTML tag used to enclose each caption."
+msgstr ""
+
+#: inc/modules/front-end/signup-blog-description.php:26
+msgid ""
+"There are no settings for this module. It simply added ability to setup "
+"site tagline during creation."
+msgstr ""
+
+#: inc/modules/front-end/signup-blog-description.php:72
+msgid "Site Tagline"
+msgstr ""
+
+#: inc/modules/front-end/signup-blog-description.php:74
+msgid ""
+"In a few words, explain what this site is about. Default will be used if "
+"left blank."
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:352
+msgid "Directory %s is not writable, we are unable to create files."
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:359
+msgid "Custom Sites Pages"
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:363
+msgid "Error"
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:378
+msgid "Modes"
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:379
+msgid ""
+"Enable the custom error pages for sites on your multisite network that have "
+"been suspended or deleted."
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:383
+msgid "Suspended/Archived"
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:384
+msgid ""
+"Enable a custom error page for sites which have been suspended or archived "
+"on your network."
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:393
+#: inc/modules/front-end/site-status-page.php:471
+msgid "Deleted"
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:394
+msgid ""
+"Enable a custom error page for sites which have been deleted on your "
+"network."
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:405
+#: inc/modules/front-end/site-status-page.php:411
+msgid "Adjust the default content of your error pages."
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:440
+msgid "This site has been archived or suspended."
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:455
+msgid "Archived/Suspended"
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:461
+#: inc/modules/front-end/site-status-page.php:477
+#: inc/modules/utilities/maintenance.php:797
+msgid "Content (optional)"
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:462
+#: inc/modules/front-end/site-status-page.php:478
+msgid "You can write description for the page here…"
+msgstr ""
+
+#: inc/modules/front-end/site-status-page.php:469
+msgid "This site has been archived or deleted."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:545
+msgid ""
+"Customize one of our pre-designed templates, or start styling login page "
+"from scratch."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:555
+msgid "Adjust the default content of the login screen."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:568
+msgid "Adjust the default design of the login screen."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:595
+msgid "Redirection"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:596
+msgid ""
+"Choose where do you want to redirect users after the successful login or "
+"logout."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:600
+msgid "After login redirect URL"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:605
+#: inc/modules/login-screen/login-screen.php:627
+msgid ""
+" Branda automatically adds http:// to the beginning of the URL if no "
+"protocol is specified."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:611
+msgid "Login"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:612
+msgid "Choose the URL where you want the users to redirect after successful login."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:622
+msgid "After logout redirect URL"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:633
+msgid "Logout"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:634
+msgid "Choose the URL where you want the users to redirect after successful logout."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:813
+msgid "Start from scratch"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:848
+msgid "Failed to load \"%s\" template configuration!"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1281
+msgid "Site Default"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1300
+msgid "Use"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1305
+msgid "Language"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1335
+msgid "Username input label"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1336
+msgid "Username or Email Address"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1339
+#: inc/modules/login-screen/login-screen.php:1571
+#: inc/modules/login-screen/login-screen.php:2080
+#: inc/modules/login-screen/login-screen.php:2641
+msgid "Form"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1347
+msgid "Password input label"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1352
+msgid "Login button text"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1353
+msgid "Log In"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1356
+msgid "Default value"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1359
+msgid "Unchecked"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1360
+msgid "Checked"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1369
+msgid "\"Remember Me\" checkbox"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1378
+msgid "Password field on register screen"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1420
+msgid "<strong>ERROR</strong>: Invalid username."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1422
+#: inc/modules/login-screen/login-screen.php:1427
+msgid "Lost your password?"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1425
+msgid ""
+"<strong>ERROR</strong>: The password you entered for the username %s is "
+"incorrect."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1432
+msgid "Empty username"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1433
+msgid "<strong>ERROR</strong>: The username field is empty."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1447
+msgid "Invalid username"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1448
+msgid ""
+"Use \"<strong>{WP_LOSTPASSWORD_URL}</strong>\" placeholder to replace it by "
+"WordPress."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1453
+msgid "Empty password"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1454
+msgid "<strong>ERROR</strong>: The password field is empty."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1458
+msgid "Invalid password"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1459
+msgid ""
+"Use \"<strong>{WP_LOSTPASSWORD_URL}</strong>\", \"USERNAME\" placeholder to "
+"replace it by WordPress."
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1494
+#: inc/modules/login-screen/login-screen.php:2310
+#: inc/modules/login-screen/login-screen.php:2343
+#: inc/modules/login-screen/login-screen.php:2368
+#: inc/modules/login-screen/login-screen.php:2393
+msgid "\"Register | Lost your password?\" links"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1502
+#: inc/modules/login-screen/login-screen.php:1888
+#: inc/modules/login-screen/login-screen.php:2314
+msgid "Links Below Form"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1513
+msgid "\"Back to\" link"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1522
+msgid "\"Privacy Policy\" link"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1565
+#: inc/modules/login-screen/login-screen.php:1756
+#: inc/modules/login-screen/login-screen.php:1772
+msgid "Flat"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1566
+msgid "Shadowed Box"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1582
+msgid "X offset"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1595
+msgid "Y offset"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1604
+msgid "Blur"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1613
+msgid "Spread"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1632
+msgid "Button radius corners"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1648
+#: inc/modules/login-screen/login-screen.php:1967
+msgid "Padding"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1754
+msgid "Shadow"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1757
+msgid "Shadowed button"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1762
+msgid "Button"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1770
+msgid "Text shadow"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1773
+msgid "Shadowed text"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1801
+msgid "Image fitting"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1804
+msgid "Fill"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1879
+msgid "Alignment"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1931
+#: inc/modules/login-screen/login-screen.php:2453
+msgid "Form Canvas"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:1954
+msgid "Device Height"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2076
+msgid "Input label"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2093
+#: inc/modules/login-screen/login-screen.php:2162
+#: inc/modules/login-screen/login-screen.php:2202
+#: inc/modules/login-screen/login-screen.php:2242
+msgid "Input color"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2098
+#: inc/modules/login-screen/login-screen.php:2171
+#: inc/modules/login-screen/login-screen.php:2211
+#: inc/modules/login-screen/login-screen.php:2251
+msgid "Input border"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2103
+#: inc/modules/login-screen/login-screen.php:2176
+#: inc/modules/login-screen/login-screen.php:2216
+#: inc/modules/login-screen/login-screen.php:2256
+msgid "Input background"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2108
+#: inc/modules/login-screen/login-screen.php:2181
+#: inc/modules/login-screen/login-screen.php:2221
+#: inc/modules/login-screen/login-screen.php:2261
+msgid "Button label"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2113
+#: inc/modules/login-screen/login-screen.php:2186
+#: inc/modules/login-screen/login-screen.php:2226
+#: inc/modules/login-screen/login-screen.php:2266
+msgid "Button border"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2118
+#: inc/modules/login-screen/login-screen.php:2191
+#: inc/modules/login-screen/login-screen.php:2231
+#: inc/modules/login-screen/login-screen.php:2271
+msgid "Button background"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2123
+msgid "Form background"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2131
+msgid "Form border"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2139
+msgid "Form box shadow"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2148
+msgid "Form container background"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2327
+#: inc/modules/login-screen/login-screen.php:2352
+#: inc/modules/login-screen/login-screen.php:2377
+#: inc/modules/login-screen/login-screen.php:2402
+msgid "“Back to Website” link"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2580
+msgid "You can now start from scratch!"
+msgstr ""
+
+#: inc/modules/login-screen/login-screen.php:2590
+msgid "\"%s\" theme configuration was successfully loaded!"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:105
+msgid "User Registration"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:106
+msgid ""
+"Choose whether anyone can register to your site or you want to restrict "
+"registration with a signup code only."
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:117
+#: inc/modules/login-screen/signup-code.php:176
+msgid "Field Description"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:119
+#: inc/modules/login-screen/signup-code.php:131
+#: inc/modules/login-screen/signup-code.php:178
+#: inc/modules/login-screen/signup-code.php:190
+msgid "This will appear under the input field on the signup form."
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:122
+msgid "You need to enter the code to create a user."
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:134
+msgid "User create code is invalid."
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:142
+#: inc/modules/login-screen/signup-code.php:201
+msgid "Anyone"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:143
+#: inc/modules/login-screen/signup-code.php:202
+msgid "With Signup Code"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:151
+msgid "Blog Registration"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:152
+msgid ""
+"Choose if anyone can register a blog to your site or you want to restrict "
+"registration with a signup code only."
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:164
+msgid "Field Label"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:166
+msgid "This label will appear on the signup form with the signup code field."
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:169
+#: inc/modules/login-screen/signup-code.php:531
+msgid "Blog Create Code"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:181
+msgid "You need to enter the code to create a blog."
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:193
+msgid "Blog create code is invalid."
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:364
+msgid "User Create Code"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:567
+#: inc/modules/login-screen/signup-code.php:639
+msgid "Choose a user role"
+msgstr ""
+
+#: inc/modules/login-screen/signup-password.php:80
+msgid "Passwords do not match."
+msgstr ""
+
+#: inc/modules/login-screen/signup-password.php:187
+msgid ""
+"Howdy USERNAME,\n"
+"\n"
+"Your new account is set up.\n"
+"\n"
+"You can log in with the following information:\n"
+"Username: USERNAME\n"
+"Password: PASSWORD\n"
+"LOGINLINK\n"
+"\n"
+"Thanks!\n"
+"\n"
+"--The Team @ SITE_NAME"
+msgstr ""
+
+#: inc/modules/login-screen/signup-password.php:203
+msgid ""
+"Howdy USERNAME,\n"
+"\n"
+"Your new account is set up.\n"
+"\n"
+"You can log in with the following information:\n"
+"Username: USERNAME\n"
+"\n"
+"LOGINLINK\n"
+"\n"
+"Thanks!\n"
+"\n"
+"--The Team @ SITE_NAME"
+msgstr ""
+
+#: inc/modules/utilities/accessibility.php:57
+msgid ""
+"Enable support for any accessibility enhancements available in the plugin "
+"interface."
+msgstr ""
+
+#: inc/modules/utilities/accessibility.php:60
+msgid "High Contrast Mode"
+msgstr ""
+
+#: inc/modules/utilities/accessibility.php:61
+msgid ""
+"Increase the visibility and accessibility of the elements and components of "
+"the plugin to meet WCAG AAA requirements."
+msgstr ""
+
+#: inc/modules/utilities/accessibility.php:64
+msgid "Enable high contrast mode"
+msgstr ""
+
+#: inc/modules/utilities/accessibility.php:112
+#: inc/modules/utilities/data.php:189
+msgid "Save Settings"
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:183
+msgid "You can choose to disable comments globally on your website."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:185
+msgid "You can choose to disable comments globally on your network."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:201
+msgid "Post Type"
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:202
+msgid "Choose post type to disable comments on."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:205
+msgid "Certain Post Types"
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:215
+#: inc/modules/utilities/comments-control.php:253
+msgid ""
+"Type one IP address per line. Both IPv4 and IPv6 are supported. IP ranges "
+"are also accepted in format xxx.xxx.xxx.xxx-xxx.xxx.xxx.xxx."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:218
+msgid "Enter your IP blacklist here..."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:224
+msgid "Disable comments for"
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:225
+msgid ""
+"You can choose to disable comments for everyone or disable comments only "
+"for IPs mentioned in an IP Blacklist."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:227
+msgid "Everyone"
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:228
+msgid "IP Blacklist"
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:252
+msgid "IP Whitelist"
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:255
+msgid ""
+"IPs for which comments will not be throttled. One IP per line or comma "
+"separated."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:258
+msgid "Enter your IP whitelist here..."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:327
+#: inc/modules/utilities/comments-control.php:365
+msgid "Comments are closed."
+msgstr ""
+
+#: inc/modules/utilities/comments-control.php:460
+msgid ""
+"The <em>Comments Control</em> module is active, but is not properly "
+"configured. Visit the <a href=\"%s\">configuration page</a> to choose which "
+"post types to disable comments on."
+msgstr ""
+
+#: inc/modules/utilities/data.php:81
+msgid "Uninstallation"
+msgstr ""
+
+#: inc/modules/utilities/data.php:82
+msgid ""
+"When you uninstall this plugin, what do you want to do with your settings "
+"and stored data?"
+msgstr ""
+
+#: inc/modules/utilities/data.php:86
+msgid "Choose whether to save your settings for next time, or reset them."
+msgstr ""
+
+#: inc/modules/utilities/data.php:89
+msgid "Preserve"
+msgstr ""
+
+#: inc/modules/utilities/data.php:96
+msgid "Choose whether to keep or remove log data."
+msgstr ""
+
+#: inc/modules/utilities/data.php:99
+msgid "Keep"
+msgstr ""
+
+#: inc/modules/utilities/data.php:100
+msgid "Remove"
+msgstr ""
+
+#: inc/modules/utilities/data.php:104
+msgid ""
+"This option only affects the main site’s data. If you want to delete data "
+"of the subsites before uninstalling the plugin, please use the setting "
+"below."
+msgstr ""
+
+#: inc/modules/utilities/data.php:111
+msgid "Manage the data stored in each subsite here."
+msgstr ""
+
+#: inc/modules/utilities/data.php:114
+msgid "Delete Data"
+msgstr ""
+
+#: inc/modules/utilities/data.php:116
+#: views/admin/modules/data/dialogs/confirm-delete-subsites.php:6
+msgid "Delete Subsites Data"
+msgstr ""
+
+#: inc/modules/utilities/data.php:118
+#: views/admin/modules/data/progress-bar.php:1
+msgid ""
+"Want to delete the data of all the subsites? Use this option to manually "
+"delete data from all the subsites."
+msgstr ""
+
+#: inc/modules/utilities/data.php:128
+#: views/admin/modules/data/dialogs/confirm-reset.php:6
+msgid "Reset Settings"
+msgstr ""
+
+#: inc/modules/utilities/data.php:129
+msgid ""
+"Needing to start fresh? Use this button to roll back to the default "
+"settings."
+msgstr ""
+
+#: inc/modules/utilities/data.php:137
+msgid ""
+"Note: This will instantly revert all settings to their default states but "
+"will leave your data intact."
+msgstr ""
+
+#: inc/modules/utilities/data.php:275
+msgid "Ups... Missing configuration..."
+msgstr ""
+
+#: inc/modules/utilities/data.php:389
+msgid "Successfully deleted data from all the subsites."
+msgstr ""
+
+#: inc/modules/utilities/data.php:420
+msgid "Deleting data from %s"
+msgstr ""
+
+#: inc/modules/utilities/export.php:213
+msgid ""
+"Export your Branda configurations into a JSON file to use it on another "
+"website."
+msgstr ""
+
+#: inc/modules/utilities/export.php:217
+msgid "Include debug info"
+msgstr ""
+
+#: inc/modules/utilities/export.php:219
+msgid ""
+"Checking this will include debug information of the installed themes and "
+"plugins in the export file."
+msgstr ""
+
+#: inc/modules/utilities/images.php:178
+#: inc/modules/utilities/maintenance.php:189
+#: inc/modules/utilities/text-replacement.php:307
+#: inc/modules/utilities/tracking-codes.php:672
+#: inc/modules/widgets/dashboard-feeds.php:413
+#: views/admin/modules/admin-bar/dialogs/edit.php:34
+#: views/admin/modules/admin-help-content/dialogs/edit.php:38
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:51
+msgid "Add"
+msgstr ""
+
+#: inc/modules/utilities/images.php:194
+msgid ""
+"Choose whether the favicon defined here should override the site icon "
+"defined in <b>Appearance &gt; Customize</b>."
+msgstr ""
+
+#: inc/modules/utilities/images.php:206
+msgid ""
+"Choose whether the favicon defined here should override the site icon "
+"defined in <b><a href=\"%s\">Appearance</a> &gt; <a "
+"href=\"%s\">Customize</a></b>."
+msgstr ""
+
+#: inc/modules/utilities/images.php:216 inc/modules/utilities/images.php:220
+#: inc/modules/utilities/images.php:462
+msgid "Favicon"
+msgstr ""
+
+#: inc/modules/utilities/images.php:217
+msgid "You can override the favicons of all the websites on your network."
+msgstr ""
+
+#: inc/modules/utilities/images.php:217
+msgid ""
+"You can override the favicon of your website defined in <strong>Appearance "
+"&gt; Customization</strong>."
+msgstr ""
+
+#: inc/modules/utilities/images.php:224
+msgid ""
+"Override the favicon of your main site here. Preferred size of favicon is "
+"32x32px."
+msgstr ""
+
+#: inc/modules/utilities/images.php:224
+msgid "Preferred size of favicon is 32x32px."
+msgstr ""
+
+#: inc/modules/utilities/images.php:237
+#: inc/modules/utilities/maintenance.php:219
+msgid "Search the subsite"
+msgstr ""
+
+#: inc/modules/utilities/images.php:258
+msgid ""
+"Choose whether to use the main site’s favicon as a default favicon for all "
+"the subsites or add a custom favicon for each subsite."
+msgstr ""
+
+#: inc/modules/utilities/images.php:262
+msgid "Main Site’s Favicon"
+msgstr ""
+
+#: inc/modules/utilities/images.php:271
+msgid "Override customizer icon"
+msgstr ""
+
+#: inc/modules/utilities/images.php:273
+msgid "Leave it"
+msgstr ""
+
+#: inc/modules/utilities/images.php:274
+msgid "Override"
+msgstr ""
+
+#: inc/modules/utilities/images.php:285
+msgid "Image Filesize Limit"
+msgstr ""
+
+#: inc/modules/utilities/images.php:286
+msgid ""
+"Override the default WordPress upload limit of %dMb for different user "
+"roles."
+msgstr ""
+
+#: inc/modules/utilities/images.php:289
+msgid "Override upload limit"
+msgstr ""
+
+#: inc/modules/utilities/images.php:301
+msgid "Set your own limit on the upload size of images for different user roles."
+msgstr ""
+
+#: inc/modules/utilities/images.php:478
+msgid "Change"
+msgstr ""
+
+#: inc/modules/utilities/images.php:480
+msgid "Set"
+msgstr ""
+
+#: inc/modules/utilities/images.php:582
+msgid ""
+"You haven't added any subsite to override the favicon. Search the subsite "
+"click on add."
+msgstr ""
+
+#: inc/modules/utilities/import.php:138
+msgid "Ultimate Branding"
+msgstr ""
+
+#: inc/modules/utilities/import.php:277
+msgid "%s module imported and configured successfully."
+msgid_plural "%s modules imported and configured successfully."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/modules/utilities/import.php:425
+msgid "Choose a JSON (.json) file to import the configurations."
+msgstr ""
+
+#: inc/modules/utilities/import.php:611
+msgid "Branda failed to import a image."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:184
+msgid "Choose the website mode for your website."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:186
+msgid ""
+"Choose the website mode as per your needs and then choose websites on your "
+"network to apply this mode."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:196
+msgid "Configuration"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:201
+msgid "Mode"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:204
+#: inc/modules/utilities/maintenance.php:441
+msgid "Coming Soon"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:205
+msgid "Maintenance"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:208
+msgid "Choose a mode for your website."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:238
+msgid "Apply on"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:239
+msgid "Choose the sites on your network to apply this mode."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:241
+msgid "All sites"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:242
+msgid "Selected sites"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:255
+msgid "Adjust the default content of your info page."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:261
+msgid "Adjust the default design of the info page."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:322
+msgid "Select a site"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:439
+msgid ""
+"Sorry for the inconvenience but we&rsquo;re performing some maintenance at "
+"the moment. We&rsquo;ll be back online shortly!"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:442
+msgid "Stay tuned!"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:593
+msgid "Days"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:594
+msgid "Hours"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:596
+msgid "Seconds"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:661
+msgid "Only authenticated users can access the REST API."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:699
+msgid "We are back now!"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:824
+msgid "Till Date"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:826
+msgid "Choose the date until the selected website mode will be applied."
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:829
+msgid "Pick a date"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:838
+#: inc/modules/utilities/maintenance.php:893
+msgid "Countdown Timer"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:843
+msgid "Till Time"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:915
+msgid "Final Countdown"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:916
+msgid "FlipClock"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:917
+msgid "Raw"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:1041
+msgid "Clock"
+msgstr ""
+
+#: inc/modules/utilities/site-generator.php:64
+msgid "Site Generator Info"
+msgstr ""
+
+#: inc/modules/utilities/site-generator.php:65
+msgid ""
+"Change the default generator information shown in the page source of your "
+"website."
+msgstr ""
+
+#: inc/modules/utilities/site-generator.php:75
+msgid "Version"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement-list-table.php:38
+msgid "Replaced with"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement-list-table.php:122
+msgid "No text replacement added yet!"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement-list-table.php:123
+msgid ""
+"You haven’t defined any text replacement rule yet. Click on the “+ Add "
+"Rule” button to add one."
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:257
+msgid "Add Rule"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:307
+#: inc/modules/utilities/tracking-codes.php:672
+#: inc/modules/widgets/dashboard-feeds.php:461
+#: views/admin/modules/admin-bar/dialogs/edit.php:35
+#: views/admin/modules/admin-help-content/dialogs/edit.php:39
+#: views/admin/modules/color-schemes/dialogs/edit.php:877
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:52
+msgid "Update"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:319
+msgid "Add Text Replacement Rule"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:319
+msgid "Edit Text Replacement Rule"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:338
+msgid ""
+"Enter the text domain to replace the text for specific plugin/theme only. "
+"For example, the text domain of Branda is “ub”."
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:341
+msgid "https://codex.wordpress.org/I18n_for_WordPress_Developers#Text_Domains"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:342
+msgid "Click here to read more on text domains."
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:349
+msgid "Find text"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:350
+msgid "E.g. Posts"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:355
+msgid "Replace with"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:356
+msgid "E.g. Blog Articles"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:361
+msgid "Text domain (optional)"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:362
+msgid " E.g. ub"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:370
+msgid "Scope"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:373
+msgid "All Pages"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:374
+msgid "Admin Pages"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:375
+msgid "Front-end Pages"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:381
+msgid "Case matching"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:384
+msgid "Case Insensitive"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:385
+#: views/admin/modules/signup-code/row-blog.php:10
+#: views/admin/modules/signup-code/row-user.php:25
+msgid "Case Sensitive"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:391
+msgid "Links text"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:394
+msgid "Include"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:395
+msgid "Exclude"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:399
+msgid "Choose whether to replace the text within the &lt;a&gt; tag."
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:506
+#: inc/modules/widgets/dashboard-feeds.php:549
+msgid "Selected feeds was deleted!"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:519
+msgid "Delete Text Replacement Rule"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:520
+msgid "Are you sure you wish to permanently delete this text replacement rule?"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:522
+msgid "Delete Text Replacement Rules"
+msgstr ""
+
+#: inc/modules/utilities/text-replacement.php:523
+msgid "Are you sure you wish to permanently delete selected text replacement rules?"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:25
+msgid "In the HEAD tag."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:26
+msgid "In the BODY tag."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:27
+msgid "Before &lt;/BODY&gt; tag."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:35
+msgid "Enabled"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:37
+msgid "Disabled"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:45
+#: views/admin/dashboard/modules/one-row.php:2
+#: views/admin/modules/tracking-codes/dialogs/edit.php:13
+msgid "Inactive"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:50
+msgid "[not set]"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:59
+#: views/admin/dashboard/modules/frequently-used.php:22
+#: views/admin/dashboard/modules/group.php:19
+#: views/admin/modules/tracking-codes/dialogs/edit.php:10
+msgid "Status"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:60
+msgid "Insert location"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:61
+msgid "Location Filter"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:79
+msgid "Duplicate"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:105
+msgid "Tracking Codes: %s was activated."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:114
+msgid "Tracking Codes: %s was deactivated."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:121
+msgid " (copy)"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:128
+msgid "Tracking Codes: %s was duplicated. New codes are inactive."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:137
+msgid "Tracking Codes: %s was deleted."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:292
+msgid "No tracking code inserted yet!"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes-list-table.php:293
+msgid ""
+"You haven’t inserted any tracking code yet. Click on the “+ insert code” "
+"button to add one."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:461
+msgid "Any Attachment Page"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:462
+msgid "Any Archive Page"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:463
+msgid "Sticky Post"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:464
+msgid "Any Entry Page"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:465
+msgid "Single Page"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:466
+msgid "Single Post"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:467
+msgid "Front Page"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:468
+msgid "Home Page"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:469
+msgid "Blog Page"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:470
+msgid "Search Results"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:472
+msgid "Any Author Archive"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:484
+#: inc/modules/utilities/tracking-codes.php:487
+msgid "%s Archives"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:634
+msgid "Only logged users"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:635
+msgid "Only non logged users"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:641
+msgid "Super Admin"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:684
+msgid "Add Tracking Code"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:684
+msgid "Edit Tracking Code"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:731
+msgid "Tracking Code %s was updated."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:733
+msgid "Tracking Code %s was created."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:772
+#: inc/modules/utilities/tracking-codes.php:809
+msgid "Tracking Code %s was deleted."
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:851
+msgid "Delete Tracking Code"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:852
+msgid "Are you sure you wish to permanently delete this tracking code?"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:854
+msgid "Delete Tracking Codes"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:855
+msgid "Are you sure you wish to permanently delete selected tracking codes?"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds-table.php:39
+#: inc/modules/widgets/dashboard-feeds.php:298
+msgid "Feed URL"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds-table.php:78
+msgid "Show feed details"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds-table.php:121
+msgid "Edit"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds-table.php:129
+#: inc/modules/widgets/dashboard-feeds.php:678
+msgid "Delete Dashboard Feed"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds-table.php:130
+#: inc/modules/widgets/dashboard-feeds.php:679
+msgid "Are you sure you wish to permanently delete this dashboard feed?"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds-table.php:333
+msgid "No feed added yet!"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds-table.php:334
+msgid ""
+"You haven’t added any dashboard feed yet. Click on the “+ Add Feed” button "
+"to add one."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds-widget.php:70
+msgid "<strong>Feed Error</strong>: %s"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:238
+msgid "Add Feed"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:258
+msgid "Try to fetch feeds data, please wait..."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:262
+msgid "No feed found, try to another site or enter data manually."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:274
+msgid "E.g. http://www.example.com"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:291
+msgid "Feed title (optional)"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:292
+msgid "(options)"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:293
+msgid "E.g. Daily Jobs Feed."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:299
+msgid "E.g. http://www.example.com/feed"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:306
+msgid "Display"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:310
+msgid "Count"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:311
+msgid "The number of feed items you’d like to display."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:317
+msgid "Choose whether to show full content or only the excerpt."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:320
+msgid "Excerpt"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:321
+msgid "Full Content"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:327
+msgid "Author"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:328
+msgid "Show the Author of the feed item if available or not."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:338
+msgid "Date"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:339
+msgid "Show the creation date of feed item or not."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:354
+#: inc/modules/widgets/dashboard-widgets.php:688
+#: views/admin/modules/dashboard-widgets/tmpl/panes/visibility.php:3
+msgid "Site Dashboard"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:355
+msgid "Choose whether to show this feed on site dashboard or not."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:365
+#: inc/modules/widgets/dashboard-widgets.php:699
+#: views/admin/modules/dashboard-widgets/tmpl/panes/visibility.php:15
+msgid "Network Dashboard"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:366
+msgid "Choose whether to show this feed on the network dashboard or not."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:422
+msgid "Add Dashboard Feed"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:472
+msgid "Edit Dashboard Feed"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:510
+msgid "Selected feed does not exists!"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:681
+msgid "Delete Dashboard Feeds"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-feeds.php:682
+msgid "Are you sure you wish to permanently delete selected dashboard feeds?"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:209
+msgid "Widget Visibility"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:210
+msgid ""
+"Choose the widgets which you want to remove from all the dashboards on your "
+"network."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:219
+msgid "Dashboard Welcome"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:220
+msgid ""
+"Customize the default welcome message displayed in the dashboard welcome "
+"wizard."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:224
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:225
+msgid ""
+"Choose whether you want to allow shortcode parsing within the welcome "
+"message or not. Be careful it can break compatibility with themes with UI "
+"builders."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:227
+msgid "Parse Shortocodes"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:228
+msgid "Stop Parsing"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:235
+msgid "Choose the welcome message for the widget."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:236
+msgid "Add your custom welcome message here…"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:242
+msgid "Text Widgets"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:243
+msgid "Add text widgets to the WordPress dashboard with your custom content."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:256
+msgid ""
+"If you do not see any widget here, please visit Dashboard page and come "
+"back on this page."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:263
+msgid "Reset list"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:401
+#: inc/modules/widgets/dashboard-widgets.php:415
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:7
+msgid "Add Text Widget"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:463
+msgid "Delete Text Widget"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:464
+msgid "Are you sure you wish to permanently delete this text widget?"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:494
+msgid "Dashboard Widget was created."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:501
+msgid "Dashboard Widget was updated."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:652
+msgid "Dashboard Widget was deleted."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:656
+msgid "Selected widget does not exists!"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:672
+msgid "Widget Title"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:676
+msgid "Widget Content"
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:689
+msgid "Choose whether to show this text widget on site dashboard or not."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:700
+#: views/admin/modules/dashboard-widgets/tmpl/panes/visibility.php:16
+msgid "Choose whether to show this text widget on the network dashboard or not."
+msgstr ""
+
+#: inc/modules/widgets/dashboard-widgets.php:754
+msgid "Selected item was successfully restored!"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:30
+msgid "Rebranding"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:31
+msgid ""
+"Meta widget has been rebranded with your site link instead of the default "
+"“WordPress.org” link."
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:54
+msgid "Log in/out, admin, feed and powered-by links"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:55
+#: inc/modules/widgets/meta-widget.php:60
+msgid "Meta"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:78
+msgid "Syndicate this site using RSS 2.0"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:78
+msgid "Entries <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:79
+msgid "The latest comments to all posts in RSS"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:79
+msgid "Comments <abbr title=\"Really Simple Syndication\">RSS</abbr>"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:80
+msgid "Powered by %s"
+msgstr ""
+
+#: inc/modules/widgets/meta-widget.php:97
+msgid "Title:"
+msgstr ""
+
+#: views/admin/common/copy.php:13
+msgid "Copy Settings"
+msgstr ""
+
+#: views/admin/common/copy.php:19
+msgid ""
+"Choose the module you want to copy settings from and specify the sections "
+"to copy the setting of."
+msgstr ""
+
+#: views/admin/common/copy.php:21
+msgid "Copy settings from"
+msgstr ""
+
+#: views/admin/common/copy.php:23
+msgid "Choose module"
+msgstr ""
+
+#: views/admin/common/dialogs/reset-module.php:6
+msgid "Reset Module"
+msgstr ""
+
+#: views/admin/common/dialogs/reset-module.php:12
+msgid "Are you sure you wish to reset %s module to default state?"
+msgstr ""
+
+#: views/admin/common/dialogs/reset.php:6
+msgid "Reset Section"
+msgstr ""
+
+#: views/admin/common/dialogs/reset.php:10
+msgid "Are you sure you wish to reset %s section to default state?"
+msgstr ""
+
+#: views/admin/common/dialogs/test-email.php:9
+msgid "Test Email"
+msgstr ""
+
+#: views/admin/common/dialogs/test-email.php:19
+msgid "Test email can not be empty!"
+msgstr ""
+
+#: views/admin/common/dialogs/test-email.php:28
+msgid "Send"
+msgstr ""
+
+#: views/admin/common/footer.php:11 views/admin/common/footer.php:30
+msgid "The Hub"
+msgstr ""
+
+#: views/admin/common/footer.php:12
+#: views/admin/modules/color-schemes/dialogs/edit.php:848
+msgid "Plugins"
+msgstr ""
+
+#: views/admin/common/footer.php:13 views/admin/common/footer.php:28
+msgid "Roadmap"
+msgstr ""
+
+#: views/admin/common/footer.php:14
+msgid "Support"
+msgstr ""
+
+#: views/admin/common/footer.php:15 views/admin/common/footer.php:29
+msgid "Docs"
+msgstr ""
+
+#: views/admin/common/footer.php:16
+msgid "Community"
+msgstr ""
+
+#: views/admin/common/footer.php:17
+msgid "Academy"
+msgstr ""
+
+#: views/admin/common/footer.php:18 views/admin/common/footer.php:31
+msgid "Terms of Service"
+msgstr ""
+
+#: views/admin/common/footer.php:26
+msgid "Free Plugins"
+msgstr ""
+
+#: views/admin/common/footer.php:27
+msgid "Membership"
+msgstr ""
+
+#: views/admin/common/header.php:5
+msgid "View Documentation"
+msgstr ""
+
+#: views/admin/common/header.php:14
+msgid "Documentation"
+msgstr ""
+
+#: views/admin/common/manage-all-modules.php:6
+msgid "Manage All Modules"
+msgstr ""
+
+#: views/admin/common/manage-all-modules.php:7
+msgid ""
+"Select the modules which should be active. The checked modules are already "
+"active. You can use this section to activate/deactivate modules in bulk "
+"instead of doing so one by one."
+msgstr ""
+
+#: views/admin/common/module-header.php:9
+msgid "Unsaved changes"
+msgstr ""
+
+#: views/admin/common/module-header.php:13
+msgid "Saved"
+msgstr ""
+
+#: views/admin/common/no-module.php:10
+msgid "Unknown module"
+msgstr ""
+
+#: views/admin/common/no-module.php:14
+msgid "Selected module does not exists or is not available."
+msgstr ""
+
+#: views/admin/common/options/file.php:3
+msgid "Upload file"
+msgstr ""
+
+#: views/admin/common/options/file.php:10
+msgid "Whoops, only .json filetypes are allowed."
+msgstr ""
+
+#: views/admin/common/options/focal.php:7
+msgid "This text is displayed if your browser does not support HTML5 Canvas."
+msgstr ""
+
+#: views/admin/common/options/focal.php:11
+msgid "Image position:"
+msgstr ""
+
+#: views/admin/common/options/social-media-row.php:16
+msgid "Type your profile URL here"
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:3
+msgid "Check out our other free wordpress.org plugins!"
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:12
+msgid "Smush Image Compression and Optimization"
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:13
+msgid ""
+"Resize, optimize and compress all of your images with the incredibly "
+"powerful and award-winning, 100% free WordPress image optimizer."
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:17
+#: views/admin/dashboard/footer-free.php:32
+#: views/admin/dashboard/footer-free.php:47
+msgid "View features"
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:27
+msgid "Defender Security, Monitoring, and Hack Protection"
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:28
+msgid ""
+"Security Tweaks & Recommendations, File & Malware Scanning, Login & 404 "
+"Lockout Protection, Two-Factor Authentication & more."
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:42
+msgid "SmartCrawl Search Engine Optimization"
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:43
+msgid ""
+"Customize Titles & Meta Data, OpenGraph, Twitter & Pinterest Support, "
+"Auto-Keyword Linking, SEO & Readability Analysis, Sitemaps, URL Crawler & "
+"more."
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:57
+msgid "WPMU DEV - Your WordPress Toolkit"
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:59
+msgid ""
+"Pretty much everything you need for developing and managing WordPress based "
+"websites, and then some."
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:64
+msgid "Learn more"
+msgstr ""
+
+#: views/admin/dashboard/footer-free.php:70
+msgid "Try pro features for free!"
+msgstr ""
+
+#: views/admin/dashboard/help.php:1
+msgid "Branda Dashboard"
+msgstr ""
+
+#: views/admin/dashboard/help.php:3
+msgid ""
+"The Branda Dashboard allows you to decide which branding modules you wish "
+"to have enabled across your network."
+msgstr ""
+
+#: views/admin/dashboard/help.php:6
+msgid ""
+"To enable a module, simply click on the Enable link next to the modules "
+"name. The settings for that module can then be controlled in proper group."
+msgstr ""
+
+#: views/admin/dashboard/help.php:8
+msgid "Follow the steps below to get started."
+msgstr ""
+
+#: views/admin/dashboard/help.php:11
+msgid ""
+"Choose which modules you want to use from the list on the right hand side "
+"of this page and click the <strong>Enable</strong> link next to each one."
+msgstr ""
+
+#: views/admin/dashboard/help.php:15
+msgid ""
+"Click on the <strong>Save Changes</strong> button once you have completed "
+"the information on a tab to save the settings, before moving on to the next "
+"tab."
+msgstr ""
+
+#: views/admin/dashboard/modules/frequently-used.php:3
+msgid "Frequently Used"
+msgstr ""
+
+#: views/admin/dashboard/modules/frequently-used.php:6
+msgid "You can find your top 5 frequently used modules here."
+msgstr ""
+
+#: views/admin/dashboard/modules/frequently-used.php:13
+msgid ""
+"We don't have enough data at the moment. As you begin interacting with the "
+"plugin, we'll start collecting data and show your frequently used modules "
+"here."
+msgstr ""
+
+#: views/admin/dashboard/modules/frequently-used.php:21
+#: views/admin/dashboard/modules/group.php:18
+#: views/admin/dashboard/modules/import-export.php:18
+msgid "Module"
+msgstr ""
+
+#: views/admin/dashboard/modules/import-export-row.php:7
+msgid "Never"
+msgstr ""
+
+#: views/admin/dashboard/modules/import-export-row.php:19
+#: views/admin/dashboard/modules/one-row.php:18
+msgid "Edit Module"
+msgstr ""
+
+#: views/admin/dashboard/modules/import-export.php:9
+msgid "Import/Export"
+msgstr ""
+
+#: views/admin/dashboard/modules/import-export.php:19
+msgid "Last Used"
+msgstr ""
+
+#: views/admin/dashboard/welcome.php:6
+msgid "Welcome to Branda"
+msgstr ""
+
+#: views/admin/dashboard/welcome.php:12
+msgid ""
+"Let’s get you started by activating the modules you want to use. You can "
+"always activate/deactivate modules later."
+msgstr ""
+
+#: views/admin/dashboard/widget-modules.php:45
+msgid "We couldn't find any modules matching your search. Perhaps try again?"
+msgstr ""
+
+#: views/admin/dashboard/widget-summary.php:6
+msgid "Active Module"
+msgid_plural "Active Modules"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/admin/dashboard/widget-summary.php:8
+msgid "Search module..."
+msgstr ""
+
+#: views/admin/dashboard/widget-summary.php:16
+msgid "Total Modules"
+msgstr ""
+
+#: views/admin/dashboard/widget-summary.php:20
+msgid "Recently Activated"
+msgstr ""
+
+#: views/admin/dashboard/widget-summary.php:24
+msgid "Recently Deactivated"
+msgstr ""
+
+#: views/admin/modules/admin-bar/dashicons.php:22
+msgid "Type to search"
+msgstr ""
+
+#: views/admin/modules/admin-bar/dashicons.php:37
+msgid "Selected"
+msgstr ""
+
+#: views/admin/modules/admin-bar/dashicons.php:38
+msgid "Clear"
+msgstr ""
+
+#: views/admin/modules/admin-bar/dialogs/edit.php:7
+msgid "Add Custom Menu Item"
+msgstr ""
+
+#: views/admin/modules/admin-bar/dialogs/edit.php:8
+msgid "Edit Custom Menu Item"
+msgstr ""
+
+#: views/admin/modules/admin-bar/help.php:3
+msgid ""
+"This module allows you to remove some of the default menu items from the "
+"Admin Bar and add / edit the menu items that are shown in the leftmost menu "
+"on the Admin Bar (the one with the WordPress W on it)."
+msgstr ""
+
+#: views/admin/modules/admin-bar/help.php:6
+msgid ""
+"The Main Menu Title can either be a simple piece of text, or a link to a "
+"URL."
+msgstr ""
+
+#: views/admin/modules/admin-bar/help.php:9
+msgid ""
+"Each menu item can have a unique title, and a link to either an internal "
+"admin page or to a page on a completely different site. Once you have "
+"created all of the menu items that you want to use, you can re-arrange "
+"their order by simply dragging them to the correct location with your mouse."
+msgstr ""
+
+#: views/admin/modules/admin-bar/row.php:19
+#: views/admin/modules/signup-code/row-blog.php:16
+#: views/admin/modules/signup-code/row-user.php:9
+msgid "Remove item"
+msgstr ""
+
+#: views/admin/modules/admin-bar/tmpl/panes/general.php:20
+msgid "Link to"
+msgstr ""
+
+#: views/admin/modules/admin-bar/tmpl/panes/visibility.php:37
+msgid "Show on Mobile"
+msgstr ""
+
+#: views/admin/modules/admin-bar/tmpl/panes/visibility.php:38
+msgid "Show menu element icon on mobile."
+msgstr ""
+
+#: views/admin/modules/admin-bar/tmpl/panes/visibility.php:49
+msgid ""
+"Make sure you've set an icon for this menu item in the GENERAL tab as only "
+"the menu icon is visible on mobile devices."
+msgstr ""
+
+#: views/admin/modules/admin-help-content/dialogs/edit.php:17
+msgid "Enter help item title here…"
+msgstr ""
+
+#: views/admin/modules/admin-help-content/help.php:1
+msgid "Custom Help Content"
+msgstr ""
+
+#: views/admin/modules/admin-help-content/help.php:3
+msgid ""
+"This module allows you to add and / or replace any of the contextual help "
+"content across all the sites of your network."
+msgstr ""
+
+#: views/admin/modules/admin-help-content/help.php:5
+msgid "What is contextual help?"
+msgstr ""
+
+#: views/admin/modules/admin-help-content/help.php:7
+msgid ""
+"You are reading a contextual help item now. By creating new Help Items, you "
+"will add menu items to the left of this area (underneath the Custom Help "
+"Content menu), which will show the relevant help content when it is clicked "
+"on."
+msgstr ""
+
+#: views/admin/modules/admin-help-content/help.php:9
+msgid "Setting a Help Sidebar?"
+msgstr ""
+
+#: views/admin/modules/admin-help-content/help.php:11
+msgid ""
+"If you enter any content in the Help Sidebar area, then you can add some "
+"sidebar text to the right hand side of the contextual help content. This "
+"can contain links to common areas such as forums or support documents."
+msgstr ""
+
+#: views/admin/modules/admin-help-content/help.php:13
+msgid "Replacing existing help"
+msgstr ""
+
+#: views/admin/modules/admin-help-content/help.php:15
+msgid ""
+"If you check the <em>Keep default help items (if any) and merge the new "
+"ones with them.</em> box then the module will attempt to merge your new "
+"help items with any already in existence for the page. If you uncheck the "
+"box, then your new help items will replace any of the default ones."
+msgstr ""
+
+#: views/admin/modules/admin-help-content/row.php:7
+#: views/admin/modules/dashboard-widgets/row.php:7
+msgid "Remove help item"
+msgstr ""
+
+#: views/admin/modules/admin-menu/help.php:1
+msgid "Remove Permalinks Menu"
+msgstr ""
+
+#: views/admin/modules/admin-menu/help.php:3
+msgid ""
+"The Remove Permalinks Menu module does not have any settings, it simply "
+"remove the Permalinks menu from all of the sites on your network."
+msgstr ""
+
+#: views/admin/modules/admin-panel-tips/profile-option.php:4
+msgid "Show Tips"
+msgstr ""
+
+#: views/admin/modules/admin-panel-tips/profile-option.php:5
+msgid "Show Tips when viewing admin"
+msgstr ""
+
+#: views/admin/modules/author-box/profile.php:1
+msgid "Social Media Profiles"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:7
+msgid "Edit Color Scheme"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:15
+msgid "Choose a name for this custom color scheme."
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:17
+msgid "Scheme name can not be empty!"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:21
+msgid "Adjust the default colour combinations as per your need."
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:52
+msgid "Links"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:68
+#: views/admin/modules/color-schemes/dialogs/edit.php:106
+msgid "Default link"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:80
+#: views/admin/modules/color-schemes/dialogs/edit.php:118
+msgid "Delete / Trash / Spam link"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:92
+#: views/admin/modules/color-schemes/dialogs/edit.php:130
+msgid "Inactive plugin link"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:150
+msgid "Forms"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:159
+msgid "Checkbox / Radio Button￼"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:176
+msgid "Core UI"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:192
+#: views/admin/modules/color-schemes/dialogs/edit.php:254
+msgid "Primary Button"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:204
+#: views/admin/modules/color-schemes/dialogs/edit.php:266
+msgid "Primary Button Text"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:216
+#: views/admin/modules/color-schemes/dialogs/edit.php:278
+msgid "Primary Button Text Shadow"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:228
+msgid "Disabled Button"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:240
+msgid "Disabled Button Text"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:298
+msgid "List Tables"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:314
+#: views/admin/modules/color-schemes/dialogs/edit.php:352
+msgid "View Switch Icon"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:326
+#: views/admin/modules/color-schemes/dialogs/edit.php:364
+msgid "Post Comment Count"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:338
+msgid "Alternate Row"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:376
+msgid "Pagination / Button / Icon"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:409
+msgid "Current Hover"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:427
+#: views/admin/modules/color-schemes/dialogs/edit.php:513
+#: views/admin/modules/color-schemes/dialogs/edit.php:551
+msgid "Link Background"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:451
+#: views/admin/modules/color-schemes/dialogs/edit.php:525
+msgid "Submenu Link"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:463
+msgid "Submenu Link Background"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:475
+msgid "Bubble"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:487
+msgid "Bubble Background"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:664
+#: views/admin/modules/color-schemes/dialogs/edit.php:702
+#: views/admin/modules/color-schemes/dialogs/edit.php:740
+msgid "Submenu Icon and Links"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:678
+#: views/admin/modules/color-schemes/dialogs/edit.php:716
+msgid "Item Background"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:690
+#: views/admin/modules/color-schemes/dialogs/edit.php:728
+msgid "Item Color"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:760
+msgid "Media Uploader"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:769
+#: views/admin/modules/color-schemes/dialogs/edit.php:857
+msgid "Progress Bar￼"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:781
+msgid "Selected Attachment￼"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:798
+msgid "Themes"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:807
+msgid "Active Theme Background"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:819
+msgid "Active Theme Actions Background"
+msgstr ""
+
+#: views/admin/modules/color-schemes/dialogs/edit.php:831
+msgid "Theme Details Button Background"
+msgstr ""
+
+#: views/admin/modules/content-footer/help.php:1
+msgid "Custom Footer Content"
+msgstr ""
+
+#: views/admin/modules/content-footer/help.php:3
+msgid ""
+"The modules shown on this page allow you to control the content in the "
+"admin area and the public side of your network sites."
+msgstr ""
+
+#: views/admin/modules/content-footer/help.php:5
+msgid "Global Footer Content"
+msgstr ""
+
+#: views/admin/modules/content-footer/help.php:7
+msgid ""
+"The content entered into the Global Footer Content area is added to the "
+"front end of every site on your network. It is useful for adding "
+"promotional links to your main network site, advertising and analytics "
+"scripts."
+msgstr ""
+
+#: views/admin/modules/content-footer/help.php:9
+msgid "Dashboard Footer Content"
+msgstr ""
+
+#: views/admin/modules/content-footer/help.php:11
+msgid ""
+"The content entered into the Dashboard Footer Content area replaces the "
+"WordPress text at the bottom of the dashboard area on every site in your "
+"network."
+msgstr ""
+
+#: views/admin/modules/custom-admin-css/help.php:3
+msgid ""
+"Any CSS styles added to this area will be included in the header of all the "
+"admin pages on all the sites across your network. You can use this to hide "
+"elements, or simply change the color of menus and / or text."
+msgstr ""
+
+#: views/admin/modules/custom-admin-css/help.php:5
+msgid "Login CSS"
+msgstr ""
+
+#: views/admin/modules/custom-admin-css/help.php:7
+msgid ""
+"Any CSS styles added to this area will be included in the header of the "
+"login pages on all the sites across your network. It can be used to add "
+"backgrounds or customize the login page for your network."
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:8
+msgid "Edit Text Widget"
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/dialogs/edit.php:24
+msgid "Enter text widget title here…"
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/dialogs/visibility-reset.php:13
+msgid "Reset Widget Visibility List"
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/dialogs/visibility-reset.php:17
+msgid "Are you sure you wish to reset list of registered widgets?"
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/help.php:1
+msgid "Custom Widgets"
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/help.php:3
+msgid ""
+"The modules shown on this page allow you to control some of the widgets on "
+"your network."
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/help.php:5
+msgid "Remove WordPress Dashboard Widgets"
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/help.php:7
+msgid ""
+"This module allows you to select which of the default Dashboard widgets you "
+"want to remove from all the sites across your network."
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/help.php:9
+msgid "Rebranded Meta Widget"
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/help.php:11
+msgid ""
+"The rebranded meta widget does not have any settings, but simply replaces "
+"the standard WordPress meta widget with a new one that removes any mention "
+"of WordPress or links to the WordPress site."
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/help.php:13
+msgid "Hide (Customize) Dashboard Welcome"
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/help.php:15
+msgid ""
+"There are no settings for this module. It simply remove the WordPress "
+"Welcome message from a new sites dashboard."
+msgstr ""
+
+#: views/admin/modules/dashboard-widgets/list.php:14
+msgid ""
+"No text widget has been added yet. Click on “+ Add Text Widget” to add your "
+"first text widget using a simple wizard."
+msgstr ""
+
+#: views/admin/modules/data/dialogs/confirm-delete-subsites.php:12
+msgid "Are you sure you want to delete Branda’s data stored in all the subsites?"
+msgstr ""
+
+#: views/admin/modules/data/dialogs/confirm-reset.php:12
+msgid ""
+"Are you sure you want to reset Branda’s settings back to the factory "
+"defaults?"
+msgstr ""
+
+#: views/admin/modules/data/header.php:5
+msgid ""
+"Control what to do with your settings and data. Settings are considered the "
+"module configurations, Data includes the transient bits such as logs, "
+"frequently used modules, last import/export time and other pieces of "
+"information stored over time."
+msgstr ""
+
+#: views/admin/modules/email-template/dialogs/preview.php:14
+msgid "Close"
+msgstr ""
+
+#: views/admin/modules/images/help.php:1
+msgid "Custom Images"
+msgstr ""
+
+#: views/admin/modules/images/help.php:3
+msgid ""
+"The modules shown on this page allow you change the favicons and login "
+"images used on the sites across your network."
+msgstr ""
+
+#: views/admin/modules/images/help.php:5
+msgid "Login Image"
+msgstr ""
+
+#: views/admin/modules/images/help.php:7
+msgid ""
+"The Login Image is the logo shown on top of the Login form on the sites of "
+"your network. You can change this image by uploading a new one using the "
+"form. If you want to reset the system to use the default WordPress image, "
+"then click on the <em>Reset the image</em> link."
+msgstr ""
+
+#: views/admin/modules/images/help.php:9
+msgid "Favicons"
+msgstr ""
+
+#: views/admin/modules/images/help.php:11
+msgid ""
+"A Favicon is a small image that is shown in the browser address bar and tab "
+"when a site is viewed. You can change the default image by uploading a new "
+"one using this form. The image should be square and will be resized to the "
+"correct size. If you want to reset the system to use the default WordPress "
+"image, then click on the <em>Reset the image</em> link."
+msgstr ""
+
+#: views/admin/modules/import/configure-modules.php:4
+msgid "This will override the existing configurations of each selected module."
+msgstr ""
+
+#: views/admin/modules/import/errors/footer.php:3
+msgid "Configuration is not possible!"
+msgstr ""
+
+#: views/admin/modules/import/errors/invalid-file.php:6
+msgid ""
+"The file %s you are trying to import doesn’t belong to Branda! Please check "
+"your file or upload another file."
+msgstr ""
+
+#: views/admin/modules/import/errors/no-configuration.php:6
+msgid ""
+"The file %s you are trying to import doesn’t have any module "
+"configurations. Please check your file or upload another file."
+msgstr ""
+
+#: views/admin/modules/import/errors/unknown.php:6
+msgid "During uploading %s an unknown error occurred. Please try again."
+msgstr ""
+
+#: views/admin/modules/import/errors/version.php:2
+msgid "Import Error"
+msgstr ""
+
+#: views/admin/modules/import/errors/version.php:6
+msgid ""
+"The file you are trying to import is for %s version %s. Please upgrade "
+"source site to Branda and export again."
+msgstr ""
+
+#: views/admin/modules/import/header.php:1
+msgid "Configure Modules"
+msgstr ""
+
+#: views/admin/modules/import/header.php:2
+msgid ""
+"Following are the modules present in the imported file. By default, we'll "
+"configure all of these modules based on the settings in the import file. "
+"However, you can choose specific modules only to configure."
+msgstr ""
+
+#: views/admin/modules/login-screen/dialogs/choose-template.php:1
+msgid ""
+"Customize one of our pre-designed login templates, or start styling login "
+"page from scratch."
+msgstr ""
+
+#: views/admin/modules/login-screen/help.php:1
+msgid "Signup Password"
+msgstr ""
+
+#: views/admin/modules/login-screen/help.php:2
+msgid "Module allow to setup user password during registration process."
+msgstr ""
+
+#: views/admin/modules/signup-code/items.php:1
+msgid "Signup Codes"
+msgstr ""
+
+#: views/admin/modules/signup-code/items.php:14
+msgid "Add Signup Code"
+msgstr ""
+
+#: views/admin/modules/signup-code/items.php:17
+msgid ""
+"Users must provide one of the codes to signup successfully, and they'll get "
+"the user role associated with the signup code they use."
+msgstr ""
+
+#: views/admin/modules/signup-code/row-blog.php:4
+#: views/admin/modules/signup-code/row-user.php:4
+msgid "Signup code"
+msgstr ""
+
+#: views/admin/modules/signup-password/password-fields.php:9
+msgid "Leave fields blank for a random password to be generated."
+msgstr ""
+
+#: views/admin/modules/signup-password/password-fields.php:12
+msgid "Confirm Password"
+msgstr ""
+
+#: views/admin/modules/signup-password/password-fields.php:14
+msgid "Type your new password again."
+msgstr ""
+
+#: views/admin/modules/site-generator/defender.php:5
+msgid ""
+"This section has been disabled because Defender is configured to remove the "
+"generator information from your site for security reasons. However, if you "
+"still want to enable the generator information on your site and want to "
+"further customize it, change the generator information settings on Defender."
+msgstr ""
+
+#: views/admin/modules/site-generator/help.php:1
+msgid "Custom Site Generator Content"
+msgstr ""
+
+#: views/admin/modules/site-generator/help.php:3
+msgid ""
+"By Default WordPress identifies itself as the site generator on all your "
+"network sites. You can use the options on this page to change the site "
+"generator and generator link to your own brand and site URL."
+msgstr ""
+
+#: views/admin/modules/smtp/plugins-list.php:4
+msgid "Plugin name"
+msgstr ""
+
+#: views/admin/modules/smtp/plugins-list.php:6
+#: views/admin/modules/smtp/plugins-list.php:16
+msgid "Deactivate &amp; Import Configuration"
+msgstr ""
+
+#: views/admin/modules/text-replacement/help.php:1
+msgid "Text Change"
+msgstr ""
+
+#: views/admin/modules/text-replacement/help.php:3
+msgid ""
+"This module allows you to change any item of text across WordPress with "
+"text of your own. It is useful if you want to, for example, remove the word "
+"WordPress from any of the menus of text and replace it with your own brand."
+msgstr ""
+
+#: views/admin/modules/text-replacement/help.php:6
+msgid ""
+"If you want to limit the text change to within a certain plugin or theme, "
+"then you need to find the text domain for that plugin / theme and enter "
+"that in the area labelled <strong>in this text domain</strong>. E.G. The "
+"text domain for this plugin is <strong>ub</strong>."
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:20
+msgid "E.g GA views tracking"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:23
+msgid "Tracking Code"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:24
+msgid "Paste your tracking code here…"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:29
+msgid "Insert Position"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:32
+msgid "Inside &lt;head&gt;"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:33
+msgid "After &lt;body&gt;"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:34
+msgid "Before &lt;/body&gt;"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:46
+msgid "Location Filters"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:55
+msgid "Users"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:66
+msgid "You can choose logged status and/or user role."
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:76
+msgid "Authors"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:87
+msgid "This filter will be used only on single entry."
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:97
+msgid "Content Type"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:109
+msgid "You can choose to add the code to certain content types."
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:119
+msgid "Sites"
+msgstr ""
+
+#: views/admin/modules/tracking-codes/dialogs/edit.php:131
+msgid "You can choose to add the code to certain sites."
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://premium.wpmudev.org/project/ultimate-branding/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A complete white-label and branding solution for multisite. Login images, "
+"favicons, remove WordPress links and branding, and much more."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPMU DEV"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://premium.wpmudev.org/"
+msgstr ""
+
+#: inc/class-branda-admin.php:181
+msgctxt "admin title"
+msgid "Branda"
+msgstr ""
+
+#: inc/class-branda-admin.php:182 inc/class-branda-admin.php:192
+msgctxt "admin title separator"
+msgid " &lsaquo; "
+msgstr ""
+
+#: inc/modules/admin/color-schemes.php:425
+msgctxt "Label for link to edit custom theme"
+msgid "Customize \"%s\" scheme"
+msgstr ""
+
+#: inc/modules/admin/tips.php:110
+msgctxt "Tip General Name"
+msgid "Tips"
+msgstr ""
+
+#: inc/modules/admin/tips.php:111
+msgctxt "Tip Singular Name"
+msgid "Tip"
+msgstr ""
+
+#: inc/modules/emails/registration.php:155
+msgctxt "New site notification email subject"
+msgid "[%1$s] Activate %2$s"
+msgstr ""
+
+#: inc/modules/emails/registration.php:157
+msgctxt "New user notification email subject"
+msgid "[%1$s] Activate %2$s"
+msgstr ""
+
+#: inc/modules/front-end/cookie-notice.php:221
+msgctxt "Privacy Policy button text"
+msgid "Privacy Policy"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:303
+msgctxt "DB Error module: mail"
+msgid "Site URL: %s"
+msgstr ""
+
+#: inc/modules/front-end/db-error-page.php:305
+msgctxt "DB Error module: mail"
+msgid "Site Name: %s"
+msgstr ""
+
+#: inc/modules/login-screen/signup-code.php:613
+msgctxt "button"
+msgid "Add Signup Code"
+msgstr ""
+
+#: inc/modules/utilities/tracking-codes.php:571
+msgctxt "button"
+msgid "Add Tracking Code"
+msgstr ""
+
+#: views/admin/common/copy.php:6
+msgctxt "button"
+msgid "Copy Settings"
+msgstr ""
+
+#: views/admin/common/dialogs/reset-module.php:20
+#: views/admin/common/dialogs/reset.php:14
+#: views/admin/common/manage-all-modules.php:58
+#: views/admin/modules/dashboard-widgets/dialogs/visibility-reset.php:21
+#: views/admin/modules/data/dialogs/confirm-delete-subsites.php:16
+#: views/admin/modules/data/dialogs/confirm-reset.php:16
+#: views/admin/modules/import/configure-modules.php:54
+#: views/admin/modules/import/errors/footer.php:2
+msgctxt "button"
+msgid "Cancel"
+msgstr ""
+
+#: views/admin/common/dialogs/reset-module.php:27
+#: views/admin/common/dialogs/reset.php:15
+#: views/admin/modules/dashboard-widgets/dialogs/visibility-reset.php:22
+#: views/admin/modules/data/dialogs/confirm-reset.php:17
+msgctxt "button"
+msgid "Reset"
+msgstr ""
+
+#: views/admin/common/header.php:4
+msgctxt "button"
+msgid "Manage All Modules"
+msgstr ""
+
+#: views/admin/common/manage-all-modules.php:60
+msgctxt "button"
+msgid "Save Changes"
+msgstr ""
+
+#: views/admin/dashboard/welcome.php:16
+msgctxt "button"
+msgid "Activate Modules"
+msgstr ""
+
+#: views/admin/dashboard/welcome.php:21
+msgctxt "button"
+msgid "Skip for now"
+msgstr ""
+
+#: views/admin/dashboard/welcome.php:26
+msgctxt "button"
+msgid "Skip"
+msgstr ""
+
+#: views/admin/dashboard/welcome.php:27
+msgctxt "button"
+msgid "Activate"
+msgstr ""
+
+#: views/admin/modules/data/dialogs/confirm-delete-subsites.php:8
+#: views/admin/modules/data/dialogs/confirm-reset.php:8
+msgctxt "button"
+msgid "Close this dialog window"
+msgstr ""
+
+#: views/admin/modules/data/dialogs/confirm-delete-subsites.php:17
+msgctxt "button"
+msgid "Delete"
+msgstr ""
+
+#: views/admin/modules/site-generator/defender.php:6
+msgctxt "button"
+msgid "Defender Settings"
+msgstr ""
+
+#: inc/modules/utilities/import.php:110
+msgctxt "File name on import error screen."
+msgid "unknown"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:687
+msgctxt "day letter of timer"
+msgid "d"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:690
+msgctxt "hour letter of timer"
+msgid "h"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:693
+msgctxt "minute letter of timer"
+msgid "m"
+msgstr ""
+
+#: inc/modules/utilities/maintenance.php:696
+msgctxt "second letter of timer"
+msgid "s"
+msgstr ""
+
+#: views/admin/common/copy.php:55
+msgctxt "Dialog \"Copy Settings\" button"
+msgid "Cancel"
+msgstr ""
+
+#: views/admin/common/copy.php:56
+msgctxt "Dialog \"Copy Settings\" button"
+msgid "Copy"
+msgstr ""
+
+#: views/admin/common/options/sui-colorpicker.php:9
+msgctxt "Default button name for color picker."
+msgid "Select"
+msgstr ""
+
+#: views/admin/dashboard/widget-modules.php:44
+msgctxt "&lt;span&gt; tag is the placeholder for searching string."
+msgid "No results for \"<span></span>\""
+msgstr ""
+
+#: views/admin/modules/data/progress-bar.php:15
+msgctxt "Stop deleting subsites data"
+msgid "Cancel"
+msgstr ""

@@ -1,0 +1,1233 @@
+[2018-01-23 02:00:02 +0000] info [backup] Setting I/O priority to reduce system load: best-effort: prio 6
+[2018-01-23 02:00:02 +0000] info [backup] Hard Linking available on "/backup"
+[2018-01-23 02:00:02 +0000] info [backup] Starting full MySQL database backups
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: /var/lib/mysql/mysql.sock: socket ignored
+[2018-01-23 02:00:15 +0000] info [backup] Running dir & file backup with target : /backup/2018-01-23/system
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: /var/cpanel/php-fpm/portfolio/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/narpo/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/cpanelphpmyadmin/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/michellereadco/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/weareselect/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/cpanelroundcube/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/readforgood/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/cpanelphppgadmin/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/decisionjuice/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/cp8959639shobil/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/oomphagency/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/resolvegroupuk2/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/webedevco/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/lbeukco2/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/twochapellaneco/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/audiovisualdatas/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/selectwear/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/php-fpm/selectsupport/sock: socket ignored
+/usr/bin/gtar: /var/cpanel/userhomes/cpanelconnecttrack/p0f.socket: socket ignored
+/usr/bin/gtar: Removing leading `/' from hard link targets
+/usr/bin/gtar: /var/cpanel/dnsadmin/sock: socket ignored
+/usr/bin/gtar: /var/cpanel: file changed as we read it
+/usr/bin/gtar returned a non-fatal error code, 1 (Some files differ).
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+/usr/bin/gtar: Removing leading `/' from member names
+[2018-01-23 02:00:59 +0000] info [backup] System backups will not be uploaded to any remote destinations.
+[2018-01-23 02:00:59 +0000] info [backup] Running account backup with target : /backup/2018-01-23/accounts
+[2018-01-23 02:00:59 +0000] info [backup] checking backup for michellereadco
+[2018-01-23 02:00:59 +0000] info [backup] Backups ARE enabled for michellereadco
+[2018-01-23 02:00:59 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “michellereadco”
+[2018-01-23 02:00:59 +0000] pkgacct started.
+[2018-01-23 02:00:59 +0000] pkgacct version 10 - user : michellereadco - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:00:59 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:00:59 +0000] pkgacct working dir : /backup/2018-01-23/accounts/michellereadco
+[2018-01-23 02:00:59 +0000] Copying Reseller Config...[2018-01-23 02:00:59 +0000] Done
+[2018-01-23 02:00:59 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:00:59 +0000] Done
+[2018-01-23 02:00:59 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:00:59 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:00:59 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:00:59 +0000] Done
+[2018-01-23 02:00:59 +0000] Storing SSL domain......[2018-01-23 02:00:59 +0000] Done
+[2018-01-23 02:00:59 +0000] Copying Domain Keys....[2018-01-23 02:00:59 +0000] Done
+[2018-01-23 02:00:59 +0000] Copying Counter Data....[2018-01-23 02:00:59 +0000] Done
+[2018-01-23 02:00:59 +0000] Copying Bandwidth Data....[2018-01-23 02:00:59 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:00:59 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:00:59 +0000] Done
+[2018-01-23 02:00:59 +0000] Copying Dns Zones.......michelle-read.co.uk...[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Copying Mail files....[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Copying proftpd file....[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Copying www logs.......log file sizes [5645 byte(s)]......michelle-read.co.uk-ssl_log......michelle-read.co.uk-bytes_log......ftp.michelle-read.co.uk-ftp_log.offsetftpbytes......michelle-read.co.uk...[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Copy userdata...[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Copy custom virtualhost templates...[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Copying mailman lists and archives....[2018-01-23 02:01:00 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:01:00 +0000] Copying homedir.............
+[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Fixing up EA4 .htaccess blocks: /home/michellereadco/public_html/.htaccess  Done.
+[2018-01-23 02:01:00 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:01:00 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:01:00 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:01:00 +0000] Completed “Postgresql” component.
+[2018-01-23 02:01:00 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:01:00 +0000] Determining mysql dbs...[2018-01-23 02:01:00 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:01:00 +0000] ...mysql version: 5.6...[2018-01-23 02:01:00 +0000] Saving mysql privs...[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] ...Done
+[2018-01-23 02:01:00 +0000] Storing mysql dbs............
+michelle_wordpress[2018-01-23 02:01:00 +0000] (1040742 bytes) 
+[2018-01-23 02:01:00 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:01:00 +0000] Completed “Mysql” component.
+[2018-01-23 02:01:00 +0000] Copying cpuser file.......[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Copying crontab file.......[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Performing “Quota” component....
+[2018-01-23 02:01:00 +0000] Completed “Quota” component.
+[2018-01-23 02:01:00 +0000] Performing “Integration” component....
+[2018-01-23 02:01:00 +0000] Completed “Integration” component.
+[2018-01-23 02:01:00 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:01:00 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:01:00 +0000] Performing “APITokens” component....
+[2018-01-23 02:01:00 +0000] Completed “APITokens” component.
+[2018-01-23 02:01:00 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:01:00 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:01:00 +0000] Storing Subdomains....
+[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Storing Parked Domains....
+[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Storing Addon Domains....
+[2018-01-23 02:01:00 +0000] Copying password.......[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Copying shell.......[2018-01-23 02:01:00 +0000] Done
+[2018-01-23 02:01:00 +0000] Performing “PublicContact” component....
+[2018-01-23 02:01:00 +0000] Completed “PublicContact” component.
+[2018-01-23 02:01:00 +0000] Creating Archive ....................................................................................
+..................................................
+[2018-01-23 02:01:13 +0000] Done
+[2018-01-23 02:01:13 +0000] pkgacctfile is: /backup/2018-01-23/accounts/michellereadco.tar.gz
+[2018-01-23 02:01:13 +0000] 
+[2018-01-23 02:01:13 +0000] size is: 112716682
+[2018-01-23 02:01:13 +0000] 
+[2018-01-23 02:01:13 +0000] homesize is: 193257472
+[2018-01-23 02:01:13 +0000] 
+[2018-01-23 02:01:13 +0000] homefiles is: 5159
+[2018-01-23 02:01:13 +0000] pkgacct completed
+[2018-01-23 02:01:18 +0000] info [backup] Queuing daily backup copy of “michellereadco” for transport of “/backup/2018-01-23/accounts/michellereadco.tar.gz” to “2018-01-23/accounts/michellereadco.tar.gz”
+[2018-01-23 02:01:18 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/michellereadco.tar.gz
+[2018-01-23 02:01:18 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4364
+[2018-01-23 02:01:18 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:01:18 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/michellereadco-=-meta
+[2018-01-23 02:01:18 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4365
+[2018-01-23 02:01:18 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:01:18 +0000] info [backup] checking backup for portfolio
+[2018-01-23 02:01:18 +0000] info [backup] Backups ARE enabled for portfolio
+[2018-01-23 02:01:18 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “portfolio”
+[2018-01-23 02:01:19 +0000] pkgacct started.
+[2018-01-23 02:01:19 +0000] pkgacct version 10 - user : portfolio - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:01:19 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:01:19 +0000] pkgacct working dir : /backup/2018-01-23/accounts/portfolio
+[2018-01-23 02:01:19 +0000] Copying Reseller Config...[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:01:19 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:01:19 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Storing SSL domain......[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying Domain Keys....[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying Counter Data....[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying Bandwidth Data....[2018-01-23 02:01:19 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:01:19 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying Dns Zones.......portfolio.co.uk...[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying Mail files....[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying proftpd file....[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying www logs.......log file sizes [6 byte(s)]......portfolio.co.uk-bytes_log......portfolio.co.uk......portfolio.co.uk-ssl_log......ftp.portfolio.co.uk-ftp_log.offsetftpbytes...[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copy userdata...[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copy custom virtualhost templates...[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying mailman lists and archives....[2018-01-23 02:01:19 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:01:19 +0000] Copying homedir.............
+[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Fixing up EA4 .htaccess blocks: Done.
+[2018-01-23 02:01:19 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:01:19 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:01:19 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:01:19 +0000] Completed “Postgresql” component.
+[2018-01-23 02:01:19 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:01:19 +0000] Determining mysql dbs...[2018-01-23 02:01:19 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:01:19 +0000] ...mysql version: 5.6...[2018-01-23 02:01:19 +0000] Saving mysql privs...[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] ...Done
+[2018-01-23 02:01:19 +0000] Storing mysql dbs...[2018-01-23 02:01:19 +0000] ...Done
+[2018-01-23 02:01:19 +0000] Completed “Mysql” component.
+[2018-01-23 02:01:19 +0000] Copying cpuser file.......[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying crontab file.......Load watching resumed due to SIGUSR2
+[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Performing “Quota” component....
+[2018-01-23 02:01:19 +0000] Completed “Quota” component.
+[2018-01-23 02:01:19 +0000] Performing “Integration” component....
+[2018-01-23 02:01:19 +0000] Completed “Integration” component.
+[2018-01-23 02:01:19 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:01:19 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:01:19 +0000] Performing “APITokens” component....
+[2018-01-23 02:01:19 +0000] Completed “APITokens” component.
+[2018-01-23 02:01:19 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:01:19 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:01:19 +0000] Storing Subdomains....
+[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Storing Parked Domains....
+[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Storing Addon Domains....
+[2018-01-23 02:01:19 +0000] Copying password.......[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Copying shell.......[2018-01-23 02:01:19 +0000] Done
+[2018-01-23 02:01:19 +0000] Performing “PublicContact” component....
+[2018-01-23 02:01:19 +0000] Completed “PublicContact” component.
+[2018-01-23 02:01:19 +0000] Creating Archive ....................................................................................
+..............................
+[2018-01-23 02:01:30 +0000] Done
+[2018-01-23 02:01:30 +0000] pkgacctfile is: /backup/2018-01-23/accounts/portfolio.tar.gz
+[2018-01-23 02:01:30 +0000] 
+[2018-01-23 02:01:30 +0000] size is: 156333812
+[2018-01-23 02:01:30 +0000] 
+[2018-01-23 02:01:30 +0000] homesize is: 164618240
+[2018-01-23 02:01:30 +0000] 
+[2018-01-23 02:01:30 +0000] homefiles is: 799
+[2018-01-23 02:01:30 +0000] pkgacct completed
+[2018-01-23 02:01:33 +0000] info [backup] Queuing daily backup copy of “portfolio” for transport of “/backup/2018-01-23/accounts/portfolio.tar.gz” to “2018-01-23/accounts/portfolio.tar.gz”
+[2018-01-23 02:01:33 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/portfolio.tar.gz
+[2018-01-23 02:01:33 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4366
+[2018-01-23 02:01:33 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:01:33 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/portfolio-=-meta
+[2018-01-23 02:01:33 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4367
+[2018-01-23 02:01:34 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:01:34 +0000] info [backup] checking backup for oomphagency
+[2018-01-23 02:01:34 +0000] info [backup] Backups ARE enabled for oomphagency
+[2018-01-23 02:01:34 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “oomphagency”
+[2018-01-23 02:01:34 +0000] pkgacct started.
+[2018-01-23 02:01:34 +0000] pkgacct version 10 - user : oomphagency - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:01:34 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:01:34 +0000] pkgacct working dir : /backup/2018-01-23/accounts/oomphagency
+[2018-01-23 02:01:34 +0000] Copying Reseller Config...[2018-01-23 02:01:34 +0000] 
+[2018-01-23 02:01:34 +0000] Copying Reseller Packages and Features ...
+[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:01:34 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:01:34 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Storing SSL domain......[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying Domain Keys....[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying Counter Data....[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying Bandwidth Data....[2018-01-23 02:01:34 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:01:34 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying Dns Zones.......oomphagency.com...[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying Mail files....[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying proftpd file....[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying www logs.......log file sizes [10306 byte(s)]......oomphagency.com-bytes_log......oomphagency.com-ssl_log......oomphagency.com...[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copy userdata...[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copy custom virtualhost templates...[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying mailman lists and archives....[2018-01-23 02:01:34 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:01:34 +0000] Copying homedir.............
+[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Fixing up EA4 .htaccess blocks: Done.
+[2018-01-23 02:01:34 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:01:34 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Completed “Postgresql” component.
+[2018-01-23 02:01:34 +0000] Performing “Mysql” component....
+Load watching resumed due to SIGUSR2
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:01:34 +0000] Determining mysql dbs...[2018-01-23 02:01:34 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:01:34 +0000] ...mysql version: 5.6...[2018-01-23 02:01:34 +0000] Saving mysql privs...[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] ...Done
+[2018-01-23 02:01:34 +0000] Storing mysql dbs...[2018-01-23 02:01:34 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:01:34 +0000] Completed “Mysql” component.
+[2018-01-23 02:01:34 +0000] Copying cpuser file.......[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying crontab file.......[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Performing “Quota” component....
+[2018-01-23 02:01:34 +0000] Completed “Quota” component.
+[2018-01-23 02:01:34 +0000] Performing “Integration” component....
+[2018-01-23 02:01:34 +0000] Completed “Integration” component.
+[2018-01-23 02:01:34 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:01:34 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:01:34 +0000] Performing “APITokens” component....
+[2018-01-23 02:01:34 +0000] Completed “APITokens” component.
+[2018-01-23 02:01:34 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:01:34 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:01:34 +0000] Storing Subdomains....
+[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Storing Parked Domains....
+[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Storing Addon Domains....
+[2018-01-23 02:01:34 +0000] Copying password.......[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Copying shell.......[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] Performing “PublicContact” component....
+[2018-01-23 02:01:34 +0000] Completed “PublicContact” component.
+[2018-01-23 02:01:34 +0000] Creating Archive ....[2018-01-23 02:01:34 +0000] Done
+[2018-01-23 02:01:34 +0000] pkgacctfile is: /backup/2018-01-23/accounts/oomphagency.tar.gz
+[2018-01-23 02:01:34 +0000] 
+[2018-01-23 02:01:34 +0000] size is: 548037
+[2018-01-23 02:01:34 +0000] 
+[2018-01-23 02:01:34 +0000] homesize is: 3756032
+[2018-01-23 02:01:34 +0000] 
+[2018-01-23 02:01:34 +0000] homefiles is: 153
+[2018-01-23 02:01:34 +0000] pkgacct completed
+[2018-01-23 02:01:35 +0000] info [backup] Queuing daily backup copy of “oomphagency” for transport of “/backup/2018-01-23/accounts/oomphagency.tar.gz” to “2018-01-23/accounts/oomphagency.tar.gz”
+[2018-01-23 02:01:35 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/oomphagency.tar.gz
+[2018-01-23 02:01:35 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4368
+[2018-01-23 02:01:35 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:01:35 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/oomphagency-=-meta
+[2018-01-23 02:01:35 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4369
+[2018-01-23 02:01:35 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:01:35 +0000] info [backup] checking backup for resolvegroupuk2
+[2018-01-23 02:01:35 +0000] info [backup] Backups ARE enabled for resolvegroupuk2
+[2018-01-23 02:01:35 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “resolvegroupuk2”
+[2018-01-23 02:01:35 +0000] pkgacct started.
+[2018-01-23 02:01:35 +0000] pkgacct version 10 - user : resolvegroupuk2 - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:01:35 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:01:35 +0000] pkgacct working dir : /backup/2018-01-23/accounts/resolvegroupuk2
+[2018-01-23 02:01:35 +0000] Copying Reseller Config...[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:01:35 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:01:35 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Storing SSL domain......[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying Domain Keys....[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying Counter Data....[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying Bandwidth Data....[2018-01-23 02:01:35 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:01:35 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying Dns Zones.......resolvegroupuk2.com...[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying Mail files....[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying proftpd file....[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying www logs.......log file sizes [7 byte(s)]......resolvegroupuk2.com-bytes_log......ftp.resolvegroupuk2.com-ftp_log.offsetftpbytes......resolvegroupuk2.com......resolvegroupuk2.com-ssl_log...[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copy userdata...[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copy custom virtualhost templates...[2018-01-23 02:01:35 +0000] Done
+[2018-01-23 02:01:35 +0000] Copying mailman lists and archives....[2018-01-23 02:01:35 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:01:35 +0000] Copying homedir.............
+[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] Fixing up EA4 .htaccess blocks: /home/resolvegroupuk2/public_html/.htaccess  Done.
+[2018-01-23 02:01:36 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:01:36 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:01:36 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:01:36 +0000] Completed “Postgresql” component.
+[2018-01-23 02:01:36 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:01:36 +0000] Determining mysql dbs...[2018-01-23 02:01:36 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:01:36 +0000] ...mysql version: 5.6...[2018-01-23 02:01:36 +0000] Saving mysql privs...[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] ...Done
+[2018-01-23 02:01:36 +0000] Storing mysql dbs............
+resolveg_resolvegroupuk[2018-01-23 02:01:36 +0000] (8397524 bytes) 
+[2018-01-23 02:01:36 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:01:36 +0000] Completed “Mysql” component.
+[2018-01-23 02:01:36 +0000] Copying cpuser file.......[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] Copying crontab file.......[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] Performing “Quota” component....
+[2018-01-23 02:01:36 +0000] Completed “Quota” component.
+[2018-01-23 02:01:36 +0000] Performing “Integration” component....
+[2018-01-23 02:01:36 +0000] Completed “Integration” component.
+[2018-01-23 02:01:36 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:01:36 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:01:36 +0000] Performing “APITokens” component....
+[2018-01-23 02:01:36 +0000] Completed “APITokens” component.
+[2018-01-23 02:01:36 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:01:36 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:01:36 +0000] Storing Subdomains....
+[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] Storing Parked Domains....
+[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] Storing Addon Domains....
+[2018-01-23 02:01:36 +0000] Copying password.......[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] Copying shell.......[2018-01-23 02:01:36 +0000] Done
+[2018-01-23 02:01:36 +0000] Performing “PublicContact” component....
+[2018-01-23 02:01:36 +0000] Completed “PublicContact” component.
+[2018-01-23 02:01:36 +0000] Creating Archive ....................................................................................
+................................................................................
+......................................................................
+[2018-01-23 02:01:59 +0000] Done
+[2018-01-23 02:01:59 +0000] pkgacctfile is: /backup/2018-01-23/accounts/resolvegroupuk2.tar.gz
+[2018-01-23 02:01:59 +0000] 
+[2018-01-23 02:01:59 +0000] size is: 162174953
+[2018-01-23 02:01:59 +0000] 
+[2018-01-23 02:01:59 +0000] homesize is: 326053888
+[2018-01-23 02:01:59 +0000] 
+[2018-01-23 02:01:59 +0000] homefiles is: 17321
+[2018-01-23 02:01:59 +0000] pkgacct completed
+[2018-01-23 02:02:06 +0000] info [backup] Queuing daily backup copy of “resolvegroupuk2” for transport of “/backup/2018-01-23/accounts/resolvegroupuk2.tar.gz” to “2018-01-23/accounts/resolvegroupuk2.tar.gz”
+[2018-01-23 02:02:07 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/resolvegroupuk2.tar.gz
+[2018-01-23 02:02:07 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4370
+[2018-01-23 02:02:07 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:02:07 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/resolvegroupuk2-=-meta
+[2018-01-23 02:02:07 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4371
+[2018-01-23 02:02:07 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:02:07 +0000] info [backup] checking backup for lbeukco2
+[2018-01-23 02:02:07 +0000] info [backup] Backups ARE enabled for lbeukco2
+[2018-01-23 02:02:07 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “lbeukco2”
+[2018-01-23 02:02:07 +0000] pkgacct started.
+[2018-01-23 02:02:07 +0000] pkgacct version 10 - user : lbeukco2 - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:02:07 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:02:07 +0000] pkgacct working dir : /backup/2018-01-23/accounts/lbeukco2
+[2018-01-23 02:02:07 +0000] Copying Reseller Config...[2018-01-23 02:02:07 +0000] Done
+[2018-01-23 02:02:07 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:02:07 +0000] Done
+[2018-01-23 02:02:07 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:02:07 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:02:07 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:02:07 +0000] Done
+[2018-01-23 02:02:07 +0000] Storing SSL domain......[2018-01-23 02:02:07 +0000] Done
+[2018-01-23 02:02:07 +0000] Copying Domain Keys....[2018-01-23 02:02:07 +0000] Done
+[2018-01-23 02:02:07 +0000] Copying Counter Data....[2018-01-23 02:02:07 +0000] Done
+[2018-01-23 02:02:07 +0000] Copying Bandwidth Data....[2018-01-23 02:02:07 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:02:07 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:02:07 +0000] Done
+[2018-01-23 02:02:07 +0000] Copying Dns Zones.......lbe-uk.co.uk...[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Copying Mail files....[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Copying proftpd file....[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Copying www logs.......log file sizes [5970 byte(s)]......lbe-uk.co.uk-bytes_log......lbe-uk.co.uk......ftp.lbe-uk.co.uk-ftp_log.offsetftpbytes......lbe-uk.co.uk-ssl_log...[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Copy userdata...[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Copy custom virtualhost templates...[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Copying mailman lists and archives....[2018-01-23 02:02:08 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:02:08 +0000] Copying homedir.............
+[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Fixing up EA4 .htaccess blocks: Done.
+[2018-01-23 02:02:08 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:02:08 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Completed “Postgresql” component.
+[2018-01-23 02:02:08 +0000] Performing “Mysql” component....
+Load watching resumed due to SIGUSR2
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:02:08 +0000] Determining mysql dbs...[2018-01-23 02:02:08 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:02:08 +0000] ...mysql version: 5.6...[2018-01-23 02:02:08 +0000] Saving mysql privs...[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] ...Done
+[2018-01-23 02:02:08 +0000] Storing mysql dbs............
+lbeukco2_wordpress[2018-01-23 02:02:08 +0000] (829406 bytes) 
+[2018-01-23 02:02:08 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:02:08 +0000] Completed “Mysql” component.
+[2018-01-23 02:02:08 +0000] Copying cpuser file.......[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Copying crontab file.......[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Performing “Quota” component....
+[2018-01-23 02:02:08 +0000] Completed “Quota” component.
+[2018-01-23 02:02:08 +0000] Performing “Integration” component....
+[2018-01-23 02:02:08 +0000] Completed “Integration” component.
+[2018-01-23 02:02:08 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:02:08 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:02:08 +0000] Performing “APITokens” component....
+[2018-01-23 02:02:08 +0000] Completed “APITokens” component.
+[2018-01-23 02:02:08 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:02:08 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:02:08 +0000] Storing Subdomains....
+[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Storing Parked Domains....
+[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Storing Addon Domains....
+[2018-01-23 02:02:08 +0000] Copying password.......[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Copying shell.......[2018-01-23 02:02:08 +0000] Done
+[2018-01-23 02:02:08 +0000] Performing “PublicContact” component....
+[2018-01-23 02:02:08 +0000] Completed “PublicContact” component.
+[2018-01-23 02:02:08 +0000] Creating Archive ....................................................................................
+................................................................................
+................................................................................
+....................
+[2018-01-23 02:02:34 +0000] Done
+[2018-01-23 02:02:34 +0000] pkgacctfile is: /backup/2018-01-23/accounts/lbeukco2.tar.gz
+[2018-01-23 02:02:34 +0000] 
+[2018-01-23 02:02:34 +0000] size is: 359691328
+[2018-01-23 02:02:34 +0000] 
+[2018-01-23 02:02:34 +0000] homesize is: 407560192
+[2018-01-23 02:02:34 +0000] 
+[2018-01-23 02:02:34 +0000] homefiles is: 5011
+[2018-01-23 02:02:34 +0000] pkgacct completed
+[2018-01-23 02:02:42 +0000] info [backup] Queuing daily backup copy of “lbeukco2” for transport of “/backup/2018-01-23/accounts/lbeukco2.tar.gz” to “2018-01-23/accounts/lbeukco2.tar.gz”
+[2018-01-23 02:02:43 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/lbeukco2.tar.gz
+[2018-01-23 02:02:43 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4372
+[2018-01-23 02:02:44 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:02:44 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/lbeukco2-=-meta
+[2018-01-23 02:02:44 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4373
+[2018-01-23 02:02:44 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:02:44 +0000] info [backup] checking backup for twochapellaneco
+[2018-01-23 02:02:44 +0000] info [backup] Backups ARE enabled for twochapellaneco
+[2018-01-23 02:02:44 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “twochapellaneco”
+[2018-01-23 02:02:44 +0000] pkgacct started.
+[2018-01-23 02:02:44 +0000] pkgacct version 10 - user : twochapellaneco - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:02:44 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:02:44 +0000] pkgacct working dir : /backup/2018-01-23/accounts/twochapellaneco
+[2018-01-23 02:02:44 +0000] Copying Reseller Config...[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:02:44 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:02:44 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Storing SSL domain......[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying Domain Keys....[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying Counter Data....[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying Bandwidth Data....[2018-01-23 02:02:44 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:02:44 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying Dns Zones.......twochapellane.co.uk...[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying Mail files....[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying proftpd file....[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying www logs.......log file sizes [201826 byte(s)]......twochapellane.co.uk-ssl_log......ftp.twochapellane.co.uk-ftp_log.offsetftpbytes......twochapellane.co.uk......twochapellane.co.uk-bytes_log...[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copy userdata...[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copy custom virtualhost templates...[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Copying mailman lists and archives....[2018-01-23 02:02:44 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:02:44 +0000] Copying homedir.............
+[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Fixing up EA4 .htaccess blocks: /home/twochapellaneco/public_html/.htaccess  Done.
+[2018-01-23 02:02:44 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:02:44 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:02:44 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:02:44 +0000] Completed “Postgresql” component.
+[2018-01-23 02:02:44 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:02:44 +0000] Determining mysql dbs...[2018-01-23 02:02:44 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:02:44 +0000] ...mysql version: 5.6...[2018-01-23 02:02:44 +0000] Saving mysql privs...[2018-01-23 02:02:44 +0000] Done
+[2018-01-23 02:02:44 +0000] ...Done
+[2018-01-23 02:02:44 +0000] Storing mysql dbs............
+twochape_cms[2018-01-23 02:02:45 +0000] (3189464 bytes) 
+[2018-01-23 02:02:45 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:02:45 +0000] Completed “Mysql” component.
+[2018-01-23 02:02:45 +0000] Copying cpuser file.......[2018-01-23 02:02:45 +0000] Done
+[2018-01-23 02:02:45 +0000] Copying crontab file.......[2018-01-23 02:02:45 +0000] Done
+[2018-01-23 02:02:45 +0000] Performing “Quota” component....
+[2018-01-23 02:02:45 +0000] Completed “Quota” component.
+[2018-01-23 02:02:45 +0000] Performing “Integration” component....
+[2018-01-23 02:02:45 +0000] Completed “Integration” component.
+[2018-01-23 02:02:45 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:02:45 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:02:45 +0000] Performing “APITokens” component....
+[2018-01-23 02:02:45 +0000] Completed “APITokens” component.
+[2018-01-23 02:02:45 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:02:45 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:02:45 +0000] Storing Subdomains....
+[2018-01-23 02:02:45 +0000] Done
+[2018-01-23 02:02:45 +0000] Storing Parked Domains....
+[2018-01-23 02:02:45 +0000] Done
+[2018-01-23 02:02:45 +0000] Storing Addon Domains....
+[2018-01-23 02:02:45 +0000] Copying password.......[2018-01-23 02:02:45 +0000] Done
+[2018-01-23 02:02:45 +0000] Copying shell.......[2018-01-23 02:02:45 +0000] Done
+[2018-01-23 02:02:45 +0000] Performing “PublicContact” component....
+[2018-01-23 02:02:45 +0000] Completed “PublicContact” component.
+[2018-01-23 02:02:45 +0000] Creating Archive ....................................................................................
+........................................
+[2018-01-23 02:02:57 +0000] Done
+[2018-01-23 02:02:57 +0000] pkgacctfile is: /backup/2018-01-23/accounts/twochapellaneco.tar.gz
+[2018-01-23 02:02:57 +0000] 
+[2018-01-23 02:02:57 +0000] size is: 91976917
+[2018-01-23 02:02:57 +0000] 
+[2018-01-23 02:02:57 +0000] homesize is: 197992448
+[2018-01-23 02:02:57 +0000] 
+[2018-01-23 02:02:57 +0000] homefiles is: 11154
+[2018-01-23 02:02:57 +0000] pkgacct completed
+[2018-01-23 02:03:02 +0000] info [backup] Queuing daily backup copy of “twochapellaneco” for transport of “/backup/2018-01-23/accounts/twochapellaneco.tar.gz” to “2018-01-23/accounts/twochapellaneco.tar.gz”
+[2018-01-23 02:03:02 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/twochapellaneco.tar.gz
+[2018-01-23 02:03:02 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4374
+[2018-01-23 02:03:03 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:03:03 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/twochapellaneco-=-meta
+[2018-01-23 02:03:03 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4375
+[2018-01-23 02:03:03 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:03:03 +0000] info [backup] checking backup for weareselect
+[2018-01-23 02:03:03 +0000] info [backup] Backups ARE enabled for weareselect
+[2018-01-23 02:03:03 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “weareselect”
+[2018-01-23 02:03:03 +0000] pkgacct started.
+[2018-01-23 02:03:03 +0000] pkgacct version 10 - user : weareselect - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:03:03 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:03:03 +0000] pkgacct working dir : /backup/2018-01-23/accounts/weareselect
+[2018-01-23 02:03:03 +0000] Copying Reseller Config...[2018-01-23 02:03:03 +0000] 
+[2018-01-23 02:03:03 +0000] Copying Reseller Packages and Features ...
+[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:03:03 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:03:03 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Storing SSL domain......[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying Domain Keys....[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying Counter Data....[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying Bandwidth Data....[2018-01-23 02:03:03 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:03:03 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying Dns Zones.......weareselect.uk...[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying Mail files....[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying proftpd file....[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying www logs.......log file sizes [230981 byte(s)]......weareselect.uk......portal.weareselect.uk-ssl_log......weareselect.uk-bytes_log......ftp.weareselect.uk-ftp_log.offsetftpbytes......weareselect.uk-ssl_log......portal.weareselect.uk-bytes_log......portal.weareselect.uk...[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copy userdata...[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copy custom virtualhost templates...[2018-01-23 02:03:03 +0000] Done
+[2018-01-23 02:03:03 +0000] Copying mailman lists and archives....[2018-01-23 02:03:03 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:03:03 +0000] Copying homedir.............
+[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] Fixing up EA4 .htaccess blocks: /home/weareselect/public_html/.htaccess  /home/weareselect/public_html/portal/.htaccess  Done.
+[2018-01-23 02:03:04 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:03:04 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:03:04 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:03:04 +0000] Completed “Postgresql” component.
+[2018-01-23 02:03:04 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:03:04 +0000] Determining mysql dbs...[2018-01-23 02:03:04 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:03:04 +0000] ...mysql version: 5.6...[2018-01-23 02:03:04 +0000] Saving mysql privs...[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] ...Done
+[2018-01-23 02:03:04 +0000] Storing mysql dbs............
+wearesel_portal[2018-01-23 02:03:04 +0000] (96422 bytes) 
+wearesel_wordpress[2018-01-23 02:03:04 +0000] (4519919 bytes) 
+[2018-01-23 02:03:04 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:03:04 +0000] Completed “Mysql” component.
+[2018-01-23 02:03:04 +0000] Copying cpuser file.......[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] Copying crontab file.......[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] Performing “Quota” component....
+[2018-01-23 02:03:04 +0000] Completed “Quota” component.
+[2018-01-23 02:03:04 +0000] Performing “Integration” component....
+[2018-01-23 02:03:04 +0000] Completed “Integration” component.
+[2018-01-23 02:03:04 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:03:04 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:03:04 +0000] Performing “APITokens” component....
+[2018-01-23 02:03:04 +0000] Completed “APITokens” component.
+[2018-01-23 02:03:04 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:03:04 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:03:04 +0000] Storing Subdomains....
+[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] Storing Parked Domains....
+[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] Storing Addon Domains....
+[2018-01-23 02:03:04 +0000] Copying password.......[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] Copying shell.......[2018-01-23 02:03:04 +0000] Done
+[2018-01-23 02:03:04 +0000] Performing “PublicContact” component....
+[2018-01-23 02:03:04 +0000] Completed “PublicContact” component.
+[2018-01-23 02:03:04 +0000] Creating Archive ....................................................................................
+................................................................................
+..............................
+[2018-01-23 02:03:23 +0000] Done
+[2018-01-23 02:03:23 +0000] pkgacctfile is: /backup/2018-01-23/accounts/weareselect.tar.gz
+[2018-01-23 02:03:23 +0000] 
+[2018-01-23 02:03:23 +0000] size is: 92029420
+[2018-01-23 02:03:23 +0000] 
+[2018-01-23 02:03:23 +0000] homesize is: 291340288
+[2018-01-23 02:03:23 +0000] 
+[2018-01-23 02:03:23 +0000] homefiles is: 20165
+[2018-01-23 02:03:23 +0000] pkgacct completed
+[2018-01-23 02:03:29 +0000] info [backup] Queuing daily backup copy of “weareselect” for transport of “/backup/2018-01-23/accounts/weareselect.tar.gz” to “2018-01-23/accounts/weareselect.tar.gz”
+[2018-01-23 02:03:29 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/weareselect.tar.gz
+[2018-01-23 02:03:29 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4376
+[2018-01-23 02:03:30 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:03:30 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/weareselect-=-meta
+[2018-01-23 02:03:30 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4377
+[2018-01-23 02:03:30 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:03:30 +0000] info [backup] checking backup for audiovisualdatas
+[2018-01-23 02:03:30 +0000] info [backup] Backups ARE enabled for audiovisualdatas
+[2018-01-23 02:03:30 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “audiovisualdatas”
+[2018-01-23 02:03:30 +0000] pkgacct started.
+[2018-01-23 02:03:30 +0000] pkgacct version 10 - user : audiovisualdatas - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:03:30 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:03:30 +0000] pkgacct working dir : /backup/2018-01-23/accounts/audiovisualdatas
+[2018-01-23 02:03:30 +0000] Copying Reseller Config...[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:03:30 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:03:30 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Storing SSL domain......[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying Domain Keys....[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying Counter Data....[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying Bandwidth Data....[2018-01-23 02:03:30 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:03:30 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying Dns Zones.......audiovisualdatasolutions.com...[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying Mail files....[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying proftpd file....[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying www logs.......log file sizes [0 byte(s)]......audiovisualdatasolutions.com-bytes_log......audiovisualdatasolutions.com-ssl_log......audiovisualdatasolutions.com...[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copy userdata...[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copy custom virtualhost templates...[2018-01-23 02:03:30 +0000] Done
+[2018-01-23 02:03:30 +0000] Copying mailman lists and archives....[2018-01-23 02:03:30 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:03:30 +0000] Copying homedir.............
+[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Fixing up EA4 .htaccess blocks: /home/audiovisualdatas/public_html/.htaccess  Done.
+[2018-01-23 02:03:31 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:03:31 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Completed “Postgresql” component.
+[2018-01-23 02:03:31 +0000] Performing “Mysql” component....
+Load watching resumed due to SIGUSR2
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:03:31 +0000] Determining mysql dbs...[2018-01-23 02:03:31 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:03:31 +0000] ...mysql version: 5.6...[2018-01-23 02:03:31 +0000] Saving mysql privs...[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] ...Done
+[2018-01-23 02:03:31 +0000] Storing mysql dbs............
+audiovis_wordpress[2018-01-23 02:03:31 +0000] (2127448 bytes) 
+[2018-01-23 02:03:31 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:03:31 +0000] Completed “Mysql” component.
+[2018-01-23 02:03:31 +0000] Copying cpuser file.......[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Copying crontab file.......[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Performing “Quota” component....
+[2018-01-23 02:03:31 +0000] Completed “Quota” component.
+[2018-01-23 02:03:31 +0000] Performing “Integration” component....
+[2018-01-23 02:03:31 +0000] Completed “Integration” component.
+[2018-01-23 02:03:31 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:03:31 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:03:31 +0000] Performing “APITokens” component....
+[2018-01-23 02:03:31 +0000] Completed “APITokens” component.
+[2018-01-23 02:03:31 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:03:31 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:03:31 +0000] Storing Subdomains....
+[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Storing Parked Domains....
+[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Storing Addon Domains....
+[2018-01-23 02:03:31 +0000] Copying password.......[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Copying shell.......[2018-01-23 02:03:31 +0000] Done
+[2018-01-23 02:03:31 +0000] Performing “PublicContact” component....
+[2018-01-23 02:03:31 +0000] Completed “PublicContact” component.
+[2018-01-23 02:03:31 +0000] Creating Archive ....................................................................................
+............................................................
+[2018-01-23 02:03:45 +0000] Done
+[2018-01-23 02:03:45 +0000] pkgacctfile is: /backup/2018-01-23/accounts/audiovisualdatas.tar.gz
+[2018-01-23 02:03:45 +0000] 
+[2018-01-23 02:03:45 +0000] size is: 118162866
+[2018-01-23 02:03:45 +0000] 
+[2018-01-23 02:03:45 +0000] homesize is: 211066880
+[2018-01-23 02:03:45 +0000] 
+[2018-01-23 02:03:45 +0000] homefiles is: 11147
+[2018-01-23 02:03:45 +0000] pkgacct completed
+[2018-01-23 02:03:49 +0000] info [backup] Queuing daily backup copy of “audiovisualdatas” for transport of “/backup/2018-01-23/accounts/audiovisualdatas.tar.gz” to “2018-01-23/accounts/audiovisualdatas.tar.gz”
+[2018-01-23 02:03:50 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/audiovisualdatas.tar.gz
+[2018-01-23 02:03:50 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4378
+[2018-01-23 02:03:50 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:03:50 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/audiovisualdatas-=-meta
+[2018-01-23 02:03:50 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4379
+[2018-01-23 02:03:50 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:03:50 +0000] info [backup] checking backup for decisionjuice
+[2018-01-23 02:03:50 +0000] info [backup] Backups ARE enabled for decisionjuice
+[2018-01-23 02:03:50 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “decisionjuice”
+[2018-01-23 02:03:50 +0000] pkgacct started.
+[2018-01-23 02:03:50 +0000] pkgacct version 10 - user : decisionjuice - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:03:50 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:03:50 +0000] pkgacct working dir : /backup/2018-01-23/accounts/decisionjuice
+[2018-01-23 02:03:50 +0000] Copying Reseller Config...[2018-01-23 02:03:50 +0000] Done
+[2018-01-23 02:03:50 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:03:50 +0000] Done
+[2018-01-23 02:03:50 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:03:50 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:03:50 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:03:50 +0000] Done
+[2018-01-23 02:03:50 +0000] Storing SSL domain......[2018-01-23 02:03:50 +0000] Done
+[2018-01-23 02:03:50 +0000] Copying Domain Keys....[2018-01-23 02:03:50 +0000] Done
+[2018-01-23 02:03:50 +0000] Copying Counter Data....[2018-01-23 02:03:50 +0000] Done
+[2018-01-23 02:03:50 +0000] Copying Bandwidth Data....[2018-01-23 02:03:50 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:03:50 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:03:50 +0000] Done
+[2018-01-23 02:03:50 +0000] Copying Dns Zones.......decisionjuice.co.uk......decisionjuice.com...[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Copying Mail files....[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Copying proftpd file....[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Copying www logs.......log file sizes [101210 byte(s)]......decisionjuice.com......ftp.decisionjuice.com-ftp_log.offsetftpbytes......decisionjuice.com-bytes_log......decisionjuice.com-ssl_log...[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Copy userdata...[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Copy custom virtualhost templates...[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Copying mailman lists and archives....[2018-01-23 02:03:51 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:03:51 +0000] Copying homedir.............
+[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Fixing up EA4 .htaccess blocks: /home/decisionjuice/public_html/.htaccess  Done.
+[2018-01-23 02:03:51 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:03:51 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:03:51 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:03:51 +0000] Completed “Postgresql” component.
+[2018-01-23 02:03:51 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:03:51 +0000] Determining mysql dbs...[2018-01-23 02:03:51 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:03:51 +0000] ...mysql version: 5.6...[2018-01-23 02:03:51 +0000] Saving mysql privs...[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] ...Done
+[2018-01-23 02:03:51 +0000] Storing mysql dbs............
+decision_wrdp5[2018-01-23 02:03:51 +0000] (1830244 bytes) 
+[2018-01-23 02:03:51 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:03:51 +0000] Completed “Mysql” component.
+[2018-01-23 02:03:51 +0000] Copying cpuser file.......[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Copying crontab file.......[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Performing “Quota” component....
+[2018-01-23 02:03:51 +0000] Completed “Quota” component.
+[2018-01-23 02:03:51 +0000] Performing “Integration” component....
+[2018-01-23 02:03:51 +0000] Completed “Integration” component.
+[2018-01-23 02:03:51 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:03:51 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:03:51 +0000] Performing “APITokens” component....
+[2018-01-23 02:03:51 +0000] Completed “APITokens” component.
+[2018-01-23 02:03:51 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:03:51 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:03:51 +0000] Storing Subdomains....
+[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Storing Parked Domains....
+[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Storing Addon Domains....
+[2018-01-23 02:03:51 +0000] Copying password.......[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Copying shell.......[2018-01-23 02:03:51 +0000] Done
+[2018-01-23 02:03:51 +0000] Performing “PublicContact” component....
+[2018-01-23 02:03:51 +0000] Completed “PublicContact” component.
+[2018-01-23 02:03:51 +0000] Creating Archive ....................................................................................
+............................................................
+[2018-01-23 02:04:05 +0000] Done
+[2018-01-23 02:04:05 +0000] pkgacctfile is: /backup/2018-01-23/accounts/decisionjuice.tar.gz
+[2018-01-23 02:04:05 +0000] 
+[2018-01-23 02:04:05 +0000] size is: 107751819
+[2018-01-23 02:04:05 +0000] 
+[2018-01-23 02:04:05 +0000] homesize is: 237576192
+[2018-01-23 02:04:05 +0000] 
+[2018-01-23 02:04:05 +0000] homefiles is: 12298
+[2018-01-23 02:04:05 +0000] pkgacct completed
+[2018-01-23 02:04:10 +0000] info [backup] Queuing daily backup copy of “decisionjuice” for transport of “/backup/2018-01-23/accounts/decisionjuice.tar.gz” to “2018-01-23/accounts/decisionjuice.tar.gz”
+[2018-01-23 02:04:11 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/decisionjuice.tar.gz
+[2018-01-23 02:04:11 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4380
+[2018-01-23 02:04:11 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:04:11 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/decisionjuice-=-meta
+[2018-01-23 02:04:11 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4381
+[2018-01-23 02:04:11 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:04:11 +0000] info [backup] checking backup for webedevco
+[2018-01-23 02:04:11 +0000] info [backup] Backups ARE enabled for webedevco
+[2018-01-23 02:04:11 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “webedevco”
+[2018-01-23 02:04:11 +0000] pkgacct started.
+[2018-01-23 02:04:11 +0000] pkgacct version 10 - user : webedevco - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:04:11 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:04:11 +0000] pkgacct working dir : /backup/2018-01-23/accounts/webedevco
+[2018-01-23 02:04:11 +0000] Copying Reseller Config...[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:04:11 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:04:11 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Storing SSL domain......[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying Domain Keys....[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying Counter Data....[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying Bandwidth Data....[2018-01-23 02:04:11 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:04:11 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying Dns Zones.......webedev.co.uk......webedev.uk...[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying Mail files....[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying proftpd file....[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying www logs.......log file sizes [4 byte(s)]......ftp.webedev.co.uk-ftp_log.offsetftpbytes......webedev.co.uk-ssl_log......webedev.co.uk......webedev.co.uk-bytes_log...[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copy userdata...[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copy custom virtualhost templates...[2018-01-23 02:04:11 +0000] Done
+[2018-01-23 02:04:11 +0000] Copying mailman lists and archives....[2018-01-23 02:04:11 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:04:11 +0000] Copying homedir.............
+[2018-01-23 02:04:12 +0000] Done
+[2018-01-23 02:04:12 +0000] Fixing up EA4 .htaccess blocks: /home/webedevco/public_html/.htaccess  Done.
+[2018-01-23 02:04:12 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:04:12 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:04:12 +0000] Done
+[2018-01-23 02:04:12 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:04:12 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:04:12 +0000] Completed “Postgresql” component.
+[2018-01-23 02:04:12 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:04:12 +0000] Determining mysql dbs...[2018-01-23 02:04:12 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:04:12 +0000] ...mysql version: 5.6...[2018-01-23 02:04:12 +0000] Saving mysql privs...[2018-01-23 02:04:12 +0000] Done
+[2018-01-23 02:04:12 +0000] ...Done
+[2018-01-23 02:04:12 +0000] Storing mysql dbs............
+webedevc_devwp[2018-01-23 02:04:13 +0000] (2520958 bytes) 
+[2018-01-23 02:04:13 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:04:13 +0000] Completed “Mysql” component.
+[2018-01-23 02:04:13 +0000] Copying cpuser file.......[2018-01-23 02:04:13 +0000] Done
+[2018-01-23 02:04:13 +0000] Copying crontab file.......[2018-01-23 02:04:13 +0000] Done
+[2018-01-23 02:04:13 +0000] Performing “Quota” component....
+[2018-01-23 02:04:13 +0000] Completed “Quota” component.
+[2018-01-23 02:04:13 +0000] Performing “Integration” component....
+[2018-01-23 02:04:13 +0000] Completed “Integration” component.
+[2018-01-23 02:04:13 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:04:13 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:04:13 +0000] Performing “APITokens” component....
+[2018-01-23 02:04:13 +0000] Completed “APITokens” component.
+[2018-01-23 02:04:13 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:04:13 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:04:13 +0000] Storing Subdomains....
+[2018-01-23 02:04:13 +0000] Done
+[2018-01-23 02:04:13 +0000] Storing Parked Domains....
+[2018-01-23 02:04:13 +0000] Done
+[2018-01-23 02:04:13 +0000] Storing Addon Domains....
+[2018-01-23 02:04:13 +0000] Copying password.......[2018-01-23 02:04:13 +0000] Done
+[2018-01-23 02:04:13 +0000] Copying shell.......[2018-01-23 02:04:13 +0000] Done
+[2018-01-23 02:04:13 +0000] Performing “PublicContact” component....
+[2018-01-23 02:04:13 +0000] Completed “PublicContact” component.
+[2018-01-23 02:04:13 +0000] Creating Archive ....................................................................................
+................................................................................
+[2018-01-23 02:04:29 +0000] Done
+[2018-01-23 02:04:29 +0000] pkgacctfile is: /backup/2018-01-23/accounts/webedevco.tar.gz
+[2018-01-23 02:04:29 +0000] 
+[2018-01-23 02:04:29 +0000] size is: 80904864
+[2018-01-23 02:04:30 +0000] 
+[2018-01-23 02:04:30 +0000] homesize is: 303800320
+[2018-01-23 02:04:30 +0000] 
+[2018-01-23 02:04:30 +0000] homefiles is: 18387
+[2018-01-23 02:04:30 +0000] pkgacct completed
+[2018-01-23 02:04:37 +0000] info [backup] Queuing daily backup copy of “webedevco” for transport of “/backup/2018-01-23/accounts/webedevco.tar.gz” to “2018-01-23/accounts/webedevco.tar.gz”
+[2018-01-23 02:04:38 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/webedevco.tar.gz
+[2018-01-23 02:04:38 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4382
+[2018-01-23 02:04:38 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:04:38 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/webedevco-=-meta
+[2018-01-23 02:04:38 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4383
+[2018-01-23 02:04:38 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:04:38 +0000] info [backup] checking backup for readforgood
+[2018-01-23 02:04:38 +0000] info [backup] Backups ARE enabled for readforgood
+[2018-01-23 02:04:38 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “readforgood”
+[2018-01-23 02:04:38 +0000] pkgacct started.
+[2018-01-23 02:04:38 +0000] pkgacct version 10 - user : readforgood - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:04:38 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:04:38 +0000] pkgacct working dir : /backup/2018-01-23/accounts/readforgood
+[2018-01-23 02:04:38 +0000] Copying Reseller Config...[2018-01-23 02:04:38 +0000] Done
+[2018-01-23 02:04:38 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:04:38 +0000] Done
+[2018-01-23 02:04:38 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:04:38 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:04:38 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:04:38 +0000] Done
+[2018-01-23 02:04:38 +0000] Storing SSL domain......[2018-01-23 02:04:38 +0000] Done
+[2018-01-23 02:04:38 +0000] Copying Domain Keys....[2018-01-23 02:04:38 +0000] Done
+[2018-01-23 02:04:38 +0000] Copying Counter Data....[2018-01-23 02:04:38 +0000] Done
+[2018-01-23 02:04:38 +0000] Copying Bandwidth Data....[2018-01-23 02:04:38 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:04:38 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:04:38 +0000] Done
+[2018-01-23 02:04:38 +0000] Copying Dns Zones.......readathon.org......readforgood.org...[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] Copying Mail files....[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] Copying proftpd file....[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] Copying www logs.......log file sizes [8575551 byte(s)]............
+...readforgood.org......ftp.readforgood.org-ftp_log.offsetftpbytes......readforgood.org-ssl_log......readforgood.org-bytes_log...[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] Copy userdata...[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] Copy custom virtualhost templates...[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] Copying mailman lists and archives....[2018-01-23 02:04:39 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:04:39 +0000] Copying homedir.............
+[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] Fixing up EA4 .htaccess blocks: /home/readforgood/public_html/.htaccess  Done.
+[2018-01-23 02:04:39 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:04:39 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:04:39 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:04:39 +0000] Completed “Postgresql” component.
+[2018-01-23 02:04:39 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:04:39 +0000] Determining mysql dbs...[2018-01-23 02:04:39 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:04:39 +0000] ...mysql version: 5.6...[2018-01-23 02:04:39 +0000] Saving mysql privs...[2018-01-23 02:04:39 +0000] Done
+[2018-01-23 02:04:39 +0000] ...Done
+[2018-01-23 02:04:39 +0000] Storing mysql dbs............
+readforg_wp[2018-01-23 02:04:40 +0000] (27800040 bytes) 
+[2018-01-23 02:04:40 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:04:40 +0000] Completed “Mysql” component.
+[2018-01-23 02:04:40 +0000] Copying cpuser file.......[2018-01-23 02:04:40 +0000] Done
+[2018-01-23 02:04:40 +0000] Copying crontab file.......[2018-01-23 02:04:40 +0000] Done
+[2018-01-23 02:04:40 +0000] Performing “Quota” component....
+[2018-01-23 02:04:40 +0000] Completed “Quota” component.
+[2018-01-23 02:04:40 +0000] Performing “Integration” component....
+[2018-01-23 02:04:40 +0000] Completed “Integration” component.
+[2018-01-23 02:04:40 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:04:40 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:04:40 +0000] Performing “APITokens” component....
+[2018-01-23 02:04:40 +0000] Completed “APITokens” component.
+[2018-01-23 02:04:40 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:04:40 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:04:40 +0000] Storing Subdomains....
+[2018-01-23 02:04:40 +0000] Done
+[2018-01-23 02:04:40 +0000] Storing Parked Domains....
+[2018-01-23 02:04:40 +0000] Done
+[2018-01-23 02:04:40 +0000] Storing Addon Domains....
+[2018-01-23 02:04:40 +0000] Copying password.......[2018-01-23 02:04:40 +0000] Done
+[2018-01-23 02:04:40 +0000] Copying shell.......[2018-01-23 02:04:40 +0000] Done
+[2018-01-23 02:04:40 +0000] Performing “PublicContact” component....
+[2018-01-23 02:04:40 +0000] Completed “PublicContact” component.
+[2018-01-23 02:04:40 +0000] Creating Archive ....................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+..................................................
+[2018-01-23 02:05:49 +0000] Done
+[2018-01-23 02:05:49 +0000] pkgacctfile is: /backup/2018-01-23/accounts/readforgood.tar.gz
+[2018-01-23 02:05:49 +0000] 
+[2018-01-23 02:05:49 +0000] size is: 782473928
+[2018-01-23 02:05:49 +0000] 
+[2018-01-23 02:05:49 +0000] homesize is: 1021816832
+[2018-01-23 02:05:49 +0000] 
+[2018-01-23 02:05:49 +0000] homefiles is: 20595
+[2018-01-23 02:05:49 +0000] pkgacct completed
+[2018-01-23 02:06:12 +0000] info [backup] Queuing daily backup copy of “readforgood” for transport of “/backup/2018-01-23/accounts/readforgood.tar.gz” to “2018-01-23/accounts/readforgood.tar.gz”
+[2018-01-23 02:06:15 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/readforgood.tar.gz
+[2018-01-23 02:06:15 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4384
+[2018-01-23 02:06:15 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:06:15 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/readforgood-=-meta
+[2018-01-23 02:06:15 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4385
+[2018-01-23 02:06:15 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:06:15 +0000] info [backup] checking backup for selectwear
+[2018-01-23 02:06:15 +0000] info [backup] Backups ARE enabled for selectwear
+[2018-01-23 02:06:15 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “selectwear”
+[2018-01-23 02:06:15 +0000] pkgacct started.
+[2018-01-23 02:06:15 +0000] pkgacct version 10 - user : selectwear - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:06:15 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:06:15 +0000] pkgacct working dir : /backup/2018-01-23/accounts/selectwear
+[2018-01-23 02:06:15 +0000] Copying Reseller Config...[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:06:15 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:06:15 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Storing SSL domain......[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying Domain Keys....[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying Counter Data....[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying Bandwidth Data....[2018-01-23 02:06:15 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:06:15 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying Dns Zones.......weareselect.co.uk...[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying Mail files....[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying proftpd file....[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying www logs.......log file sizes [3 byte(s)]......ftp.weareselect.co.uk-ftp_log.offsetftpbytes......weareselect.co.uk-ssl_log......weareselect.co.uk......weareselect.co.uk-bytes_log...[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copy userdata...[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copy custom virtualhost templates...[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Copying mailman lists and archives....[2018-01-23 02:06:15 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:06:15 +0000] Copying homedir.............
+[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Fixing up EA4 .htaccess blocks: /home/selectwear/public_html/.htaccess  Done.
+[2018-01-23 02:06:15 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:06:15 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:06:15 +0000] Done
+[2018-01-23 02:06:15 +0000] Completed “Postgresql” component.
+[2018-01-23 02:06:15 +0000] Performing “Mysql” component....
+Load watching resumed due to SIGUSR2
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:06:15 +0000] Determining mysql dbs...[2018-01-23 02:06:16 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:06:16 +0000] ...mysql version: 5.6...[2018-01-23 02:06:16 +0000] Saving mysql privs...[2018-01-23 02:06:16 +0000] Done
+[2018-01-23 02:06:16 +0000] ...Done
+[2018-01-23 02:06:16 +0000] Storing mysql dbs............
+selectwe_wordpress[2018-01-23 02:06:16 +0000] (6522467 bytes) 
+[2018-01-23 02:06:16 +0000] ...Done
+[2018-01-23 02:06:16 +0000] Completed “Mysql” component.
+[2018-01-23 02:06:16 +0000] Copying cpuser file.......Load watching resumed due to SIGUSR2
+[2018-01-23 02:06:16 +0000] Done
+[2018-01-23 02:06:16 +0000] Copying crontab file.......[2018-01-23 02:06:16 +0000] Done
+[2018-01-23 02:06:16 +0000] Performing “Quota” component....
+[2018-01-23 02:06:16 +0000] Completed “Quota” component.
+[2018-01-23 02:06:16 +0000] Performing “Integration” component....
+[2018-01-23 02:06:16 +0000] Completed “Integration” component.
+[2018-01-23 02:06:16 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:06:16 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:06:16 +0000] Performing “APITokens” component....
+[2018-01-23 02:06:16 +0000] Completed “APITokens” component.
+[2018-01-23 02:06:16 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:06:16 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:06:16 +0000] Storing Subdomains....
+[2018-01-23 02:06:16 +0000] Done
+[2018-01-23 02:06:16 +0000] Storing Parked Domains....
+[2018-01-23 02:06:16 +0000] Done
+[2018-01-23 02:06:16 +0000] Storing Addon Domains....
+[2018-01-23 02:06:16 +0000] Copying password.......[2018-01-23 02:06:16 +0000] Done
+[2018-01-23 02:06:16 +0000] Copying shell.......[2018-01-23 02:06:16 +0000] Done
+[2018-01-23 02:06:16 +0000] Performing “PublicContact” component....
+[2018-01-23 02:06:16 +0000] Completed “PublicContact” component.
+[2018-01-23 02:06:16 +0000] Creating Archive ..............
+[2018-01-23 02:06:17 +0000] Done
+[2018-01-23 02:06:17 +0000] pkgacctfile is: /backup/2018-01-23/accounts/selectwear.tar.gz
+[2018-01-23 02:06:17 +0000] 
+[2018-01-23 02:06:17 +0000] size is: 1525933
+[2018-01-23 02:06:17 +0000] 
+[2018-01-23 02:06:17 +0000] homesize is: 5763072
+[2018-01-23 02:06:17 +0000] 
+[2018-01-23 02:06:17 +0000] homefiles is: 282
+[2018-01-23 02:06:17 +0000] pkgacct completed
+[2018-01-23 02:06:17 +0000] info [backup] Queuing daily backup copy of “selectwear” for transport of “/backup/2018-01-23/accounts/selectwear.tar.gz” to “2018-01-23/accounts/selectwear.tar.gz”
+[2018-01-23 02:06:17 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/selectwear.tar.gz
+[2018-01-23 02:06:17 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4386
+[2018-01-23 02:06:18 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:06:18 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/selectwear-=-meta
+[2018-01-23 02:06:18 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4387
+[2018-01-23 02:06:18 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:06:18 +0000] info [backup] checking backup for cp8959639shobil
+[2018-01-23 02:06:18 +0000] info [backup] checking backup for narpo
+[2018-01-23 02:06:18 +0000] info [backup] Backups ARE enabled for narpo
+[2018-01-23 02:06:18 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “narpo”
+[2018-01-23 02:06:18 +0000] pkgacct started.
+[2018-01-23 02:06:18 +0000] pkgacct version 10 - user : narpo - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:06:18 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:06:18 +0000] pkgacct working dir : /backup/2018-01-23/accounts/narpo
+[2018-01-23 02:06:18 +0000] Copying Reseller Config...[2018-01-23 02:06:18 +0000] Done
+[2018-01-23 02:06:18 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:06:18 +0000] Done
+[2018-01-23 02:06:18 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:06:18 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:06:18 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:06:18 +0000] Done
+[2018-01-23 02:06:18 +0000] Storing SSL domain......[2018-01-23 02:06:18 +0000] Done
+[2018-01-23 02:06:18 +0000] Copying Domain Keys....[2018-01-23 02:06:18 +0000] Done
+[2018-01-23 02:06:18 +0000] Copying Counter Data....[2018-01-23 02:06:18 +0000] Done
+[2018-01-23 02:06:18 +0000] Copying Bandwidth Data....[2018-01-23 02:06:18 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:06:18 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:06:18 +0000] Done
+[2018-01-23 02:06:18 +0000] Copying Dns Zones.......narpo.org......narpo.org.uk...[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] Copying Mail files....[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] Copying proftpd file....[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] Copying www logs.......log file sizes [16556499 byte(s)]............
+...narpo.org......narpo.org-bytes_log......ftp.narpo.org-ftp_log.offsetftpbytes......narpo.org-ssl_log...[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] Copy userdata...[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] Copy custom virtualhost templates...[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] Copying mailman lists and archives....[2018-01-23 02:06:19 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:06:19 +0000] Copying homedir.............
+[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] Fixing up EA4 .htaccess blocks: /home/narpo/public_html/.htaccess  Done.
+[2018-01-23 02:06:19 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:06:19 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:06:19 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:06:19 +0000] Completed “Postgresql” component.
+[2018-01-23 02:06:19 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:06:19 +0000] Determining mysql dbs...[2018-01-23 02:06:19 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:06:19 +0000] ...mysql version: 5.6...[2018-01-23 02:06:19 +0000] Saving mysql privs...[2018-01-23 02:06:19 +0000] Done
+[2018-01-23 02:06:19 +0000] ...Done
+[2018-01-23 02:06:19 +0000] Storing mysql dbs............
+narpo_live[2018-01-23 02:06:20 +0000] (19371959 bytes) 
+[2018-01-23 02:06:20 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:06:20 +0000] Completed “Mysql” component.
+[2018-01-23 02:06:20 +0000] Copying cpuser file.......[2018-01-23 02:06:20 +0000] Done
+[2018-01-23 02:06:20 +0000] Copying crontab file.......[2018-01-23 02:06:20 +0000] Done
+[2018-01-23 02:06:20 +0000] Performing “Quota” component....
+[2018-01-23 02:06:20 +0000] Completed “Quota” component.
+[2018-01-23 02:06:20 +0000] Performing “Integration” component....
+[2018-01-23 02:06:20 +0000] Completed “Integration” component.
+[2018-01-23 02:06:20 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:06:20 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:06:20 +0000] Performing “APITokens” component....
+[2018-01-23 02:06:20 +0000] Completed “APITokens” component.
+[2018-01-23 02:06:20 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:06:20 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:06:20 +0000] Storing Subdomains....
+[2018-01-23 02:06:20 +0000] Done
+[2018-01-23 02:06:20 +0000] Storing Parked Domains....
+[2018-01-23 02:06:20 +0000] Done
+[2018-01-23 02:06:20 +0000] Storing Addon Domains....
+[2018-01-23 02:06:20 +0000] Copying password.......[2018-01-23 02:06:20 +0000] Done
+[2018-01-23 02:06:20 +0000] Copying shell.......[2018-01-23 02:06:20 +0000] Done
+[2018-01-23 02:06:20 +0000] Performing “PublicContact” component....
+[2018-01-23 02:06:20 +0000] Completed “PublicContact” component.
+[2018-01-23 02:06:20 +0000] Creating Archive ....................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+................................................................................
+............................................................
+[2018-01-23 02:07:54 +0000] Done
+[2018-01-23 02:07:54 +0000] pkgacctfile is: /backup/2018-01-23/accounts/narpo.tar.gz
+[2018-01-23 02:07:54 +0000] 
+[2018-01-23 02:07:54 +0000] size is: 1210823332
+[2018-01-23 02:07:54 +0000] 
+[2018-01-23 02:07:54 +0000] homesize is: 1992765440
+[2018-01-23 02:07:54 +0000] 
+[2018-01-23 02:07:54 +0000] homefiles is: 19121
+[2018-01-23 02:07:54 +0000] pkgacct completed
+[2018-01-23 02:08:27 +0000] info [backup] Queuing daily backup copy of “narpo” for transport of “/backup/2018-01-23/accounts/narpo.tar.gz” to “2018-01-23/accounts/narpo.tar.gz”
+[2018-01-23 02:08:31 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/narpo.tar.gz
+[2018-01-23 02:08:31 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4388
+[2018-01-23 02:08:31 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:08:31 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/narpo-=-meta
+[2018-01-23 02:08:31 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4389
+[2018-01-23 02:08:31 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:08:31 +0000] info [backup] checking backup for selectsupport
+[2018-01-23 02:08:31 +0000] info [backup] Backups ARE enabled for selectsupport
+[2018-01-23 02:08:31 +0000] info [backup] Calling pkgacct under cpuwatch to backup user “selectsupport”
+[2018-01-23 02:08:31 +0000] pkgacct started.
+[2018-01-23 02:08:31 +0000] pkgacct version 10 - user : selectsupport - tarball: 1 - target mysql : default - split: 0 - incremental: 0 - homedir: 1 - mailman: 1 - backup: 1 - archive version: 4 - running with uid 0
+[2018-01-23 02:08:31 +0000] pkgacct using '/usr/local/cpanel/3rdparty/bin/pigz -6 --processes 1 --blocksize 4096 --rsyncable' to compress archives
+[2018-01-23 02:08:31 +0000] pkgacct working dir : /backup/2018-01-23/accounts/selectsupport
+[2018-01-23 02:08:31 +0000] Copying Reseller Config...[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying Suspension Info (if needed)...[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying installed SSL certificates and keys...[2018-01-23 02:08:31 +0000] Performing “ApacheTLS” component....
+[2018-01-23 02:08:31 +0000] Completed “ApacheTLS” component.
+[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Storing SSL domain......[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying Domain Keys....[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying Counter Data....[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying Bandwidth Data....[2018-01-23 02:08:31 +0000] Performing “Bandwidth” component....
+Summary databases … done!
+[2018-01-23 02:08:31 +0000] Completed “Bandwidth” component.
+[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying Dns Zones.......select-support.co.uk...[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying Mail files....[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying proftpd file....[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying www logs.......log file sizes [38705 byte(s)]......select-support.co.uk-ssl_log......select-support.co.uk-bytes_log......ftp.select-support.co.uk-ftp_log.offsetftpbytes......select-support.co.uk...[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copy userdata...[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copy custom virtualhost templates...[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Copying mailman lists and archives....[2018-01-23 02:08:31 +0000] Done copying mailman lists and archives.
+[2018-01-23 02:08:31 +0000] Copying homedir.............
+[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Fixing up EA4 .htaccess blocks: /home/selectsupport/public_html/.htaccess  Done.
+[2018-01-23 02:08:31 +0000] Performing “Postgresql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:08:31 +0000] Grabbing PostgreSQL databases...[2018-01-23 02:08:31 +0000] Done
+[2018-01-23 02:08:31 +0000] Grabbing PostgreSQL privileges...[2018-01-23 02:08:31 +0000] Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:08:31 +0000] Completed “Postgresql” component.
+[2018-01-23 02:08:31 +0000] Performing “Mysql” component....
+Load watching suspended due to SIGUSR1
+[2018-01-23 02:08:31 +0000] Determining mysql dbs...[2018-01-23 02:08:32 +0000] ...mysqldump version: 5.6.36...[2018-01-23 02:08:32 +0000] ...mysql version: 5.6...[2018-01-23 02:08:32 +0000] Saving mysql privs...[2018-01-23 02:08:32 +0000] Done
+[2018-01-23 02:08:32 +0000] ...Done
+[2018-01-23 02:08:32 +0000] Storing mysql dbs...[2018-01-23 02:08:32 +0000] ...Done
+Load watching resumed due to SIGUSR2
+[2018-01-23 02:08:32 +0000] Completed “Mysql” component.
+[2018-01-23 02:08:32 +0000] Copying cpuser file.......[2018-01-23 02:08:32 +0000] Done
+[2018-01-23 02:08:32 +0000] Copying crontab file.......[2018-01-23 02:08:32 +0000] Done
+[2018-01-23 02:08:32 +0000] Performing “Quota” component....
+[2018-01-23 02:08:32 +0000] Completed “Quota” component.
+[2018-01-23 02:08:32 +0000] Performing “Integration” component....
+[2018-01-23 02:08:32 +0000] Completed “Integration” component.
+[2018-01-23 02:08:32 +0000] Performing “AuthnLinks” component....
+[2018-01-23 02:08:32 +0000] Completed “AuthnLinks” component.
+[2018-01-23 02:08:32 +0000] Performing “APITokens” component....
+[2018-01-23 02:08:32 +0000] Completed “APITokens” component.
+[2018-01-23 02:08:32 +0000] Performing “AutoSSL” component....
+[2018-01-23 02:08:32 +0000] Completed “AutoSSL” component.
+[2018-01-23 02:08:32 +0000] Storing Subdomains....
+[2018-01-23 02:08:32 +0000] Done
+[2018-01-23 02:08:32 +0000] Storing Parked Domains....
+[2018-01-23 02:08:32 +0000] Done
+[2018-01-23 02:08:32 +0000] Storing Addon Domains....
+[2018-01-23 02:08:32 +0000] Copying password.......[2018-01-23 02:08:32 +0000] Done
+[2018-01-23 02:08:32 +0000] Copying shell.......[2018-01-23 02:08:32 +0000] Done
+[2018-01-23 02:08:32 +0000] Performing “PublicContact” component....
+[2018-01-23 02:08:32 +0000] Completed “PublicContact” component.
+[2018-01-23 02:08:32 +0000] Creating Archive ....[2018-01-23 02:08:32 +0000] Done
+[2018-01-23 02:08:32 +0000] pkgacctfile is: /backup/2018-01-23/accounts/selectsupport.tar.gz
+[2018-01-23 02:08:32 +0000] 
+[2018-01-23 02:08:32 +0000] size is: 3339715
+[2018-01-23 02:08:32 +0000] 
+[2018-01-23 02:08:32 +0000] homesize is: 23531520
+[2018-01-23 02:08:32 +0000] 
+[2018-01-23 02:08:32 +0000] homefiles is: 388
+[2018-01-23 02:08:32 +0000] pkgacct completed
+[2018-01-23 02:08:34 +0000] info [backup] Queuing daily backup copy of “selectsupport” for transport of “/backup/2018-01-23/accounts/selectsupport.tar.gz” to “2018-01-23/accounts/selectsupport.tar.gz”
+[2018-01-23 02:08:34 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/selectsupport.tar.gz
+[2018-01-23 02:08:34 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4390
+[2018-01-23 02:08:34 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:08:34 +0000] info [backup] Queuing transport of file: /backup/2018-01-23/accounts/selectsupport-=-meta
+[2018-01-23 02:08:34 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4391
+[2018-01-23 02:08:34 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:08:34 +0000] info [backup] Pruning backup directory: /backup/2018-01-18
+[2018-01-23 02:08:34 +0000] info [backup] Queuing prune operation for remote destination daily backups
+[2018-01-23 02:08:34 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4392
+[2018-01-23 02:08:34 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:08:34 +0000] info [backup] Queuing transport reporter
+[2018-01-23 02:08:34 +0000] info [backup] no_transport = 0 .. and queueid = TQ:TaskQueue:4393
+[2018-01-23 02:08:34 +0000] info [backup] leaving queue_backup_transport_item
+[2018-01-23 02:08:34 +0000] info [backup] Completed at Tue Jan 23 02:08:34 2018
+[2018-01-23 02:08:34 +0000] info [backup] Final state is Backup::Success (0)

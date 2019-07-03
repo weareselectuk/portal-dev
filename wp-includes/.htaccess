@@ -1,0 +1,13 @@
+
+## WP Defender - Protect PHP Executed ##
+<Files *.php>
+Order allow,deny
+Deny from all
+</Files>
+<Files wp-tinymce.php>
+Allow from all
+</Files>
+<Files ms-files.php>
+Allow from all
+</Files>
+## WP Defender - End ##

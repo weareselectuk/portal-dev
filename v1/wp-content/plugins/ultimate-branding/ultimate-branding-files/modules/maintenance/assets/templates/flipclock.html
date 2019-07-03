@@ -1,0 +1,17 @@
+<div class="clock"></div>
+<script type="text/javascript">
+var clock;
+jQuery(document).ready(function($) {
+	// Instantiate a coutdown FlipClock
+    clock = $('.clock').FlipClock({distance}, {
+		clockFace: 'DailyCounter',
+		countdown: true,
+        language: '{language}',
+        callbacks: {
+            stop: function() {
+                window.location.reload();
+            }
+        }
+	});
+});
+</script>

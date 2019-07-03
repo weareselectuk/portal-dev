@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+input[type=radio].with-font
+{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+.satisfaction-thumbs label{
+    font-size: 24px;
+    display: inline-flex;
+}
+.satisfaction-thumbs
+{
+    width: 100%;
+}
+.satisfaction-thumbs tr
+{
+    text-align: -webkit-center;
+}
+.satisfaction-thumbs td
+{
+    box-shadow: 1px red;
+}
+input[type=radio].with-good ~ label:before{
+    font-family: 'Glyphicons Halflings';
+    display: inline-block;
+    content: "\e125";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: black;
+    width: 1.4em;
+}
+input[type=radio].with-bad ~ label:before{
+    font-family: 'Glyphicons Halflings';
+    display: inline-block;
+    content: "\e126";
+    letter-spacing: 10px;
+    font-size: 1.2em;
+    color: black;
+    width: 1.4em;
+}
+
+input[type=radio].with-good:checked ~ label:before
+{
+    font-family: 'Glyphicons Halflings';
+    content: "\e125";
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    color: green;
+}
+input[type=radio].with-bad:checked ~ label:before
+{
+    font-family: 'Glyphicons Halflings';
+    content: "\e126";
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    color: red;
+}
+input[type=radio].with-good:focus ~ label:before,
+input[type=radio].with-good:focus ~ label
+{                
+    color: green;
+}
+input[type=radio].with-bad:focus ~ label:before,
+input[type=radio].with-bad:focus ~ label
+{                
+    color: red;
+}
+.powered_wsdesk span
+{
+    opacity: 0.4;
+    font-size: 10px;
+    color: black;
+}
+.powered_wsdesk a
+{
+    opacity: 0.4;
+    font-size: 10px;
+    color: black !important;
+}
+.satisfaction-div
+{
+    padding:20px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+    transition: box-shadow 0.5s ease-in-out;
+}
+.satisfaction-div:focus,
+.satisfaction-div:hover{
+     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}

@@ -1,0 +1,27 @@
+/*Subsite favicons*/
+#wpadminbar {
+    .quicklinks {
+        li {
+            .blavatar{
+                max-width: 16px;
+                max-height: 16px;
+                padding-right: 5px;
+                padding-top: 5px;
+            }
+        }
+    }
+}
+.ultimate-branding {
+    .simple-options {
+        .form-table {
+            .simple-option {
+                small {
+                    white-space: nowrap;
+                }
+                th {
+                    padding-top: 20px;
+                }
+            }
+        }
+    }
+}

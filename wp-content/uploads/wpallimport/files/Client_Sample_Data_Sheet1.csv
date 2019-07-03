@@ -1,0 +1,5 @@
+id,Unique ID,Title,email,email_setup_guide,link_to_email_provider,email_admin_password,email_admin_login,email_provider,wan_ip_address,secondary_dns,primary_dns,subnet_mask,gateway_ip_address,lan_ip,dhcp_server,sso_setup,primary_domain_suffix,domain_setup,account_manager,tech_contact,sales_contact,website,client_satus
+,1,Norway Computer Centre,NCCinfo@gmail.com,gmail_setup.pdf,http://admin.google.com,@admin41,NCCadmin@gmail.com,Gsuite,,,,,,,,,NCC.local,Yes,Derrick,Phil ,Steve,NorwayComputerCentre.no,Active
+,2,Square Intelligence,info@SQI.co.uk,,https://login.microsoftonline.com,pass86%!,admin@SQI.co.uk,,,,,,,,,,SQI.local,Yes,Joe,Aaron,Lauren,SquareIntelligence.co.uk,
+,3,Simple Marketing,help@SM.co.uk,,https://login.microsoftonline.com,p@s$w0rdd*19,admin@SM.co.uk,,,,,,,,,,SimpleMarketing.local,Yes,Steven,Charlie,Lucy,SimpleMarketing.co.uk,
+,4,Bespoke Taxis,support@BesTaxis.co.uk,,https://login.microsoftonline.com,p@$$w0rd!69,admin@BesTaxis.co.uk,,,,,,,,,,,No,Dave,Jim,John,BesTaxis.co.uk,Not Active

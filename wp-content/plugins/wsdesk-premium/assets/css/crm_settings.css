@@ -1,0 +1,238 @@
+/**Activation CSS Starts from here**/
+.not_activated:hover,
+.not_activated:active
+{
+    background-color: #b11915 !important;
+}
+.not_activated:focus
+{
+    background-color: #c9302c !important;
+}
+.not_activated
+{
+    background-color: #c9302c !important;
+}
+.get_activated:hover,
+.get_activated:active
+{
+    background-color: #1b9848 !important;
+}
+.get_activated:focus
+{
+    background-color: #10843a !important;
+}
+.get_activated
+{
+    background-color: #3dbf6c !important;
+}
+.aw-result-box{
+    display: none;
+    margin-left: 0px !important;
+    margin-top: 15px !important;
+    margin-bottom: 0px !important;
+    background-color: #f7f5f5 !important;
+}
+.aw-deactivation-info{
+    line-height: 26px;
+    font-weight: 700;
+    padding: 10px;
+}
+.hidden{
+    display: none;
+}
+.content-row{
+    overflow: hidden;
+}
+
+/**Settings CSS Starts from here**/
+.crm-input-textarea-body
+{
+    padding: 10px !important;
+}
+.specify_conditions
+{
+    padding: 10px;
+}
+.edit_specify_conditions
+{
+    padding: 10px;
+}
+.condition_title_span
+{
+    text-decoration: underline;
+    display: block;
+    margin: 3px;
+}
+.taction_title_span
+{
+    text-decoration: underline;
+    display: block;
+    margin: 3px;
+}
+.edit_condition_title_span
+{
+    text-decoration: underline;
+    display: block;
+    margin: 3px;
+}
+.edit_taction_title_span
+{
+    text-decoration: underline;
+    display: block;
+    margin: 3px;
+}
+.specify_tconditions
+{
+    padding: 10px;
+}
+.edit_specify_tconditions
+{
+    padding: 10px;
+}
+.tcondition_title_span
+{
+    text-decoration: underline;
+    display: block;
+    margin: 3px;
+}
+.taction_title_span
+{
+    text-decoration: underline;
+    display: block;
+    margin: 3px;
+}
+.edit_tcondition_title_span
+{
+    text-decoration: underline;
+    display: block;
+    margin: 3px;
+}
+.clickable{
+    cursor: pointer;   
+}
+div#ticket_fields_configure_source {
+    display: none;
+}
+div#ticket_fields_configure_selected
+{
+    display: none;
+}
+div#ticket_views_configure_source {
+    display: none;
+}
+div#ticket_views_configure_selected
+{
+    display: none;
+}
+div#triggers_configure_source {
+    display: none;
+}
+div#triggers_configure_selected
+{
+    display: none;
+}
+.fc-field {
+border-color: #ddd;
+border: 1px solid transparent;
+border-radius: 4px;
+background-color: white;
+-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+padding: 5px 0px;
+margin: 5px 0px;
+}
+.fc-field-list
+{
+    height: auto;
+    width: 300px !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+#triggers_configure_final .fc-field-list
+{
+    height: auto;
+    width: 500px !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    
+}
+.fc-selected {
+color: #fff;
+background-color: #337ab7;
+cursor: grab;
+}
+.fc-source-fields
+{
+   background-color: whitesmoke;
+}
+.fc-destination-fields
+{
+    background-color: whitesmoke;
+}
+#ticket_fields_configure_final [class*="col-"] {
+    display: table-cell;
+    vertical-align: top;
+    float: none;
+}
+#ticket_views_configure_final [class*="col-"] {
+    display: table-cell;
+    vertical-align: top;
+    float: none;
+}
+#triggers_configure_final [class*="col-"] {
+    display: table-cell;
+    vertical-align: top;
+    float: none;
+}
+span.fc-field-name
+{
+    float: left;
+    padding: 0px 5px;
+}
+span.fc-field-type
+{
+    float: right;
+    padding: 0px 5px;
+}
+.ticket_fields_remove
+{
+    margin: 10px 0px;
+    width: auto;
+}
+.ticket_labels_remove
+{
+    margin: 10px 0px;
+    width: 100%;
+}
+.ticket_tags_remove
+{
+    margin: 10px 0px;
+    width: auto;
+}
+.ticket_views_remove
+{
+    margin: 10px 0px;
+    width: auto;
+}
+.triggers_remove
+{
+    margin: 10px 0px;
+    width: auto;
+}
+.select2-search__field
+{
+    width: 100% !important;
+}
+a:hover,
+a:focus {
+  text-decoration: none !important;
+}
+a:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+.wsdesk_wrapper .help-block
+{
+    margin-top: 10px !important;
+}

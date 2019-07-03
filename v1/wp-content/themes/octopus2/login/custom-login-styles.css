@@ -1,0 +1,84 @@
+body.login {
+  background-image: url('/wp-content/themes/octopus/library/assets/img/login-back.png') !important;
+  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;
+}
+.login h1 a {
+  background-image: url('/wp-content/themes/octopus/library/assets/img/logo/was-1.png') !important;
+  background-size: cover !important;
+  height: 131px !important;
+  width: 194px;
+}
+.login label {
+  
+  font-size: 0px !important;
+  color: #3673ba !important;
+  
+}
+
+input#rememberme {visibility:hidden;
+
+}
+
+.login input[type="text"]{
+  background-color: rgba(255, 255, 255, 0.5);;
+  border-color:transparent;
+  
+  -webkit-border-radius: 4px;
+  border-radius: 25px;
+}
+
+.login form {
+  margin-top: 20px !important;
+  margin-left: 0 !important;
+  padding: 26px 24px 46px !important;
+  background: transparent !important;
+  opacity: 0.95;
+  box-shadow: 0 1px 3px rgba(0,0,0,.13) !important;
+  
+}
+
+.login input[type="password"]{
+  background-color: rgba(255, 255, 255, 0.5);
+  border-color: transparent;
+  -webkit-border-radius: 4px;
+  border-radius: 25px;
+}
+.login .button-primary {
+  width: 270px;
+  float:right;
+  background-color:#3673ba !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3673ba), to(#3673ba));
+  background: -webkit-linear-gradient(top, #3673ba, #3673ba);
+  background: -moz-linear-gradient(top, #3673ba, #3673ba);
+  background: -ms-linear-gradient(top, #3673ba, #3673ba);
+  background: -o-linear-gradient(top, #3673ba, #3673ba);
+  background-image: -ms-linear-gradient(top, #3673ba 0%, #3673ba 100%);
+  color: #ffffff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #3673ba;
+}
+.login .button-primary:hover {
+  background-color:#3673ba !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3673ba), to(#3673ba ));
+  background: -webkit-linear-gradient(top, #3673ba, #3673ba );
+  background: -moz-linear-gradient(top, #3673ba, #3673ba );
+  background: -ms-linear-gradient(top, #3673ba, #3673ba );
+  background: -o-linear-gradient(top, #3673ba, #3673ba );
+  background-image: -ms-linear-gradient(top, #0b436e 0%, #3673ba 100%);
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #3673ba;
+}
+
+.login .button-primary:active {
+  background-color:#ffffff !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#3673ba), to(#3673ba));
+  background: -webkit-linear-gradient(top, #3673ba, #3673ba);
+  background: -moz-linear-gradient(top, #3673ba, #3673ba);
+  background: -ms-linear-gradient(top, #3673ba, #3673ba);
+  background: -o-linear-gradient(top, #3673ba, #3673ba);
+  background-image: -ms-linear-gradient(top, #3673ba 0%, #3673ba 100%);
+  color: #fff;
+  -webkit-border-radius: 4px;
+  border: 1px solid #3673ba;
+}

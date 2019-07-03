@@ -1,0 +1,13 @@
+Client_id,Site_id,User_id,Unique ID,title,firstname,lastname,telephone,mobile,email_address,user_status
+5191,5195,,1,Mr,Aiden,King,078 3333 9260,07700 900795,aiden.king@hotmail.com,Active
+5191,5195,,2,Mrs,Laura,Murray,079 2951 8568,07700 900739,laura.murray@gmail.com,Active
+5191,5195,,3,Miss,Lucy,Elliot,077 2565 8012,07700 900970,lucy.elliot@SquareIntelligence.com,Not Active
+5192,5196,,4,Mr,Aiden,King,078 3333 9260,07700 900795,aiden.king@hotmail.com,Active
+5192,5196,,5,Mrs,Laura,Murray,079 2951 8568,07700 900739,laura.murray@gmail.com,Active
+5192,5196,,6,Miss,Lucy,Elliot,077 2565 8012,07700 900970,lucy.elliot@SquareIntelligence.com,Not Active
+5193,5197,,7,Mr,Aiden,King,078 3333 9260,07700 900795,aiden.king@hotmail.com,Active
+5193,5197,,8,Mrs,Laura,Murray,079 2951 8568,07700 900739,laura.murray@gmail.com,Active
+5193,5197,,9,Miss,Lucy,Elliot,077 2565 8012,07700 900970,lucy.elliot@SquareIntelligence.com,Not Active
+5194,5198,,10,Mr,Aiden,King,078 3333 9260,07700 900795,aiden.king@hotmail.com,Active
+5194,5198,,11,Mrs,Laura,Murray,079 2951 8568,07700 900739,laura.murray@gmail.com,Active
+5194,5198,,12,Miss,Lucy,Elliot,077 2565 8012,07700 900970,lucy.elliot@SquareIntelligence.com,Not Active

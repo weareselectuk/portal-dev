@@ -1,0 +1,26 @@
+.icon-bar {
+	background-color:#fff;
+}
+
+
+section {
+	padding-top:70px;  
+    padding-bottom:50px; 
+    min-height:100vh;
+}
+
+.v-center {
+    padding-top:10%;
+    font-size:70px;
+}
+  
+.well {
+	border-color:transparent;
+}
+  
+#section1 {
+	background-color: #168ccc;
+    color:#dedeff;
+}
+
+  

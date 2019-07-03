@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<node>
+		<client><![CDATA[34]]></client>
+		<id><![CDATA[1247]]></id>
+		<title><![CDATA[was_swindon]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[Wiltshire]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 915180]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1344]]></client>
+		<id><![CDATA[1362]]></id>
+		<title><![CDATA[myne_stroud]]></title>
+		<address><![CDATA[2 Ash Ln]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Stroud]]></city>
+		<post_code><![CDATA[GL6 6EX]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01453 769700]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1359]]></client>
+		<id><![CDATA[1363]]></id>
+		<title><![CDATA[Nailsworth-Readforgood]]></title>
+		<address><![CDATA[26 Nailsworth Mills]]></address>
+		<county><![CDATA[Gloucestershire]]></county>
+		<city><![CDATA[Nailsworth]]></city>
+		<post_code><![CDATA[GL6 0BS]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01453 839005]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1338]]></client>
+		<id><![CDATA[1364]]></id>
+		<title><![CDATA[fis_cheltenham]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[07403 216682]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1327]]></client>
+		<id><![CDATA[1365]]></id>
+		<title><![CDATA[cmp_cheltenham]]></title>
+		<address><![CDATA[15 Landsdown Road]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[GL50 2JA]]></post_code>
+		<longitude><![CDATA[-2.08812]]></longitude>
+		<latitude><![CDATA[51.89347]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01242 523199]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[asdlkjgfaskl;fask;dfl;askjf;klasjdf;lkasjfl;kasj;dlfkjas;klfjaskl;df zdfgasdfbgasd  av asv asdf dfs   ggf df asd gsdrg sdfg gsdfg sd ]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1328]]></client>
+		<id><![CDATA[1366]]></id>
+		<title><![CDATA[adr_cirencester]]></title>
+		<address><![CDATA[West Market Place]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Cirencester]]></city>
+		<post_code><![CDATA[GL72NH]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01285 659855]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1330]]></client>
+		<id><![CDATA[1368]]></id>
+		<title><![CDATA[bar_swindon]]></title>
+		<address><![CDATA[]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[]]></city>
+		<post_code><![CDATA[]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1331]]></client>
+		<id><![CDATA[1369]]></id>
+		<title><![CDATA[adi_cirencester]]></title>
+		<address><![CDATA[West Market Place]]></address>
+		<county><![CDATA[Gloucestershire]]></county>
+		<city><![CDATA[Cirencester]]></city>
+		<post_code><![CDATA[GL7 2NH]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01285 659855]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1332]]></client>
+		<id><![CDATA[1370]]></id>
+		<title><![CDATA[cat_nexus]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[Wiltshire]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1334]]></client>
+		<id><![CDATA[1372]]></id>
+		<title><![CDATA[ch_swindon]]></title>
+		<address><![CDATA[Hardwick House]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN1 2LJ]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 617444]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1335]]></client>
+		<id><![CDATA[1373]]></id>
+		<title><![CDATA[ck_malmesbury]]></title>
+		<address><![CDATA[]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[]]></city>
+		<post_code><![CDATA[]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1336]]></client>
+		<id><![CDATA[1374]]></id>
+		<title><![CDATA[dms_cheltenham]]></title>
+		<address><![CDATA[Rodney House, 67Rodney Road]]></address>
+		<county><![CDATA[Gloucestershire]]></county>
+		<city><![CDATA[Cheltenham]]></city>
+		<post_code><![CDATA[GL50 1HX]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01242 584 175]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1337]]></client>
+		<id><![CDATA[1375]]></id>
+		<title><![CDATA[dmsi_cheltenham]]></title>
+		<address><![CDATA[Rodney House, 67 Rodney Road]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Cheltenham]]></city>
+		<post_code><![CDATA[GL50 1HX]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01242 584 175]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1339]]></client>
+		<id><![CDATA[1376]]></id>
+		<title><![CDATA[gal_swindon]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 915095]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1341]]></client>
+		<id><![CDATA[1378]]></id>
+		<title><![CDATA[Swindon-jiyu]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 744612]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1326]]></client>
+		<id><![CDATA[1379]]></id>
+		<title><![CDATA[Swindon-kube]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 205345]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1342]]></client>
+		<id><![CDATA[1380]]></id>
+		<title><![CDATA[Test Site-lc analytics]]></title>
+		<address><![CDATA[]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[]]></city>
+		<post_code><![CDATA[]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1345]]></client>
+		<id><![CDATA[1382]]></id>
+		<title><![CDATA[nex_nexus]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 915000]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1346]]></client>
+		<id><![CDATA[1383]]></id>
+		<title><![CDATA[omp_cirencester]]></title>
+		<address><![CDATA[10 Black Jack St]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Cirencester]]></city>
+		<post_code><![CDATA[GL7 2AA]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01285 883790]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1347]]></client>
+		<id><![CDATA[1384]]></id>
+		<title><![CDATA[rda_cheltenham]]></title>
+		<address><![CDATA[]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[]]></city>
+		<post_code><![CDATA[]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1348]]></client>
+		<id><![CDATA[1385]]></id>
+		<title><![CDATA[red_nexus]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 915 060]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1349]]></client>
+		<id><![CDATA[1386]]></id>
+		<title><![CDATA[run_essex]]></title>
+		<address><![CDATA[6 - 9 The Square]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Uxbridge]]></city>
+		<post_code><![CDATA[UB11 1FW]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[2086106888]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1350]]></client>
+		<id><![CDATA[1387]]></id>
+		<title><![CDATA[sal_brentford]]></title>
+		<address><![CDATA[]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[]]></city>
+		<post_code><![CDATA[]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1351]]></client>
+		<id><![CDATA[1388]]></id>
+		<title><![CDATA[ope_nexus]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[01793 xxx xxx]]></telephone>
+		<site_telephone><![CDATA[01793 915141]]></site_telephone>
+		<email_address><![CDATA[Lee@opexpersonnel.co.uk]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[Active]]></site_status>
+		<site_status_2><![CDATA[Active]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1352]]></client>
+		<id><![CDATA[1389]]></id>
+		<title><![CDATA[tms_swindon]]></title>
+		<address><![CDATA[32 Ganton Way]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 8HW]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 498000]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[Site A linked to Site B via Asset ID 0001]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1353]]></client>
+		<id><![CDATA[1390]]></id>
+		<title><![CDATA[tri_swindon]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 691931]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1354]]></client>
+		<id><![CDATA[1391]]></id>
+		<title><![CDATA[tcl_rutland]]></title>
+		<address><![CDATA[2 Chapel Ln]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Stamford]]></city>
+		<post_code><![CDATA[PE9 3RF]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[7715201717]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1355]]></client>
+		<id><![CDATA[1392]]></id>
+		<title><![CDATA[swh_swindon]]></title>
+		<address><![CDATA[Nexus Business Centre]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[0330 024 5864]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1356]]></client>
+		<id><![CDATA[1393]]></id>
+		<title><![CDATA[lbe_swindon]]></title>
+		<address><![CDATA[130 Old Street]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[London]]></city>
+		<post_code><![CDATA[EC1V 9BD]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 915000]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1340]]></client>
+		<id><![CDATA[1399]]></id>
+		<title><![CDATA[hot_wellington]]></title>
+		<address><![CDATA[Units 12A - 13A, Westpark 26]]></address>
+		<county><![CDATA[Sommerset]]></county>
+		<city><![CDATA[Wellington]]></city>
+		<post_code><![CDATA[TA21 9AD]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01823664452 ]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[2737]]></client>
+		<id><![CDATA[2739]]></id>
+		<title><![CDATA[rpm_fairford]]></title>
+		<address><![CDATA[Watersmeet, Whelford Road]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Fairford]]></city>
+		<post_code><![CDATA[GL7 4DT]]></post_code>
+		<longitude><![CDATA[-1.75327]]></longitude>
+		<latitude><![CDATA[51.69912]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[n/a]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1351]]></client>
+		<id><![CDATA[4106]]></id>
+		<title><![CDATA[Lee_Home]]></title>
+		<address><![CDATA[5 The Arc,St.Andrews Ridge.]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[swindon]]></city>
+		<post_code><![CDATA[SN25 4EJ]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 915141]]></site_telephone>
+		<email_address><![CDATA[Lee@opexpersonnel.co.uk]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[Active]]></site_status>
+		<site_status_2><![CDATA[Active]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1331]]></client>
+		<id><![CDATA[4114]]></id>
+		<title><![CDATA[Ampney Crucis]]></title>
+		<address><![CDATA[Ampney Crucis]]></address>
+		<county><![CDATA[Gloucestershire]]></county>
+		<city><![CDATA[Cirencester]]></city>
+		<post_code><![CDATA[GL7]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01285]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[4295]]></client>
+		<id><![CDATA[4297]]></id>
+		<title><![CDATA[IMS_London]]></title>
+		<address><![CDATA[95 Esmond Road, United Kingdom]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[London]]></city>
+		<post_code><![CDATA[W4 1JE]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[07722 139265]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[4343]]></client>
+		<id><![CDATA[4345]]></id>
+		<title><![CDATA[BBK-HOME]]></title>
+		<address><![CDATA[47 Jubilee Road, Kingswood]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Bristol]]></city>
+		<post_code><![CDATA[BS15 4XF]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[N/A]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[4363]]></client>
+		<id><![CDATA[4365]]></id>
+		<title><![CDATA[OPER_Nexus]]></title>
+		<address><![CDATA[Nexus Business Centre,Unit 6 Darby Close,Cheney Manor Industrial Estate]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[SN2 2PN]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[01793 744555]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[4419]]></client>
+		<id><![CDATA[4421]]></id>
+		<title><![CDATA[SAS_Office]]></title>
+		<address><![CDATA[N/A]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Swindon]]></city>
+		<post_code><![CDATA[N/A]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[N/A]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+	<node>
+		<client><![CDATA[1349]]></client>
+		<id><![CDATA[4836]]></id>
+		<title><![CDATA[Carl Home]]></title>
+		<address><![CDATA[11 Sunbury Close, Wilmslow,]]></address>
+		<county><![CDATA[]]></county>
+		<city><![CDATA[Cheshire]]></city>
+		<post_code><![CDATA[SK9 3UD]]></post_code>
+		<longitude><![CDATA[]]></longitude>
+		<latitude><![CDATA[]]></latitude>
+		<telephone><![CDATA[]]></telephone>
+		<site_telephone><![CDATA[07720844679]]></site_telephone>
+		<email_address><![CDATA[]]></email_address>
+		<site_notes><![CDATA[]]></site_notes>
+		<site_status><![CDATA[]]></site_status>
+		<site_status_2><![CDATA[]]></site_status_2>
+	</node>
+</data>

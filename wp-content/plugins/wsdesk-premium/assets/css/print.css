@@ -1,0 +1,100 @@
+body
+{
+    background-color: white !important;
+}
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace
+{
+    padding: 10px 0;
+    padding-left: 70px;
+}
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace p
+{
+    margin-bottom: 0px !important;
+}
+.Ws-content-detail-full .rightPanel .conversation_each .leftFreeSpace h4
+{
+    margin-bottom:5px;
+    margin-top: 5px;
+}
+.wsdesk_wrapper .media-print
+{
+    margin: 5px 0;
+    padding:10px;
+    display: flex;
+}
+.wsdesk_wrapper .dp
+{
+    border:10px solid #eee;
+}
+.wsdesk_wrapper h5
+{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.wsdesk_wrapper .center-td
+{
+    width: 20px;
+    text-align: center;
+}
+.wsdesk_wrapper .center-td
+{
+    width: 20px;
+    text-align: center;
+}
+.wsdesk_wrapper .print_table td
+{
+    padding: 5px 0px;
+}
+.wsdesk_wrapper .print_table
+{
+    display: flex;
+}
+.wsdesk_wrapper .table-container
+{
+    display: flex;
+}
+.wsdesk_wrapper .table-container tbody
+{
+    padding-right: 20px;
+}
+.Ws-content-detail-full .rightPanel .rightPanelHeader .tictxt p.info
+{
+    display: block;
+    width: 100%;
+    font-size: 14px;
+}
+.Ws-content-detail-full .rightPanel .leftFreeSpace
+{
+    padding-left: 0px;
+}
+.wsdesk_wrapper p
+{
+    margin:0px;
+}
+
+.footer 
+{ 
+    display: none; 
+}
+
+@media print {
+  .footer {
+    page-break-before: always;
+    display: flex;
+    position: absolute;
+    height: 100vh;
+    width: 500px;
+  }
+  
+  .footer .copyright {
+    position: absolute;
+    bottom: 0px;
+  }
+  
+  .powered_wsdesk
+    {
+        opacity: 0.7;
+        font-size: 10px;
+        color: black;
+    }
+}

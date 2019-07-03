@@ -1,0 +1,19 @@
+@import '../../../../assets/css/sass/_mixin';
+.toplevel_page_branding {
+    .tracking-codes {
+        .column-filters_active,
+        .column-tracking_active {
+            span {
+                &.ub-active {
+                    background-color: #ddd;
+                    padding: 5px 10px;
+                    margin: 5px;
+                    display: inline-block;
+                    @include border-radius( 15px );
+                    background-color: #085;
+                    color: white;
+                }
+            }
+        }
+    }
+}

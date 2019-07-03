@@ -1,0 +1,125 @@
+.panel-heading .manage-role-toggle:after {
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: grey;         /* adjust as needed */   
+}
+.panel-heading.collapsed .manage-role-toggle:after {
+    /* symbol for "collapsed" panels */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+}
+.panel-heading
+{
+    cursor: pointer;
+}
+a:hover,
+a:focus {
+    text-decoration: none !important;
+}
+a:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.profile 
+{
+    min-height: 355px;
+    display: inline-block;
+}
+figcaption.ratings
+{
+    margin-top:20px;
+}
+figcaption.ratings a
+{
+    color:#f1c40f;
+    font-size:11px;
+}
+figcaption.ratings a:hover
+{
+    color:#f39c12;
+    text-decoration:none;
+}
+.divider 
+{
+    border-top:1px solid rgba(0,0,0,0.1);
+}
+.emphasis 
+{
+    border-top: 4px solid transparent;
+}
+.emphasis:hover 
+{
+    border-top: 4px solid #1abc9c;
+}
+.emphasis h2
+{
+    margin-bottom:0;
+}
+span.tags 
+{
+    background: #1abc9c;
+    border-radius: 2px;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 2px 4px;
+    margin: 2px;
+}
+.dropdown-menu 
+{
+    background-color: #34495e;    
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    width: 250px;
+    margin-left: -125px;
+    left: 50%;
+}
+.dropdown-menu .divider 
+{
+    background:none;    
+    background-color: white;
+}
+.dropdown-menu>li>a
+{
+    color:#f5f5f5;
+}
+.dropup .dropdown-menu 
+{
+    margin-bottom:10px;
+}
+.dropup .dropdown-menu:before 
+{
+    content: "";
+    border-top: 10px solid #34495e;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    margin-left: -10px;
+    z-index: 10;
+}
+.user_actions_remove
+{
+	color: black !important;
+}
+.user_actions
+{
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #f5f5f5;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.user_actions:hover
+{
+    color: #262626;
+    background-color: #f5f5f5;
+}
+.user_actions:focus
+{
+    color: #262626;
+    background-color: #f5f5f5;
+}

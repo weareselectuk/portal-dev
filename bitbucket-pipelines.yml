@@ -1,0 +1,23 @@
+image: php:7.2.3
+ 
+pipelines:
+  custom: # Pipelines triggered manually
+    deployment-to-staging:
+     - step:
+        script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp catchup --user $staging_ftp_username --passwd $staging_ftp_password ftp://46.32.255.168/public_html/wp-content/themes/honeypot/
+    deployment-to-development:
+    - step:
+        script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp catchup --user $dev_ftp_username --passwd $dev_ftp_password ftp://46.32.255.168/public_html/wp-content/themes/honeypot/
+    deployment-to-production:
+    - step:
+          script:
+          - apt-get update
+          - apt-get -qq install git-ftp
+          - git ftp catchup --user $production_ftp_username --passwd $production_ftp_password ftp://46.32.255.168/public_html/wp-content/themes/honeypot/
+  

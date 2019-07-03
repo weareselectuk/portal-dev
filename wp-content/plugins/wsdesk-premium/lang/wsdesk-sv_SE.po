@@ -1,0 +1,4549 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WSDesk - WordPress Support Desk\n"
+"POT-Creation-Date: 2019-01-29 12:59+0530\n"
+"PO-Revision-Date: 2019-01-29 13:00+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: wsdesk.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-crm-ajax-functions.php:473
+msgid "No Vendors Found"
+msgstr "Hittade inga säljare"
+
+#: includes/class-crm-ajax-functions.php:482
+#, fuzzy
+msgid "No Vendors Roles defined!"
+msgstr "Inga leverantörer roller definierade!"
+
+#: includes/class-crm-ajax-functions.php:492
+#: includes/class-crm-js-translation.php:46
+msgid "Add Value"
+msgstr "Lägg till värde"
+
+#: includes/class-crm-ajax-functions.php:493
+#, fuzzy
+msgid "Edit Details for custom"
+msgstr "Redigera information för anpassade"
+
+#: includes/class-crm-ajax-functions.php:494
+#: includes/class-crm-ajax-functions.php:797
+#: includes/class-crm-ajax-functions.php:879
+#: includes/class-crm-ajax-functions.php:1013
+#: includes/class-crm-ajax-functions.php:1276
+#: includes/class-crm-js-translation.php:48
+#: views/settings/crm_settings_labels.php:50
+#: views/settings/crm_settings_tags.php:53
+#: views/settings/crm_wsdesk_triggers.php:101
+#: views/tickets/crm_tickets_all.php:354
+msgid "Enter Title"
+msgstr "Ange namn"
+
+#: includes/class-crm-ajax-functions.php:516
+#: includes/class-crm-ajax-functions.php:534
+#: includes/class-crm-ajax-functions.php:575
+#: includes/class-crm-ajax-functions.php:618
+#: includes/class-crm-ajax-functions.php:682
+#: includes/class-crm-ajax-functions.php:702
+#: includes/class-crm-ajax-functions.php:726
+#: includes/class-crm-js-translation.php:57
+#, fuzzy
+msgid "Visible for End Users"
+msgstr "Synlig för slutanvändare"
+
+#: includes/class-crm-ajax-functions.php:517
+#: includes/class-crm-ajax-functions.php:535
+#: includes/class-crm-ajax-functions.php:576
+#: includes/class-crm-ajax-functions.php:619
+#: includes/class-crm-ajax-functions.php:683
+#: includes/class-crm-ajax-functions.php:703
+#: includes/class-crm-ajax-functions.php:727
+#: includes/class-crm-js-translation.php:55
+#, fuzzy
+msgid "Mandatory for End users"
+msgstr "Obligatoriskt för slutanvändare"
+
+#: includes/class-crm-ajax-functions.php:518
+#, fuzzy
+msgid "Specify whether this Field is Single or Multiple Attachment?"
+msgstr "Ange om det här fältet är en eller flera bifogade filer?"
+
+#: includes/class-crm-ajax-functions.php:518
+#, fuzzy
+msgid "Single Attachment"
+msgstr "Enda bifogad fil"
+
+#: includes/class-crm-ajax-functions.php:518
+#, fuzzy
+msgid "Multiple Attachment"
+msgstr "Flera bifogade filer"
+
+#: includes/class-crm-ajax-functions.php:519
+#: includes/class-crm-ajax-functions.php:560
+#: includes/class-crm-ajax-functions.php:601
+#: includes/class-crm-ajax-functions.php:665
+#: includes/class-crm-ajax-functions.php:687
+#: includes/class-crm-ajax-functions.php:706
+#: includes/class-crm-ajax-functions.php:709
+#: includes/class-crm-ajax-functions.php:732
+#, fuzzy
+msgid "Want to update description to this field?"
+msgstr "Vill du uppdatera beskrivningen till det här fältet?"
+
+#: includes/class-crm-ajax-functions.php:536
+#: includes/class-crm-ajax-functions.php:577
+#: includes/class-crm-ajax-functions.php:620
+#: includes/class-crm-ajax-functions.php:684
+#: includes/class-crm-ajax-functions.php:704
+#: includes/class-crm-ajax-functions.php:728
+#: includes/class-crm-js-translation.php:56
+#, fuzzy
+msgid "Mandatory for Agents"
+msgstr "Obligatoriskt för agenter"
+
+#: includes/class-crm-ajax-functions.php:537
+#, fuzzy
+msgid "Update the Radio values!"
+msgstr "Uppdatera radio värden!"
+
+#: includes/class-crm-ajax-functions.php:547
+#: includes/class-crm-ajax-functions.php:588
+#: includes/class-crm-ajax-functions.php:632
+#: includes/class-crm-ajax-functions.php:641
+#: includes/class-crm-js-translation.php:77
+#, fuzzy
+msgid "Remove Values"
+msgstr "Ta bort värden"
+
+#: includes/class-crm-ajax-functions.php:559
+#: includes/class-crm-ajax-functions.php:600
+#: includes/class-crm-ajax-functions.php:663
+#: includes/class-crm-ajax-functions.php:686
+#: includes/class-crm-ajax-functions.php:731
+#: includes/class-crm-js-translation.php:61
+#, fuzzy
+msgid "Enter Default Values"
+msgstr "Ange standardvärden"
+
+#: includes/class-crm-ajax-functions.php:578
+#, fuzzy
+msgid "Update the Checkbox values!"
+msgstr "Uppdatera kryssrutan värden!"
+
+#: includes/class-crm-ajax-functions.php:621
+#: includes/class-crm-ajax-functions.php:705
+#: includes/class-crm-ajax-functions.php:730
+#: includes/class-crm-js-translation.php:75
+#, fuzzy
+msgid "Enter Placeholder"
+msgstr "Ange platshållare"
+
+#: includes/class-crm-ajax-functions.php:624
+#, fuzzy
+msgid "Update the Dropdown values!"
+msgstr "Uppdatera den dropdown värden!"
+
+#: includes/class-crm-ajax-functions.php:796
+#, fuzzy
+msgid "Update details for"
+msgstr "Uppdateringsinformation för"
+
+#: includes/class-crm-ajax-functions.php:796
+#: includes/class-crm-ajax-functions.php:3279
+#: includes/class-crm-ajax-functions.php:3458
+#: includes/class-crm-ajax-functions.php:5563
+#: views/tickets/crm_tickets_all.php:93 views/tickets/wsdesk_print.php:308
+msgid "Status"
+msgstr "Status"
+
+#: includes/class-crm-ajax-functions.php:798
+#: views/settings/crm_settings_labels.php:51
+#, fuzzy
+msgid "Change ticket status color"
+msgstr "Ändra biljett status färg"
+
+#: includes/class-crm-ajax-functions.php:800
+#: views/settings/crm_settings_labels.php:53
+#, fuzzy
+msgid "Click and pick the color"
+msgstr "Klicka och Välj färg"
+
+#: includes/class-crm-ajax-functions.php:802
+#, fuzzy
+msgid "Do you want to use this status to filter tickets?"
+msgstr "Vill du använda den här statusen för att filtrera biljetter?"
+
+#: includes/class-crm-ajax-functions.php:803
+#: views/settings/crm_settings_labels.php:56
+#: views/settings/crm_settings_tags.php:58
+#, fuzzy
+msgid "Yes! I will use it to Filter"
+msgstr "Ja! Jag kommer att använda den för att filtrera"
+
+#: includes/class-crm-ajax-functions.php:804
+#: includes/class-crm-ajax-functions.php:891
+#: includes/class-crm-js-translation.php:64
+#: views/settings/crm_settings_labels.php:57
+#: views/settings/crm_settings_tags.php:59
+#, fuzzy
+msgid "No! Just for Information"
+msgstr "Nej! Bara för information"
+
+#: includes/class-crm-ajax-functions.php:878
+#: includes/class-crm-ajax-functions.php:1275
+#, fuzzy
+msgid "Update Details for"
+msgstr "Uppdateringsinformation för"
+
+#: includes/class-crm-ajax-functions.php:878
+#, fuzzy
+msgid "Tag?"
+msgstr "Etiketten?"
+
+#: includes/class-crm-ajax-functions.php:880
+#, fuzzy
+msgid "Update the Post which should be Tagged if required?"
+msgstr "Uppdatera inlägget som ska taggas om det behövs?"
+
+#: includes/class-crm-ajax-functions.php:889
+#, fuzzy
+msgid "Want to use this Tag for Filter Tickets?"
+msgstr "Vill du använda den här taggen för filter biljetter?"
+
+#: includes/class-crm-ajax-functions.php:890
+#, fuzzy
+msgid "Yes! I will use it for Filter"
+msgstr "Ja! Jag kommer att använda den för filter"
+
+#: includes/class-crm-ajax-functions.php:1012
+#, fuzzy
+msgid "Update title for the view:"
+msgstr "Ange rubrik för fältet"
+
+#: includes/class-crm-ajax-functions.php:1014
+#: includes/class-crm-ajax-functions.php:1280
+#, fuzzy
+msgid "Modify the Conditions Format."
+msgstr "Ändra villkors format."
+
+#: includes/class-crm-ajax-functions.php:1016
+#: includes/class-crm-ajax-functions.php:1017
+#: includes/class-crm-ajax-functions.php:1046
+#: includes/class-crm-ajax-functions.php:1282
+#: includes/class-crm-ajax-functions.php:1283
+#: includes/class-crm-ajax-functions.php:1312
+#: includes/class-crm-ajax-functions.php:1316
+#: includes/class-crm-js-translation.php:84
+#: views/settings/crm_settings_views.php:116
+#: views/settings/crm_wsdesk_triggers.php:113
+msgid "Condition"
+msgstr "Villkor"
+
+#: includes/class-crm-ajax-functions.php:1019
+#, fuzzy
+msgid "Modify the View Conditions."
+msgstr "Ändra visnings villkoren."
+
+#: includes/class-crm-ajax-functions.php:1050
+#: includes/class-crm-ajax-functions.php:1058
+#: includes/class-crm-js-translation.php:86
+#: views/settings/crm_settings_views.php:117
+#, fuzzy
+msgid "View condition field"
+msgstr "Visa villkorsfält"
+
+#: includes/class-crm-ajax-functions.php:1053
+#: includes/class-crm-ajax-functions.php:1319
+#: includes/class-crm-ajax-functions.php:1389
+#: includes/class-crm-js-translation.php:87
+#, fuzzy
+msgid "Remove Condition"
+msgstr "Ta bort villkor"
+
+#: includes/class-crm-ajax-functions.php:1072
+#: includes/class-crm-ajax-functions.php:1338
+#: includes/class-crm-ajax-functions.php:1419
+#: includes/class-crm-js-translation.php:85
+msgid "Enter Value"
+msgstr "Ange värde"
+
+#: includes/class-crm-ajax-functions.php:1102
+#: includes/class-crm-ajax-functions.php:1365
+#: views/settings/crm_settings_views.php:127
+#: views/settings/crm_wsdesk_triggers.php:124
+#, fuzzy
+msgid "Add New Condition"
+msgstr "Lägg till nytt villkor"
+
+#: includes/class-crm-ajax-functions.php:1102
+#: includes/class-crm-ajax-functions.php:1365
+#: views/settings/crm_wsdesk_triggers.php:124
+msgid "Add Condition"
+msgstr "Lägg till villkor"
+
+#: includes/class-crm-ajax-functions.php:1103
+#: includes/class-crm-ajax-functions.php:1366
+#: views/settings/crm_settings_views.php:128
+#: views/settings/crm_wsdesk_triggers.php:125
+#, fuzzy
+msgid "Group those with AND Condition"
+msgstr "Gruppera de med och villkora"
+
+#: includes/class-crm-ajax-functions.php:1103
+#: includes/class-crm-ajax-functions.php:1366
+#: views/settings/crm_settings_views.php:128
+#: views/settings/crm_wsdesk_triggers.php:125
+#, fuzzy
+msgid "Group with AND"
+msgstr "Grupp med och"
+
+#: includes/class-crm-ajax-functions.php:1104
+#: includes/class-crm-ajax-functions.php:1367
+#: views/settings/crm_settings_views.php:129
+#: views/settings/crm_wsdesk_triggers.php:126
+#, fuzzy
+msgid "Group those with OR Condition"
+msgstr "Gruppera de med eller villkora"
+
+#: includes/class-crm-ajax-functions.php:1104
+#: includes/class-crm-ajax-functions.php:1367
+#: views/settings/crm_settings_views.php:129
+#: views/settings/crm_wsdesk_triggers.php:126
+#, fuzzy
+msgid "Group with OR"
+msgstr "Grupp med eller"
+
+#: includes/class-crm-ajax-functions.php:1105
+#: includes/class-crm-ajax-functions.php:1368
+#: views/settings/crm_settings_views.php:130
+#: views/settings/crm_wsdesk_triggers.php:127
+#, fuzzy
+msgid "Clear Groups"
+msgstr "Rensa grupper"
+
+#: includes/class-crm-ajax-functions.php:1106
+#, fuzzy
+msgid "Group the tickets by"
+msgstr "Gruppbiljett:"
+
+#: includes/class-crm-ajax-functions.php:1107
+#: views/settings/crm_settings_views.php:132
+#, fuzzy
+msgid "View Group By"
+msgstr "Visa grupp efter"
+
+#: includes/class-crm-ajax-functions.php:1110
+#, fuzzy
+msgid "Display this view to"
+msgstr "Visa den här vyn för att:"
+
+#: includes/class-crm-ajax-functions.php:1275
+#, fuzzy
+msgid "trigger?"
+msgstr "Lägg till utlösare"
+
+#: includes/class-crm-ajax-functions.php:1278
+#: views/settings/crm_wsdesk_triggers.php:103
+#, fuzzy
+msgid "Match Triggers Conditions"
+msgstr "Villkor för matchnings utlösare"
+
+#: includes/class-crm-ajax-functions.php:1285
+#, fuzzy
+msgid "Modify the trigger Conditions."
+msgstr "Ändra utlösnings villkoren."
+
+#: includes/class-crm-ajax-functions.php:1324
+#: includes/class-crm-js-translation.php:90
+#: views/settings/crm_wsdesk_triggers.php:114
+#, fuzzy
+msgid "Trigger condition field"
+msgstr "Fältet utlösningsvillkor"
+
+#: includes/class-crm-ajax-functions.php:1370
+#: views/settings/crm_wsdesk_triggers.php:129
+#, fuzzy
+msgid "Perform Triggers Actions"
+msgstr "Utför åtgärder för utlösare"
+
+#: includes/class-crm-ajax-functions.php:1372
+#: views/settings/crm_wsdesk_triggers.php:131
+#, fuzzy
+msgid "Specify the Trigger Actions."
+msgstr "Ange utlösande åtgärder."
+
+#: includes/class-crm-ajax-functions.php:1382
+#: includes/class-crm-js-translation.php:98
+#: views/settings/crm_wsdesk_triggers.php:134
+msgid "Action"
+msgstr "Åtgärd"
+
+#: includes/class-crm-ajax-functions.php:1386
+#: includes/class-crm-ajax-functions.php:1394
+#: includes/class-crm-js-translation.php:99
+#: views/settings/crm_wsdesk_triggers.php:135
+#, fuzzy
+msgid "Trigger Action field"
+msgstr "Fältet utlösande åtgärd"
+
+#: includes/class-crm-ajax-functions.php:1411
+#, fuzzy
+msgid "Modify the Mail Subject. Refer the Shortcode in Email Setup Page."
+msgstr "Ändra e-postämnet. Hänskjuta den brist i email setup sida."
+
+#: includes/class-crm-ajax-functions.php:1412
+#: includes/class-crm-ajax-functions.php:2298
+#: includes/class-crm-ajax-functions.php:5802
+#: includes/class-crm-ajax-functions.php:6453
+#: views/tickets/crm_tickets_all.php:426 views/tickets/crm_tickets_all.php:843
+msgid "Ticket"
+msgstr "Biljett"
+
+#: includes/class-crm-ajax-functions.php:1413
+#: includes/class-crm-js-translation.php:110
+#, fuzzy
+msgid "Enter mail subject"
+msgstr "Ange post ämne"
+
+#: includes/class-crm-ajax-functions.php:1415
+#, fuzzy
+msgid "Specify the Mail Body. Refer the Shortcode in Email Setup Page."
+msgstr "Ange e-postmeddelandet. Hänskjuta den brist i email setup sida."
+
+#: includes/class-crm-ajax-functions.php:1416
+#: includes/class-crm-js-translation.php:124
+#, fuzzy
+msgid "Enter mail body"
+msgstr "Ange e-postbrödtext"
+
+#: includes/class-crm-ajax-functions.php:1449
+#: views/settings/crm_wsdesk_triggers.php:141
+msgid "Add New Action"
+msgstr "Lägg till ny åtgärd"
+
+#: includes/class-crm-ajax-functions.php:1449
+#: views/settings/crm_wsdesk_triggers.php:141
+msgid "Add Action"
+msgstr "Lägg till åtgärd"
+
+#: includes/class-crm-ajax-functions.php:1451
+#, fuzzy
+msgid "Modify the Triggering Period."
+msgstr "Ändra den utlösande perioden."
+
+#: includes/class-crm-ajax-functions.php:1453
+#: views/settings/crm_wsdesk_triggers.php:145
+#, fuzzy
+msgid "Immediate Schedule"
+msgstr "Omedelbar tidsplan"
+
+#: includes/class-crm-ajax-functions.php:1454
+#: views/settings/crm_wsdesk_triggers.php:146
+#, fuzzy
+msgid "Minute Schedule"
+msgstr "Minuten-schema"
+
+#: includes/class-crm-ajax-functions.php:1455
+#: views/settings/crm_wsdesk_triggers.php:147
+#, fuzzy
+msgid "Hour Schedule"
+msgstr "Timmars schema"
+
+#: includes/class-crm-ajax-functions.php:1456
+#: views/settings/crm_wsdesk_triggers.php:148
+#, fuzzy
+msgid "Day Schedule"
+msgstr "Dagsschema"
+
+#: includes/class-crm-ajax-functions.php:1457
+#: views/settings/crm_wsdesk_triggers.php:149
+#, fuzzy
+msgid "Week Schedule"
+msgstr "Veckoschema"
+
+#: includes/class-crm-ajax-functions.php:1458
+#: views/settings/crm_wsdesk_triggers.php:150
+#, fuzzy
+msgid "Month Schedule"
+msgstr "Månadsschema"
+
+#: includes/class-crm-ajax-functions.php:1459
+#: views/settings/crm_wsdesk_triggers.php:151
+#, fuzzy
+msgid "Year Schedule"
+msgstr "Års schema"
+
+#: includes/class-crm-ajax-functions.php:1464
+#, fuzzy
+msgid "Edit Period for Trigger?"
+msgstr "Vill du redigera period för utlösare?"
+
+#: includes/class-crm-ajax-functions.php:1557
+msgid "Post"
+msgstr ""
+
+#: includes/class-crm-ajax-functions.php:1560 views/crm_reports_view.php:429
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/class-crm-ajax-functions.php:1563
+msgid "Knowledge Base Post"
+msgstr ""
+
+#: includes/class-crm-ajax-functions.php:1566
+msgid "Avada FAQ"
+msgstr ""
+
+#: includes/class-crm-ajax-functions.php:1569
+msgid "Are you looking for this?"
+msgstr "Letar du efter det här?"
+
+#: includes/class-crm-ajax-functions.php:1596
+#, fuzzy
+msgid "No Posts Tagged"
+msgstr "Inga inlägg taggade"
+
+#: includes/class-crm-ajax-functions.php:1819
+#: views/agents/crm_agents_add.php:80
+#, fuzzy
+msgid "Reply to Tickets"
+msgstr "Svara på biljetter"
+
+#: includes/class-crm-ajax-functions.php:1821
+#: views/agents/crm_agents_add.php:81 views/agents/crm_agents_manage.php:75
+#: views/agents/crm_agents_manage.php:104 views/tickets/crm_tickets_all.php:334
+#, fuzzy
+msgid "Delete Tickets"
+msgstr "Ta bort biljetter"
+
+#: includes/class-crm-ajax-functions.php:1823
+#: views/agents/crm_agents_add.php:82 views/agents/crm_agents_manage.php:78
+#: views/agents/crm_agents_manage.php:105
+#, fuzzy
+msgid "Manage Tickets"
+msgstr "Hantera biljetter"
+
+#: includes/class-crm-ajax-functions.php:1827
+#: includes/class-crm-ajax-functions.php:2322
+#: includes/class-crm-ajax-functions.php:2332
+#: includes/class-crm-js-translation.php:196
+#: views/agents/crm_agents_manage.php:96 views/agents/crm_agents_manage.php:106
+#, fuzzy
+msgid "Merge Tickets"
+msgstr "Sammanfoga biljetter"
+
+#: includes/class-crm-ajax-functions.php:1828
+#: includes/class-crm-js-translation.php:191
+#: views/agents/crm_agents_manage.php:81 views/agents/crm_agents_manage.php:107
+msgid "Manage Templates"
+msgstr "Mallhantering"
+
+#: includes/class-crm-ajax-functions.php:1829
+#: includes/class-crm-js-translation.php:192
+#, fuzzy
+msgid "Show Settings Page"
+msgstr "Sidan Visa inställningar"
+
+#: includes/class-crm-ajax-functions.php:1830
+#: includes/class-crm-js-translation.php:193
+#, fuzzy
+msgid "Show Agents Page"
+msgstr "Sidan Visa agenter"
+
+#: includes/class-crm-ajax-functions.php:1831
+#: includes/class-crm-js-translation.php:194
+#, fuzzy
+msgid "Show Email Page"
+msgstr "Visa e-sida"
+
+#: includes/class-crm-ajax-functions.php:1832
+#: includes/class-crm-js-translation.php:195
+#, fuzzy
+msgid "Show Import Page"
+msgstr "Visa import Sidan"
+
+#: includes/class-crm-ajax-functions.php:1858
+#, fuzzy
+msgid "Edit tags"
+msgstr "Redigera taggar"
+
+#: includes/class-crm-ajax-functions.php:1861
+#, fuzzy
+msgid "Wish to edit ticket tags for Users?"
+msgstr "Vill du redigera biljett taggar för användare?"
+
+#: includes/class-crm-ajax-functions.php:1861
+#, fuzzy
+msgid ""
+"The tickets will be assigned automatically if Default Assignee is [ Depends "
+"on Tags ]"
+msgstr ""
+"Biljetterna kommer att tilldelas automatiskt om standard assigne är [beror "
+"på Taggar]"
+
+#: includes/class-crm-ajax-functions.php:1869
+#, fuzzy
+msgid "Update Agents"
+msgstr "Uppdatera agenter"
+
+#: includes/class-crm-ajax-functions.php:1870
+#, fuzzy
+msgid "Cancel Update"
+msgstr "Avbryt uppdatering"
+
+#: includes/class-crm-ajax-functions.php:2114
+#: includes/class-crm-ajax-functions.php:7312
+#, fuzzy
+msgid "Support Request Received Successfully"
+msgstr "Support förfrågan har tagits emot"
+
+#: includes/class-crm-ajax-functions.php:2159
+#: views/shortcodes/crm_satisfaction_page.php:65
+msgid "Thank you"
+msgstr "Tack"
+
+#: includes/class-crm-ajax-functions.php:2159
+#, fuzzy
+msgid "Satisfaction feedback submitted successfully"
+msgstr "Tillfredsställelse feedback inlämnas framgångsrikt"
+
+#: includes/class-crm-ajax-functions.php:2163
+#: includes/class-crm-ajax-functions.php:2168
+#: views/shortcodes/crm_satisfaction_page.php:56
+#: views/shortcodes/crm_satisfaction_page.php:71
+#: views/shortcodes/crm_satisfaction_page.php:79
+msgid "Oops!"
+msgstr "Oops!"
+
+#: includes/class-crm-ajax-functions.php:2163
+#: views/shortcodes/crm_satisfaction_page.php:56
+#: views/shortcodes/crm_satisfaction_page.php:71
+#, fuzzy
+msgid "Unauthorized Access!"
+msgstr "Obehörig åtkomst!"
+
+#: includes/class-crm-ajax-functions.php:2168
+#: includes/class-crm-init-handler.php:302
+#: views/shortcodes/crm_satisfaction_page.php:79
+msgid "Access Denied!"
+msgstr "Åtkomst Nekad!"
+
+#: includes/class-crm-ajax-functions.php:2351
+#: includes/class-crm-ajax-functions.php:6958
+#: includes/class-crm-ajax-functions.php:7066
+#: views/tickets/crm_tickets_all.php:415 views/tickets/crm_tickets_all.php:508
+msgid "Close"
+msgstr "Stäng"
+
+#: includes/class-crm-ajax-functions.php:2352
+msgid "Verify"
+msgstr "Verifiera"
+
+#: includes/class-crm-ajax-functions.php:2353
+msgid "Confirm"
+msgstr "Bekräfta"
+
+#: includes/class-crm-ajax-functions.php:2365
+#: includes/class-crm-ajax-functions.php:3886
+#: views/tickets/crm_tickets_all.php:546
+msgid "Previous"
+msgstr "Föregående"
+
+#: includes/class-crm-ajax-functions.php:2373
+#: includes/class-crm-ajax-functions.php:3909
+#: views/tickets/crm_tickets_all.php:568
+msgid "Next"
+msgstr "Nästa"
+
+#: includes/class-crm-ajax-functions.php:2386
+#: includes/class-crm-ajax-functions.php:3284
+#: includes/class-crm-ajax-functions.php:3940
+#: includes/class-crm-ajax-functions.php:4442
+#: includes/class-crm-ajax-functions.php:4472
+#: includes/class-crm-ajax-functions.php:4871
+#: includes/class-crm-ajax-functions.php:5118
+#: includes/class-crm-ajax-functions.php:5562
+#: includes/class-crm-ajax-functions.php:7485
+#: views/tickets/crm_tickets_all.php:433 views/tickets/crm_tickets_all.php:600
+#: views/tickets/crm_tickets_all.php:781 views/tickets/crm_tickets_all.php:811
+#: views/tickets/wsdesk_print.php:319
+msgid "Assignee"
+msgstr "Aktör"
+
+#: includes/class-crm-ajax-functions.php:2420
+#: includes/class-crm-ajax-functions.php:7493
+msgid "CC"
+msgstr "CC:"
+
+#: includes/class-crm-ajax-functions.php:2420
+#, fuzzy
+msgid "To add multiple CC, separate each address with comma without any space."
+msgstr ""
+"Om du vill lägga till flera CC avgränsar du varje adress med kommatecken "
+"utan mellanslag."
+
+#: includes/class-crm-ajax-functions.php:2429
+#: views/tickets/wsdesk_print.php:361
+msgid "Bcc"
+msgstr "Bcc"
+
+#: includes/class-crm-ajax-functions.php:2449
+#: includes/class-crm-ajax-functions.php:3283
+#: includes/class-crm-ajax-functions.php:3518
+#: includes/class-crm-ajax-functions.php:4150
+#: includes/class-crm-ajax-functions.php:4446
+#: includes/class-crm-ajax-functions.php:5016
+#: includes/class-crm-ajax-functions.php:5130
+#: includes/class-crm-ajax-functions.php:5857
+#: includes/class-crm-ajax-functions.php:7501
+#: views/agents/crm_agents_manage.php:191 views/tickets/crm_tickets_all.php:154
+#: views/tickets/crm_tickets_all.php:471 views/tickets/crm_tickets_all.php:785
+#: views/tickets/wsdesk_print.php:330
+msgid "Tags"
+msgstr "Taggar"
+
+#: includes/class-crm-ajax-functions.php:2685
+#, fuzzy
+msgid "Save Properties"
+msgstr "Spara egenskaper"
+
+#: includes/class-crm-ajax-functions.php:2723
+#, fuzzy
+msgid "This will edit the requester E-mail address."
+msgstr "Detta kommer att redigera e-postadressen för beställaren."
+
+#: includes/class-crm-ajax-functions.php:2751
+#: includes/class-crm-ajax-functions.php:2760
+msgid "Total time "
+msgstr "Total tid"
+
+#: includes/class-crm-ajax-functions.php:2768
+#: includes/class-crm-ajax-functions.php:5848
+#: views/tickets/wsdesk_print.php:212
+#, fuzzy
+msgid "Raiser Voice"
+msgstr "Höjare röst"
+
+#: includes/class-crm-ajax-functions.php:2773
+#: includes/class-crm-ajax-functions.php:5853
+#: views/tickets/wsdesk_print.php:217
+#, fuzzy
+msgid "Agent Voice"
+msgstr "Agent Voice"
+
+#: includes/class-crm-ajax-functions.php:2775
+#: includes/class-crm-ajax-functions.php:2849
+#: includes/class-crm-ajax-functions.php:2898
+#: includes/class-crm-ajax-functions.php:4088
+#: includes/class-crm-ajax-functions.php:4383
+#: includes/class-crm-ajax-functions.php:4981
+#: views/tickets/crm_tickets_all.php:746 views/tickets/wsdesk_print.php:219
+#: views/tickets/wsdesk_print.php:292
+msgid "None"
+msgstr "Ingen"
+
+#: includes/class-crm-ajax-functions.php:2838
+#: includes/class-crm-ajax-functions.php:2849
+#: includes/class-crm-ajax-functions.php:2887
+#: includes/class-crm-ajax-functions.php:2898
+#: views/tickets/wsdesk_print.php:281 views/tickets/wsdesk_print.php:292
+msgid "Total Orders"
+msgstr "Ordrar Totalt"
+
+#: includes/class-crm-ajax-functions.php:2838
+#: includes/class-crm-ajax-functions.php:2849
+#: includes/class-crm-ajax-functions.php:2887
+#: includes/class-crm-ajax-functions.php:2898
+#: views/tickets/wsdesk_print.php:281 views/tickets/wsdesk_print.php:292
+#, fuzzy
+msgid "Recent Order"
+msgstr "Senaste order"
+
+#: includes/class-crm-ajax-functions.php:2841
+#: includes/class-crm-ajax-functions.php:2849
+#: includes/class-crm-ajax-functions.php:2890
+#: includes/class-crm-ajax-functions.php:2898
+#: views/tickets/wsdesk_print.php:284 views/tickets/wsdesk_print.php:292
+#, fuzzy
+msgid "Total Purchase"
+msgstr "Totalt inköp"
+
+#: includes/class-crm-ajax-functions.php:2941
+#, fuzzy
+msgid "No Suggestions"
+msgstr "Förslag"
+
+#: includes/class-crm-ajax-functions.php:2946
+msgid "Suggestions"
+msgstr "Förslag"
+
+#: includes/class-crm-ajax-functions.php:2959
+#: includes/class-crm-ajax-functions.php:4051
+#: includes/class-crm-ajax-functions.php:4070
+#: includes/class-crm-ajax-functions.php:4218
+#: includes/class-crm-ajax-functions.php:4345
+#: includes/class-crm-ajax-functions.php:4364
+#: includes/class-crm-ajax-functions.php:4530
+#: includes/class-crm-ajax-functions.php:4948
+#: includes/class-crm-ajax-functions.php:5294
+#: includes/class-crm-ajax-functions.php:5879
+#: views/tickets/crm_tickets_all.php:496 views/tickets/crm_tickets_all.php:684
+#: views/tickets/crm_tickets_all.php:703 views/tickets/crm_tickets_all.php:869
+msgid "Attachment"
+msgstr "Bilaga"
+
+#: includes/class-crm-ajax-functions.php:2964
+#: includes/class-crm-ajax-functions.php:2970
+#: includes/class-crm-ajax-functions.php:4223
+#: includes/class-crm-ajax-functions.php:4229
+#: includes/class-crm-ajax-functions.php:4535
+#: includes/class-crm-ajax-functions.php:4541
+#: includes/class-crm-ajax-functions.php:5299
+#: includes/class-crm-ajax-functions.php:5307
+#: includes/class-crm-ajax-functions.php:5312
+#: includes/class-crm-ajax-functions.php:7069
+#: includes/class-crm-ajax-functions.php:7075
+#: views/tickets/crm_tickets_all.php:874 views/tickets/crm_tickets_all.php:880
+#, fuzzy
+msgid "Submit as"
+msgstr "Skicka"
+
+#: includes/class-crm-ajax-functions.php:2974
+#: includes/class-crm-ajax-functions.php:4233
+#: includes/class-crm-ajax-functions.php:4545
+#: includes/class-crm-ajax-functions.php:7079
+#: views/tickets/crm_tickets_all.php:884
+#, fuzzy
+msgid "Submit as Note"
+msgstr "Skicka som anteckning"
+
+#: includes/class-crm-ajax-functions.php:2975
+#: includes/class-crm-ajax-functions.php:4234
+#: includes/class-crm-ajax-functions.php:4546
+#: includes/class-crm-ajax-functions.php:7080
+#: views/tickets/crm_tickets_all.php:885
+#, fuzzy
+msgid "Notes visible to Agents and Supervisors"
+msgstr "Anmärkningar som är synliga för agenter och handledare"
+
+#: includes/class-crm-ajax-functions.php:2980
+#: includes/class-crm-ajax-functions.php:5319
+msgid "Select Template"
+msgstr "Välj mall"
+
+#: includes/class-crm-ajax-functions.php:3038
+msgid "Quote"
+msgstr "Citat"
+
+#: includes/class-crm-ajax-functions.php:3114
+#: includes/class-crm-ajax-functions.php:7546
+#: views/tickets/wsdesk_print.php:537
+#, fuzzy
+msgid "Satisfaction Comment"
+msgstr "Tillfredsställelse kommentar"
+
+#: includes/class-crm-ajax-functions.php:3210
+#: includes/class-crm-ajax-functions.php:3233
+#, fuzzy
+msgid "No tickets in trash"
+msgstr "Inga biljetter i papperskorgen"
+
+#: includes/class-crm-ajax-functions.php:3275
+msgid "Ticket ID"
+msgstr "Biljett-ID"
+
+#: includes/class-crm-ajax-functions.php:3276
+#, fuzzy
+#| msgid "Requester"
+msgid "Requester E-mail"
+msgstr "Beställare e-post"
+
+#: includes/class-crm-ajax-functions.php:3277
+#: includes/class-crm-ajax-functions.php:3938
+#: includes/class-crm-ajax-functions.php:4869
+#: includes/class-crm-ajax-functions.php:5560
+#: views/tickets/crm_tickets_all.php:486 views/tickets/crm_tickets_all.php:598
+msgid "Subject"
+msgstr "Ämne"
+
+#: includes/class-crm-ajax-functions.php:3278
+msgid "Content"
+msgstr "Innehåll"
+
+#: includes/class-crm-ajax-functions.php:3280 views/crm_reports_view.php:207
+msgid "Date"
+msgstr "Datum"
+
+#: includes/class-crm-ajax-functions.php:3281
+msgid "Last Updated"
+msgstr "Senast uppdaterad"
+
+#: includes/class-crm-ajax-functions.php:3282
+#, fuzzy
+msgid "Satisfaction Rating"
+msgstr "Omdömen om tillfredsställelse"
+
+#: includes/class-crm-ajax-functions.php:3442
+#: includes/class-crm-ajax-functions.php:3727 views/crm_tickets_view.php:60
+#: views/tickets/crm_tickets_all.php:77
+msgid "All Tickets"
+msgstr "Alla biljetter"
+
+#: includes/class-crm-ajax-functions.php:3487
+#: includes/class-crm-init-handler.php:160
+#: views/tickets/crm_tickets_all.php:123
+msgid "Agents"
+msgstr "Fastighetsförmedlare"
+
+#: includes/class-crm-ajax-functions.php:3504
+#: includes/class-crm-public-functions.php:2216
+#: views/tickets/crm_tickets_all.php:140
+msgid "Unassigned"
+msgstr "Ej tilldelad"
+
+#: includes/class-crm-ajax-functions.php:3545
+#: views/tickets/crm_tickets_all.php:181
+msgid "Users"
+msgstr "Användare"
+
+#: includes/class-crm-ajax-functions.php:3557
+#: views/settings/crm_settings_general.php:168
+#: views/tickets/crm_tickets_all.php:194
+msgid "Registered Users"
+msgstr "Registrerade Användare"
+
+#: includes/class-crm-ajax-functions.php:3559
+#: views/settings/crm_settings_general.php:169
+#: views/tickets/crm_tickets_all.php:196
+#, fuzzy
+msgid "Guest Users"
+msgstr "Gästanvändare"
+
+#: includes/class-crm-ajax-functions.php:3733
+#, fuzzy
+msgid "Registered Users Tickets"
+msgstr "Registrerade användare biljetter"
+
+#: includes/class-crm-ajax-functions.php:3739
+#, fuzzy
+msgid "Guest Users Tickets"
+msgstr "Gästanvändare biljetter"
+
+#: includes/class-crm-ajax-functions.php:3745
+#, fuzzy
+msgid "Unassigned Tickets"
+msgstr "Ej tilldelade biljetter"
+
+#: includes/class-crm-ajax-functions.php:3861
+#, fuzzy
+msgid "Quick Filter for Tickets"
+msgstr "Snabb filter för biljetter"
+
+#: includes/class-crm-ajax-functions.php:3877
+#: views/tickets/crm_tickets_all.php:539
+msgid "Page Number"
+msgstr "Sidnummer"
+
+#: includes/class-crm-ajax-functions.php:3898
+#: views/tickets/crm_tickets_all.php:556
+#, fuzzy
+msgid "Beginning of the Page"
+msgstr "Början av sidan"
+
+#: includes/class-crm-ajax-functions.php:3919
+#: views/tickets/crm_tickets_all.php:578
+#, fuzzy
+msgid "End of the Page"
+msgstr "Slutet av sidan"
+
+#: includes/class-crm-ajax-functions.php:3929
+#: views/tickets/crm_tickets_all.php:588
+#, fuzzy
+msgid "Filter Tickets"
+msgstr "Filtrera biljetter"
+
+#: includes/class-crm-ajax-functions.php:3935
+#: includes/class-crm-ajax-functions.php:4866
+#: views/tickets/crm_tickets_all.php:594
+msgid "View"
+msgstr "Visa"
+
+#: includes/class-crm-ajax-functions.php:3937
+#: includes/class-crm-ajax-functions.php:4868
+#: views/tickets/crm_tickets_all.php:596
+msgid "Requester"
+msgstr "Beställare"
+
+#: includes/class-crm-ajax-functions.php:3939
+#: includes/class-crm-ajax-functions.php:4870
+#: includes/class-crm-ajax-functions.php:5561
+#: views/tickets/crm_tickets_all.php:599
+msgid "Requested"
+msgstr "Begärd"
+
+#: includes/class-crm-ajax-functions.php:3961
+#: includes/class-crm-ajax-functions.php:3982
+#: includes/class-crm-ajax-functions.php:4268
+#: includes/class-crm-ajax-functions.php:4879
+#: includes/class-crm-ajax-functions.php:5697
+#: views/tickets/crm_tickets_all.php:608
+#, fuzzy
+msgid "No Tickets"
+msgstr "Biljetter"
+
+#: includes/class-crm-ajax-functions.php:3996
+#: includes/class-crm-ajax-functions.php:4283
+#: includes/class-crm-ajax-functions.php:4893
+#: views/tickets/crm_tickets_all.php:280 views/tickets/crm_tickets_all.php:623
+#, fuzzy
+msgid "Mark as"
+msgstr "Markera som"
+
+#: includes/class-crm-ajax-functions.php:4029
+#: includes/class-crm-ajax-functions.php:4323
+#: includes/class-crm-ajax-functions.php:4475
+#: includes/class-crm-ajax-functions.php:4926
+#: includes/class-crm-ajax-functions.php:5619
+#: includes/class-crm-ajax-functions.php:6289
+#: views/settings/crm_settings_general.php:95
+#: views/tickets/crm_tickets_all.php:662 views/tickets/crm_tickets_all.php:814
+#, fuzzy
+msgid "No Assignee"
+msgstr "Aktör"
+
+#: includes/class-crm-ajax-functions.php:4046
+#: includes/class-crm-ajax-functions.php:4066
+#: includes/class-crm-ajax-functions.php:4340
+#: includes/class-crm-ajax-functions.php:4360
+#: includes/class-crm-ajax-functions.php:4943
+#: includes/class-crm-ajax-functions.php:4963
+#: includes/class-crm-ajax-functions.php:5940
+#: views/tickets/crm_tickets_all.php:679 views/tickets/crm_tickets_all.php:699
+msgid "Guest"
+msgstr "Gäst"
+
+#: includes/class-crm-ajax-functions.php:4146
+#: includes/class-crm-ajax-functions.php:4160
+#: includes/class-crm-ajax-functions.php:4441
+#: includes/class-crm-ajax-functions.php:4456
+#: views/agents/crm_agents_manage.php:215 views/tickets/crm_tickets_all.php:270
+#: views/tickets/crm_tickets_all.php:780 views/tickets/crm_tickets_all.php:795
+msgid "Actions"
+msgstr "Åtgärder"
+
+#: includes/class-crm-ajax-functions.php:4147
+#: includes/class-crm-ajax-functions.php:4443
+#: includes/class-crm-ajax-functions.php:5013
+#: views/tickets/crm_tickets_all.php:782
+#, fuzzy
+msgid "Reply Requester"
+msgstr "Svara beställare"
+
+#: includes/class-crm-ajax-functions.php:4148
+#: includes/class-crm-ajax-functions.php:4444
+#: includes/class-crm-ajax-functions.php:5014
+#: views/tickets/crm_tickets_all.php:783
+#, fuzzy
+msgid "Raiser Voices"
+msgstr "Höjer röster"
+
+#: includes/class-crm-ajax-functions.php:4149
+#: includes/class-crm-ajax-functions.php:4445
+#: includes/class-crm-ajax-functions.php:5015
+#: views/tickets/crm_tickets_all.php:784
+#, fuzzy
+msgid "Agent Voices"
+msgstr "Agent röster"
+
+#: includes/class-crm-ajax-functions.php:4151
+#: includes/class-crm-ajax-functions.php:4447
+#: includes/class-crm-ajax-functions.php:5017
+#: views/tickets/crm_tickets_all.php:786
+msgid "Rating"
+msgstr "Betyg"
+
+#: includes/class-crm-ajax-functions.php:4152
+#: includes/class-crm-ajax-functions.php:4448
+#: includes/class-crm-ajax-functions.php:5018
+#: views/tickets/crm_tickets_all.php:787
+msgid "Source"
+msgstr "Källa"
+
+#: includes/class-crm-ajax-functions.php:4163
+#: includes/class-crm-ajax-functions.php:4459
+#: views/tickets/crm_tickets_all.php:286 views/tickets/crm_tickets_all.php:798
+#, fuzzy
+msgid "No Actions"
+msgstr "Åtgärder"
+
+#: includes/class-crm-ajax-functions.php:4167
+#: includes/class-crm-ajax-functions.php:4463
+#: views/tickets/crm_tickets_all.php:802
+#, fuzzy
+msgid "Select label to assign"
+msgstr "Välj etikett för att tilldela"
+
+#: includes/class-crm-ajax-functions.php:4174
+#: includes/class-crm-ajax-functions.php:4192
+#: includes/class-crm-ajax-functions.php:4486
+#: includes/class-crm-ajax-functions.php:4504
+#: views/tickets/crm_tickets_all.php:825 views/tickets/crm_tickets_all.php:843
+#, fuzzy
+msgid "Compose Reply"
+msgstr "Skriv svar"
+
+#: includes/class-crm-ajax-functions.php:4180
+#: includes/class-crm-ajax-functions.php:4492
+#: includes/class-crm-ajax-functions.php:5028
+#: includes/class-crm-ajax-functions.php:5857
+#: includes/class-crm-ajax-functions.php:6306
+#: views/tickets/crm_tickets_all.php:831
+msgid "No Tags"
+msgstr "Taggar:"
+
+#: includes/class-crm-ajax-functions.php:4248
+#: includes/class-crm-ajax-functions.php:4560
+#: views/tickets/crm_tickets_all.php:899
+#, fuzzy
+msgid "You don't Have permisson to Reply this ticket"
+msgstr "Du har inte Tillåt att svara på denna biljett"
+
+#: includes/class-crm-ajax-functions.php:4479
+#: views/tickets/crm_tickets_all.php:818
+#, fuzzy
+msgid "Select assignee to assign"
+msgstr "Välj assigner att tilldela"
+
+#: includes/class-crm-ajax-functions.php:4852
+msgid "Search Result"
+msgstr "Sökresultat"
+
+#: includes/class-crm-ajax-functions.php:4861
+#, fuzzy
+msgid "Filter Anything"
+msgstr "Filtrera något"
+
+#: includes/class-crm-ajax-functions.php:5104
+#: includes/class-crm-ajax-functions.php:5800 views/welcome/welcome.php:386
+#: wsdesk.php:200
+msgid "Support"
+msgstr "Support"
+
+#: includes/class-crm-ajax-functions.php:5105
+msgid "New"
+msgstr "Ny"
+
+#: includes/class-crm-ajax-functions.php:5273
+#, fuzzy
+msgid "Raiser Email"
+msgstr "Höjaren e-post"
+
+#: includes/class-crm-ajax-functions.php:5274
+msgid "Ticket Subject"
+msgstr "Ärendets ämne"
+
+#: includes/class-crm-ajax-functions.php:5287
+msgid "Description"
+msgstr "Beskrivning"
+
+#: includes/class-crm-ajax-functions.php:5439
+#, fuzzy
+msgid "You must Login to Check your Existing Ticket"
+msgstr "Du måste logga in för att kontrollera din befintliga biljett"
+
+#: includes/class-crm-ajax-functions.php:5439
+#: views/shortcodes/crm_support_new.php:19
+msgid "Login"
+msgstr "Logga in"
+
+#: includes/class-crm-ajax-functions.php:5440
+#: views/shortcodes/crm_support_new.php:20
+#, fuzzy
+msgid "Need an Account?"
+msgstr "Behöver du ett konto?"
+
+#: includes/class-crm-ajax-functions.php:5440
+#: views/shortcodes/crm_support_new.php:20
+msgid "Register"
+msgstr "Registrera"
+
+#: includes/class-crm-ajax-functions.php:5524
+msgid "Show All"
+msgstr ""
+
+#: includes/class-crm-ajax-functions.php:5527
+#, fuzzy
+#| msgid "Show Report"
+msgid "Show "
+msgstr "Visa rapport"
+
+#: includes/class-crm-ajax-functions.php:5539
+#, fuzzy
+msgid "Search Tickets"
+msgstr "Sök biljett"
+
+#: includes/class-crm-ajax-functions.php:5543
+#, fuzzy
+msgid "Close Ticket(s)"
+msgstr "Stäng biljett (er)"
+
+#: includes/class-crm-ajax-functions.php:5545
+#, fuzzy
+msgid "Your Tickets"
+msgstr "Dina biljetter"
+
+#: includes/class-crm-ajax-functions.php:5886
+#, fuzzy
+msgid "Mark as Solved"
+msgstr "Markera som löst"
+
+#: includes/class-crm-ajax-functions.php:5888
+#, fuzzy
+msgid "Submitting Reply..."
+msgstr "Skickar svar..."
+
+#: includes/class-crm-ajax-functions.php:5889
+#: views/shortcodes/crm_satisfaction_page.php:47
+#: views/tickets/crm_tickets_all.php:509
+msgid "Submit"
+msgstr "Skicka"
+
+#: includes/class-crm-ajax-functions.php:6119
+#, fuzzy
+msgid "EMail Server Not Found"
+msgstr "E-postserver hittades inte"
+
+#: includes/class-crm-ajax-functions.php:6129
+#, fuzzy
+msgid "Email IMAP Configured"
+msgstr "E-post IMAP konfigurerad"
+
+#: includes/class-crm-ajax-functions.php:6135
+#, fuzzy
+msgid "IMAP is not enabled in your Server"
+msgstr "IMAP är inte aktiverat på servern"
+
+#: includes/class-crm-ajax-functions.php:6247
+msgid "Email sent successfully"
+msgstr "E-post har skickats."
+
+#: includes/class-crm-ajax-functions.php:6657
+#, fuzzy
+msgid "Error while Activating Zendesk"
+msgstr "Fel vid aktivering av Zendesk"
+
+#: includes/class-crm-ajax-functions.php:6799
+#: includes/class-crm-ajax-functions.php:6876
+#: includes/class-crm-ajax-functions.php:6895
+#: views/tickets/crm_tickets_all.php:312
+msgid "Edit Template"
+msgstr "Redigera mall"
+
+#: includes/class-crm-ajax-functions.php:6831
+#: includes/class-crm-ajax-functions.php:6849
+#, fuzzy
+msgid "No template found"
+msgstr "Ingen mall hittades"
+
+#: includes/class-crm-ajax-functions.php:6907
+#: views/tickets/crm_tickets_all.php:361
+#, fuzzy
+msgid "Code for template"
+msgstr "Kod för mall"
+
+#: includes/class-crm-ajax-functions.php:6918
+#, fuzzy
+msgid "To insert ticket raiser name in the templates"
+msgstr "För att infoga biljett höjnings namnet i mallarna"
+
+#: includes/class-crm-ajax-functions.php:6927
+#, fuzzy
+msgid "To insert ticket number in the templates"
+msgstr "För att infoga biljettnummer i mallarna"
+
+#: includes/class-crm-ajax-functions.php:6944
+#: views/email/crm_email_support.php:271
+#: views/settings/crm_wsdesk_triggers.php:168
+#: views/tickets/crm_tickets_all.php:402
+#, fuzzy
+msgid "To insert "
+msgstr "Du infogar"
+
+#: includes/class-crm-ajax-functions.php:6944
+#: views/email/crm_email_support.php:271
+#: views/settings/crm_wsdesk_triggers.php:168
+#: views/tickets/crm_tickets_all.php:402
+#, fuzzy
+msgid "field value in the template"
+msgstr "fältvärde i mallen"
+
+#: includes/class-crm-ajax-functions.php:6957
+msgid "Delete"
+msgstr "Radera"
+
+#: includes/class-crm-ajax-functions.php:6959
+msgid "Update"
+msgstr "Uppdatera"
+
+#: includes/class-crm-ajax-functions.php:7059
+msgid "Template preview"
+msgstr "Mallförhandsvisning"
+
+#: includes/class-crm-init-handler.php:152
+#: includes/class-crm-init-handler.php:153 views/crm_reports_view.php:207
+#: views/crm_reports_view.php:429 views/crm_reports_view.php:470
+#: views/settings/crm_settings_backup_restore.php:42 wsdesk.php:186
+msgid "Tickets"
+msgstr "Biljetter"
+
+#: includes/class-crm-init-handler.php:156 views/crm_agents_view.php:11
+#: views/crm_email_view.php:11 views/crm_import_view.php:11
+#: views/crm_reports_view.php:11 views/crm_settings_view.php:27
+#: views/crm_tickets_view.php:16
+#: views/settings/crm_settings_backup_restore.php:41 wsdesk.php:187
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/class-crm-init-handler.php:162
+msgid "Reports"
+msgstr "Rapporter"
+
+#: includes/class-crm-init-handler.php:165
+msgid "E-Mail"
+msgstr "E-post"
+
+#: includes/class-crm-init-handler.php:169
+msgid "Import"
+msgstr "Importera"
+
+#: includes/class-crm-init-handler.php:359
+msgid "I couldn't understand how to make it work"
+msgstr "Jag kunde inte förstå hur man får det att fungera"
+
+#: includes/class-crm-init-handler.php:361
+#, fuzzy
+msgid "Would you like us to assist you?"
+msgstr "Skulle du vilja att vi hjälper dig?"
+
+#: includes/class-crm-init-handler.php:365
+msgid "I found a better plugin"
+msgstr "Jag hittade ett bättre plugin"
+
+#: includes/class-crm-init-handler.php:367
+#, fuzzy
+msgid "Which plugin?"
+msgstr "Vilken plugin?"
+
+#: includes/class-crm-init-handler.php:371
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Tillägget är bra, men jag behöver specifik funktion som du inte stöder"
+
+#: includes/class-crm-init-handler.php:373
+#, fuzzy
+msgid "Could you tell us more about that feature?"
+msgstr "Kan du berätta mer om den funktionen?"
+
+#: includes/class-crm-init-handler.php:377
+msgid "The plugin is not working"
+msgstr "Tillägget fungerar inte"
+
+#: includes/class-crm-init-handler.php:379
+#, fuzzy
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Kan du berätta lite mer Whats inte fungerar?"
+
+#: includes/class-crm-init-handler.php:383
+msgid "It's not what I was looking for"
+msgstr "Det är inte det jag letade efter"
+
+#: includes/class-crm-init-handler.php:389
+msgid "The plugin didn't work as expected"
+msgstr "Tilläggsprogrammet fungerade inte som förväntat"
+
+#: includes/class-crm-init-handler.php:391
+#, fuzzy
+msgid "What did you expect?"
+msgstr "Vad förväntar du dig?"
+
+#: includes/class-crm-init-handler.php:395
+msgid "Other"
+msgstr "Annat"
+
+#: includes/class-crm-init-handler.php:397
+#, fuzzy
+msgid "Could you tell us a bit more?"
+msgstr "Kan du berätta lite mer för oss?"
+
+#: includes/class-crm-init-handler.php:418
+#, fuzzy
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Om du har en stund, låt oss veta varför du inaktiverar:"
+
+#: includes/class-crm-init-handler.php:432
+#, fuzzy
+msgid "Contact me back"
+msgstr "Kontakta mig igen"
+
+#: includes/class-crm-init-handler.php:434
+#, fuzzy
+msgid ""
+"Check this box to let us collect your email along with your feedback, so "
+"that we can contact you back to address your concern."
+msgstr ""
+"Markera den här rutan för att låta oss samla in din e-post tillsammans med "
+"din feedback så att vi kan kontakta dig igen för att ta itu med din oro."
+
+#: includes/class-crm-init-handler.php:440
+#, fuzzy
+msgid ""
+"You can also contact us through the \n"
+"                        <a href=\"https://elextensions.com/support/"
+"\">support page.</a>"
+msgstr ""
+"Du kan också kontakta oss via supportsidan för < a href = \"https://wsdesk."
+"com/support/\" >. </a>"
+
+#: includes/class-crm-init-handler.php:446
+#, fuzzy
+msgid "I rather wouldn't say"
+msgstr "Jag skulle hellre säga"
+
+#: includes/class-crm-init-handler.php:447
+msgid "Submit & Deactivate"
+msgstr "Skicka och inaktivera"
+
+#: includes/class-crm-init-handler.php:448 views/agents/crm_agents_add.php:101
+#: views/email/crm_filter_block_setup.php:43
+#: views/email/crm_filter_block_setup.php:92
+#: views/settings/crm_settings_fields.php:102
+#: views/settings/crm_settings_fields.php:185
+#: views/settings/crm_settings_labels.php:45
+#: views/settings/crm_settings_labels.php:68
+#: views/settings/crm_settings_tags.php:47
+#: views/settings/crm_settings_tags.php:71
+#: views/settings/crm_settings_views.php:102
+#: views/settings/crm_settings_views.php:163
+#: views/settings/crm_wsdesk_triggers.php:96
+#: views/settings/crm_wsdesk_triggers.php:206
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/class-crm-js-translation.php:12
+#, fuzzy
+msgid "All Ticket Data is Exported to your Downloads Folder!"
+msgstr "Alla biljett data exporteras till din nedladdningar mapp!"
+
+#: includes/class-crm-js-translation.php:13
+msgid "Exported"
+msgstr "Exporterad"
+
+#: includes/class-crm-js-translation.php:14
+#, fuzzy
+msgid "Choose the Vendor(s)"
+msgstr "Välj leverantör (er)"
+
+#: includes/class-crm-js-translation.php:15
+#, fuzzy
+msgid "No Vendor Found"
+msgstr "Ingen leverantör hittades"
+
+#: includes/class-crm-js-translation.php:16
+#, fuzzy
+msgid "No Status Found"
+msgstr "Ingen status hittades"
+
+#: includes/class-crm-js-translation.php:17
+#, fuzzy
+msgid "Select Ticket Status"
+msgstr "Välj biljett status"
+
+#: includes/class-crm-js-translation.php:18
+#, fuzzy
+msgid "Select Ticket Fields"
+msgstr "Välj biljett fält"
+
+#: includes/class-crm-js-translation.php:19
+#, fuzzy
+msgid "No Fields Found"
+msgstr "Inga fält hittades"
+
+#: includes/class-crm-js-translation.php:20
+#, fuzzy
+msgid "Select Ticket Views"
+msgstr "Välj biljett visningar"
+
+#: includes/class-crm-js-translation.php:21
+#, fuzzy
+msgid "No Views Found"
+msgstr "Inga vyer hittades"
+
+#: includes/class-crm-js-translation.php:22
+#, fuzzy
+msgid "Select Triggers"
+msgstr "Välj utlösare"
+
+#: includes/class-crm-js-translation.php:23
+msgid "No Triggers Found"
+msgstr "Inga utlösare hittades"
+
+#: includes/class-crm-js-translation.php:24
+#, fuzzy
+msgid "Search and Choose"
+msgstr "Sök och välj"
+
+#: includes/class-crm-js-translation.php:25
+msgid "No Posts Found"
+msgstr "Hittade inga inlägg"
+
+#: includes/class-crm-js-translation.php:26
+#, fuzzy
+msgid "Select Ticket Tags"
+msgstr "Välj Ticket Tags"
+
+#: includes/class-crm-js-translation.php:27
+#: includes/class-crm-js-translation.php:182
+msgid "No Tags Found"
+msgstr "Inga taggar hittades"
+
+#: includes/class-crm-js-translation.php:28 views/crm_settings_view.php:28
+#: views/crm_settings_view.php:35
+msgid "General"
+msgstr "Allmänt"
+
+#: includes/class-crm-js-translation.php:29 views/crm_settings_view.php:38
+#: views/settings/crm_settings_fields.php:32
+#, fuzzy
+msgid "Ticket Fields"
+msgstr "Biljett fält"
+
+#: includes/class-crm-js-translation.php:30
+#: includes/class-crm-js-translation.php:80 views/crm_settings_view.php:41
+#: views/settings/crm_settings_labels.php:13
+msgid "Ticket Status"
+msgstr "Ärendestatus"
+
+#: includes/class-crm-js-translation.php:31
+#: includes/class-crm-js-translation.php:83
+#: includes/class-crm-public-functions.php:2241 views/crm_settings_view.php:44
+#: views/settings/crm_settings_tags.php:13
+#, fuzzy
+msgid "Ticket Tags"
+msgstr "Biljett Taggar"
+
+#: includes/class-crm-js-translation.php:32 views/crm_settings_view.php:47
+#: views/settings/crm_settings_views.php:21
+#: views/tickets/crm_tickets_all.php:246
+#, fuzzy
+msgid "Ticket Views"
+msgstr "Biljett visningar"
+
+#: includes/class-crm-js-translation.php:33 views/crm_settings_view.php:50
+#, fuzzy
+msgid "Triggers & Automation"
+msgstr "Triggers & Automation"
+
+#: includes/class-crm-js-translation.php:34 views/crm_settings_view.php:63
+msgid "Form Settings"
+msgstr "Inställningar formulär"
+
+#: includes/class-crm-js-translation.php:35 views/crm_settings_view.php:66
+#, fuzzy
+msgid "Backup & Restore"
+msgstr "Backningen & Restaurera"
+
+#: includes/class-crm-js-translation.php:36
+#, fuzzy
+msgid "Activation of WSDesk"
+msgstr "Aktivering av WSDesk"
+
+#: includes/class-crm-js-translation.php:37
+msgid "General Settings"
+msgstr "Allmänna inställningar"
+
+#: includes/class-crm-js-translation.php:38
+#: includes/class-crm-js-translation.php:212
+#, fuzzy
+msgid "Updated and Saved Successfully"
+msgstr "Har uppdaterats och sparats"
+
+#: includes/class-crm-js-translation.php:39
+msgid "WooCommerce Settings"
+msgstr "WooCommerce inställningar"
+
+#: includes/class-crm-js-translation.php:40
+msgid "Appearance Settings"
+msgstr "Inställningar av utseende"
+
+#: includes/class-crm-js-translation.php:41
+#: views/settings/crm_settings_fields.php:101
+#, fuzzy
+msgid "Add Ticket Field"
+msgstr "Lägg till biljett fält"
+
+#: includes/class-crm-js-translation.php:42
+#, fuzzy
+msgid "Enter title for the Field"
+msgstr "Ange rubrik för fältet"
+
+#: includes/class-crm-js-translation.php:43
+#, fuzzy
+msgid "Default Value is not Matched"
+msgstr "Standardvärde matchas inte"
+
+#: includes/class-crm-js-translation.php:44
+#, fuzzy
+msgid "Site Key and Secret Key is Required"
+msgstr "Plats nyckel och hemlig nyckel krävs"
+
+#: includes/class-crm-js-translation.php:45
+#: views/settings/crm_settings_fields.php:184
+#, fuzzy
+msgid "Edit Ticket Field"
+msgstr "Redigera biljett fält"
+
+#: includes/class-crm-js-translation.php:47
+#, fuzzy
+msgid "Enter details for custom"
+msgstr "Ange information för anpassade"
+
+#: includes/class-crm-js-translation.php:49
+#, fuzzy
+msgid "Enter Site Key"
+msgstr "Ange webbplats nyckel"
+
+#: includes/class-crm-js-translation.php:50
+#, fuzzy
+msgid "Enter Secret Key"
+msgstr "Ange hemlig nyckel"
+
+#: includes/class-crm-js-translation.php:51
+#, fuzzy
+msgid "Want to give some description to this field?"
+msgstr "Vill du ge en beskrivning till det här fältet?"
+
+#: includes/class-crm-js-translation.php:52
+#, fuzzy
+msgid "Field is mandatory for Agents"
+msgstr "Fältet är obligatoriskt för agenter"
+
+#: includes/class-crm-js-translation.php:53
+#, fuzzy
+msgid "Field is mandatory for End-Users"
+msgstr "Fältet är obligatoriskt för slutanvändare"
+
+#: includes/class-crm-js-translation.php:54
+#, fuzzy
+msgid "Field is visible for End-Users"
+msgstr "Fältet är synligt för slutanvändare"
+
+#: includes/class-crm-js-translation.php:58
+#, fuzzy
+msgid "No! It's an Optional Field"
+msgstr "Nej! Det är ett valfritt fält"
+
+#: includes/class-crm-js-translation.php:59
+#, fuzzy
+msgid "Auto fill products"
+msgstr "Auto Fill produkter"
+
+#: includes/class-crm-js-translation.php:60
+#, fuzzy
+msgid "Specify Product values"
+msgstr "Ange produktvärden"
+
+#: includes/class-crm-js-translation.php:62
+#, fuzzy
+msgid "Want to use this field to filter tickets"
+msgstr "Vill använda det här fältet för att filtrera biljetter"
+
+#: includes/class-crm-js-translation.php:63
+#, fuzzy
+msgid "Yes! I will use it to filter tickets"
+msgstr "Ja! Jag kommer att använda den för att filtrera biljetter"
+
+#: includes/class-crm-js-translation.php:65
+#, fuzzy
+msgid "Auto fill categories"
+msgstr "Kategorier för automatisk fyllning"
+
+#: includes/class-crm-js-translation.php:66
+#, fuzzy
+msgid "Specify Category values"
+msgstr "Ange kategorivärden"
+
+#: includes/class-crm-js-translation.php:67
+#, fuzzy
+msgid "Specify Tag values"
+msgstr "Ange märkes värden"
+
+#: includes/class-crm-js-translation.php:68
+#, fuzzy
+msgid "Auto fill tags"
+msgstr "Auto Fill-Taggar"
+
+#: includes/class-crm-js-translation.php:69
+#, fuzzy
+msgid "Specify the Vendor"
+msgstr "Ange leverantör"
+
+#: includes/class-crm-js-translation.php:70
+#, fuzzy
+msgid "Auto fill Vendors"
+msgstr "Automatiska fyllnings leverantörer"
+
+#: includes/class-crm-js-translation.php:71
+#, fuzzy
+msgid "Specify Radio values"
+msgstr "Ange radio värden"
+
+#: includes/class-crm-js-translation.php:72
+#, fuzzy
+msgid "Enter first value"
+msgstr "Ange första värde"
+
+#: includes/class-crm-js-translation.php:73
+#, fuzzy
+msgid "Specify the Checkbox values"
+msgstr "Ange kryssrutans värden"
+
+#: includes/class-crm-js-translation.php:74
+#, fuzzy
+msgid "Specify the Dropdown values"
+msgstr "Ange listrutevärden"
+
+#: includes/class-crm-js-translation.php:76
+#, fuzzy
+msgid "Enter next value"
+msgstr "Ange nästa värde"
+
+#: includes/class-crm-js-translation.php:78
+#, fuzzy
+msgid "Add Ticket Status"
+msgstr "Lägg till biljett status"
+
+#: includes/class-crm-js-translation.php:79
+#, fuzzy
+msgid "Enter status"
+msgstr "Ange status"
+
+#: includes/class-crm-js-translation.php:81
+#, fuzzy
+msgid "Add Ticket Tag"
+msgstr "Lägg till biljett tag gen"
+
+#: includes/class-crm-js-translation.php:82
+#, fuzzy
+msgid "Enter title for the Tag"
+msgstr "Ange rubrik för taggen"
+
+#: includes/class-crm-js-translation.php:88
+#, fuzzy
+msgid "Enter Period for New Trigger"
+msgstr "Ange period för ny utlösare"
+
+#: includes/class-crm-js-translation.php:89
+#, fuzzy
+msgid "Edit Period for the Trigger"
+msgstr "Redigera period för utlösaren"
+
+#: includes/class-crm-js-translation.php:91
+#: views/settings/crm_wsdesk_triggers.php:28
+#: views/settings/crm_wsdesk_triggers.php:95
+msgid "Add Trigger"
+msgstr "Lägg till utlösare"
+
+#: includes/class-crm-js-translation.php:92
+#, fuzzy
+msgid "Enter title for the Trigger"
+msgstr "Ange titel för utlösaren"
+
+#: includes/class-crm-js-translation.php:93
+#, fuzzy
+msgid "Specify some action for the Trigger"
+msgstr "Ange en åtgärd för utlösaren"
+
+#: includes/class-crm-js-translation.php:94
+#: views/settings/crm_wsdesk_triggers.php:49
+#: views/settings/crm_wsdesk_triggers.php:76
+#: views/settings/crm_wsdesk_triggers.php:205
+msgid "Edit Trigger"
+msgstr "Redigera utlösare"
+
+#: includes/class-crm-js-translation.php:95
+msgid "Triggers"
+msgstr "Utlösare"
+
+#: includes/class-crm-js-translation.php:96
+#, fuzzy
+msgid "Select Condition Values"
+msgstr "Välj villkorsvärden"
+
+#: includes/class-crm-js-translation.php:97
+#, fuzzy
+msgid "No Values Found"
+msgstr "Inga värden hittades"
+
+#: includes/class-crm-js-translation.php:100
+#, fuzzy
+msgid "Remove Action"
+msgstr "Ta bort åtgärd"
+
+#: includes/class-crm-js-translation.php:101
+#, fuzzy
+msgid "Backup & Restore Alert"
+msgstr "Backningen & Restaurera Alert"
+
+#: includes/class-crm-js-translation.php:102
+#, fuzzy
+msgid "Choose some data to Backup"
+msgstr "Välj vissa data som ska säkerhetskopieras"
+
+#: includes/class-crm-js-translation.php:103
+#, fuzzy
+msgid "WSDesk Restore Alert"
+msgstr "WSDesk återställa varning"
+
+#: includes/class-crm-js-translation.php:104
+#, fuzzy
+msgid "Keep Calm while Restoring Data. Don\\'t Refresh the Page"
+msgstr "Bevara lugnet medan du återställer data. Don \\ ' t uppdatera sidan"
+
+#: includes/class-crm-js-translation.php:105
+#, fuzzy
+msgid "Yes! I Will Wait"
+msgstr "Ja! Jag kommer att vänta"
+
+#: includes/class-crm-js-translation.php:106
+#, fuzzy
+msgid "Restore Finished"
+msgstr "Återställ avslutad"
+
+#: includes/class-crm-js-translation.php:107
+#, fuzzy
+msgid "Refresh and Hit to go"
+msgstr "Uppdatera och slå till gå"
+
+#: includes/class-crm-js-translation.php:108
+#, fuzzy
+msgid "Select a Backup File"
+msgstr "Välj en säkerhetskopieringsfil"
+
+#: includes/class-crm-js-translation.php:109
+#, fuzzy
+msgid "Specify the Mail Subject"
+msgstr "Ange e-postämnet"
+
+#: includes/class-crm-js-translation.php:111
+#, fuzzy
+msgid "Codes for Notification EMail"
+msgstr "Koder för e-postmeddelande"
+
+#: includes/class-crm-js-translation.php:112
+#, fuzzy
+msgid "To Insert Ticket Number in the notification email"
+msgstr "För att infoga biljettnummer i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:113
+#, fuzzy
+msgid "To Insert Ticket Assignee in the notification email"
+msgstr "Så här infogar du biljett som tilldelas i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:114
+#, fuzzy
+msgid "To Insert Ticket Tags in the notification mail"
+msgstr "Så här infogar du biljett etiketter i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:115
+#, fuzzy
+msgid "To Insert Ticket Date and Time in the notification email"
+msgstr "Så här infogar du biljett datum och tid i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:116
+#, fuzzy
+msgid "To Insert Ticket Content in the notification email"
+msgstr "Så här infogar du biljett innehåll i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:117
+#, fuzzy
+msgid "To Insert Latest Ticket Reply in the notification email"
+msgstr "Så här infogar du senaste biljett svar i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:118
+#, fuzzy
+msgid ""
+"To Insert Latest Ticket Reply (even if it is a note) in the notification "
+"email"
+msgstr ""
+"Om du vill infoga senaste biljett svar (även om det är en anteckning) i e-"
+"postmeddelandet"
+
+#: includes/class-crm-js-translation.php:119
+#, fuzzy
+msgid "To Insert Satisfaction URL in the notification email"
+msgstr "Infoga webbadress för tillfredsställelse i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:120
+#, fuzzy
+msgid "To Insert Conversation History in the notification email"
+msgstr "Så här infogar du Konversationshistorik i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:121
+#, fuzzy
+msgid ""
+"To Insert Conversation History with agent note in the notification email"
+msgstr "Så här infogar du Konversationshistorik i e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:122
+#, fuzzy
+msgid ""
+"Note : For Satisfaction Survey place the [wsdesk_satisfaction] shortcode in "
+"new page."
+msgstr ""
+"Obs: för tillfredsställelse undersökning placera [wsdesk_satisfaction] brist "
+"i ny sida."
+
+#: includes/class-crm-js-translation.php:123
+#, fuzzy
+msgid "Specify the Mail Body"
+msgstr "Ange e-postmeddelandet"
+
+#: includes/class-crm-js-translation.php:125
+#, fuzzy
+msgid "Select Action Values"
+msgstr "Välj åtgärds värden"
+
+#: includes/class-crm-js-translation.php:126
+#: views/settings/crm_settings_backup_restore.php:8
+#, fuzzy
+msgid "Initiate Ticket"
+msgstr "Starta biljett"
+
+#: includes/class-crm-js-translation.php:127
+#, fuzzy
+msgid "WSDesk will create ticket from this number"
+msgstr "WSDesk kommer att skapa biljett från detta nummer"
+
+#: includes/class-crm-js-translation.php:128
+#, fuzzy
+msgid "Okay! Set it"
+msgstr "Okej! Ställa in den"
+
+#: includes/class-crm-js-translation.php:129
+#, fuzzy
+msgid "Initate number successfully set!"
+msgstr "Initate nummer som framgångsrikt!"
+
+#: includes/class-crm-js-translation.php:130
+#: views/settings/crm_settings_backup_restore.php:22
+msgid "Empty Trash"
+msgstr "Töm papperskorgen"
+
+#: includes/class-crm-js-translation.php:131
+#, fuzzy
+msgid "WSDesk will delete the tickets permanently. Please take a backup"
+msgstr "WSDesk kommer att radera biljetterna permanent. Vänligen ta en backup"
+
+#: includes/class-crm-js-translation.php:132
+#, fuzzy
+msgid "Okay! Empty it"
+msgstr "Okej! Töm den"
+
+#: includes/class-crm-js-translation.php:133
+#, fuzzy
+msgid "All trash tickets deleted successfully!"
+msgstr "Alla Trash biljetter bort framgångsrikt!"
+
+#: includes/class-crm-js-translation.php:134
+#: views/settings/crm_settings_backup_restore.php:30
+#, fuzzy
+msgid "Restore Trash"
+msgstr "Återställa papperskorgen"
+
+#: includes/class-crm-js-translation.php:135
+#, fuzzy
+msgid "WSDesk will restore the trash tickets. Please take a backup"
+msgstr ""
+"WSDesk kommer att återställa papperskorgen biljetter. Vänligen ta en backup"
+
+#: includes/class-crm-js-translation.php:136
+#, fuzzy
+msgid "Okay! Restore it"
+msgstr "Okej! Återställa den"
+
+#: includes/class-crm-js-translation.php:137
+#, fuzzy
+msgid "All trash tickets restored successfully!"
+msgstr "Alla Trash biljetter återställts!"
+
+#: includes/class-crm-js-translation.php:143
+#, fuzzy
+msgid "WSDesk Alert"
+msgstr "WSDesk Alert"
+
+#: includes/class-crm-js-translation.php:144
+#, fuzzy
+msgid "Do you want to delete the ticket(s)?"
+msgstr "Vill du ta bort biljetten/biljetterna?"
+
+#: includes/class-crm-js-translation.php:145
+#, fuzzy
+msgid "Do you want to submit the ticket without a reply?"
+msgstr "Vill du skicka in biljetten utan svar?"
+
+#: includes/class-crm-js-translation.php:146
+#, fuzzy
+msgid "Ticket Label Successfully Changed"
+msgstr "Biljett etiketten har ändrats"
+
+#: includes/class-crm-js-translation.php:147
+#, fuzzy
+msgid "Yes! Delete"
+msgstr "Ja! Ta bort"
+
+#: includes/class-crm-js-translation.php:148
+#, fuzzy
+msgid "Yes! Send"
+msgstr "Ja! Skicka"
+
+#: includes/class-crm-js-translation.php:149
+#, fuzzy
+msgid "Yes! Submit"
+msgstr "Ja! Skicka"
+
+#: includes/class-crm-js-translation.php:150
+#, fuzzy
+msgid "WSDesk Tickets Notification"
+msgstr "WSDesk biljetter anmälan"
+
+#: includes/class-crm-js-translation.php:151
+#, fuzzy
+msgid "WSDesk Template Notification"
+msgstr "Meddelande om WSDesk-mall"
+
+#: includes/class-crm-js-translation.php:152
+#, fuzzy
+msgid "Template added successfully"
+msgstr "Mallen har lagts till"
+
+#: includes/class-crm-js-translation.php:153
+#, fuzzy
+msgid "Template updated successfully"
+msgstr "Mallen har uppdaterats"
+
+#: includes/class-crm-js-translation.php:154
+#, fuzzy
+msgid "Do You want to Delete Template?"
+msgstr "Vill du ta bort mallen?"
+
+#: includes/class-crm-js-translation.php:155
+#, fuzzy
+msgid "Template deleted successfully"
+msgstr "Mallen har tagits bort"
+
+#: includes/class-crm-js-translation.php:156
+#, fuzzy
+msgid "Tickets Deleted Successfully"
+msgstr "Biljetterna har tagits bort"
+
+#: includes/class-crm-js-translation.php:157
+#, fuzzy
+msgid "Do you want to send the template?"
+msgstr "Vill du skicka mallen?"
+
+#: includes/class-crm-js-translation.php:158
+#, fuzzy
+msgid "Do You want to Update Tickets Status?"
+msgstr "Vill du uppdatera Biljetternas status?"
+
+#: includes/class-crm-js-translation.php:159
+#, fuzzy
+msgid "Yes! Update"
+msgstr "Ja! Uppdatering"
+
+#: includes/class-crm-js-translation.php:160
+#, fuzzy
+msgid "Tickets Updated Successfully"
+msgstr "Biljetterna har uppdaterats"
+
+#: includes/class-crm-js-translation.php:161
+#, fuzzy
+msgid "New Ticket Created Successfully"
+msgstr "Ny biljett har skapats"
+
+#: includes/class-crm-js-translation.php:162
+#, fuzzy
+msgid "missing some data"
+msgstr "vissa data saknas"
+
+#: includes/class-crm-js-translation.php:163
+#, fuzzy
+msgid "Replied Successfully"
+msgstr "Svarade framgångsrikt"
+
+#: includes/class-crm-js-translation.php:164
+#, fuzzy
+msgid "have been successfully edited"
+msgstr "har redigerats"
+
+#: includes/class-crm-js-translation.php:165
+#, fuzzy
+msgid "have been successfully merged"
+msgstr "har sammanfogats"
+
+#: includes/class-crm-js-translation.php:166
+#, fuzzy
+msgid "needs reply content"
+msgstr "behöver svars innehåll"
+
+#: includes/class-crm-js-translation.php:167
+msgid "No results found"
+msgstr "Inga resultat hittades"
+
+#: includes/class-crm-js-translation.php:168
+msgid "Select Tag"
+msgstr "﻿Välj Tagg"
+
+#: includes/class-crm-js-translation.php:169
+#, fuzzy
+msgid "No Tags Tagged"
+msgstr "Inga taggar taggade"
+
+#: includes/class-crm-js-translation.php:170
+#, fuzzy
+msgid "No Cc Found"
+msgstr "Ingen CC hittades"
+
+#: includes/class-crm-js-translation.php:171
+#, fuzzy
+msgid "No Bcc Found"
+msgstr "Ingen hemlig kopia hittades"
+
+#: includes/class-crm-js-translation.php:172
+#, fuzzy
+msgid "Select Cc"
+msgstr "Välj CC"
+
+#: includes/class-crm-js-translation.php:173
+#, fuzzy
+msgid "Select Bcc"
+msgstr "Välj hemlig kopia"
+
+#: includes/class-crm-js-translation.php:174
+#, fuzzy
+#| msgid "Assignee"
+msgid "Select Assignee"
+msgstr "Välj inloggad"
+
+#: includes/class-crm-js-translation.php:175
+#, fuzzy
+#| msgid "Select Tag"
+msgid "Select Label"
+msgstr "Välj etikett"
+
+#: includes/class-crm-js-translation.php:181
+#, fuzzy
+msgid "Search - (Eg:Support)"
+msgstr "Sök-(t. ex.: stöd)"
+
+#: includes/class-crm-js-translation.php:183
+#, fuzzy
+msgid "Select existing users"
+msgstr "Välj befintliga användare"
+
+#: includes/class-crm-js-translation.php:184
+msgid "No Users Found"
+msgstr "Ingen användare hittad"
+
+#: includes/class-crm-js-translation.php:185
+#, fuzzy
+msgid "Add Agents"
+msgstr "Lägg till agenter"
+
+#: includes/class-crm-js-translation.php:186
+#, fuzzy
+msgid "Manage Agents"
+msgstr "Hantera agenter"
+
+#: includes/class-crm-js-translation.php:187 views/agents/crm_agents_main.php:7
+#: views/welcome/welcome.php:50
+#, fuzzy
+msgid "WSDesk Agents"
+msgstr "WSDesk agenter"
+
+#: includes/class-crm-js-translation.php:188
+#, fuzzy
+msgid "Agents Updated Successfully"
+msgstr "Agenter har uppdaterats"
+
+#: includes/class-crm-js-translation.php:189
+#, fuzzy
+msgid "Agents Removed Successfully"
+msgstr "Agenter har tagits bort"
+
+#: includes/class-crm-js-translation.php:190
+#, fuzzy
+msgid "Agents added Successfully"
+msgstr "Agenter har lagts till"
+
+#: includes/class-crm-js-translation.php:202
+#, fuzzy
+msgid "Google OAuth Setup"
+msgstr "Google OAuth setup"
+
+#: includes/class-crm-js-translation.php:203
+#, fuzzy
+msgid "IMAP EMail Setup"
+msgstr "Inställningar för IMAP-e-post"
+
+#: includes/class-crm-js-translation.php:204 views/crm_email_view.php:22
+msgid "Support Email"
+msgstr "E-post support"
+
+#: includes/class-crm-js-translation.php:205 views/crm_email_view.php:38
+#, fuzzy
+msgid "EMail Filter & Block"
+msgstr "E-post filter & block"
+
+#: includes/class-crm-js-translation.php:206
+#, fuzzy
+msgid "Select EMail"
+msgstr "Välj e-post"
+
+#: includes/class-crm-js-translation.php:207
+#, fuzzy
+msgid "No Address Found"
+msgstr "Ingen adress hittades"
+
+#: includes/class-crm-js-translation.php:208
+#, fuzzy
+msgid "Block Email"
+msgstr "Blockera e-post"
+
+#: includes/class-crm-js-translation.php:209
+#, fuzzy
+msgid "Enter Email to Block"
+msgstr "Ange e-post för att blockera"
+
+#: includes/class-crm-js-translation.php:210
+#, fuzzy
+msgid "Google OAuth Revoked"
+msgstr "Google OAuth återkallad"
+
+#: includes/class-crm-js-translation.php:211
+#, fuzzy
+msgid "IMAP EMail Deactivated"
+msgstr "IMAP-e-post inaktiverad"
+
+#: includes/class-crm-js-translation.php:213
+#, fuzzy
+msgid "Subject Block"
+msgstr "Ämnes block"
+
+#: includes/class-crm-js-translation.php:214
+#, fuzzy
+msgid "Enter Subject to Block"
+msgstr "Ange föremål för blockering"
+
+#: includes/class-crm-js-translation.php:220
+#, fuzzy
+msgid "Select Products for Reports"
+msgstr "Välj produkter för rapporter"
+
+#: includes/class-crm-js-translation.php:221
+#, fuzzy
+msgid "No Products Found"
+msgstr "Inga produkter hittades"
+
+#: includes/class-crm-js-translation.php:222
+#, fuzzy
+msgid "Select Category for Reports"
+msgstr "Välj kategori för rapporter"
+
+#: includes/class-crm-js-translation.php:223
+#, fuzzy
+msgid "No Category Found"
+msgstr "Ingen kategori hittades"
+
+#: includes/class-crm-js-translation.php:229 views/crm_import_view.php:22
+#: views/crm_import_view.php:29
+#, fuzzy
+msgid "From Zendesk"
+msgstr "Från Zendesk"
+
+#: includes/class-crm-js-translation.php:230
+#, fuzzy
+msgid "Zendesk Import"
+msgstr "Zendesk import"
+
+#: includes/class-crm-js-translation.php:231
+#, fuzzy
+msgid "Tickets Import Successful"
+msgstr "Biljetter import lyckad"
+
+#: includes/class-crm-js-translation.php:232
+#, fuzzy
+msgid "Something Went Wrong"
+msgstr "Något gick fel"
+
+#: includes/class-crm-js-translation.php:233
+#, fuzzy
+msgid "Import Stopped Manually"
+msgstr "Importen stoppas manuellt"
+
+#: includes/class-crm-public-functions.php:2177
+#, fuzzy
+msgid "Select a Condition"
+msgstr "Välj ett villkor"
+
+#: includes/class-crm-public-functions.php:2178
+#, fuzzy
+msgid "No Group"
+msgstr "Ingen grupp"
+
+#: includes/class-crm-public-functions.php:2185
+#: includes/class-crm-public-functions.php:2338
+msgid "Is Not"
+msgstr "Är inte"
+
+#: includes/class-crm-public-functions.php:2185
+#: includes/class-crm-public-functions.php:2338
+msgid "In"
+msgstr "I"
+
+#: includes/class-crm-public-functions.php:2187
+#: includes/class-crm-public-functions.php:2340
+#, fuzzy
+msgid "Ticket : To Email (Forwarded From Email)"
+msgstr "Biljett: till e-post (vidarebefordras från e-post)"
+
+#: includes/class-crm-public-functions.php:2204
+#, fuzzy
+msgid "Ticket : Assigned -> Label (Status)"
+msgstr "Biljett: tilldelad-> etikett (status)"
+
+#: includes/class-crm-public-functions.php:2205
+#, fuzzy
+msgid "Ticket Label (Status)"
+msgstr "Etikett för biljett (status)"
+
+#: includes/class-crm-public-functions.php:2211
+#, fuzzy
+msgid "Not Assigned to"
+msgstr "Använd med"
+
+#: includes/class-crm-public-functions.php:2211
+msgid "Assigned to"
+msgstr "Använd med"
+
+#: includes/class-crm-public-functions.php:2217
+msgid "Current User"
+msgstr "Nuvarande användare"
+
+#: includes/class-crm-public-functions.php:2223
+#, fuzzy
+msgid "Ticket : Assigned -> Assignee"
+msgstr "Biljett: tilldelad-> assigne"
+
+#: includes/class-crm-public-functions.php:2224
+#, fuzzy
+msgid "Ticket Assignee"
+msgstr "Biljetten tilldelas"
+
+#: includes/class-crm-public-functions.php:2230
+#, fuzzy
+msgid "Atleast any one tag"
+msgstr "Iallafall någon en tagg"
+
+#: includes/class-crm-public-functions.php:2230
+#, fuzzy
+msgid "None of the tag"
+msgstr "Ingen av taggen"
+
+#: includes/class-crm-public-functions.php:2230
+#, fuzzy
+msgid "All the specified Tags"
+msgstr "Alla angivna Taggar"
+
+#: includes/class-crm-public-functions.php:2240
+#, fuzzy
+msgid "Ticket : Assigned -> Tags"
+msgstr "Biljett: tilldelad-> Taggar"
+
+#: includes/class-crm-public-functions.php:3083
+#: views/shortcodes/crm_satisfaction_page.php:87
+#: views/shortcodes/crm_support_check_request.php:46
+#: views/shortcodes/crm_support_form_Support_Request_table.php:50
+#: views/shortcodes/crm_support_new.php:263 views/tickets/wsdesk_print.php:67
+msgid "Powered by"
+msgstr ""
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:373
+#, php-format
+msgid ""
+"The license key for %s has expired. You can reactivate or purchase a license "
+"key from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Licensnyckeln för %s har löpt ut. Du kan återaktivera eller köpa en ny "
+"licensnyckel från <a href=\"%s\" target=\"_blank\">kontrollpanelen</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:384
+#, php-format
+msgid ""
+"The subscription for %s is on-hold. You can reactivate the subscription from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Prenumerationen för %s är spärrad. Du kan återaktivera prenumerationen från "
+"<a href=\"%s\" target=\"_blank\">kontrollpanelen</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:395
+#, php-format
+msgid ""
+"The subscription for %s has been cancelled. You can renew the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>. A new "
+"license key will be emailed to you after your order has been completed."
+msgstr ""
+"Prenumerationen för %s har avslutats. Du kan förnya prenumerationen från <a "
+"href=\"%s\" target=\"_blank\">kontrollpanelen</a>. En ny licensnyckel kommer "
+"att skickas till dig efter din beställning har slutförts."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:406
+#, php-format
+msgid ""
+"The subscription for %s has expired. You can reactivate the subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Prenumerationen för %s har löpt ut. Du kan återaktivera prenumerationen från "
+"<a href=\"%s\" target=\"_blank\">kontrollpanelen</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:417
+#, php-format
+msgid ""
+"The subscription for %s has been suspended. You can reactivate the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Prenumerationen för %s har suspenderad. Du kan återaktivera prenumerationen "
+"från <a href=\"%s\" target=\"_blank\">kontrollpanelen</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:428
+#, php-format
+msgid ""
+"The subscription for %s is still pending. You can check on the status of the "
+"subscription from your account <a href=\"%s\" target=\"_blank\">dashboard</"
+"a>."
+msgstr ""
+"Prenumerationen för %s är fortfarande avvaktande. Du kan kontrollera status "
+"för prenumerationen från <a href=\"%s\" target=\"_blank\">kontrollpanelen</"
+"a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:439
+#, php-format
+msgid ""
+"The subscription for %s has been placed in the trash and will be deleted "
+"soon. You can purchase a new subscription from your account <a href=\"%s\" "
+"target=\"_blank\">dashboard</a>."
+msgstr ""
+"Prenumerationen för %s har placerats i papperskorgen och kommer snart tas "
+"bort. Du kan köpa en ny prenumeration från <a href=\"%s\" target=\"_blank"
+"\">kontrollpanelen</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:450
+#, php-format
+msgid ""
+"A subscription for %s could not be found. You can purchase a subscription "
+"from your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"En prenumeration för% s kunde inte hittas. Du kan köpa ett abonnemang från "
+"<a href=\"%s\" target=\"_blank\">kontrollpanelen</a> ."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:463
+#, fuzzy, php-format
+msgid ""
+"A license key for %s could not be found. Maybe you forgot to enter a license "
+"key when setting up %s, or the key was deactivated in your account. You can "
+"reactivate license key at your plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a>."
+msgstr ""
+"Det gick inte att hitta en licens nyckel för %s. Du kanske glömde att ange "
+"en licens nyckel när du ställde in %s eller att nyckeln inaktiverades i ditt "
+"konto. Du kan återaktivera licens nyckel på din plugin < a href = \" %s\" "
+"target = \"_blank\" > Inställningar sida </a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:474
+#, php-format
+msgid ""
+"Download permission for %s has been revoked possibly due to a license key or "
+"subscription expiring. You can reactivate or purchase a license key from "
+"your account <a href=\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Nedladdningsrättigheterna för %s har återkallats, möjligen på grund av att "
+"licensnyckeln eller prenumerationen gått ut. Du kan återaktivera eller köpa "
+"en ny licensnyckel från <a href=\"%s\" target=\"_blank\">kontrollpanelen</a>."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:485
+#, fuzzy, php-format
+msgid ""
+"%s has not been activated. Go to the plugin <a href=\"%s\" target=\"_blank"
+"\">settings page</a> and enter the license key and license email to activate "
+"%s."
+msgstr ""
+"%s har inte aktiverats. Gå till plugin < a href = \" %s\" target = \"_blank"
+"\" > inställningar sidan </a> och ange licens nyckel och licens e-post för "
+"att aktivera %s."
+
+#: includes/wf_api_manager/class-wc-am-plugin-update.php:496
+#, php-format
+msgid ""
+"You changed the subscription for %s, so you will need to enter your new API "
+"License Key in the settings page. The License Key should have arrived in "
+"your email inbox, if not you can get it by logging into your account <a href="
+"\"%s\" target=\"_blank\">dashboard</a>."
+msgstr ""
+"Du har ändrat prenumerationen för %s, så måste du ange din nya API "
+"licensnyckel på inställningssidan. Licensnyckeln borde ha kommit till din "
+"mail. Om inte du kan hitta den genom att logga in på <a href=\"%s\" target="
+"\"_blank\">ditt konto</a>."
+
+#: views/agents/crm_agents_add.php:31
+msgid "Create new user"
+msgstr "Skapa ny användare"
+
+#: views/agents/crm_agents_add.php:31
+#, fuzzy
+msgid ""
+"Please note that “Customer” & “Subscriber” role is not eligible for adding "
+"as an “Agent”"
+msgstr ""
+"Observera att \"kunden\" & \"abonnent\" roll är inte berättigad till att "
+"lägga till som en \"agent\""
+
+#: views/agents/crm_agents_add.php:51
+msgid "User Email"
+msgstr "Användarens e-post"
+
+#: views/agents/crm_agents_add.php:55 views/email/crm_imap_setup.php:53
+msgid "Password"
+msgstr "Lösenord"
+
+#: views/agents/crm_agents_add.php:66
+#, fuzzy
+msgid "Roles for the selected users"
+msgstr "Roller för de valda användarna"
+
+#: views/agents/crm_agents_add.php:78
+#, fuzzy
+msgid "User(s) are entitled to the following rights"
+msgstr "Användaren/användarna har rätt till följande rättigheter"
+
+#: views/agents/crm_agents_add.php:88
+msgid "Add tags"
+msgstr "Lägg till taggar"
+
+#: views/agents/crm_agents_add.php:91
+#, fuzzy
+msgid ""
+"Depending on the tags, the tickets will be assigned automatically to the "
+"default assignee"
+msgstr ""
+"Beroende på taggarna, kommer biljetterna tilldelas automatiskt till standard "
+"assigne"
+
+#: views/agents/crm_agents_add.php:100
+#: views/email/crm_filter_block_setup.php:59
+#: views/email/crm_filter_block_setup.php:108
+#: views/settings/crm_settings_appearance.php:72
+#: views/settings/crm_settings_fields.php:194
+#: views/settings/crm_settings_general.php:572
+#: views/settings/crm_settings_labels.php:76
+#: views/settings/crm_settings_tags.php:79
+#: views/settings/crm_settings_views.php:172
+#: views/settings/crm_woocommerce_settings.php:75
+#: views/settings/crm_wsdesk_triggers.php:215
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: views/agents/crm_agents_main.php:8
+#, fuzzy
+msgid "Add Agent / Supervisor"
+msgstr "Lägg till agent/handledare"
+
+#: views/agents/crm_agents_manage.php:72 views/agents/crm_agents_manage.php:103
+#, fuzzy
+msgid "Reply Tickets"
+msgstr "Svars biljetter"
+
+#: views/agents/crm_agents_manage.php:84 views/agents/crm_agents_manage.php:108
+#, fuzzy
+msgid "Settings Manage"
+msgstr "Inställningar Hantera"
+
+#: views/agents/crm_agents_manage.php:87 views/agents/crm_agents_manage.php:109
+#, fuzzy
+msgid "Agents Manage"
+msgstr "Agenter hantera"
+
+#: views/agents/crm_agents_manage.php:90 views/agents/crm_agents_manage.php:110
+#, fuzzy
+msgid "Import Manage"
+msgstr "Importera hantera"
+
+#: views/agents/crm_agents_manage.php:93 views/agents/crm_agents_manage.php:111
+#, fuzzy
+msgid "Email Manage"
+msgstr "E-post hantera"
+
+#: views/agents/crm_agents_manage.php:114
+#, fuzzy
+msgid "No Capabilities Assigned"
+msgstr "Inga funktioner tilldelade"
+
+#: views/agents/crm_agents_manage.php:130
+#: views/agents/crm_agents_manage.php:134
+#, fuzzy
+msgid "No Tags Mapped"
+msgstr "Inga taggar mappade"
+
+#: views/agents/crm_agents_manage.php:180
+msgid "Roles"
+msgstr "Roller"
+
+#: views/agents/crm_agents_manage.php:181 views/tickets/crm_tickets_all.php:597
+msgid "Email"
+msgstr "E-post"
+
+#: views/agents/crm_agents_manage.php:182
+msgid "Capability"
+msgstr "Förmåga"
+
+#: views/agents/crm_agents_manage.php:202
+#, fuzzy
+msgid "Overall Replies"
+msgstr "Övergripande svar"
+
+#: views/agents/crm_agents_manage.php:203
+msgid "Edit Profile"
+msgstr "Redigera profil"
+
+#: views/agents/crm_agents_manage.php:207
+#, fuzzy
+msgid "Tickets Assigned"
+msgstr "Biljetter tilldelade"
+
+#: views/agents/crm_agents_manage.php:208
+msgid "View Reports"
+msgstr "Visa rapporter"
+
+#: views/agents/crm_agents_manage.php:212
+#, fuzzy
+msgid "Support Rating"
+msgstr "Stöd betyg"
+
+#: views/agents/crm_agents_manage.php:218
+#, fuzzy
+msgid "Remove WSDesk Role"
+msgstr "Ta bort WSDesk-roll"
+
+#: views/agents/crm_agents_manage.php:239
+#, fuzzy
+msgid "No WSDesk role assigned to any users / No Agents added"
+msgstr "Ingen WSDesk roll tilldelad till alla användare/inga agenter tillagda"
+
+#: views/crm_agents_view.php:11 views/crm_email_view.php:11
+#: views/crm_import_view.php:11 views/crm_reports_view.php:11
+#: views/crm_settings_view.php:16 views/crm_tickets_view.php:16
+#, fuzzy
+msgid "Activate your WSDesk. Check"
+msgstr "Aktivera din WSDesk. Kontrollera"
+
+#: views/crm_agents_view.php:11 views/crm_email_view.php:11
+#: views/crm_import_view.php:11 views/crm_reports_view.php:11
+#: views/crm_settings_view.php:16 views/crm_tickets_view.php:16
+msgid "My Account"
+msgstr "Mitt konto"
+
+#: views/crm_agents_view.php:11 views/crm_email_view.php:11
+#: views/crm_import_view.php:11 views/crm_reports_view.php:11
+#: views/crm_tickets_view.php:16
+#, fuzzy
+msgid "for API Keys. If knew the API Key already please enter in"
+msgstr "för API-nycklar. Om visste API-nyckel redan ange i"
+
+#: views/crm_agents_view.php:11 views/crm_email_view.php:11
+#: views/crm_import_view.php:11 views/crm_reports_view.php:11
+#: views/crm_tickets_view.php:16
+msgid "Page"
+msgstr "Sida"
+
+#: views/crm_email_view.php:21
+#, fuzzy
+msgid "WSDesk E-Mail"
+msgstr "WSDesk e-post"
+
+#: views/crm_email_view.php:29
+#, fuzzy
+msgid "Support Email - (Outgoing)"
+msgstr "Support email-(utgående)"
+
+#: views/crm_email_view.php:32
+#, fuzzy
+msgid "Google OAuth Setup - (Incoming)"
+msgstr "Google OAuth Setup-(inkommande)"
+
+#: views/crm_email_view.php:35
+#, fuzzy
+msgid "IMAP EMail Setup - (Incoming)"
+msgstr "IMAP-e-postinställning-(inkommande)"
+
+#: views/crm_import_view.php:21
+#, fuzzy
+msgid "Import Tickets"
+msgstr "Importera biljetter"
+
+#: views/crm_reports_view.php:20
+#, fuzzy
+msgid "Agents Reports"
+msgstr "Agenter rapporterar"
+
+#: views/crm_reports_view.php:21
+#, fuzzy
+msgid "Date wise Reports"
+msgstr "Datum Wise rapporter"
+
+#: views/crm_reports_view.php:25
+#, fuzzy
+msgid "WooCommerce Reports"
+msgstr "WooCommerce rapporter"
+
+#: views/crm_reports_view.php:81 views/crm_reports_view.php:164
+#: views/crm_reports_view.php:522
+msgid "Last 7 Days"
+msgstr "Senaste 7 dagarna"
+
+#: views/crm_reports_view.php:84 views/crm_reports_view.php:165
+#: views/crm_reports_view.php:523
+msgid "Last 30 Days"
+msgstr "Senaste 30 dagarna"
+
+#: views/crm_reports_view.php:87
+msgid "to"
+msgstr "till"
+
+#: views/crm_reports_view.php:111 views/crm_reports_view.php:116
+msgid "Oops"
+msgstr "Hoppsan"
+
+#: views/crm_reports_view.php:111
+#, fuzzy
+msgid "User is not having any WSDesk Role"
+msgstr "Användaren har ingen WSDesk-roll"
+
+#: views/crm_reports_view.php:111 views/crm_reports_view.php:116
+#, fuzzy
+msgid "Back to Reports"
+msgstr "Tillbaka till rapporter"
+
+#: views/crm_reports_view.php:116
+msgid "User not found"
+msgstr "Användare kunde inte hittas"
+
+#: views/crm_reports_view.php:136
+#, fuzzy
+msgid "WSDesk - Agents Reports"
+msgstr "WSDesk-agenter rapporterar"
+
+#: views/crm_reports_view.php:141
+#, fuzzy
+msgid "Select the Agents/Supervisors to show report?"
+msgstr "Välj vilka agenter/handledare du vill visa rapporten?"
+
+#: views/crm_reports_view.php:162 views/crm_reports_view.php:520
+#, fuzzy
+msgid "Select the Duration:"
+msgstr "Välj varaktighet:"
+
+#: views/crm_reports_view.php:166 views/crm_reports_view.php:524
+msgid "Custom"
+msgstr "Anpassad"
+
+#: views/crm_reports_view.php:181 views/crm_reports_view.php:539
+#, fuzzy
+msgid "Select the From Date:"
+msgstr "Välj från-datum:"
+
+#: views/crm_reports_view.php:185 views/crm_reports_view.php:543
+#, fuzzy
+msgid "Select the To Date:"
+msgstr "Välj till-datum:"
+
+#: views/crm_reports_view.php:189 views/crm_reports_view.php:420
+#: views/crm_reports_view.php:461 views/crm_reports_view.php:547
+msgid "Show Report"
+msgstr "Visa rapport"
+
+#: views/crm_reports_view.php:275
+#, fuzzy
+msgid "New Tickets"
+msgstr "Nya biljetter"
+
+#: views/crm_reports_view.php:275 views/crm_reports_view.php:356
+#, fuzzy
+msgid "Solved Tickets"
+msgstr "Lösta biljetter"
+
+#: views/crm_reports_view.php:275
+#, fuzzy
+msgid "Good Rating"
+msgstr "Bra betyg"
+
+#: views/crm_reports_view.php:275
+#, fuzzy
+msgid "Bad Rating"
+msgstr "Dåligt betyg"
+
+#: views/crm_reports_view.php:337
+#, fuzzy
+msgid "Status of Solved Tickets"
+msgstr "Status för lösta biljetter"
+
+#: views/crm_reports_view.php:341
+#, fuzzy
+msgid "Average Solving Time in Minutes"
+msgstr "Genomsnittlig lösningstid i minuter"
+
+#: views/crm_reports_view.php:356
+#, fuzzy
+msgid "Avg Solving time"
+msgstr "AVG lösa tid"
+
+#: views/crm_reports_view.php:365
+#, fuzzy
+msgid "Average Resolution Time of "
+msgstr "Genomsnittlig lösningstid för"
+
+#: views/crm_reports_view.php:368
+msgid "Days"
+msgstr "Dagar"
+
+#: views/crm_reports_view.php:368
+msgid "Hours"
+msgstr "Timmar"
+
+#: views/crm_reports_view.php:368
+msgid "Minutes"
+msgstr "Minuter"
+
+#: views/crm_reports_view.php:394
+#, fuzzy
+msgid "WSDesk - WooCommerce Reports"
+msgstr "WSDesk-WooCommerce rapporter"
+
+#: views/crm_reports_view.php:401 views/crm_reports_view.php:442
+#, fuzzy
+msgid "Last 7 Days status of new tickets"
+msgstr "Senaste 7 dagarna status för nya biljetter"
+
+#: views/crm_reports_view.php:401
+#, fuzzy
+msgid "Top Products"
+msgstr "Topp produkter"
+
+#: views/crm_reports_view.php:405
+#, fuzzy
+msgid "Select the Product(s) to show report?"
+msgstr "Välj produkt (er) för att visa rapporten?"
+
+#: views/crm_reports_view.php:442
+msgid "Top Categories"
+msgstr "Toppnivåkategorier"
+
+#: views/crm_reports_view.php:446
+#, fuzzy
+msgid "Select the Category(s) to show report?"
+msgstr "Välj kategori (er) för att visa rapporten?"
+
+#: views/crm_reports_view.php:470
+msgid "Category"
+msgstr "Kategori"
+
+#: views/crm_reports_view.php:514
+#, fuzzy
+msgid "WSDesk - Date Wise Reports"
+msgstr "WSDesk-datum Wise rapporter"
+
+#: views/crm_settings_view.php:16
+#, fuzzy
+msgid "for API Keys."
+msgstr "för API-nycklar."
+
+#: views/crm_settings_view.php:57
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: views/crm_settings_view.php:69
+#, fuzzy
+msgid "Export Data (CSV)"
+msgstr "Exportera data (CSV)"
+
+#: views/crm_settings_view.php:73
+#, fuzzy
+msgid "Activate WSDesk"
+msgstr "Aktivera WSDesk"
+
+#: views/crm_settings_view.php:73
+#, fuzzy
+msgid "( Not Activated )"
+msgstr "(Ej aktiverad)"
+
+#: views/crm_settings_view.php:73
+#, fuzzy
+msgid "( Activated )"
+msgstr "akTiverat"
+
+#: views/crm_tickets_view.php:44
+#, fuzzy
+msgid "Invalid Ticket Number"
+msgstr "Ogiltigt biljettnummer"
+
+#: views/crm_tickets_view.php:66
+msgid "More"
+msgstr "Mer"
+
+#: views/crm_tickets_view.php:73
+msgid "New Ticket"
+msgstr "Skapa ny biljett"
+
+#: views/crm_tickets_view.php:79
+#, fuzzy
+msgid "Search Ticket"
+msgstr "Sök biljett"
+
+#: views/email/crm_email_support.php:34
+#, fuzzy
+msgid "Support Reply Email Name"
+msgstr "Support svar e-post namn"
+
+#: views/email/crm_email_support.php:35
+msgid "Enter name"
+msgstr "Skriv in ditt namn"
+
+#: views/email/crm_email_support.php:41
+#, fuzzy
+msgid "Support Reply Email"
+msgstr "Support svar e-post"
+
+#: views/email/crm_email_support.php:42
+#: views/email/crm_filter_block_setup.php:48
+msgid "Enter Email"
+msgstr "Skriv in e-post"
+
+#: views/email/crm_email_support.php:48
+#, fuzzy
+msgid "Send auto email on ticket creation"
+msgstr "Skicka automatisk e-post på biljett skapande"
+
+#: views/email/crm_email_support.php:64
+#: views/settings/crm_settings_general.php:206
+#: views/settings/crm_settings_general.php:234
+#: views/settings/crm_settings_general.php:259
+#: views/settings/crm_settings_general.php:288
+#: views/settings/crm_settings_general.php:393
+#: views/settings/crm_settings_general.php:417
+#: views/settings/crm_settings_general.php:517
+#: views/settings/crm_settings_general.php:565
+#: views/settings/crm_woocommerce_settings.php:18
+#: views/settings/crm_woocommerce_settings.php:31
+msgid "Enable"
+msgstr "Aktivera"
+
+#: views/email/crm_email_support.php:75
+#, fuzzy
+msgid "Code for Automated Reply"
+msgstr "Kod för automatiskt svar"
+
+#: views/email/crm_email_support.php:86 views/email/crm_email_support.php:169
+#, fuzzy
+msgid "To Insert Ticket Number in the Reply"
+msgstr "Så här infogar du biljettnummer i svaret"
+
+#: views/email/crm_email_support.php:95 views/email/crm_email_support.php:178
+#, fuzzy
+msgid "To Insert Ticket Assignee in the Reply"
+msgstr "För att infoga biljetten som tilldelas i svaret"
+
+#: views/email/crm_email_support.php:104 views/email/crm_email_support.php:187
+#, fuzzy
+msgid "To Insert Ticket Tags in the Reply"
+msgstr "Infoga Ticket-Taggar i svaret"
+
+#: views/email/crm_email_support.php:113 views/email/crm_email_support.php:196
+#, fuzzy
+msgid "To Insert Ticket Date and Time in the Reply"
+msgstr "Så här infogar du biljett datum och tid i svaret"
+
+#: views/email/crm_email_support.php:122
+#, fuzzy
+msgid "To Insert Ticket Content in the Reply"
+msgstr "Så här infogar du biljett innehåll i svaret"
+
+#: views/email/crm_email_support.php:133
+#, fuzzy
+msgid "Enter your new ticket automated reply format"
+msgstr "Ange din nya biljett automatiserat svar format"
+
+#: views/email/crm_email_support.php:158
+#, fuzzy
+msgid "Code for Agent Reply Email"
+msgstr "Kod för e-postagent svar"
+
+#: views/email/crm_email_support.php:205
+#, fuzzy
+msgid "To Insert Latest Ticket Reply in the Reply"
+msgstr "För att infoga senaste biljett svar i svaret"
+
+#: views/email/crm_email_support.php:214
+#, fuzzy
+msgid "To Insert Ticket Agent who replied in the Reply"
+msgstr "För att infoga Ticket agent som svarade i svaret"
+
+#: views/email/crm_email_support.php:223
+#, fuzzy
+msgid "To Insert Ticket Status in the Reply"
+msgstr "För att infoga biljett status i svaret"
+
+#: views/email/crm_email_support.php:232
+#, fuzzy
+msgid "To Insert Entire Conversation of the Ticket in the Reply"
+msgstr "För att infoga hela konversationen av biljetten i svaret"
+
+#: views/email/crm_email_support.php:250
+#, fuzzy
+msgid ""
+"To insert the front end URL of the individual ticket. Replace Slug with the "
+"support page slug."
+msgstr ""
+"För att infoga den första slutadressen för den enskilda biljetten. Ersätt "
+"skogssnigel med stöd sidan skogssnigel."
+
+#: views/email/crm_email_support.php:284
+#, fuzzy
+msgid "Enter your agent reply mail format"
+msgstr "Ange din agent svar postformat"
+
+#: views/email/crm_filter_block_setup.php:16
+#, fuzzy
+msgid "Blocked Email Addresses"
+msgstr "Blockerade e-postadresser"
+
+#: views/email/crm_filter_block_setup.php:17
+#: views/email/crm_filter_block_setup.php:42
+#: views/email/crm_filter_block_setup.php:66
+#: views/email/crm_filter_block_setup.php:91
+msgid "Add Filter"
+msgstr "Lägg till filter"
+
+#: views/email/crm_filter_block_setup.php:26
+#: views/email/crm_filter_block_setup.php:75
+msgid "Delete Filter"
+msgstr "Ta bort filter"
+
+#: views/email/crm_filter_block_setup.php:32
+#, fuzzy
+msgid "There are no blocked email! Block a new email."
+msgstr "Det finns inga blockerade e-post! Blockera ett nytt e-postmeddelande."
+
+#: views/email/crm_filter_block_setup.php:47
+#, fuzzy
+msgid "Enter details for new block address"
+msgstr "Ange information om ny blockadress"
+
+#: views/email/crm_filter_block_setup.php:49
+#: views/email/crm_filter_block_setup.php:98
+#, fuzzy
+msgid "Choose the blocking type?"
+msgstr "Vill du välja blockerings typ?"
+
+#: views/email/crm_filter_block_setup.php:51
+#, fuzzy
+msgid "Block Sending Emails"
+msgstr "Blockera skicka e-post"
+
+#: views/email/crm_filter_block_setup.php:52
+#, fuzzy
+msgid "Block Receiving Emails"
+msgstr "Blockera emot e-post"
+
+#: views/email/crm_filter_block_setup.php:65
+#, fuzzy
+msgid "Blocked Email Subjects"
+msgstr "Blockerade e-postämnen"
+
+#: views/email/crm_filter_block_setup.php:81
+#, fuzzy
+msgid "There are no blocked subjects! Block a subject."
+msgstr "Det finns inga blockerade ämnen! Blockera ett ämne."
+
+#: views/email/crm_filter_block_setup.php:96
+#, fuzzy
+msgid "Enter details for new block subject"
+msgstr "Ange information om nytt block ämne"
+
+#: views/email/crm_filter_block_setup.php:97
+msgid "Enter Subject"
+msgstr "Skriv in ämne"
+
+#: views/email/crm_filter_block_setup.php:100
+#, fuzzy
+msgid "Beginning of the string"
+msgstr "Början av strängen"
+
+#: views/email/crm_filter_block_setup.php:101
+#, fuzzy
+msgid "Anywhere in the string"
+msgstr "Var som helst i strängen"
+
+#: views/email/crm_imap_setup.php:35
+#, fuzzy
+msgid "IMAP Server SSL URL"
+msgstr "SSL-URL för IMAP-server"
+
+#: views/email/crm_imap_setup.php:35
+#, fuzzy
+msgid ""
+"Copy Paste the IMAP URL provided by your respective hosting service "
+"provider. ( viz. imap.gmail.com )."
+msgstr ""
+"Kopiera klistra in den IMAP-URL som tillhandahålls av din respektive "
+"värdtjänstleverantör. (dvs. IMAP.gmail.com)."
+
+#: views/email/crm_imap_setup.php:41
+#, fuzzy
+msgid "IMAP Server SSL Port"
+msgstr "SSL-port för IMAP-server"
+
+#: views/email/crm_imap_setup.php:41
+#, fuzzy
+msgid " Provide port number of your hosting service provider (993 for Gmail)."
+msgstr "Ange portnummer för din värdtjänstleverantör (993 för Gmail)."
+
+#: views/email/crm_imap_setup.php:47
+#, fuzzy
+msgid "Email-ID"
+msgstr "Email-ID"
+
+#: views/email/crm_imap_setup.php:47
+#, fuzzy
+msgid "Enter email address from where emails are to be extracted."
+msgstr "Ange e-postadress varifrån e-post ska extraheras."
+
+#: views/email/crm_imap_setup.php:53
+#, fuzzy
+msgid "Enter password for your email address."
+msgstr "Ange lösenord för din e-postadress."
+
+#: views/email/crm_imap_setup.php:59
+#, fuzzy
+msgid "Delete imported e-mail from the server"
+msgstr "Ta bort importerat e-postmeddelande från servern"
+
+#: views/email/crm_imap_setup.php:59
+#, fuzzy
+msgid "Enabling this will delete the e-mail after importing it as ticket."
+msgstr ""
+"Om du aktiverar detta raderas e-postmeddelandet efter att det har importerts."
+
+#: views/email/crm_imap_setup.php:69
+#, fuzzy
+msgid "Deactivate IMAP"
+msgstr "Avaktivera IMAP"
+
+#: views/email/crm_imap_setup.php:75
+#, fuzzy
+msgid "Activate IMAP"
+msgstr "Aktivera IMAP"
+
+#: views/email/crm_imap_setup.php:79
+#, fuzzy
+msgid "How to setup IMAP"
+msgstr "Hur man ställer in IMAP"
+
+#: views/email/crm_oauth_setup.php:12
+#, fuzzy
+msgid "Google API client ID"
+msgstr "Klient-ID för Google API"
+
+#: views/email/crm_oauth_setup.php:12 views/email/crm_oauth_setup.php:18
+#, fuzzy
+msgid ""
+"You would get this after completing the entire process of enabling gmail API "
+"and Google OAuth."
+msgstr ""
+"Du skulle få detta efter att ha avslutat hela processen för att aktivera "
+"Gmail API och Google OAuth."
+
+#: views/email/crm_oauth_setup.php:18
+#, fuzzy
+msgid "Google API Client Secret"
+msgstr "Googles API-klient hemlighet"
+
+#: views/email/crm_oauth_setup.php:28
+msgid "Access Token"
+msgstr "Åtkomst Token"
+
+#: views/email/crm_oauth_setup.php:34
+msgid "Refresh Token"
+msgstr "Uppdatera Token"
+
+#: views/email/crm_oauth_setup.php:47
+#, fuzzy
+msgid "Deactivate OAuth"
+msgstr "Avaktivera OAuth"
+
+#: views/email/crm_oauth_setup.php:53
+#, fuzzy
+msgid "Activate OAuth"
+msgstr "Aktivera OAuth"
+
+#: views/email/crm_oauth_setup.php:57
+#, fuzzy
+msgid "How to setup OAuth"
+msgstr "Hur man ställer in OAuth"
+
+#: views/import/crm_zendesk_import.php:24
+#, fuzzy
+msgid "Activate Zendesk Import to Get all Zendesk Tickets"
+msgstr "Aktivera Zendesk import för att få alla Zendesk biljetter"
+
+#: views/import/crm_zendesk_import.php:25
+#, fuzzy
+msgid "Activate Zendesk"
+msgstr "Aktivera Zendesk"
+
+#: views/import/crm_zendesk_import.php:37
+#, fuzzy
+msgid "Importing Tickets may take some time..."
+msgstr "Det kan ta lite tid att importera biljetter..."
+
+#: views/import/crm_zendesk_import.php:40
+msgid "Completed"
+msgstr "Slutförd"
+
+#: views/import/crm_zendesk_import.php:48
+#, fuzzy
+msgid "Stop Pulling Tickets to WSDesk"
+msgstr "Sluta dra biljetter till WSDesk"
+
+#: views/import/crm_zendesk_import.php:49
+#, fuzzy
+msgid "Stoping Zendesk import..."
+msgstr "Stoppa Zendesk import..."
+
+#: views/import/crm_zendesk_import.php:49
+msgid "Stop Import"
+msgstr "Stoppa import"
+
+#: views/import/crm_zendesk_import.php:55
+#, fuzzy
+msgid "What is your plan in Zendesk?"
+msgstr "Vad är din plan i Zendesk?"
+
+#: views/import/crm_zendesk_import.php:55
+#, fuzzy
+msgid ""
+"Select the appropriate subscription plan which you previously used in "
+"Zendesk."
+msgstr "Välj lämplig abonnemangs plan som du använde tidigare i Zendesk."
+
+#: views/import/crm_zendesk_import.php:67
+#, fuzzy
+msgid "Enter your Zendesk Access Token"
+msgstr "Ange din Zendesk åtkomst-token"
+
+#: views/import/crm_zendesk_import.php:67
+#, fuzzy
+msgid ""
+"You can get this after logging into Zendesk, Channels -> API -> Settings."
+msgstr ""
+"Du kan få detta efter inloggning i Zendesk, kanaler-> API-> inställningar."
+
+#: views/import/crm_zendesk_import.php:68
+#, fuzzy
+msgid "Zendesk Token"
+msgstr "Zendesk token"
+
+#: views/import/crm_zendesk_import.php:73
+#, fuzzy
+msgid "Enter your Zendesk Subdomain ( Without https:// and .zendesk.com )"
+msgstr "Ange din Zendesk underdomän (utan https://och. zendesk.com)"
+
+#: views/import/crm_zendesk_import.php:73
+#, fuzzy
+msgid "(eg. Subdomain.zendeskcom)."
+msgstr "EG. Underdomän. zendeskcom)."
+
+#: views/import/crm_zendesk_import.php:74
+msgid "Zendesk Subdomain"
+msgstr "Zendesk underdomän"
+
+#: views/import/crm_zendesk_import.php:79
+#, fuzzy
+msgid "Enter your Zendesk Username"
+msgstr "Ange ditt Zendesk användarnamn"
+
+#: views/import/crm_zendesk_import.php:79
+#, fuzzy
+msgid "Enter you Zendesk Organization Username."
+msgstr "Ange dig Zendesk organisationens användarnamn."
+
+#: views/import/crm_zendesk_import.php:80
+#, fuzzy
+msgid "Zendesk Username"
+msgstr "Zendesk användarnamn"
+
+#: views/import/crm_zendesk_import.php:85
+#, fuzzy
+msgid "Want to download attachment locally?"
+msgstr "Vill du ladda ner bilaga lokalt?"
+
+#: views/import/crm_zendesk_import.php:85
+#, fuzzy
+msgid "Select ‘Yes’, if you want to import the tickets now."
+msgstr "Välj \"Ja\", om du vill importera biljetterna nu."
+
+#: views/import/crm_zendesk_import.php:87
+#, fuzzy
+msgid "Yes! Download "
+msgstr "Ja! Hämta"
+
+#: views/import/crm_zendesk_import.php:88
+#, fuzzy
+msgid "No! I don't want"
+msgstr "Nej! Jag dont ' vilja"
+
+#: views/import/crm_zendesk_import.php:95
+#, fuzzy
+msgid "Pull Tickets to WSDesk"
+msgstr "Dra biljetter till WSDesk"
+
+#: views/import/crm_zendesk_import.php:96
+#, fuzzy
+msgid "Pull Tickets"
+msgstr "Pull-biljetter"
+
+#: views/settings/crm_settings_appearance.php:22
+#, fuzzy
+msgid "Set custom width for form elements"
+msgstr "Ange anpassad bredd för formulärelement"
+
+#: views/settings/crm_settings_appearance.php:29
+#, fuzzy
+msgid "Support Form Title"
+msgstr "Stöd formulärets rubrik"
+
+#: views/settings/crm_settings_appearance.php:33
+#, fuzzy
+msgid "Set custom title for the main support form"
+msgstr "Ange anpassad rubrik för huvud supportformuläret"
+
+#: views/settings/crm_settings_appearance.php:33
+#, fuzzy
+msgid ""
+"This title would appear in the page with the short code [wsdesk_support]."
+msgstr "Den här titeln visas på sidan med kort koden [wsdesk_support]."
+
+#: views/settings/crm_settings_appearance.php:35
+msgid "Contact Support"
+msgstr "Kontakta supporten"
+
+#: views/settings/crm_settings_appearance.php:40
+#, fuzzy
+msgid "Set custom title for new support form"
+msgstr "Ange anpassad rubrik för nytt supportformulär"
+
+#: views/settings/crm_settings_appearance.php:40
+#, fuzzy
+msgid ""
+"This title would appear for any new form for both the short codes "
+"[wsdesk_support] and [wsdesk_support display=form]."
+msgstr ""
+"Denna titel visas för alla nya formulär för både kortkoder [wsdesk_support] "
+"och [wsdesk_support display = form]."
+
+#: views/settings/crm_settings_appearance.php:46
+#, fuzzy
+msgid "Set custom title for the existing tickets"
+msgstr "Ange anpassad titel för befintliga biljetter"
+
+#: views/settings/crm_settings_appearance.php:46
+#, fuzzy
+msgid ""
+"This title would appear when you wish to display tickets in a separate page "
+"using the shortcode [wsdesk_support display=check_request]."
+msgstr ""
+"Denna titel skulle visas när du vill visa biljetter i en separat sida med "
+"hjälp av brist [wsdesk_support display = check_request]."
+
+#: views/settings/crm_settings_appearance.php:50
+#, fuzzy
+msgid "Support Form Button"
+msgstr "Knappen support formulär"
+
+#: views/settings/crm_settings_appearance.php:54
+#, fuzzy
+msgid "Set custom text for the Submit Request button"
+msgstr "Ange anpassad text för knappen skicka begäran"
+
+#: views/settings/crm_settings_appearance.php:60
+#, fuzzy
+msgid "Set custom text for the Reset Request button"
+msgstr "Ange anpassad text för knappen Återställ begäran"
+
+#: views/settings/crm_settings_appearance.php:66
+#, fuzzy
+msgid "Set custom text for the Check Existing Ticket button"
+msgstr "Ange anpassad text för knappen Kontrollera befintlig biljett"
+
+#: views/settings/crm_settings_backup_restore.php:10
+#, fuzzy
+msgid "Start ticket with specified number"
+msgstr "Start biljett med angivet nummer"
+
+#: views/settings/crm_settings_backup_restore.php:13
+#, fuzzy
+msgid "Set Number"
+msgstr "Ange nummer"
+
+#: views/settings/crm_settings_backup_restore.php:20
+#, fuzzy
+msgid "Delete all tickets in trash"
+msgstr "Ta bort alla biljetter i papperskorgen"
+
+#: views/settings/crm_settings_backup_restore.php:28
+#, fuzzy
+msgid "Restore all tickets from trash"
+msgstr "Återställ alla biljetter från papperskorgen"
+
+#: views/settings/crm_settings_backup_restore.php:37
+#, fuzzy
+msgid "Backup Data (XML)"
+msgstr "Säkerhetskopiera data (XML)"
+
+#: views/settings/crm_settings_backup_restore.php:40
+#, fuzzy
+msgid "Specify the data to be Backup if needed?"
+msgstr "Ange vilka data som ska säkerhetskopieras om det behövs?"
+
+#: views/settings/crm_settings_backup_restore.php:48
+#, fuzzy
+msgid "Specify the date range for tickets Backup if needed?"
+msgstr "Ange datumintervall för säkerhetskopiering av biljetter om det behövs?"
+
+#: views/settings/crm_settings_backup_restore.php:55
+#, fuzzy
+msgid "Backing Up of WSDesk Data may require some time."
+msgstr "Säkerhetskopiering av WSDesk data kan kräva en viss tid."
+
+#: views/settings/crm_settings_backup_restore.php:56
+#: views/settings/crm_settings_export.php:22
+#, fuzzy
+msgid "Preparing Data..."
+msgstr "Förbereder data..."
+
+#: views/settings/crm_settings_backup_restore.php:56
+#, fuzzy
+msgid "Start Backup"
+msgstr "Starta säkerhetskopiering"
+
+#: views/settings/crm_settings_backup_restore.php:61
+#, fuzzy
+msgid "Restore Data (XML)"
+msgstr "Återställ data (XML)"
+
+#: views/settings/crm_settings_backup_restore.php:63
+#, fuzzy
+msgid "WSDesk Restore Data File"
+msgstr "WSDesk Återställ data fil"
+
+#: views/settings/crm_settings_backup_restore.php:68
+#, fuzzy
+msgid "Restoring WSDesk Data may take some time."
+msgstr "Det kan ta en stund att återställa WSDesk data."
+
+#: views/settings/crm_settings_backup_restore.php:69
+#, fuzzy
+msgid "Restoring Data..."
+msgstr "Återställer data..."
+
+#: views/settings/crm_settings_backup_restore.php:69
+#, fuzzy
+msgid "Start Restore"
+msgstr "Starta återställning"
+
+#: views/settings/crm_settings_export.php:10
+#, fuzzy
+msgid "Export Ticket Data (CSV)"
+msgstr "Exportera biljett data (CSV)"
+
+#: views/settings/crm_settings_export.php:13
+#, fuzzy
+msgid "Specify a date range for the ticket data to be exported if needed?"
+msgstr ""
+"Ange ett datumintervall för de biljett data som ska exporteras om det behövs?"
+
+#: views/settings/crm_settings_export.php:21
+#, fuzzy
+msgid "Export may take a few minutes."
+msgstr "Exporten kan ta några minuter."
+
+#: views/settings/crm_settings_export.php:22
+#, fuzzy
+msgid "Start Export"
+msgstr "Starta export"
+
+#: views/settings/crm_settings_fields.php:33
+msgid "Add Field"
+msgstr "Lägg till fält"
+
+#: views/settings/crm_settings_fields.php:38
+msgid "Inactive Fields"
+msgstr "Inaktiva fält"
+
+#: views/settings/crm_settings_fields.php:43
+#, fuzzy
+msgid "No inactive field"
+msgstr "Inget inaktivt fält"
+
+#: views/settings/crm_settings_fields.php:52
+#: views/settings/crm_settings_views.php:41
+#: views/settings/crm_wsdesk_triggers.php:47
+msgid "Activate"
+msgstr "Aktivera"
+
+#: views/settings/crm_settings_fields.php:52
+#: views/settings/crm_settings_fields.php:78
+msgid "Delete Field"
+msgstr "Radera Fält"
+
+#: views/settings/crm_settings_fields.php:52
+#: views/settings/crm_settings_fields.php:82
+msgid "Edit Field"
+msgstr "Redigera fält"
+
+#: views/settings/crm_settings_fields.php:60
+msgid "Active Fields"
+msgstr "Aktiva fält"
+
+#: views/settings/crm_settings_fields.php:73
+#: views/settings/crm_settings_views.php:74
+#: views/settings/crm_wsdesk_triggers.php:74
+msgid "Deactivate"
+msgstr "Avaktivera"
+
+#: views/settings/crm_settings_fields.php:108
+#, fuzzy
+msgid "Select the Type of Field"
+msgstr "Välj typ av fält"
+
+#: views/settings/crm_settings_fields.php:119
+#: views/settings/crm_settings_fields.php:151
+msgid " Products"
+msgstr "Objekt"
+
+#: views/settings/crm_settings_fields.php:123
+#, fuzzy
+msgid " Order id"
+msgstr "Order-ID"
+
+#: views/settings/crm_settings_fields.php:127
+#, fuzzy
+#| msgid "Category"
+msgid " category"
+msgstr "Kategori"
+
+#: views/settings/crm_settings_fields.php:131
+#, fuzzy
+#| msgid "Tags"
+msgid " Tags"
+msgstr "Taggar"
+
+#: views/settings/crm_settings_fields.php:140
+#, fuzzy
+#| msgid "No Vendors Found"
+msgid " Vendors"
+msgstr "Leverantörer"
+
+#: views/settings/crm_settings_general.php:53
+#, fuzzy
+msgid "Default Assignee"
+msgstr "Standard Insänt"
+
+#: views/settings/crm_settings_general.php:56
+#, fuzzy
+msgid "Choose default assignee for new tickets"
+msgstr "Välj standard tilldelas för nya biljetter"
+
+#: views/settings/crm_settings_general.php:90
+#, fuzzy
+msgid "Depends on Vendors"
+msgstr "Beror på leverantörer"
+
+#: views/settings/crm_settings_general.php:94
+#, fuzzy
+msgid "Depends on Ticket Tags"
+msgstr "Beror på biljett Taggar"
+
+#: views/settings/crm_settings_general.php:116
+msgid "Default Status"
+msgstr "Standard status"
+
+#: views/settings/crm_settings_general.php:119
+#, fuzzy
+msgid "Choose default status for new tickets"
+msgstr "Välj standardstatus för nya biljetter"
+
+#: views/settings/crm_settings_general.php:139
+#, fuzzy
+msgid "Tickets Raisers"
+msgstr "Biljetter höjer"
+
+#: views/settings/crm_settings_general.php:142
+#, fuzzy
+msgid "Who can raise the tickets?"
+msgstr "Vem kan höja biljetterna?"
+
+#: views/settings/crm_settings_general.php:167
+msgid "All"
+msgstr "Alla"
+
+#: views/settings/crm_settings_general.php:176
+#, fuzzy
+msgid "Tickets Row"
+msgstr "Biljetter Row"
+
+#: views/settings/crm_settings_general.php:179
+#, fuzzy
+msgid "Number of tickets per page"
+msgstr "Antal biljetter per sida"
+
+#: views/settings/crm_settings_general.php:186
+#, fuzzy
+msgid "Auto Assign Tickets"
+msgstr "Auto tilldela biljetter"
+
+#: views/settings/crm_settings_general.php:189
+#, fuzzy
+msgid "Want to auto assign tickets to the replier if the ticket is unassigned?"
+msgstr ""
+"Vill du automatiskt tilldela biljetter till replier om biljetten är ledig?"
+
+#: views/settings/crm_settings_general.php:207
+#: views/settings/crm_settings_general.php:235
+#: views/settings/crm_settings_general.php:289
+#: views/settings/crm_woocommerce_settings.php:19
+#: views/settings/crm_woocommerce_settings.php:32
+msgid "Disable"
+msgstr "Inaktivera"
+
+#: views/settings/crm_settings_general.php:214
+#, fuzzy
+msgid "Auto Suggestion"
+msgstr "Auto förslag"
+
+#: views/settings/crm_settings_general.php:217
+#, fuzzy
+msgid "Want to enable auto suggestion for agent and ticket raisers?"
+msgstr "Vill aktivera Auto förslag för agent och biljett höjare?"
+
+#: views/settings/crm_settings_general.php:242
+#, fuzzy
+msgid "Show Excerpt on Auto-Suggestion"
+msgstr "Visa utdrag på Auto-förslag"
+
+#: views/settings/crm_settings_general.php:245
+#, fuzzy
+msgid ""
+"Enable this option to show excerpt instead of first sentence of the post "
+"while displaying auto-suggestion."
+msgstr ""
+"Aktivera det här alternativet om du vill visa utdrag i stället för första "
+"meningen i inlägget när du visar automatiskt förslag."
+
+#: views/settings/crm_settings_general.php:266
+#, fuzzy
+msgid "Custom Attachment Folder"
+msgstr "Anpassad mapp för bifogade filer"
+
+#: views/settings/crm_settings_general.php:269
+#, fuzzy
+msgid "Want to enable custom folder for attachments?"
+msgstr "Vill du Aktivera anpassad mapp för bifogade filer?"
+
+#: views/settings/crm_settings_general.php:291
+msgid "Path:"
+msgstr "Sökväg:"
+
+#: views/settings/crm_settings_general.php:292
+#, fuzzy
+msgid "Please make sure the location exists."
+msgstr "Kontrollera att platsen finns."
+
+#: views/settings/crm_settings_general.php:304
+#, fuzzy
+msgid "Maximum file size of attachments (MB)"
+msgstr "Maximal filstorlek för bifogade filer (MB)"
+
+#: views/settings/crm_settings_general.php:307
+#, fuzzy
+msgid "You can set maximum size of the attachments"
+msgstr "Du kan ange maximal storlek för de bifogade filerna"
+
+#: views/settings/crm_settings_general.php:307
+#, fuzzy
+msgid "Default value: 1MB. Decimal values are allowed."
+msgstr "Standardvärde: 1MB. Decimal värden är tillåtna."
+
+#: views/settings/crm_settings_general.php:314
+#, fuzzy
+msgid "Valid Attachment Extensions"
+msgstr "Giltiga tillägg för bifogade filer"
+
+#: views/settings/crm_settings_general.php:317
+msgid "Select File Extensions"
+msgstr "Välj Filtillägg"
+
+#: views/settings/crm_settings_general.php:317
+#, fuzzy
+msgid "Select nothing to make all extensions valid."
+msgstr "Välj inget om du vill göra alla tillägg giltiga."
+
+#: views/settings/crm_settings_general.php:376
+#, fuzzy
+msgid "Create WordPress User"
+msgstr "Skapa WordPress-användare"
+
+#: views/settings/crm_settings_general.php:379
+#, fuzzy
+msgid ""
+"Create wordpress user while guest user submitting the tickets through the "
+"form"
+msgstr ""
+"Skapa WordPress användare medan gästanvändare skicka biljetter genom "
+"formuläret"
+
+#: views/settings/crm_settings_general.php:400
+#, fuzzy
+msgid "Close Tickets"
+msgstr "Stäng biljetter"
+
+#: views/settings/crm_settings_general.php:403
+#, fuzzy
+msgid "Allow users to close the tickets they submitted"
+msgstr "Tillåt användare att stänga biljetterna de skickade"
+
+#: views/settings/crm_settings_general.php:424
+#, fuzzy
+msgid "Display Tickets As"
+msgstr "Visa biljetter som"
+
+#: views/settings/crm_settings_general.php:427
+msgid "Enabling HTML is not recommended due to security seasons."
+msgstr ""
+
+#: views/settings/crm_settings_general.php:442
+msgid "HTML"
+msgstr "HTML"
+
+#: views/settings/crm_settings_general.php:443
+msgid "Text"
+msgstr "Text"
+
+#: views/settings/crm_settings_general.php:450
+#, fuzzy
+msgid "WSDesk API"
+msgstr "WSDesk API"
+
+#: views/settings/crm_settings_general.php:453
+#, fuzzy
+msgid "Create tickets via API from any website"
+msgstr "Skapa biljetter via API från vilken webbplats som helst"
+
+#: views/settings/crm_settings_general.php:472
+msgid "Enable API"
+msgstr "Använd API"
+
+#: views/settings/crm_settings_general.php:475
+msgid "API Key:"
+msgstr "API nyckel:"
+
+#: views/settings/crm_settings_general.php:475
+#, fuzzy
+msgid "Please share this API Key only with trusted sources."
+msgstr "Dela endast denna API-nyckel med pålitliga källor."
+
+#: views/settings/crm_settings_general.php:484
+#, fuzzy
+msgid "Default Deep Link"
+msgstr "Standard djup länk"
+
+#: views/settings/crm_settings_general.php:490
+#, fuzzy
+msgid "Add a default deep link here"
+msgstr "Lägg till en standard djup länk här"
+
+#: views/settings/crm_settings_general.php:492
+msgid "Path: "
+msgstr "Sökväg:"
+
+#: views/settings/crm_settings_general.php:500
+msgid "Debug Mode"
+msgstr "Felsökningsläge"
+
+#: views/settings/crm_settings_general.php:503
+#, fuzzy
+msgid "Enable this option to place debug logs in PHP error log file"
+msgstr ""
+"Aktivera detta alternativ för att placera felsökningsloggar i php "
+"felloggfilen"
+
+#: views/settings/crm_settings_general.php:524
+#, fuzzy
+msgid "Redirect URLs"
+msgstr "Omdirigera WebbAdresser"
+
+#: views/settings/crm_settings_general.php:527
+#, fuzzy
+msgid ""
+"Redirect users to a particular URL after submitting a ticket or logging in "
+"or registering or logging out from WSDesk Support Page."
+msgstr ""
+"Omdirigera användare till en viss webbadress efter att ha skickat en biljett "
+"eller loggat in eller registrera eller logga ut från WSDesk support sida."
+
+#: views/settings/crm_settings_general.php:535
+msgid "Login Redirect URL"
+msgstr "Gå till URL (sida) efter inloggning"
+
+#: views/settings/crm_settings_general.php:537
+msgid "Logout Redirect URL"
+msgstr "Gå till URL (sida) efter utloggning"
+
+#: views/settings/crm_settings_general.php:539
+msgid "Register Redirect URL"
+msgstr "Registrera omdirigeringsadressen"
+
+#: views/settings/crm_settings_general.php:541
+#, fuzzy
+msgid "Submit Ticket Redirect URL"
+msgstr "Skicka biljett omdirigera URL"
+
+#: views/settings/crm_settings_general.php:549
+msgid "Powered by WSDesk Tag"
+msgstr ""
+
+#: views/settings/crm_settings_general.php:552
+msgid ""
+"Disabling this option will remove Powered by WSDesk Tag from front end and "
+"all support E-mails."
+msgstr ""
+
+#: views/settings/crm_settings_labels.php:14
+#: views/settings/crm_settings_labels.php:44
+#, fuzzy
+msgid "Add Status"
+msgstr "Lägg till status"
+
+#: views/settings/crm_settings_labels.php:26
+#, fuzzy
+msgid "Delete Status"
+msgstr "Ta bort status"
+
+#: views/settings/crm_settings_labels.php:28
+#: views/settings/crm_settings_labels.php:67
+msgid "Edit Status"
+msgstr "Redigera status"
+
+#: views/settings/crm_settings_labels.php:34
+#, fuzzy
+msgid "There are no Labels! Create One Label"
+msgstr "Det finns inga etiketter! Skapa en etikett"
+
+#: views/settings/crm_settings_labels.php:49
+#, fuzzy
+msgid "Enter Details for New Status"
+msgstr "Ange information för ny status"
+
+#: views/settings/crm_settings_labels.php:55
+#, fuzzy
+msgid "Do you want to use this status to Filter Tickets?"
+msgstr "Vill du använda den här statusen för att filtrera biljetter?"
+
+#: views/settings/crm_settings_tags.php:14
+#: views/settings/crm_settings_tags.php:46
+msgid "Add Tag"
+msgstr "Lägg till nyckelord"
+
+#: views/settings/crm_settings_tags.php:27
+#, fuzzy
+msgid "tagged post"
+msgstr "Taggade inlägg"
+
+#: views/settings/crm_settings_tags.php:28
+msgid "Delete Tag"
+msgstr "Ta bort tagg"
+
+#: views/settings/crm_settings_tags.php:29
+#: views/settings/crm_settings_tags.php:70
+msgid "Edit Tag"
+msgstr "Redigera etikett"
+
+#: views/settings/crm_settings_tags.php:36
+#, fuzzy
+msgid "There are no Tags! Create One Tag"
+msgstr "Det finns inga Taggar! Skapa en tagg"
+
+#: views/settings/crm_settings_tags.php:52
+#, fuzzy
+msgid "Enter Details for New Tag"
+msgstr "Ange information för ny tagg"
+
+#: views/settings/crm_settings_tags.php:54
+#, fuzzy
+msgid "Select the Post which should be Tagged if required"
+msgstr "Markera inlägget som ska taggas om det behövs"
+
+#: views/settings/crm_settings_tags.php:57
+#, fuzzy
+msgid "Want to use this Tag to Filter Tickets?"
+msgstr "Vill du använda den här taggen för att filtrera biljetter?"
+
+#: views/settings/crm_settings_views.php:22
+msgid "Add View"
+msgstr "Lägg till vy"
+
+#: views/settings/crm_settings_views.php:27
+#, fuzzy
+msgid "Inactive View"
+msgstr "Inaktiv vy"
+
+#: views/settings/crm_settings_views.php:32
+#, fuzzy
+msgid "No inactive view"
+msgstr "Ingen inaktiv vy"
+
+#: views/settings/crm_settings_views.php:44
+#: views/settings/crm_settings_views.php:77
+msgid "Delete View"
+msgstr "Radera vy"
+
+#: views/settings/crm_settings_views.php:48
+#: views/settings/crm_settings_views.php:81
+msgid "Edit View"
+msgstr "Redigera Vy"
+
+#: views/settings/crm_settings_views.php:58
+msgid "Active View"
+msgstr "aktiv visning"
+
+#: views/settings/crm_settings_views.php:63
+#, fuzzy
+msgid "No active view"
+msgstr "aktiv visning"
+
+#: views/settings/crm_settings_views.php:101
+#, fuzzy
+msgid "Add Ticket View"
+msgstr "Lägg till biljett visning"
+
+#: views/settings/crm_settings_views.php:106
+#, fuzzy
+msgid "Enter Details for New View"
+msgstr "Ange information för ny vy"
+
+#: views/settings/crm_settings_views.php:108
+#, fuzzy
+msgid "Specify the Conditions Format"
+msgstr "Ange villkors format"
+
+#: views/settings/crm_settings_views.php:110
+#: views/settings/crm_wsdesk_triggers.php:107
+#, fuzzy
+msgid "AND Condition"
+msgstr "Villkor"
+
+#: views/settings/crm_settings_views.php:111
+#: views/settings/crm_wsdesk_triggers.php:108
+#, fuzzy
+msgid "OR Condition"
+msgstr "Villkor"
+
+#: views/settings/crm_settings_views.php:113
+#, fuzzy
+msgid "Specify the View Conditions"
+msgstr "Ange visningsvillkor"
+
+#: views/settings/crm_settings_views.php:124
+#, fuzzy
+msgid "View Condition"
+msgstr "Visa villkor"
+
+#: views/settings/crm_settings_views.php:127
+#, fuzzy
+msgid "Add Conditions"
+msgstr "Lägg till villkor"
+
+#: views/settings/crm_settings_views.php:131
+#, fuzzy
+msgid "Group tickets by:"
+msgstr "Gruppbiljett:"
+
+#: views/settings/crm_settings_views.php:135
+#, fuzzy
+msgid "Display this view to:"
+msgstr "Visa den här vyn för att:"
+
+#: views/settings/crm_settings_views.php:162
+#, fuzzy
+msgid "Edit Ticket View"
+msgstr "Redigera biljett visning"
+
+#: views/settings/crm_woocommerce_settings.php:13
+#, fuzzy
+msgid "Show Order Details"
+msgstr "Visa beställningsdetaljer"
+
+#: views/settings/crm_woocommerce_settings.php:16
+#, fuzzy
+msgid "Want to display order details in customer ticket?"
+msgstr "Vill du Visa Orderdetaljer i kund biljetten?"
+
+#: views/settings/crm_woocommerce_settings.php:26
+#, fuzzy
+msgid "Show Order Price"
+msgstr "Visa order pris"
+
+#: views/settings/crm_woocommerce_settings.php:29
+#, fuzzy
+msgid "Want to display order price along with Order details?"
+msgstr "Vill du Visa orderpriset tillsammans med Orderdetaljer?"
+
+#: views/settings/crm_woocommerce_settings.php:39
+#, fuzzy
+msgid "Display Order Details"
+msgstr "Visa order Detaljer"
+
+#: views/settings/crm_woocommerce_settings.php:42
+#, fuzzy
+msgid "Display order details only to?"
+msgstr "Vill du bara Visa Orderdetaljer?"
+
+#: views/settings/crm_woocommerce_settings.php:53
+#, fuzzy
+msgid "Multi-Vendor Roles"
+msgstr "Roller för flera leverantörer"
+
+#: views/settings/crm_woocommerce_settings.php:56
+#, fuzzy
+msgid "Choose the vendor roles if you have installed any WC Vendor Plugin"
+msgstr ""
+"Välj leverantörs roller om du har installerat någon WC-leverantör plugin"
+
+#: views/settings/crm_wsdesk_triggers.php:27
+#, fuzzy
+msgid "Triggers & Automations"
+msgstr "Utlöser & automatiseringar"
+
+#: views/settings/crm_wsdesk_triggers.php:33
+#, fuzzy
+msgid "Inactive Trigger"
+msgstr "Inaktiv trigger"
+
+#: views/settings/crm_wsdesk_triggers.php:38
+#, fuzzy
+msgid "No inactive trigger"
+msgstr "Ingen inaktiv trigger"
+
+#: views/settings/crm_wsdesk_triggers.php:48
+#: views/settings/crm_wsdesk_triggers.php:75
+#, fuzzy
+msgid "Delete Trigger"
+msgstr "Ta bort utlösare"
+
+#: views/settings/crm_wsdesk_triggers.php:58
+#, fuzzy
+msgid "Active Trigger"
+msgstr "Aktiv utlösare"
+
+#: views/settings/crm_wsdesk_triggers.php:63
+#, fuzzy
+msgid "No active Trigger"
+msgstr "Ingen aktiv trigger"
+
+#: views/settings/crm_wsdesk_triggers.php:100
+#, fuzzy
+msgid "Enter Details for New Trigger"
+msgstr "Ange information för ny utlösare"
+
+#: views/settings/crm_wsdesk_triggers.php:105
+#, fuzzy
+msgid "Specify the Conditions Format."
+msgstr "Ange villkors format."
+
+#: views/settings/crm_wsdesk_triggers.php:110
+#, fuzzy
+msgid "Specify the Trigger Conditions."
+msgstr "Ange utlösnings villkoren."
+
+#: views/settings/crm_wsdesk_triggers.php:110
+#, fuzzy
+msgid "\"Changed To\" condition works only for immediate schedules."
+msgstr "\"ändras till\" villkoret fungerar bara för omedelbara scheman."
+
+#: views/settings/crm_wsdesk_triggers.php:121
+#, fuzzy
+msgid "Trigger Condition"
+msgstr "Utlösande villkor"
+
+#: views/settings/crm_wsdesk_triggers.php:143
+#, fuzzy
+msgid "Specify the Triggering Period."
+msgstr "Ange utlösande period."
+
+#: views/shortcodes/crm_satisfaction_page.php:20
+#, fuzzy
+msgid "How is our Support?"
+msgstr "Hur är vårt stöd?"
+
+#: views/shortcodes/crm_satisfaction_page.php:30
+#, fuzzy
+msgid "Good !"
+msgstr "Bra!"
+
+#: views/shortcodes/crm_satisfaction_page.php:36
+#, fuzzy
+msgid "Bad !"
+msgstr "Dålig!"
+
+#: views/shortcodes/crm_satisfaction_page.php:47
+#: views/shortcodes/crm_support_new.php:258
+msgid "Submitting..."
+msgstr "Skickar..."
+
+#: views/shortcodes/crm_satisfaction_page.php:65
+#, fuzzy
+msgid "Already took Satisfaction Survey for the ticket"
+msgstr "Redan tog tillfredsställelse undersökning för biljetten"
+
+#: views/shortcodes/crm_support_check_request.php:21
+#: views/shortcodes/crm_support_new.php:69
+#: views/shortcodes/crm_support_page.php:11
+msgid "Submit Request"
+msgstr "Skicka förfrågan"
+
+#: views/shortcodes/crm_support_check_request.php:32
+#: views/shortcodes/crm_support_check_request.php:56
+#: views/shortcodes/crm_support_page.php:35
+#, fuzzy
+msgid "Fetching Request Form..."
+msgstr "Hämtar förfrågningsformulär..."
+
+#: views/shortcodes/crm_support_new.php:19
+#, fuzzy
+msgid "You must Login to Raise Ticket"
+msgstr "Du måste logga in för att höja biljett"
+
+#: views/shortcodes/crm_support_new.php:28
+#, fuzzy
+msgid "You must Logout to Raise Ticket"
+msgstr "Du måste logga ut för att höja biljett"
+
+#: views/shortcodes/crm_support_new.php:28
+msgid "Logout"
+msgstr "Logga ut"
+
+#: views/shortcodes/crm_support_new.php:74
+#, fuzzy
+msgid "Reset Request"
+msgstr "Återställ begäran"
+
+#: views/shortcodes/crm_support_new.php:79
+#: views/shortcodes/crm_support_page.php:15
+#, fuzzy
+msgid "Check your Existing Request"
+msgstr "Kontrollera din befintliga begäran"
+
+#: views/shortcodes/crm_support_new.php:85
+#: views/shortcodes/crm_support_page.php:40
+#, fuzzy
+msgid "Loading your Request..."
+msgstr "Laddar din begäran..."
+
+#: views/tickets/crm_tickets_all.php:264
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: views/tickets/crm_tickets_all.php:299
+msgid "Search Template"
+msgstr "Sökmall"
+
+#: views/tickets/crm_tickets_all.php:325
+msgid "Create new"
+msgstr "Skapa ny"
+
+#: views/tickets/crm_tickets_all.php:325
+msgid "Create template"
+msgstr "Skapa mall"
+
+#: views/tickets/crm_tickets_all.php:338
+#, fuzzy
+msgid "Edit Tickets"
+msgstr "Redigera biljetter"
+
+#: views/tickets/crm_tickets_all.php:349
+msgid "New Template"
+msgstr "Ny mall"
+
+#: views/tickets/crm_tickets_all.php:353
+#, fuzzy
+msgid "Template title to identify"
+msgstr "Mallens titel för att identifiera"
+
+#: views/tickets/crm_tickets_all.php:369
+#, fuzzy
+msgid "[name]"
+msgstr "namn"
+
+#: views/tickets/crm_tickets_all.php:372
+#, fuzzy
+msgid "To insert ticket raiser name in the template"
+msgstr "För att infoga biljett höjnings namnet i mallen"
+
+#: views/tickets/crm_tickets_all.php:378
+#, fuzzy
+msgid "[id]"
+msgstr "ID"
+
+#: views/tickets/crm_tickets_all.php:381
+#, fuzzy
+msgid "To insert ticket number in the template"
+msgstr "Så här infogar du biljettnummer i mallen"
+
+#: views/tickets/crm_tickets_all.php:416
+msgid "Create"
+msgstr "Skapa"
+
+#: views/tickets/crm_tickets_all.php:426
+msgid "Edit"
+msgstr "Redigera"
+
+#: views/tickets/crm_tickets_all.php:457
+msgid "Labels"
+msgstr "Etiketter"
+
+#: views/tickets/crm_tickets_all.php:461 views/tickets/crm_tickets_all.php:487
+msgid "No Change"
+msgstr "Inga ändringar"
+
+#: views/tickets/crm_tickets_all.php:490
+#, fuzzy
+msgid "Bulk Reply"
+msgstr "Mass svar"
+
+#: views/tickets/crm_tickets_all.php:499
+#, fuzzy
+msgid "Text in the body of the reply is mandatory to submit attachemnts."
+msgstr "Text i brödtexten i svaret är obligatoriskt att skicka attachemnts."
+
+#: views/tickets/crm_tickets_all.php:528
+#, fuzzy
+msgid "Tickets Filter"
+msgstr "Biljetter filter"
+
+#: views/tickets/crm_tickets_all.php:833
+msgid "Unknown"
+msgstr "Okänd"
+
+#: views/tickets/wsdesk_print.php:46
+#, fuzzy
+msgid "WSDesk &rsaquo; Print #"
+msgstr "WSDesk &rsaquo; Print #"
+
+#: views/tickets/wsdesk_print.php:345
+msgid "Cc"
+msgstr "Cc"
+
+#: views/welcome/welcome.php:30
+msgid "Start"
+msgstr "Start"
+
+#: views/welcome/welcome.php:35
+#, fuzzy
+msgid "Support Setup"
+msgstr "Support inställningar"
+
+#: views/welcome/welcome.php:40
+#, fuzzy
+msgid "Ticket  Fields"
+msgstr "Biljett fält"
+
+#: views/welcome/welcome.php:45
+msgid "Email Client"
+msgstr "E- postklient"
+
+#: views/welcome/welcome.php:55
+msgid "Ready!"
+msgstr "Klara!"
+
+#: views/welcome/welcome.php:141
+#, fuzzy
+msgid "WSDesk &rsaquo; Setup Wizard"
+msgstr "Installationsguiden för WSDesk &rsaquo;"
+
+#: views/welcome/welcome.php:159
+msgid "Return to the WordPress Dashboard"
+msgstr "Tillbaka till Elevpanelen"
+
+#: views/welcome/welcome.php:173
+#, fuzzy
+msgid "Thank you for choosing WSDesk to power your online support!"
+msgstr "Tack för att du väljer WSDesk att driva din online-support!"
+
+#: views/welcome/welcome.php:183
+#, fuzzy
+msgid "Your helpdesk is ready!"
+msgstr "Din helpdesk är klar!"
+
+#: views/welcome/welcome.php:192
+#, fuzzy
+msgid "WSDesk - Quick Setup Wizard"
+msgstr "WSDesk-Snabbinställningsguide"
+
+#: views/welcome/welcome.php:277
+#, fuzzy
+msgid ""
+"This quick setup wizard will help you configure the basic settings. <br/"
+"><strong>It’s completely optional and shouldn’t take longer.</strong>"
+msgstr ""
+"Den här snabbinställningsguiden hjälper dig att konfigurera "
+"grundinställningarna. <br/> <strong> det är helt frivilligt och bör inte ta "
+"längre tid. </strong>"
+
+#: views/welcome/welcome.php:278
+#, fuzzy
+msgid ""
+"No time right now? If you don’t want to go through the wizard, you can skip "
+"and configure it later under settings."
+msgstr ""
+"Ingen tid just nu? Om du inte vill gå igenom guiden kan du hoppa över och "
+"konfigurera den senare under Inställningar."
+
+#: views/welcome/welcome.php:280
+msgid "Not right now"
+msgstr "Inte just nu"
+
+#: views/welcome/welcome.php:281
+#, fuzzy
+msgid "Let's setup now!"
+msgstr "Låt oss installera nu!"
+
+#: views/welcome/welcome.php:292
+#, fuzzy
+msgid "Set your support page title, email ID and ticket starting ticket ID."
+msgstr "Ange din supportsida titel, e-ID och biljett start biljett ID."
+
+#: views/welcome/welcome.php:301
+#, fuzzy
+msgid "WSDesk Support Email"
+msgstr "WSDesk support e-post"
+
+#: views/welcome/welcome.php:303
+#, fuzzy
+msgid "The email ID which is used for support responses"
+msgstr "E-ID som används för support svar"
+
+#: views/welcome/welcome.php:315
+#, fuzzy
+msgid "Starting Ticket ID"
+msgstr "Start biljett-ID"
+
+#: views/welcome/welcome.php:317
+#, fuzzy
+msgid "You can set your first Ticket's ID here."
+msgstr "Du kan ställa in din första biljetts ID här."
+
+#: views/welcome/welcome.php:319
+#, fuzzy
+msgid "Default Ticket ID is 1"
+msgstr "Standardbiljett-ID är 1"
+
+#: views/welcome/welcome.php:332
+#, fuzzy
+msgid "WSDesk Support Page Title"
+msgstr "WSDesk stöd sida titel"
+
+#: views/welcome/welcome.php:334 views/welcome/welcome.php:348
+#: views/welcome/welcome.php:362
+#, fuzzy
+msgid "Title which will be displayed on your site"
+msgstr "Titel som kommer att visas på din webbplats"
+
+#: views/welcome/welcome.php:336 views/welcome/welcome.php:350
+#: views/welcome/welcome.php:364
+#, fuzzy
+msgid "Enter page title"
+msgstr "Ange sidrubrik"
+
+#: views/welcome/welcome.php:346
+#, fuzzy
+msgid "WSDesk Individual Ticket Page Title"
+msgstr "WSDesk stöd sida titel"
+
+#: views/welcome/welcome.php:360
+#, fuzzy
+msgid "WSDesk Existing Ticket Page Title"
+msgstr "WSDesk stöd sida titel"
+
+#: views/welcome/welcome.php:371 views/welcome/welcome.php:457
+#: views/welcome/welcome.php:494 views/welcome/welcome.php:520
+msgid "Skip this step"
+msgstr "Hoppa över det här steget"
+
+#: views/welcome/welcome.php:372
+msgid "Save & Continue"
+msgstr "Spara & Fortsätt"
+
+#: views/welcome/welcome.php:387
+#, fuzzy
+msgid "Single Ticket View"
+msgstr "Välj biljett visningar"
+
+#: views/welcome/welcome.php:388
+#, fuzzy
+msgid "Existing Tickets"
+msgstr "Redigera biljetter"
+
+#: views/welcome/welcome.php:432
+#, fuzzy
+msgid "Configure your support form fields"
+msgstr "Konfigurera dina supportformulär fält"
+
+#: views/welcome/welcome.php:441
+#, fuzzy
+msgid "Save your changes before going to next step."
+msgstr "Spara ändringarna innan du går till nästa steg."
+
+#: views/welcome/welcome.php:458 views/welcome/welcome.php:495
+#: views/welcome/welcome.php:521
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: views/welcome/welcome.php:474
+#, fuzzy
+msgid "Configure your Email client to create tickets"
+msgstr "Konfigurera din e-postklient för att skapa biljetter"
+
+#: views/welcome/welcome.php:508
+#, fuzzy
+msgid "Setup your support agents to handle tickets"
+msgstr "Konfigurera dina supportagenter för att hantera biljetter"
+
+#: views/welcome/welcome.php:540
+#, fuzzy
+msgid "Configure your Helpdesk"
+msgstr "Konfigurera din helpdesk"
+
+#: views/welcome/welcome.php:541
+msgid "Go to Settings"
+msgstr "Gå till Inställningar"
+
+#: views/welcome/welcome.php:544
+#, fuzzy
+msgid "Get started with your first ticket"
+msgstr "Kom igång med din första biljett"
+
+#: views/welcome/welcome.php:545
+#, fuzzy
+msgid "Create a ticket!"
+msgstr "Skapa en biljett!"
+
+#: views/welcome/welcome.php:549
+#, fuzzy
+msgid "WSDesk Documentation"
+msgstr "WSDesk dokumentation"
+
+#: views/welcome/welcome.php:550
+#, fuzzy
+msgid "Read how to setup Google OAuth."
+msgstr "Läs om hur du ställer in Google OAuth."
+
+#: views/welcome/welcome.php:551
+#, fuzzy
+msgid "How to import tickets from Zendesk?"
+msgstr "Hur importera biljetter från Zendesk?"
+
+#: wsdesk.php:189
+msgid "Factory Reset"
+msgstr "Återställning av fabriksinställningar"
+
+#: wsdesk.php:199
+msgid "Docs"
+msgstr "Dokumentation"
+
+#: wsdesk.php:201
+msgid "Changelog"
+msgstr "Ändringslogg"
+
+#. Plugin Name of the plugin/theme
+#, fuzzy
+msgid "WSDesk - WordPress Support Desk"
+msgstr "WSDesk-WordPress Support Desk"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://elextensions.com/plugin/wsdesk-wordpress-support-desk-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"Enhances your customer service and enables efficient handling of customer "
+"issues."
+msgstr ""
+"Förbättrar kundservicen och möjliggör effektiv hantering av kundproblem."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "WSDesk"
+msgstr "WSDesk"
+
+#, fuzzy
+#~ msgid "View?"
+#~ msgstr "Visa"
+
+#, fuzzy
+#~ msgid "Modify the Group by"
+#~ msgstr "Ändra gruppen efter"
+
+#, fuzzy
+#~ msgid "Modify display this view to?"
+#~ msgstr "Vill du ändra Visa den här vyn?"
+
+#, fuzzy
+#~ msgid "How would you like to display your tickets?"
+#~ msgstr "Hur skulle du vilja visa dina biljetter?"
+
+#, fuzzy
+#~ msgid "https://www.wsdesk.com"
+#~ msgstr "https://www.wsdesk.com"

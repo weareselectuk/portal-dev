@@ -1,0 +1,74 @@
+.aw_wsdesk_activate_alert
+{
+    margin-left: 0px !important;
+    margin-right: 15px !important;
+    margin-top: 15px !important;
+    margin-bottom: 0px !important;
+}
+.badge
+{
+    font-size: 10px !important;
+}
+.crm-panel-right
+{
+    margin-right: 1em !important;
+}
+.crm-panel-left
+{
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+.crm-divider {
+  height: 1px;
+  width:100%;
+  display:block;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.crm-form-element
+{
+    padding: 10px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.input-group .crm-form-element-input
+{
+    margin-bottom: 0px !important;
+}
+.crm-form-element-input
+{
+    padding: 0px 10px !important;
+    margin-bottom: 10px !important;
+    display: inline-block !important;
+    width: 100% !important;
+}
+.container
+{
+    width: 100% !important;
+}
+input:focus,
+input:hover,
+input:active{
+    outline: none !important;
+}
+div.updated
+{
+    display: none !important;
+}
+div.error
+{
+    display: none !important;
+}
+div.warning
+{
+    display: none !important;
+}
+div.notice
+{
+    display: none !important;
+}
+div.update-nag
+{
+    display: none !important;
+}
