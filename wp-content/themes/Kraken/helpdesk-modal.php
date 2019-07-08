@@ -6,7 +6,7 @@
 <div class="helpdesk_top_selectors">
 
 <div class="ticket_status" style="background-color:#3773B9; border:1px solid #3773B9;width:10%; height:36px;margin-right:15px;float:left;color:white;text-align:center;padding-top:8px;">
-    COMPLETE
+    Git Test
                 </div>
                 <a data-title="Select Client" href="#" id="helpdesk-fieldx"
                       name="field_WC34" data-type="select" data-value="<?php echo $value->clientid;?>" data-source="[{value:'Low',text:'Low'},{value:'Medium',text:'Medium'},{value:'High',text:'High'}]"
