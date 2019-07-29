@@ -3313,6 +3313,36 @@ function eh_get_url_by_shortcode($shortcode) {
     return $url;
 }
 
+function eh_get_clients() {
+    global $wpdb;
+
+    $sql = "SELECT ID
+        FROM " . $wpdb->posts . "
+        WHERE
+            post_type = 'clients'
+            AND post_status='publish'
+            AND post_content LIKE '%" . $shortcode . "%'";
+
+    if ($id = $wpdb->get_var($sql)) {
+        $url = get_permalink($id);
+    }
+
+    return $url;
+}
+
+function eh_crm_get_clients() {
+    ini_set('max_execution_time', 300);
+    global $wpdb;
+    $table = $wpdb->prefix . 'wasp_posts';
+
+    $query = "SELECT * FROM $table WHERE `wasp_posts`.`post_type` = 'clients'";
+    $data = $wpdb->get_results($query, ARRAY_A);
+    if (!$data) {
+        return array();
+    }
+    return $data;
+}
+
 function eh_crm_get_poweredby_scripts()
 {
     if(!defined('WSDESK_POWERED_EMAIL'))

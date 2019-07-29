@@ -621,7 +621,7 @@
                       </div>
                     </div>
                     <!-- Modal Add Diary Event-->
-                    <div class="modal fade" id="diary_event" tabindex="-1" role="dialog" aria-labelledby="diary event" aria-hidden="true">
+                    <div class="modal fade" id="diary_event" style="z-index:15000;" tabindex="-1" role="dialog" aria-labelledby="diary event" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
@@ -640,7 +640,7 @@
                       </div>
                     </div>
                     <!-- Modal Conversation-->
-                    <div class="modal fade" id="add_convo" tabindex="-1" role="dialog" aria-labelledby="add conversation" aria-hidden="true">
+                    <div class="modal fade" id="add_convo" style="z-index:15000;" tabindex="-1" role="dialog" aria-labelledby="add conversation" aria-hidden="true">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">

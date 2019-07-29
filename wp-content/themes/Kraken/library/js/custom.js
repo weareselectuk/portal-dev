@@ -105,6 +105,240 @@ jQuery(document).ready(function($) {
 	  });
 	  $(this).parents("tr").remove();
 	});
+	$(".tab-content").on("click", ".single_ticket_assignee", function (e) {
+        e.preventDefault();
+        var assignee = jQuery(this).prop("id");
+        var ticket_id = jQuery(this).parent().prop("id");
+        jQuery(".table_loader").css("display", "inline");
+        jQuery(".single_ticket_assignee_button_" + ticket_id).prop("disabled", true);
+        jQuery.ajax({
+            type: 'post',
+            url: myajax.url,
+            data: {
+                action: 'eh_crm_ticket_single_ticket_assignee',
+                ticket_id: ticket_id,
+                assignee: assignee,
+                pagination_id : jQuery("#pagination_ids_traverse").val()
+			},
+            success: function (data) {
+                jQuery(".table_loader").css("display", "none");
+                if (jQuery("#tab_" + ticket_id).length != 0 && jQuery("#tab_content_" + ticket_id).length != 0)
+                {
+                    jQuery("#tab_content_" + ticket_id).html(data);
+                    trigger_load_single_ticket(ticket_id);
+                }                
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+
+	});
+	$(".tab-content").on("click", ".single_ticket_priority", function (e) {
+        e.preventDefault();
+        var priority = jQuery(this).prop("id");
+        var ticket_id = jQuery(this).parent().prop("id");
+        jQuery(".table_loader").css("display", "inline");
+        jQuery(".single_ticket_priority_button_" + ticket_id).prop("disabled", true);
+        jQuery.ajax({
+            type: 'post',
+            url: myajax.url,
+            data: {
+                action: 'eh_crm_ticket_single_ticket_priority',
+                ticket_id: ticket_id,
+                priority: priority,
+                pagination_id : jQuery("#pagination_ids_traverse").val()
+			},
+            success: function (data) {
+                jQuery(".table_loader").css("display", "none");
+                if (jQuery("#tab_" + ticket_id).length != 0 && jQuery("#tab_content_" + ticket_id).length != 0)
+                {
+                    jQuery("#tab_content_" + ticket_id).html(data);
+                    trigger_load_single_ticket(ticket_id);
+                }                
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+
+	});
+	$(".tab-content").on("click", ".single_ticket_site", function (e) {
+        e.preventDefault();
+        var site = jQuery(this).prop("id");
+        var ticket_id = jQuery(this).parent().prop("id");
+        jQuery(".table_loader").css("display", "inline");
+        jQuery(".single_ticket_site_button_" + ticket_id).prop("disabled", true);
+        jQuery.ajax({
+            type: 'post',
+            url: myajax.url,
+            data: {
+                action: 'eh_crm_ticket_single_ticket_site',
+                ticket_id: ticket_id,
+                site: site,
+                pagination_id : jQuery("#pagination_ids_traverse").val()
+			},
+            success: function (data) {
+                jQuery(".table_loader").css("display", "none");
+                if (jQuery("#tab_" + ticket_id).length != 0 && jQuery("#tab_content_" + ticket_id).length != 0)
+                {
+                    jQuery("#tab_content_" + ticket_id).html(data);
+                    trigger_load_single_ticket(ticket_id);
+                }                
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+
+	});
+	$(".tab-content").on("click", ".single_ticket_asset", function (e) {
+        e.preventDefault();
+        var asset = jQuery(this).prop("id");
+        var ticket_id = jQuery(this).parent().prop("id");
+        jQuery(".table_loader").css("display", "inline");
+        jQuery(".single_ticket_asset_button_" + ticket_id).prop("disabled", true);
+        jQuery.ajax({
+            type: 'post',
+            url: myajax.url,
+            data: {
+                action: 'eh_crm_ticket_single_ticket_asset',
+                ticket_id: ticket_id,
+                asset: asset,
+                pagination_id : jQuery("#pagination_ids_traverse").val()
+			},
+            success: function (data) {
+                jQuery(".table_loader").css("display", "none");
+                if (jQuery("#tab_" + ticket_id).length != 0 && jQuery("#tab_content_" + ticket_id).length != 0)
+                {
+                    jQuery("#tab_content_" + ticket_id).html(data);
+                    trigger_load_single_ticket(ticket_id);
+                }                
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+
+	});
+	$(".tab-content").on("click", ".single_ticket_user", function (e) {
+        e.preventDefault();
+        var user = jQuery(this).prop("id");
+        var ticket_id = jQuery(this).parent().prop("id");
+        jQuery(".table_loader").css("display", "inline");
+        jQuery(".single_ticket_user_button_" + ticket_id).prop("disabled", true);
+        jQuery.ajax({
+            type: 'post',
+            url: myajax.url,
+            data: {
+                action: 'eh_crm_ticket_single_ticket_user',
+                ticket_id: ticket_id,
+                user: user,
+                pagination_id : jQuery("#pagination_ids_traverse").val()
+			},
+            success: function (data) {
+                jQuery(".table_loader").css("display", "none");
+                if (jQuery("#tab_" + ticket_id).length != 0 && jQuery("#tab_content_" + ticket_id).length != 0)
+                {
+                    jQuery("#tab_content_" + ticket_id).html(data);
+                    trigger_load_single_ticket(ticket_id);
+                }                
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+
+	});
+	$(".tab-content").on("click", ".single_ticket_client", function (e) {
+        e.preventDefault();
+        var client = jQuery(this).prop("id");
+        var ticket_id = jQuery(this).parent().prop("id");
+        jQuery(".table_loader").css("display", "inline");
+        jQuery(".single_ticket_client_button_" + ticket_id).prop("disabled", true);
+        jQuery.ajax({
+            type: 'post',
+            url: myajax.url,
+            data: {
+                action: 'eh_crm_ticket_single_ticket_client',
+                ticket_id: ticket_id,
+                client: client,
+                pagination_id : jQuery("#pagination_ids_traverse").val()
+			},
+            success: function (data) {
+                jQuery(".table_loader").css("display", "none");
+                if (jQuery("#tab_" + ticket_id).length != 0 && jQuery("#tab_content_" + ticket_id).length != 0)
+                {
+                    jQuery("#tab_content_" + ticket_id).html(data);
+                    trigger_load_single_ticket(ticket_id);
+                }                
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+
+	});
+	$(".tab-content").on("click", ".single_ticket_tags", function (e) {
+        e.preventDefault();
+        var priority = jQuery(this).prop("id");
+        var ticket_id = jQuery(this).parent().prop("id");
+        jQuery(".table_loader").css("display", "inline");
+        jQuery(".single_ticket_priority_button_" + ticket_id).prop("disabled", true);
+        jQuery.ajax({
+            type: 'post',
+            url: myajax.url,
+            data: {
+                action: 'eh_crm_ticket_single_ticket_tags',
+                ticket_id: ticket_id,
+                priority: priority,
+                pagination_id : jQuery("#pagination_ids_traverse").val()
+			},
+            success: function (data) {
+                jQuery(".table_loader").css("display", "none");
+                if (jQuery("#tab_" + ticket_id).length != 0 && jQuery("#tab_content_" + ticket_id).length != 0)
+                {
+                    jQuery("#tab_content_" + ticket_id).html(data);
+                    trigger_load_single_ticket(ticket_id);
+                }                
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+
+	});
+	$(".tab-content").on("click", ".single_ticket_action", function (e) {
+        e.preventDefault();
+        var label = jQuery(this).prop("id");
+        var ticket_id = jQuery(this).parent().prop("id");
+        jQuery(".table_loader").css("display", "inline");
+        jQuery(".single_ticket_action_button_" + ticket_id).prop("disabled", true);
+        jQuery.ajax({
+            type: 'post',
+            url: myajax.url,
+            data: {
+                action: 'eh_crm_ticket_single_ticket_action',
+                ticket_id: ticket_id,
+                label: label,
+                //pagination_id : jQuery("#pagination_ids_traverse").val()
+			},/*
+            success: function (data) {
+                jQuery(".table_loader").css("display", "none");
+                if (jQuery("#tab_" + ticket_id).length != 0 && jQuery("#tab_content_" + ticket_id).length != 0)
+                {
+                    jQuery("#tab_content_" + ticket_id).html(data);
+                    trigger_load_single_ticket(ticket_id);
+                }
+                refresh_left_bar();
+                refresh_right_bar();
+            },*/
+            error: function (jqXHR, textStatus, errorThrown) {
+                console.log(textStatus, errorThrown);
+            }
+        });
+
+    });
 	$('.conversation-fieldx').on('save', function(e, params) {
 	  var ticket_id = $(this).data('pk');
 	  var meta_key = $(this).attr('name');
@@ -126,15 +360,28 @@ jQuery(document).ready(function($) {
 		data: data,
 	  });
 	});
-	$('#helpdesk-fieldx').on('save', function(e, params) {
+	$('#helpdesk-fieldx').on('save', function eh_crm_ticket_single_save_props() {
 	  var ticket_id = $(this).data('pk');
 	  var meta_key = $(this).attr('name');
-  
+	  //var ticket_id = sanitize_text_field($_POST['ticket_id']);
+	  var assignee = $(this).data('assignee');//['assignee']?explode(",", sanitize_text_field($_POST['assignee'])):array();
+	  var tags = $(this).data('tags');//((sanitize_text_field($_POST['tags']) !== '')?explode(",", sanitize_text_field($_POST['tags'])):array());
+	  var cc = $(this).data('cc');//((sanitize_text_field($_POST['cc']) !== '')?explode(",", sanitize_text_field($_POST['cc'])):array());
+	  var bcc = $(this).data('bcc');//((sanitize_text_field($_POST['bcc']) !== '')?explode(",", sanitize_text_field($_POST['bcc'])):array());
+	  var input = $(this).data('input');//json_decode(stripslashes(sanitize_text_field($_POST['input'])), true);
+	  //eh_crm_update_ticketmeta($ticket_id, "ticket_assignee", $assignee);
+	  //eh_crm_update_ticketmeta($ticket_id, "ticket_tags", $tags);
+	  //eh_crm_update_ticketmeta($ticket_id, "ticket_cc", $cc,false);
+	  //eh_crm_update_ticketmeta($ticket_id, "ticket_bcc", $bcc,false);
 	  var data = {
 		action: 'eh_crm_ticket_single_save_props',
 		ticket_id: ticket_id,
 		meta_key: meta_key,
-		meta_value: params.newValue
+		tags:tags,
+		cc:cc,
+		bcc:bcc,
+		input:input,
+		//meta_value: params.newValue
 	  };
   
 	  $.ajax({

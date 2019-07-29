@@ -64,12 +64,11 @@ function plugin_head_styles_scripts() {
   wp_enqueue_script( 'fixed native',  get_template_directory_uri().'/library/assets/js/pages/layout_fixed_native.js', array( 'jquery' ), '1.0.0', false ); 
   wp_enqueue_script( 'core-script',  get_template_directory_uri().'/library/assets/js/core/app.js', array( 'jquery' ), '1.0.0', false );
   wp_enqueue_script( 'custom-script',  get_template_directory_uri().'/library/js/custom.js', array( 'jquery' ), '1.0.0', false );
-  //wp_enqueue_script( 'crm_tickets',  get_template_directory_uri().'/library/js/crm_tickets.js', array( 'jquery' ), '1.0.0', false );
-  // wp_enqueue_script( 'tabs-refresh',  get_template_directory_uri().'/library/assets/refresh-tabs.js', array( 'jquery' ), '1.0.0', false );
+   // wp_enqueue_script( 'tabs-refresh',  get_template_directory_uri().'/library/assets/refresh-tabs.js', array( 'jquery' ), '1.0.0', false );
 
 if(is_singular(array( 'assets', 'users', 'sites', 'clients', 'services', 'tasks', 'migrations' ))) {
   wp_enqueue_script( 'form-editable',  get_template_directory_uri().'/library/assets/js/plugins/forms/editable/editable.min.js', array( 'jquery' ), '1.0.0', false );
-  wp_enqueue_script( 'form-editable-page',  get_template_directory_uri().'/library/assets/js/pages/form_editable.js', array( 'jquery' ), '1.0.0', false );
+  wp_enqueue_script( 'form-editable-page',get_template_directory_uri().'/library/assets/js/pages/form_editable.js', array( 'jquery' ), '1.0.0', false );
 }
 
   
@@ -90,6 +89,7 @@ if(is_singular(array( 'assets', 'users', 'sites', 'clients', 'services', 'tasks'
 add_action( 'wp_enqueue_scripts', 'load_responsive_javascript' );
 function load_responsive_javascript() {
     wp_enqueue_script( 'clipboard', get_stylesheet_directory_uri() . '/js/clipboard.js', array( 'jquery' ), '1.0.0' );
+    //wp_enqueue_script( 'crm_tickets',  get_template_directory_uri().'/library/wsdesk-premium/includes/class-crm-public-functions.php', array( 'jquery' ), '1.0.0', false );
 	
 }
 
@@ -123,6 +123,7 @@ require_once('library/comments.php');  // comment layout
 //require_once('library/child-ancestor.php');  // is child page / is ancestor page
 require_once('library/acf.php');  // is child page / is ancestor page
 //require_once('library/youtube.php');  // youtube functions
+//require_once('library/wsdesk-premium/assets/js/crm_tickets.js');  // wsdesk functions
 
 
 /************* NINJA FORMS *********************/

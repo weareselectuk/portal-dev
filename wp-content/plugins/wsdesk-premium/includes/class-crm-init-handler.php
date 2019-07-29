@@ -57,6 +57,11 @@ class EH_CRM_Init_Handler {
         add_action('wp_ajax_eh_crm_ticket_refresh_right_bar', array("CRM_Ajax", "eh_crm_ticket_refresh_right_bar"));
         add_action('wp_ajax_eh_crm_ticket_reply_agent', array("CRM_Ajax", "eh_crm_ticket_reply_agent"));
         add_action('wp_ajax_eh_crm_ticket_single_ticket_action', array("CRM_Ajax", "eh_crm_ticket_single_ticket_action"));
+        add_action('wp_ajax_eh_crm_ticket_single_ticket_priority', array("CRM_Ajax", "eh_crm_ticket_single_ticket_priority"));
+        add_action('wp_ajax_eh_crm_ticket_single_ticket_site', array("CRM_Ajax", "eh_crm_ticket_single_ticket_site"));
+        add_action('wp_ajax_eh_crm_ticket_single_ticket_asset', array("CRM_Ajax", "eh_crm_ticket_single_ticket_asset"));
+        add_action('wp_ajax_eh_crm_ticket_single_ticket_client', array("CRM_Ajax", "eh_crm_ticket_single_ticket_client"));
+        add_action('wp_ajax_eh_crm_ticket_single_ticket_user', array("CRM_Ajax", "eh_crm_ticket_single_ticket_user"));
         add_action('wp_ajax_eh_crm_ticket_multiple_ticket_action', array("CRM_Ajax", "eh_crm_ticket_multiple_ticket_action"));
         add_action('wp_ajax_eh_crm_ticket_search', array("CRM_Ajax", "eh_crm_ticket_search"));
         add_action('wp_ajax_eh_crm_ticket_add_new', array("CRM_Ajax", "eh_crm_ticket_add_new"));

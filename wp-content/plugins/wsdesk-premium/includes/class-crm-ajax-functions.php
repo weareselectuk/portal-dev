@@ -5111,7 +5111,52 @@
             $content_html = CRM_Ajax::eh_crm_ticket_single_view_gen($ticket_id,$pagination);
             die($content_html);
         }
+
+        static function eh_crm_ticket_single_ticket_priority() {
+            $ticket_id = sanitize_text_field($_POST['ticket_id']);
+            $priority = sanitize_text_field($_POST['priority']);
+            $pagination = json_decode(stripslashes(sanitize_text_field($_POST['pagination_id'])), true);
+            eh_crm_update_ticketmeta($ticket_id, "field_HN27", $priority);
+            $content_html = CRM_Ajax::eh_crm_ticket_single_view_gen($ticket_id,$pagination);
+            die($content_html);
+        }
         
+        static function eh_crm_ticket_single_ticket_site() {
+            $ticket_id = sanitize_text_field($_POST['ticket_id']);
+            $site = sanitize_text_field($_POST['site']);
+            $pagination = json_decode(stripslashes(sanitize_text_field($_POST['pagination_id'])), true);
+            eh_crm_update_ticketmeta($ticket_id, "field_MG53", $site);
+            $content_html = CRM_Ajax::eh_crm_ticket_single_view_gen($ticket_id,$pagination);
+            die($content_html);
+        }
+
+        static function eh_crm_ticket_single_ticket_asset() {
+            $ticket_id = sanitize_text_field($_POST['ticket_id']);
+            $asset = sanitize_text_field($_POST['asset']);
+            $pagination = json_decode(stripslashes(sanitize_text_field($_POST['pagination_id'])), true);
+            eh_crm_update_ticketmeta($ticket_id, "field_KQ13", $asset);
+            $content_html = CRM_Ajax::eh_crm_ticket_single_view_gen($ticket_id,$pagination);
+            die($content_html);
+        }
+
+        static function eh_crm_ticket_single_ticket_user() {
+            $ticket_id = sanitize_text_field($_POST['ticket_id']);
+            $user = sanitize_text_field($_POST['user']);
+            $pagination = json_decode(stripslashes(sanitize_text_field($_POST['pagination_id'])), true);
+            eh_crm_update_ticketmeta($ticket_id, "field_QF40", $user);
+            $content_html = CRM_Ajax::eh_crm_ticket_single_view_gen($ticket_id,$pagination);
+            die($content_html);
+        }
+
+        static function eh_crm_ticket_single_ticket_client() {
+            $ticket_id = sanitize_text_field($_POST['ticket_id']);
+            $client = sanitize_text_field($_POST['client']);
+            $pagination = json_decode(stripslashes(sanitize_text_field($_POST['pagination_id'])), true);
+            eh_crm_update_ticketmeta($ticket_id, "field_WC34", $client);
+            $content_html = CRM_Ajax::eh_crm_ticket_single_view_gen($ticket_id,$pagination);
+            die($content_html);
+        }
+
         static function eh_crm_ticket_single_ticket_assignee() {
             $ticket_id = sanitize_text_field($_POST['ticket_id']);
             $assignee = sanitize_text_field($_POST['assignee']);
