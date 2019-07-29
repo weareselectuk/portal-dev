@@ -37,6 +37,39 @@ jQuery(document).ready(function($) {
   
 	  });
 	}
+	function trigger_load_single_ticket(ticket_id)
+{
+    assignee_select2_init("#assignee_ticket_" + ticket_id);
+    tag_select2("#tags_ticket_" + ticket_id);
+    if(jQuery(".cc_select_" + ticket_id).length != 0)
+    {
+        cc_select2("#cc_ticket_" + ticket_id);
+    }
+    if(jQuery(".bcc_select_" + ticket_id).length != 0)
+    {
+        bcc_select2("#bcc_ticket_" + ticket_id);
+    }
+    jQuery('.ticket_input_date_'+ticket_id).datepicker({
+        beforeShow: function(input, inst) {
+            var pick = jQuery('#ui-datepicker-div');
+            if(!jQuery(pick).parent().hasClass('wsdesk_date'))
+            {
+                jQuery('#ui-datepicker-div').wrap('<div class="wsdesk_date"></div>');
+            }
+        }
+    });
+    new Quill('#reply_textarea_'+ticket_id, {theme: 'snow', modules: {toolbar: toolbarOptions}});
+    if(typeof Cookies.get("reply_textarea_" + ticket_id) != 'undefined')
+    {
+        jQuery("#reply_textarea_" + ticket_id+' > .ql-editor').html(Cookies.get("reply_textarea_" + ticket_id));
+    }
+    jQuery('#reply_textarea_'+ticket_id+' > .ql-editor').on('blur', function() {
+        if(typeof jQuery("#reply_textarea_" + ticket_id+' > .ql-editor') != 'undefined'  && jQuery("#reply_textarea_" + ticket_id+' > .ql-editor').html()!='<br>')
+        {
+            addToCookie("reply_textarea_" + ticket_id,jQuery("#reply_textarea_" + ticket_id+' > .ql-editor').html());            
+        }
+    });
+}
 	jQuery(document).ready(function($) {
 	  $("[data-toggle=popover]").popover();
 	});

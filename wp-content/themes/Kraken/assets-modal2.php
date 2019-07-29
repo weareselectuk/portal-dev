@@ -6,7 +6,7 @@ Last updated: 05/09/2018
 
 -->
 <!-- Asset Status -->
-<div class="modal fade bd-example-modal-lg" id="assetstatus2_<?php echo $value->assetid;?>"
+<div class="modal fade bd-example-modal-lg" id="assetstatus2_<?php echo $current_meta['field_KQ13'];?>"
   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -44,7 +44,7 @@ Last updated: 05/09/2018
 
 <!-- Guru License -->
 
-<div class="modal fade" id="assetprolicense2_<?php echo $value->assetid;?>" tabindex="-1" role="dialog"
+<div class="modal fade" id="assetprolicense2_<?php echo $current_meta['field_KQ13'];?>" tabindex="-1" role="dialog"
   aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -83,7 +83,7 @@ Last updated: 05/09/2018
   </div>
 </div>
 <!-- Asset Backup -->
-<div class="modal fade bd-example-modal-lg" id="assetbackup2_<?php echo $value->assetid;?>"
+<div class="modal fade bd-example-modal-lg" id="assetbackup2_<?php echo $current_meta['field_KQ13'];?>"
   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
 
@@ -158,7 +158,7 @@ Last updated: 05/09/2018
 
 
 <!-- Patch Management -->
-<div class="modal fade" id="assetpatchmanagement2_<?php echo $value->assetid;?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+<div class="modal fade" id="assetpatchmanagement2_<?php echo $current_meta['field_KQ13'];?>" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
   aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -263,7 +263,7 @@ Last updated: 05/09/2018
 
 <!--logins -->
 
-<div class="modal fade bd-example-modal-lg" id="assetlogins2_<?php echo $value->assetid;?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<div class="modal fade bd-example-modal-lg" id="assetlogins2_<?php echo $current_meta['field_KQ13'];?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -361,7 +361,7 @@ Last updated: 05/09/2018
 
 <!--Ex05-->
 
-<div class="modal fade bd-example-modal-lg" id="assetex052_<?php echo $value->assetid;?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<div class="modal fade bd-example-modal-lg" id="assetex052_<?php echo $current_meta['field_KQ13'];?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -434,7 +434,7 @@ Last updated: 05/09/2018
 
 <!--Security-->
 
-<div class="modal fade bd-example-modal-lg" id="assetsecurity2_<?php echo $value->assetid;?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<div class="modal fade bd-example-modal-lg" id="assetsecurity2_<?php echo $current_meta['field_KQ13'];?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -509,7 +509,7 @@ Last updated: 05/09/2018
 
 <!--Specs-->
 
-<div class="modal fade bd-example-modal-lg" id="assetspecs2_<?php echo $value->assetid;?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<div class="modal fade bd-example-modal-lg" id="assetspecs2_<?php echo $current_meta['field_KQ13'];?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-lg">
 
@@ -593,7 +593,7 @@ Last updated: 05/09/2018
 </div>
 <!--Warranty & Purchasing information-->
 
-<div class="modal fade bd-example-modal-lg" id="assetwarranty2_<?php echo $value->assetid;?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
+<div class="modal fade bd-example-modal-lg" id="assetwarranty2_<?php echo $current_meta['field_KQ13'];?>" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel"
   aria-hidden="true">
   <div class="modal-dialog modal-lg">
 
@@ -713,7 +713,7 @@ Last updated: 05/09/2018
 
 
 <!-- Asset Tickets -->
-<div class="modal fade bd-example-modal-lg" id="assettickets2_<?php echo $value->assetid;?>"
+<div class="modal fade bd-example-modal-lg" id="assettickets2_<?php echo $current_meta['field_KQ13'];?>"
   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -750,7 +750,7 @@ Last updated: 05/09/2018
 </div>
 
 <!-- Asset Diary -->
-<div class="modal fade bd-example-modal-lg" id="supportdiary2_<?php echo $value->assetid;?>"
+<div class="modal fade bd-example-modal-lg" id="supportdiary2_<?php echo $current_meta['field_KQ13'];?>"
   tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">

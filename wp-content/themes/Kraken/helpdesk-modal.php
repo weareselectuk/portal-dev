@@ -21,14 +21,14 @@ $avail_tags_wf = eh_crm_get_settings(array("type" => "tag"), array("slug", "titl
 $avail_tags = eh_crm_get_settings(array("type" => "tag", "filter" => "yes"), array("slug", "title", "settings_id"));
 $avail_views = eh_crm_get_settings(array("type" => "view"), array("slug", "title", "settings_id"));
 $user_roles_default = array("WSDesk_Agents", "WSDesk_Supervisor","administrator");
-$clients = eh_crm_get_clients(array());
+/*$clients = eh_crm_get_clients(array());
 $client_value = '';
 for($j=0;$j<count($clients);$j++)
 {
     
         $client_value .= '<li id="'.$ticket.'"><a href="#" class="single_ticket_client" id="'.$clients[$j]['ID'].'">'.__("Mark as", 'wsdesk').' '.$clients[$j]['post_title'].'</a></li>';
 
-} 
+} */
 $users = get_users(array("role__in" => $user_roles_default));
 $users_data = array();
 $tickets_display = eh_crm_get_settingsmeta('0', "tickets_display");
@@ -483,46 +483,14 @@ $latest_content['content'] = str_replace('<script>', '&lt;script&gt;', $latest_c
                                                                     </li>
                                                                 </ul>
                                                             </div>
-                                                        </td>
+                                                        </td>                                                                                                                                                                                                      
                                                         <td>
                                                             <div class="btn-group">
-                                                                <button type="button" style="background-color:#43A547;" class="btn btn-default dropdown-toggle single_ticket_client_button_'.$current[0]['ticket_id'].'" data-toggle="dropdown">
-                                                                    '.__(get_the_title($current_meta['field_WC34']),'wsdesk').' <span class="caret"></span>
+                                                                <button type="button" style="background-color:#F23A30;color:white;" class="btn btn-default dropdown-toggle single_ticket_assignee_button_'.$current[0]['ticket_id'].'" data-toggle="dropdown">
+                                                                    '.__((get_userdata($current_assignee[0])->display_name),'wsdesk').' <span class="caret"></span>
                                                                 </button>
                                                                 <ul class="dropdown-menu" role="menu">
-                                                                    '.($client_value != "")?$client_value:'<li style="padding: 3px 20px;">'.__('No Client','wsdesk').'</li>'.'
-                                                                    <li class="divider"></li>
-                                                                    <li class="text-center">
-                                                                        <small class="text-muted">
-                                                                            '.__('Select Client','wsdesk').'
-                                                                        </small>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>
-                                                        <td>
-                                                            <div class="btn-group">
-                                                                <button style="background-color:#76D5E3;color:white;" type="button" class="btn btn-default dropdown-toggle single_ticket_site_button_'.$current[0]['ticket_id'].'" data-toggle="dropdown">
-                                                                    '.__(get_the_title($current_meta['field_MG53'], 'wsdesk').' <span class="caret"></span>
-                                                                </button>
-                                                                <ul class="dropdown-menu" role="menu">
-                                                                    '.(($current_meta['field_MG53'] != "")?$current_meta['field_MG53']:'<li style="padding: 3px 20px;">'.__("No Site", 'wsdesk').'</li>').'
-                                                                    <li class="divider"></li>
-                                                                    <li class="text-center">
-                                                                        <small class="text-muted">
-                                                                            '.__("Select site to assign", 'wsdesk').'
-                                                                        </small>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                        </td>                                                                                                                                                                   
-                                                        <td>
-                                                            <div class="btn-group">
-                                                                <button type="button" style="background-color:#F23A30;" class="btn btn-default dropdown-toggle single_ticket_assignee_button_'.$current[0]['ticket_id'].'" data-toggle="dropdown">
-                                                                    '.__('Assignee','wsdesk').' <span class="caret"></span>
-                                                                </button>
-                                                                <ul class="dropdown-menu" role="menu">
-                                                                    '.($assignee_value != "")?$assignee_value:'<li style="padding: 3px 20px;">'.__('No Assignee','wsdesk').'</li>').'
+                                                                '.(($assignee_value != "")?$assignee_value:'<li style="padding: 3px 20px;">'.__('No Assignee','wsdesk').'</li>').'
                                                                     <li class="divider"></li>
                                                                     <li class="text-center">
                                                                         <small class="text-muted">
@@ -532,6 +500,41 @@ $latest_content['content'] = str_replace('<script>', '&lt;script&gt;', $latest_c
                                                                 </ul>
                                                             </div>
                                                         </td>
+                                                        <td>
+   <div class="btn-group">
+      <button type="button" style="background-color:#43A547;" class="btn btn-default dropdown-toggle single_ticket_client_button_'.$current[0]['ticket_id'].'" data-toggle="dropdown">
+      '.__(get_the_title($current_meta['field_WC34']),'wsdesk').' <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+         '.(($current_meta['field_WC34'] != "")?get_the_title($current_meta['field_WC34']):'<li style="padding: 3px 20px;">'.__('No Client','wsdesk').'</li>
+         ').'
+         <li class="divider"></li>
+         <li class="text-center">
+            <small class="text-muted">
+            '.__('Select Client','wsdesk').'
+            </small>
+         </li>
+      </ul>
+   </div>
+</td>
+<td>
+   <div class="btn-group">
+      <button style="background-color:#76D5E3;color:white;" type="button" class="btn btn-default dropdown-toggle single_ticket_site_button_'.$current[0]['ticket_id'].'" data-toggle="dropdown">
+      '.__(get_the_title($current_meta['field_MG53']), 'wsdesk').' <span class="caret"></span>
+      </button>
+      <ul class="dropdown-menu" role="menu">
+         '.(($current_meta['field_MG53'] != "")?$current_meta['field_MG53']:'
+         <li style="padding: 3px 20px;">'.__("No Site", 'wsdesk').'</li>
+         ').'
+         <li class="divider"></li>
+         <li class="text-center">
+            <small class="text-muted">
+            '.__("Select site to assign", 'wsdesk').'
+            </small>
+         </li>
+      </ul>
+   </div>
+</td>                                                        
                                                         <td>
                                                             <div class="btn-group">
                                                                 <button style="background-color:#268EEE;color:white;" type="button" class="btn btn-default dropdown-toggle single_ticket_asset_button_'.$current[0]['ticket_id'].'" data-toggle="dropdown">
@@ -604,36 +607,7 @@ Assigned to<br><span><?php if(!empty($ticket_assignee_name)){$assigned_usert = g
                                                                 </ul>
                                                             </div></div>
 <div class="ticket_tags_container" style="border: solid .5px #CCCCCC;height:13%;display:flow-root;"><div class="ticket_tags_sidebar" style="left: 20%;position: relative;font-weight: bold;font-size: 17px;color: #A8A8AD;">Tag
-<div class="form-group">
-                            <span class="help-block"><?php _e("Tags", 'wsdesk'); ?></span>
-                            <select id="tags_ticket_<?php echo $ticket; ?>" class="form-control crm-form-element-input" multiple="multiple">
-                                <?php
-                                    $ticket_tags = (isset($current_meta['ticket_tags'])?$current_meta['ticket_tags']:array());
-                                    if($ticket_tags!=="" && !empty($avail_tags))
-                                    {
-                                        for($i=0;$i<count($avail_tags);$i++)
-                                        {
-                                            if(in_array("manage_tickets", $access))
-                                            {
-                                                $selected = '';
-                                                if(in_array($avail_tags[$i]['slug'], $ticket_tags))
-                                                {
-                                                    $selected = 'selected';
-                                                }
-                                                echo '<option value="' . $avail_tags[$i]['slug'] . '" ' . $selected . '>'.$avail_tags[$i]['title'].'</option>';
-                                            }
-                                            else
-                                            {
-                                                if (in_array($avail_tags[$i]['slug'], $ticket_tags)) {
-                                                    echo '<option value="' . $avail_tags[$i]['slug'] . '" selected>'.$avail_tags[$i]['title'].'</option>';
-                                                }
-                                            }
-                                            
-                                        }
-                                    }
-                                ?>
-                            </select>
-                        </div></div></div>
+</div></div>
   
 <div class="ticket_watching_container" style="border: solid .5px #CCCCCC;height:15%;display:flow-root;"><div class="ticket_watching_sidebar" style="left: 20%;position: relative;font-weight: bold;font-size: 17px;color: #A8A8AD;">Watching
 </div><div class="watching_status_1" style="background-color: #1FA3F5; height: 36px; margin-left: 42px;float: left;color: white;text-align: center;padding-top: 8px;width:17%">AW</div>
